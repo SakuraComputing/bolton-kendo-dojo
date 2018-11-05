@@ -38,7 +38,8 @@ router.post('/register', (req, res) => {
                 username: req.body.username,
                 email: req.body.email,
                 avatar,
-                password: req.body.password
+                password: req.body.password,
+                accesslevel: req.body.accesslevel
             });
 
             bcrypt.genSalt(10, (err, salt)=> {

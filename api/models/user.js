@@ -25,6 +25,10 @@ const UserSchema = new Schema ({
     date: {
         type: Date,
         default: Date.now
+    },
+    accesslevel: {
+        type: String,
+        required: true
     }
 });
 
