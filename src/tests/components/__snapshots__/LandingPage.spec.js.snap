@@ -17,10 +17,21 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": <h1>
-        Bolton Kendo Dojo
-      </h1>,
-      "className": "content-container",
+      "children": <div
+        className="box-layout__box"
+      >
+        <h1
+          className="box-layout__title"
+        >
+          Bolton Kendo Club
+        </h1>
+        <p
+          className="box-layout__synopsis"
+        >
+          Welcome to KNMS / Doshinkenyukai
+        </p>
+      </div>,
+      "className": "box-layout",
     },
     "ref": null,
     "rendered": Object {
@@ -28,11 +39,48 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": "Bolton Kendo Dojo",
+        "children": Array [
+          <h1
+            className="box-layout__title"
+          >
+            Bolton Kendo Club
+          </h1>,
+          <p
+            className="box-layout__synopsis"
+          >
+            Welcome to KNMS / Doshinkenyukai
+          </p>,
+        ],
+        "className": "box-layout__box",
       },
       "ref": null,
-      "rendered": "Bolton Kendo Dojo",
-      "type": "h1",
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Bolton Kendo Club",
+            "className": "box-layout__title",
+          },
+          "ref": null,
+          "rendered": "Bolton Kendo Club",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Welcome to KNMS / Doshinkenyukai",
+            "className": "box-layout__synopsis",
+          },
+          "ref": null,
+          "rendered": "Welcome to KNMS / Doshinkenyukai",
+          "type": "p",
+        },
+      ],
+      "type": "div",
     },
     "type": "div",
   },
@@ -42,10 +90,21 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": <h1>
-          Bolton Kendo Dojo
-        </h1>,
-        "className": "content-container",
+        "children": <div
+          className="box-layout__box"
+        >
+          <h1
+            className="box-layout__title"
+          >
+            Bolton Kendo Club
+          </h1>
+          <p
+            className="box-layout__synopsis"
+          >
+            Welcome to KNMS / Doshinkenyukai
+          </p>
+        </div>,
+        "className": "box-layout",
       },
       "ref": null,
       "rendered": Object {
@@ -53,11 +112,48 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "Bolton Kendo Dojo",
+          "children": Array [
+            <h1
+              className="box-layout__title"
+            >
+              Bolton Kendo Club
+            </h1>,
+            <p
+              className="box-layout__synopsis"
+            >
+              Welcome to KNMS / Doshinkenyukai
+            </p>,
+          ],
+          "className": "box-layout__box",
         },
         "ref": null,
-        "rendered": "Bolton Kendo Dojo",
-        "type": "h1",
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Bolton Kendo Club",
+              "className": "box-layout__title",
+            },
+            "ref": null,
+            "rendered": "Bolton Kendo Club",
+            "type": "h1",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Welcome to KNMS / Doshinkenyukai",
+              "className": "box-layout__synopsis",
+            },
+            "ref": null,
+            "rendered": "Welcome to KNMS / Doshinkenyukai",
+            "type": "p",
+          },
+        ],
+        "type": "div",
       },
       "type": "div",
     },

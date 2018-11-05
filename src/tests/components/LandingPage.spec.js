@@ -15,6 +15,10 @@ describe('landing page component', () => {
     });
     it('should display h1 text', () => {
         const headerText = wrapper.find('h1').text();
-        expect(headerText).toEqual('Bolton Kendo Dojo');
-    })
+        expect(headerText).toEqual('Bolton Kendo Club');
+    });
+    it('should display paragraph text', () => {
+        const headerText = wrapper.find('p').text();
+        expect(headerText).toEqual('Welcome to KNMS / Doshinkenyukai');
+    });
 });
