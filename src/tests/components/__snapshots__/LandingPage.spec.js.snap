@@ -20,6 +20,7 @@ ShallowWrapper {
       "children": <h1>
         Bolton Kendo Dojo
       </h1>,
+      "className": "content-container",
     },
     "ref": null,
     "rendered": Object {
@@ -44,6 +45,7 @@ ShallowWrapper {
         "children": <h1>
           Bolton Kendo Dojo
         </h1>,
+        "className": "content-container",
       },
       "ref": null,
       "rendered": Object {
