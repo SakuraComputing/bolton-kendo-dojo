@@ -30,6 +30,9 @@ const Menu = () => {
             <li>
                 <Link to="/videos">Kendo Videos</Link>
             </li>
+            <li>
+                <Link to="/login">Login / Registration</Link>
+            </li>
         </ul>
     </div>
   )

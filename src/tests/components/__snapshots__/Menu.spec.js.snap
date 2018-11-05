@@ -84,6 +84,14 @@ ShallowWrapper {
             Kendo Videos
           </Link>
         </li>
+        <li>
+          <Link
+            replace={false}
+            to="/login"
+          >
+            Login / Registration
+          </Link>
+        </li>
       </ul>,
     },
     "ref": null,
@@ -155,6 +163,14 @@ ShallowWrapper {
               to="/videos"
             >
               Kendo Videos
+            </Link>
+          </li>,
+          <li>
+            <Link
+              replace={false}
+              to="/login"
+            >
+              Login / Registration
             </Link>
           </li>,
         ],
@@ -386,6 +402,34 @@ ShallowWrapper {
           },
           "type": "li",
         },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <Link
+              replace={false}
+              to="/login"
+            >
+              Login / Registration
+            </Link>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Login / Registration",
+              "replace": false,
+              "to": "/login",
+            },
+            "ref": null,
+            "rendered": "Login / Registration",
+            "type": [Function],
+          },
+          "type": "li",
+        },
       ],
       "type": "ul",
     },
@@ -464,6 +508,14 @@ ShallowWrapper {
               Kendo Videos
             </Link>
           </li>
+          <li>
+            <Link
+              replace={false}
+              to="/login"
+            >
+              Login / Registration
+            </Link>
+          </li>
         </ul>,
       },
       "ref": null,
@@ -535,6 +587,14 @@ ShallowWrapper {
                 to="/videos"
               >
                 Kendo Videos
+              </Link>
+            </li>,
+            <li>
+              <Link
+                replace={false}
+                to="/login"
+              >
+                Login / Registration
               </Link>
             </li>,
           ],
@@ -762,6 +822,34 @@ ShallowWrapper {
               },
               "ref": null,
               "rendered": "Kendo Videos",
+              "type": [Function],
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <Link
+                replace={false}
+                to="/login"
+              >
+                Login / Registration
+              </Link>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Login / Registration",
+                "replace": false,
+                "to": "/login",
+              },
+              "ref": null,
+              "rendered": "Login / Registration",
               "type": [Function],
             },
             "type": "li",
