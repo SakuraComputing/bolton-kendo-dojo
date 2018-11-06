@@ -42,12 +42,14 @@ ShallowWrapper {
               <form>
                 <TextFieldGroup
                   name="email"
+                  onChange={[Function]}
                   placeholder="Email Address"
                   type="email"
                   value=""
                 />
                 <TextFieldGroup
                   name="password"
+                  onChange={[Function]}
                   placeholder="Password"
                   type="password"
                   value=""
@@ -90,12 +92,14 @@ ShallowWrapper {
               <form>
                 <TextFieldGroup
                   name="email"
+                  onChange={[Function]}
                   placeholder="Email Address"
                   type="email"
                   value=""
                 />
                 <TextFieldGroup
                   name="password"
+                  onChange={[Function]}
                   placeholder="Password"
                   type="password"
                   value=""
@@ -135,12 +139,14 @@ ShallowWrapper {
               <form>
                 <TextFieldGroup
                   name="email"
+                  onChange={[Function]}
                   placeholder="Email Address"
                   type="email"
                   value=""
                 />
                 <TextFieldGroup
                   name="password"
+                  onChange={[Function]}
                   placeholder="Password"
                   type="password"
                   value=""
@@ -176,12 +182,14 @@ ShallowWrapper {
               <form>
                 <TextFieldGroup
                   name="email"
+                  onChange={[Function]}
                   placeholder="Email Address"
                   type="email"
                   value=""
                 />
                 <TextFieldGroup
                   name="password"
+                  onChange={[Function]}
                   placeholder="Password"
                   type="password"
                   value=""
@@ -214,12 +222,14 @@ ShallowWrapper {
                 <form>
                   <TextFieldGroup
                     name="email"
+                    onChange={[Function]}
                     placeholder="Email Address"
                     type="email"
                     value=""
                   />
                   <TextFieldGroup
                     name="password"
+                    onChange={[Function]}
                     placeholder="Password"
                     type="password"
                     value=""
@@ -266,12 +276,14 @@ ShallowWrapper {
                   "children": Array [
                     <TextFieldGroup
                       name="email"
+                      onChange={[Function]}
                       placeholder="Email Address"
                       type="email"
                       value=""
                     />,
                     <TextFieldGroup
                       name="password"
+                      onChange={[Function]}
                       placeholder="Password"
                       type="password"
                       value=""
@@ -291,7 +303,7 @@ ShallowWrapper {
                     "nodeType": "function",
                     "props": Object {
                       "name": "email",
-                      "onChange": undefined,
+                      "onChange": [Function],
                       "placeholder": "Email Address",
                       "type": "email",
                       "value": "",
@@ -306,7 +318,7 @@ ShallowWrapper {
                     "nodeType": "function",
                     "props": Object {
                       "name": "password",
-                      "onChange": undefined,
+                      "onChange": [Function],
                       "placeholder": "Password",
                       "type": "password",
                       "value": "",
@@ -372,12 +384,14 @@ ShallowWrapper {
                 <form>
                   <TextFieldGroup
                     name="email"
+                    onChange={[Function]}
                     placeholder="Email Address"
                     type="email"
                     value=""
                   />
                   <TextFieldGroup
                     name="password"
+                    onChange={[Function]}
                     placeholder="Password"
                     type="password"
                     value=""
@@ -420,12 +434,14 @@ ShallowWrapper {
                 <form>
                   <TextFieldGroup
                     name="email"
+                    onChange={[Function]}
                     placeholder="Email Address"
                     type="email"
                     value=""
                   />
                   <TextFieldGroup
                     name="password"
+                    onChange={[Function]}
                     placeholder="Password"
                     type="password"
                     value=""
@@ -465,12 +481,14 @@ ShallowWrapper {
                 <form>
                   <TextFieldGroup
                     name="email"
+                    onChange={[Function]}
                     placeholder="Email Address"
                     type="email"
                     value=""
                   />
                   <TextFieldGroup
                     name="password"
+                    onChange={[Function]}
                     placeholder="Password"
                     type="password"
                     value=""
@@ -506,12 +524,14 @@ ShallowWrapper {
                 <form>
                   <TextFieldGroup
                     name="email"
+                    onChange={[Function]}
                     placeholder="Email Address"
                     type="email"
                     value=""
                   />
                   <TextFieldGroup
                     name="password"
+                    onChange={[Function]}
                     placeholder="Password"
                     type="password"
                     value=""
@@ -544,12 +564,14 @@ ShallowWrapper {
                   <form>
                     <TextFieldGroup
                       name="email"
+                      onChange={[Function]}
                       placeholder="Email Address"
                       type="email"
                       value=""
                     />
                     <TextFieldGroup
                       name="password"
+                      onChange={[Function]}
                       placeholder="Password"
                       type="password"
                       value=""
@@ -596,12 +618,14 @@ ShallowWrapper {
                     "children": Array [
                       <TextFieldGroup
                         name="email"
+                        onChange={[Function]}
                         placeholder="Email Address"
                         type="email"
                         value=""
                       />,
                       <TextFieldGroup
                         name="password"
+                        onChange={[Function]}
                         placeholder="Password"
                         type="password"
                         value=""
@@ -621,7 +645,7 @@ ShallowWrapper {
                       "nodeType": "function",
                       "props": Object {
                         "name": "email",
-                        "onChange": undefined,
+                        "onChange": [Function],
                         "placeholder": "Email Address",
                         "type": "email",
                         "value": "",
@@ -636,7 +660,723 @@ ShallowWrapper {
                       "nodeType": "function",
                       "props": Object {
                         "name": "password",
-                        "onChange": undefined,
+                        "onChange": [Function],
+                        "placeholder": "Password",
+                        "type": "password",
+                        "value": "",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "className": "btn btn-info btn-block mt-4",
+                        "type": "submit",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "input",
+                    },
+                  ],
+                  "type": "form",
+                },
+              ],
+              "type": "div",
+            },
+            "type": "div",
+          },
+          "type": "div",
+        },
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`Login Form should set the state on change 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Login />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="login"
+      >
+        <div
+          className="container"
+        >
+          <div
+            className="row"
+          >
+            <div
+              className="col-md-8 m-auto"
+            >
+              <h1
+                className="display-4 text-center"
+              >
+                Log In
+              </h1>
+              <p
+                className="lead text-center"
+              >
+                Sign in to your DevConnector account
+              </p>
+              <form>
+                <TextFieldGroup
+                  name="email"
+                  onChange={[Function]}
+                  placeholder="Email Address"
+                  type="email"
+                  value=""
+                />
+                <TextFieldGroup
+                  name="password"
+                  onChange={[Function]}
+                  placeholder="Password"
+                  type="password"
+                  value=""
+                />
+                <input
+                  className="btn btn-info btn-block mt-4"
+                  type="submit"
+                />
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="container"
+        >
+          <div
+            className="row"
+          >
+            <div
+              className="col-md-8 m-auto"
+            >
+              <h1
+                className="display-4 text-center"
+              >
+                Log In
+              </h1>
+              <p
+                className="lead text-center"
+              >
+                Sign in to your DevConnector account
+              </p>
+              <form>
+                <TextFieldGroup
+                  name="email"
+                  onChange={[Function]}
+                  placeholder="Email Address"
+                  type="email"
+                  value=""
+                />
+                <TextFieldGroup
+                  name="password"
+                  onChange={[Function]}
+                  placeholder="Password"
+                  type="password"
+                  value=""
+                />
+                <input
+                  className="btn btn-info btn-block mt-4"
+                  type="submit"
+                />
+              </form>
+            </div>
+          </div>
+        </div>,
+        "className": "login",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="row"
+          >
+            <div
+              className="col-md-8 m-auto"
+            >
+              <h1
+                className="display-4 text-center"
+              >
+                Log In
+              </h1>
+              <p
+                className="lead text-center"
+              >
+                Sign in to your DevConnector account
+              </p>
+              <form>
+                <TextFieldGroup
+                  name="email"
+                  onChange={[Function]}
+                  placeholder="Email Address"
+                  type="email"
+                  value=""
+                />
+                <TextFieldGroup
+                  name="password"
+                  onChange={[Function]}
+                  placeholder="Password"
+                  type="password"
+                  value=""
+                />
+                <input
+                  className="btn btn-info btn-block mt-4"
+                  type="submit"
+                />
+              </form>
+            </div>
+          </div>,
+          "className": "container",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="col-md-8 m-auto"
+            >
+              <h1
+                className="display-4 text-center"
+              >
+                Log In
+              </h1>
+              <p
+                className="lead text-center"
+              >
+                Sign in to your DevConnector account
+              </p>
+              <form>
+                <TextFieldGroup
+                  name="email"
+                  onChange={[Function]}
+                  placeholder="Email Address"
+                  type="email"
+                  value=""
+                />
+                <TextFieldGroup
+                  name="password"
+                  onChange={[Function]}
+                  placeholder="Password"
+                  type="password"
+                  value=""
+                />
+                <input
+                  className="btn btn-info btn-block mt-4"
+                  type="submit"
+                />
+              </form>
+            </div>,
+            "className": "row",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h1
+                  className="display-4 text-center"
+                >
+                  Log In
+                </h1>,
+                <p
+                  className="lead text-center"
+                >
+                  Sign in to your DevConnector account
+                </p>,
+                <form>
+                  <TextFieldGroup
+                    name="email"
+                    onChange={[Function]}
+                    placeholder="Email Address"
+                    type="email"
+                    value=""
+                  />
+                  <TextFieldGroup
+                    name="password"
+                    onChange={[Function]}
+                    placeholder="Password"
+                    type="password"
+                    value=""
+                  />
+                  <input
+                    className="btn btn-info btn-block mt-4"
+                    type="submit"
+                  />
+                </form>,
+              ],
+              "className": "col-md-8 m-auto",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Log In",
+                  "className": "display-4 text-center",
+                },
+                "ref": null,
+                "rendered": "Log In",
+                "type": "h1",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Sign in to your DevConnector account",
+                  "className": "lead text-center",
+                },
+                "ref": null,
+                "rendered": "Sign in to your DevConnector account",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <TextFieldGroup
+                      name="email"
+                      onChange={[Function]}
+                      placeholder="Email Address"
+                      type="email"
+                      value=""
+                    />,
+                    <TextFieldGroup
+                      name="password"
+                      onChange={[Function]}
+                      placeholder="Password"
+                      type="password"
+                      value=""
+                    />,
+                    <input
+                      className="btn btn-info btn-block mt-4"
+                      type="submit"
+                    />,
+                  ],
+                  "onSubmit": undefined,
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "name": "email",
+                      "onChange": [Function],
+                      "placeholder": "Email Address",
+                      "type": "email",
+                      "value": "",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "name": "password",
+                      "onChange": [Function],
+                      "placeholder": "Password",
+                      "type": "password",
+                      "value": "",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": "btn btn-info btn-block mt-4",
+                      "type": "submit",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "input",
+                  },
+                ],
+                "type": "form",
+              },
+            ],
+            "type": "div",
+          },
+          "type": "div",
+        },
+        "type": "div",
+      },
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="login"
+        >
+          <div
+            className="container"
+          >
+            <div
+              className="row"
+            >
+              <div
+                className="col-md-8 m-auto"
+              >
+                <h1
+                  className="display-4 text-center"
+                >
+                  Log In
+                </h1>
+                <p
+                  className="lead text-center"
+                >
+                  Sign in to your DevConnector account
+                </p>
+                <form>
+                  <TextFieldGroup
+                    name="email"
+                    onChange={[Function]}
+                    placeholder="Email Address"
+                    type="email"
+                    value=""
+                  />
+                  <TextFieldGroup
+                    name="password"
+                    onChange={[Function]}
+                    placeholder="Password"
+                    type="password"
+                    value=""
+                  />
+                  <input
+                    className="btn btn-info btn-block mt-4"
+                    type="submit"
+                  />
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="container"
+          >
+            <div
+              className="row"
+            >
+              <div
+                className="col-md-8 m-auto"
+              >
+                <h1
+                  className="display-4 text-center"
+                >
+                  Log In
+                </h1>
+                <p
+                  className="lead text-center"
+                >
+                  Sign in to your DevConnector account
+                </p>
+                <form>
+                  <TextFieldGroup
+                    name="email"
+                    onChange={[Function]}
+                    placeholder="Email Address"
+                    type="email"
+                    value=""
+                  />
+                  <TextFieldGroup
+                    name="password"
+                    onChange={[Function]}
+                    placeholder="Password"
+                    type="password"
+                    value=""
+                  />
+                  <input
+                    className="btn btn-info btn-block mt-4"
+                    type="submit"
+                  />
+                </form>
+              </div>
+            </div>
+          </div>,
+          "className": "login",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="row"
+            >
+              <div
+                className="col-md-8 m-auto"
+              >
+                <h1
+                  className="display-4 text-center"
+                >
+                  Log In
+                </h1>
+                <p
+                  className="lead text-center"
+                >
+                  Sign in to your DevConnector account
+                </p>
+                <form>
+                  <TextFieldGroup
+                    name="email"
+                    onChange={[Function]}
+                    placeholder="Email Address"
+                    type="email"
+                    value=""
+                  />
+                  <TextFieldGroup
+                    name="password"
+                    onChange={[Function]}
+                    placeholder="Password"
+                    type="password"
+                    value=""
+                  />
+                  <input
+                    className="btn btn-info btn-block mt-4"
+                    type="submit"
+                  />
+                </form>
+              </div>
+            </div>,
+            "className": "container",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <div
+                className="col-md-8 m-auto"
+              >
+                <h1
+                  className="display-4 text-center"
+                >
+                  Log In
+                </h1>
+                <p
+                  className="lead text-center"
+                >
+                  Sign in to your DevConnector account
+                </p>
+                <form>
+                  <TextFieldGroup
+                    name="email"
+                    onChange={[Function]}
+                    placeholder="Email Address"
+                    type="email"
+                    value=""
+                  />
+                  <TextFieldGroup
+                    name="password"
+                    onChange={[Function]}
+                    placeholder="Password"
+                    type="password"
+                    value=""
+                  />
+                  <input
+                    className="btn btn-info btn-block mt-4"
+                    type="submit"
+                  />
+                </form>
+              </div>,
+              "className": "row",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h1
+                    className="display-4 text-center"
+                  >
+                    Log In
+                  </h1>,
+                  <p
+                    className="lead text-center"
+                  >
+                    Sign in to your DevConnector account
+                  </p>,
+                  <form>
+                    <TextFieldGroup
+                      name="email"
+                      onChange={[Function]}
+                      placeholder="Email Address"
+                      type="email"
+                      value=""
+                    />
+                    <TextFieldGroup
+                      name="password"
+                      onChange={[Function]}
+                      placeholder="Password"
+                      type="password"
+                      value=""
+                    />
+                    <input
+                      className="btn btn-info btn-block mt-4"
+                      type="submit"
+                    />
+                  </form>,
+                ],
+                "className": "col-md-8 m-auto",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Log In",
+                    "className": "display-4 text-center",
+                  },
+                  "ref": null,
+                  "rendered": "Log In",
+                  "type": "h1",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Sign in to your DevConnector account",
+                    "className": "lead text-center",
+                  },
+                  "ref": null,
+                  "rendered": "Sign in to your DevConnector account",
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <TextFieldGroup
+                        name="email"
+                        onChange={[Function]}
+                        placeholder="Email Address"
+                        type="email"
+                        value=""
+                      />,
+                      <TextFieldGroup
+                        name="password"
+                        onChange={[Function]}
+                        placeholder="Password"
+                        type="password"
+                        value=""
+                      />,
+                      <input
+                        className="btn btn-info btn-block mt-4"
+                        type="submit"
+                      />,
+                    ],
+                    "onSubmit": undefined,
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "name": "email",
+                        "onChange": [Function],
+                        "placeholder": "Email Address",
+                        "type": "email",
+                        "value": "",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "name": "password",
+                        "onChange": [Function],
                         "placeholder": "Password",
                         "type": "password",
                         "value": "",

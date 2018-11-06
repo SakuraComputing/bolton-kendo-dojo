@@ -10,11 +10,12 @@ describe('Login Form', () => {
         expect(wrapper).toMatchSnapshot();
     });
     it('should set the state on change', () => {
-        const newUser = 'sidsnot@gmail.com';
+        const email = 'sidsnot@gmail.com';
         const wrapper = shallow(<Login />);
         wrapper.find('TextFieldGroup').at(0).simulate('change', {
-            target: { newUser }
+            target: { value: 'Change Function' }
         });
-        expect(wrapper.state('email')).toBe(newUser);
+        console.log(wrapper.state);
+        expect(wrapper).toMatchSnapshot();
     });
 });

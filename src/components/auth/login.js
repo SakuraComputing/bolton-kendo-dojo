@@ -12,6 +12,10 @@ class Login extends Component {
       password: ''
   }
 
+  onChange = (e) => {
+      this.setState({ [e.target.name]: e.target.value })
+  };
+
   render() {
     return (
       <div>
