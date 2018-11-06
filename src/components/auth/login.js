@@ -3,13 +3,11 @@ import PropTypes from 'prop-types';
 import TextFieldGroup from '../../common/TextFieldGroup';
 
 class Login extends Component {
-  static propTypes = {
-    prop: PropTypes
-  }
 
   state = {
       email: '',
-      password: ''
+      password: '',
+      errors: {}
   }
 
   onChange = (e) => {
@@ -17,6 +15,9 @@ class Login extends Component {
   };
 
   render() {
+
+    const { errors } = this.state;
+
     return (
       <div>
         <div className="login">
@@ -32,6 +33,7 @@ class Login extends Component {
                                 value={this.state.email}
                                 type="email"
                                 onChange={this.onChange}
+                                error={errors.email}
                             />
                             <TextFieldGroup
                                 placeholder="Password"
@@ -39,6 +41,7 @@ class Login extends Component {
                                 value={this.state.password}
                                 type="password"
                                 onChange={this.onChange}
+                                error={errors.email}
                             />
                             <input
                                 type="submit"
