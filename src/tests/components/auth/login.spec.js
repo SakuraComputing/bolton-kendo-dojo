@@ -9,4 +9,12 @@ describe('Login Form', () => {
         const wrapper = shallow(<Login />);
         expect(wrapper).toMatchSnapshot();
     });
+    it('should set the state on change', () => {
+        const newUser = 'sidsnot@gmail.com';
+        const wrapper = shallow(<Login />);
+        wrapper.find('TextFieldGroup').at(0).simulate('change', {
+            target: { newUser }
+        });
+        expect(wrapper.state('email')).toBe(newUser);
+    });
 });
