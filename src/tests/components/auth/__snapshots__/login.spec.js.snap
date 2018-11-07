@@ -37,7 +37,7 @@ ShallowWrapper {
               <p
                 className="lead text-center"
               >
-                Sign in to your DevConnector account
+                Sign in to the Members Area
               </p>
               <form>
                 <TextFieldGroup
@@ -87,7 +87,7 @@ ShallowWrapper {
               <p
                 className="lead text-center"
               >
-                Sign in to your DevConnector account
+                Sign in to the Members Area
               </p>
               <form>
                 <TextFieldGroup
@@ -134,7 +134,7 @@ ShallowWrapper {
               <p
                 className="lead text-center"
               >
-                Sign in to your DevConnector account
+                Sign in to the Members Area
               </p>
               <form>
                 <TextFieldGroup
@@ -177,7 +177,7 @@ ShallowWrapper {
               <p
                 className="lead text-center"
               >
-                Sign in to your DevConnector account
+                Sign in to the Members Area
               </p>
               <form>
                 <TextFieldGroup
@@ -217,7 +217,7 @@ ShallowWrapper {
                 <p
                   className="lead text-center"
                 >
-                  Sign in to your DevConnector account
+                  Sign in to the Members Area
                 </p>,
                 <form>
                   <TextFieldGroup
@@ -261,11 +261,11 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "Sign in to your DevConnector account",
+                  "children": "Sign in to the Members Area",
                   "className": "lead text-center",
                 },
                 "ref": null,
-                "rendered": "Sign in to your DevConnector account",
+                "rendered": "Sign in to the Members Area",
                 "type": "p",
               },
               Object {
@@ -381,7 +381,7 @@ ShallowWrapper {
                 <p
                   className="lead text-center"
                 >
-                  Sign in to your DevConnector account
+                  Sign in to the Members Area
                 </p>
                 <form>
                   <TextFieldGroup
@@ -431,7 +431,7 @@ ShallowWrapper {
                 <p
                   className="lead text-center"
                 >
-                  Sign in to your DevConnector account
+                  Sign in to the Members Area
                 </p>
                 <form>
                   <TextFieldGroup
@@ -478,7 +478,7 @@ ShallowWrapper {
                 <p
                   className="lead text-center"
                 >
-                  Sign in to your DevConnector account
+                  Sign in to the Members Area
                 </p>
                 <form>
                   <TextFieldGroup
@@ -521,7 +521,7 @@ ShallowWrapper {
                 <p
                   className="lead text-center"
                 >
-                  Sign in to your DevConnector account
+                  Sign in to the Members Area
                 </p>
                 <form>
                   <TextFieldGroup
@@ -561,7 +561,7 @@ ShallowWrapper {
                   <p
                     className="lead text-center"
                   >
-                    Sign in to your DevConnector account
+                    Sign in to the Members Area
                   </p>,
                   <form>
                     <TextFieldGroup
@@ -605,11 +605,11 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "Sign in to your DevConnector account",
+                    "children": "Sign in to the Members Area",
                     "className": "lead text-center",
                   },
                   "ref": null,
-                  "rendered": "Sign in to your DevConnector account",
+                  "rendered": "Sign in to the Members Area",
                   "type": "p",
                 },
                 Object {
@@ -757,7 +757,7 @@ ShallowWrapper {
               <p
                 className="lead text-center"
               >
-                Sign in to your DevConnector account
+                Sign in to the Members Area
               </p>
               <form>
                 <TextFieldGroup
@@ -807,7 +807,7 @@ ShallowWrapper {
               <p
                 className="lead text-center"
               >
-                Sign in to your DevConnector account
+                Sign in to the Members Area
               </p>
               <form>
                 <TextFieldGroup
@@ -854,7 +854,7 @@ ShallowWrapper {
               <p
                 className="lead text-center"
               >
-                Sign in to your DevConnector account
+                Sign in to the Members Area
               </p>
               <form>
                 <TextFieldGroup
@@ -897,7 +897,7 @@ ShallowWrapper {
               <p
                 className="lead text-center"
               >
-                Sign in to your DevConnector account
+                Sign in to the Members Area
               </p>
               <form>
                 <TextFieldGroup
@@ -937,7 +937,7 @@ ShallowWrapper {
                 <p
                   className="lead text-center"
                 >
-                  Sign in to your DevConnector account
+                  Sign in to the Members Area
                 </p>,
                 <form>
                   <TextFieldGroup
@@ -981,11 +981,11 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "Sign in to your DevConnector account",
+                  "children": "Sign in to the Members Area",
                   "className": "lead text-center",
                 },
                 "ref": null,
-                "rendered": "Sign in to your DevConnector account",
+                "rendered": "Sign in to the Members Area",
                 "type": "p",
               },
               Object {
@@ -1101,7 +1101,7 @@ ShallowWrapper {
                 <p
                   className="lead text-center"
                 >
-                  Sign in to your DevConnector account
+                  Sign in to the Members Area
                 </p>
                 <form>
                   <TextFieldGroup
@@ -1151,7 +1151,7 @@ ShallowWrapper {
                 <p
                   className="lead text-center"
                 >
-                  Sign in to your DevConnector account
+                  Sign in to the Members Area
                 </p>
                 <form>
                   <TextFieldGroup
@@ -1198,7 +1198,7 @@ ShallowWrapper {
                 <p
                   className="lead text-center"
                 >
-                  Sign in to your DevConnector account
+                  Sign in to the Members Area
                 </p>
                 <form>
                   <TextFieldGroup
@@ -1241,7 +1241,7 @@ ShallowWrapper {
                 <p
                   className="lead text-center"
                 >
-                  Sign in to your DevConnector account
+                  Sign in to the Members Area
                 </p>
                 <form>
                   <TextFieldGroup
@@ -1281,7 +1281,7 @@ ShallowWrapper {
                   <p
                     className="lead text-center"
                   >
-                    Sign in to your DevConnector account
+                    Sign in to the Members Area
                   </p>,
                   <form>
                     <TextFieldGroup
@@ -1325,11 +1325,11 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "Sign in to your DevConnector account",
+                    "children": "Sign in to the Members Area",
                     "className": "lead text-center",
                   },
                   "ref": null,
-                  "rendered": "Sign in to your DevConnector account",
+                  "rendered": "Sign in to the Members Area",
                   "type": "p",
                 },
                 Object {
