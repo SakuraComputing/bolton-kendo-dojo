@@ -16,6 +16,14 @@ export class Login extends Component {
       this.setState({ [e.target.name]: e.target.value })
   };
 
+  onSubmit = (e) => {
+      e.preventDefault();
+      const userData = {
+          email: this.state.email,
+          password: this.state.password
+      };
+      this.props.loginUser(userData);
+  }
 
   render() {
 

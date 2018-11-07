@@ -19,18 +19,18 @@ describe('Login Form', () => {
         });
         expect(wrapper).toMatchSnapshot();
     });
-    it('should call onSubmit the form',() => {
-        const submitSpy = jest.fn();
-        const entry = {
-            email: 'e@s.com',
-            password: 'trerrte'
-        }
-        wrapper.find('form').at(1).simulate('submit', {
+    it('should call onSubmit the form', () => {
+        // const p = Promise.resolve('success');
+        const onSubmitSpy = jest.fn();
+
+        const loginUser = jest.fn();
+
+        wrapper = shallow(<Login loginUser={loginUser} onSubmit={onSubmitSpy}/>)
+        wrapper.find('form').simulate('submit', {
             preventDefault: () => {}
         })
-        expect(submitSpy).toHaveBeenCalledWith({
-            email: entry.mail,
-            password: entry.password
-        });
+
+        expect(loginUser.mock.calls.length).toBe(1);
+        
     });
 });

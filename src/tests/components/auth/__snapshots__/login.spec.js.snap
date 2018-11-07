@@ -39,7 +39,9 @@ ShallowWrapper {
               >
                 Sign in to the Members Area
               </p>
-              <form>
+              <form
+                onSubmit={[Function]}
+              >
                 <TextFieldGroup
                   name="email"
                   onChange={[Function]}
@@ -89,7 +91,9 @@ ShallowWrapper {
               >
                 Sign in to the Members Area
               </p>
-              <form>
+              <form
+                onSubmit={[Function]}
+              >
                 <TextFieldGroup
                   name="email"
                   onChange={[Function]}
@@ -136,7 +140,9 @@ ShallowWrapper {
               >
                 Sign in to the Members Area
               </p>
-              <form>
+              <form
+                onSubmit={[Function]}
+              >
                 <TextFieldGroup
                   name="email"
                   onChange={[Function]}
@@ -179,7 +185,9 @@ ShallowWrapper {
               >
                 Sign in to the Members Area
               </p>
-              <form>
+              <form
+                onSubmit={[Function]}
+              >
                 <TextFieldGroup
                   name="email"
                   onChange={[Function]}
@@ -219,7 +227,9 @@ ShallowWrapper {
                 >
                   Sign in to the Members Area
                 </p>,
-                <form>
+                <form
+                  onSubmit={[Function]}
+                >
                   <TextFieldGroup
                     name="email"
                     onChange={[Function]}
@@ -293,7 +303,7 @@ ShallowWrapper {
                       type="submit"
                     />,
                   ],
-                  "onSubmit": undefined,
+                  "onSubmit": [Function],
                 },
                 "ref": null,
                 "rendered": Array [
@@ -383,7 +393,9 @@ ShallowWrapper {
                 >
                   Sign in to the Members Area
                 </p>
-                <form>
+                <form
+                  onSubmit={[Function]}
+                >
                   <TextFieldGroup
                     name="email"
                     onChange={[Function]}
@@ -433,7 +445,9 @@ ShallowWrapper {
                 >
                   Sign in to the Members Area
                 </p>
-                <form>
+                <form
+                  onSubmit={[Function]}
+                >
                   <TextFieldGroup
                     name="email"
                     onChange={[Function]}
@@ -480,7 +494,9 @@ ShallowWrapper {
                 >
                   Sign in to the Members Area
                 </p>
-                <form>
+                <form
+                  onSubmit={[Function]}
+                >
                   <TextFieldGroup
                     name="email"
                     onChange={[Function]}
@@ -523,7 +539,9 @@ ShallowWrapper {
                 >
                   Sign in to the Members Area
                 </p>
-                <form>
+                <form
+                  onSubmit={[Function]}
+                >
                   <TextFieldGroup
                     name="email"
                     onChange={[Function]}
@@ -563,7 +581,9 @@ ShallowWrapper {
                   >
                     Sign in to the Members Area
                   </p>,
-                  <form>
+                  <form
+                    onSubmit={[Function]}
+                  >
                     <TextFieldGroup
                       name="email"
                       onChange={[Function]}
@@ -637,7 +657,7 @@ ShallowWrapper {
                         type="submit"
                       />,
                     ],
-                    "onSubmit": undefined,
+                    "onSubmit": [Function],
                   },
                   "ref": null,
                   "rendered": Array [
@@ -759,7 +779,9 @@ ShallowWrapper {
               >
                 Sign in to the Members Area
               </p>
-              <form>
+              <form
+                onSubmit={[Function]}
+              >
                 <TextFieldGroup
                   name="email"
                   onChange={[Function]}
@@ -809,7 +831,9 @@ ShallowWrapper {
               >
                 Sign in to the Members Area
               </p>
-              <form>
+              <form
+                onSubmit={[Function]}
+              >
                 <TextFieldGroup
                   name="email"
                   onChange={[Function]}
@@ -856,7 +880,9 @@ ShallowWrapper {
               >
                 Sign in to the Members Area
               </p>
-              <form>
+              <form
+                onSubmit={[Function]}
+              >
                 <TextFieldGroup
                   name="email"
                   onChange={[Function]}
@@ -899,7 +925,9 @@ ShallowWrapper {
               >
                 Sign in to the Members Area
               </p>
-              <form>
+              <form
+                onSubmit={[Function]}
+              >
                 <TextFieldGroup
                   name="email"
                   onChange={[Function]}
@@ -939,7 +967,9 @@ ShallowWrapper {
                 >
                   Sign in to the Members Area
                 </p>,
-                <form>
+                <form
+                  onSubmit={[Function]}
+                >
                   <TextFieldGroup
                     name="email"
                     onChange={[Function]}
@@ -1013,7 +1043,7 @@ ShallowWrapper {
                       type="submit"
                     />,
                   ],
-                  "onSubmit": undefined,
+                  "onSubmit": [Function],
                 },
                 "ref": null,
                 "rendered": Array [
@@ -1103,7 +1133,9 @@ ShallowWrapper {
                 >
                   Sign in to the Members Area
                 </p>
-                <form>
+                <form
+                  onSubmit={[Function]}
+                >
                   <TextFieldGroup
                     name="email"
                     onChange={[Function]}
@@ -1153,7 +1185,9 @@ ShallowWrapper {
                 >
                   Sign in to the Members Area
                 </p>
-                <form>
+                <form
+                  onSubmit={[Function]}
+                >
                   <TextFieldGroup
                     name="email"
                     onChange={[Function]}
@@ -1200,7 +1234,9 @@ ShallowWrapper {
                 >
                   Sign in to the Members Area
                 </p>
-                <form>
+                <form
+                  onSubmit={[Function]}
+                >
                   <TextFieldGroup
                     name="email"
                     onChange={[Function]}
@@ -1243,7 +1279,9 @@ ShallowWrapper {
                 >
                   Sign in to the Members Area
                 </p>
-                <form>
+                <form
+                  onSubmit={[Function]}
+                >
                   <TextFieldGroup
                     name="email"
                     onChange={[Function]}
@@ -1283,7 +1321,9 @@ ShallowWrapper {
                   >
                     Sign in to the Members Area
                   </p>,
-                  <form>
+                  <form
+                    onSubmit={[Function]}
+                  >
                     <TextFieldGroup
                       name="email"
                       onChange={[Function]}
@@ -1357,7 +1397,7 @@ ShallowWrapper {
                         type="submit"
                       />,
                     ],
-                    "onSubmit": undefined,
+                    "onSubmit": [Function],
                   },
                   "ref": null,
                   "rendered": Array [
