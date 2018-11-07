@@ -20,17 +20,14 @@ describe('Login Form', () => {
         expect(wrapper).toMatchSnapshot();
     });
     it('should call onSubmit the form', () => {
-        // const p = Promise.resolve('success');
-        const onSubmitSpy = jest.fn();
 
+        const onSubmitSpy = jest.fn();
         const loginUser = jest.fn();
 
         wrapper = shallow(<Login loginUser={loginUser} onSubmit={onSubmitSpy}/>)
         wrapper.find('form').simulate('submit', {
             preventDefault: () => {}
         })
-
         expect(loginUser.mock.calls.length).toBe(1);
-        
     });
 });
