@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import AppRouter from './routers/AppRouter';
 import getAppStore from './store/configureStore';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 const store = getAppStore();
