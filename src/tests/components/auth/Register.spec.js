@@ -32,4 +32,16 @@ describe('Register Form', () => {
         });
         expect(wrapper).toMatchSnapshot();
     });
+    it('should call onSubmit the form', () => {
+
+        const onSubmitSpy = jest.fn();
+        const registerUser = jest.fn();
+
+        wrapper = shallow(<Register registerUser={registerUser} onSubmit={onSubmitSpy}/>)
+        wrapper.find('form').simulate('submit', {
+            preventDefault: () => {}
+        })
+        expect(registerUser.mock.calls.length).toBe(1);
+    });
+
 });
