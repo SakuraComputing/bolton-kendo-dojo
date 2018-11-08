@@ -32,62 +32,53 @@ ShallowWrapper {
       "children": <div
         className="container"
       >
-        <div
-          className="row"
+        <h1
+          className="display-4 text-center"
         >
-          <div
-            className="col-md-8 m-auto"
-          >
-            <h1
-              className="display-4 text-center"
-            >
-              Sign Up
-            </h1>
-            <p
-              className="lead text-center"
-            >
-              Create your DevConnector account
-            </p>
-            <form
-              noValidate={true}
-              onSubmit={[Function]}
-            >
-              <TextFieldGroup
-                name="name"
-                onChange={[Function]}
-                placeholder="Name"
-                type="name"
-                value=""
-              />
-              <TextFieldGroup
-                info="This site uses Gravatar so if you want a profile image, use a Gravatar email"
-                name="email"
-                onChange={[Function]}
-                placeholder="Email Address"
-                type="email"
-                value=""
-              />
-              <TextFieldGroup
-                name="password"
-                onChange={[Function]}
-                placeholder="Password"
-                type="password"
-                value=""
-              />
-              <TextFieldGroup
-                name="password2"
-                onChange={[Function]}
-                placeholder="Confirm Password"
-                type="password"
-                value=""
-              />
-              <input
-                className="btn btn-info btn-block mt-4"
-                type="submit"
-              />
-            </form>
-          </div>
-        </div>
+          Sign Up
+        </h1>
+        <h3
+          className="lead text-center"
+        >
+          Create your Members Account
+        </h3>
+        <form
+          noValidate={true}
+          onSubmit={[Function]}
+        >
+          <TextFieldGroup
+            name="name"
+            onChange={[Function]}
+            placeholder="Name"
+            type="name"
+            value=""
+          />
+          <TextFieldGroup
+            name="email"
+            onChange={[Function]}
+            placeholder="Email Address"
+            type="email"
+            value=""
+          />
+          <TextFieldGroup
+            name="password"
+            onChange={[Function]}
+            placeholder="Password"
+            type="password"
+            value=""
+          />
+          <TextFieldGroup
+            name="password2"
+            onChange={[Function]}
+            placeholder="Confirm Password"
+            type="password"
+            value=""
+          />
+          <input
+            className="button button-info"
+            type="submit"
+          />
+        </form>
       </div>,
       "className": "register",
     },
@@ -97,338 +88,207 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": <div
-          className="row"
-        >
-          <div
-            className="col-md-8 m-auto"
+        "children": Array [
+          <h1
+            className="display-4 text-center"
           >
-            <h1
-              className="display-4 text-center"
-            >
-              Sign Up
-            </h1>
-            <p
-              className="lead text-center"
-            >
-              Create your DevConnector account
-            </p>
-            <form
-              noValidate={true}
-              onSubmit={[Function]}
-            >
-              <TextFieldGroup
-                name="name"
-                onChange={[Function]}
-                placeholder="Name"
-                type="name"
-                value=""
-              />
-              <TextFieldGroup
-                info="This site uses Gravatar so if you want a profile image, use a Gravatar email"
-                name="email"
-                onChange={[Function]}
-                placeholder="Email Address"
-                type="email"
-                value=""
-              />
-              <TextFieldGroup
-                name="password"
-                onChange={[Function]}
-                placeholder="Password"
-                type="password"
-                value=""
-              />
-              <TextFieldGroup
-                name="password2"
-                onChange={[Function]}
-                placeholder="Confirm Password"
-                type="password"
-                value=""
-              />
-              <input
-                className="btn btn-info btn-block mt-4"
-                type="submit"
-              />
-            </form>
-          </div>
-        </div>,
+            Sign Up
+          </h1>,
+          <h3
+            className="lead text-center"
+          >
+            Create your Members Account
+          </h3>,
+          <form
+            noValidate={true}
+            onSubmit={[Function]}
+          >
+            <TextFieldGroup
+              name="name"
+              onChange={[Function]}
+              placeholder="Name"
+              type="name"
+              value=""
+            />
+            <TextFieldGroup
+              name="email"
+              onChange={[Function]}
+              placeholder="Email Address"
+              type="email"
+              value=""
+            />
+            <TextFieldGroup
+              name="password"
+              onChange={[Function]}
+              placeholder="Password"
+              type="password"
+              value=""
+            />
+            <TextFieldGroup
+              name="password2"
+              onChange={[Function]}
+              placeholder="Confirm Password"
+              type="password"
+              value=""
+            />
+            <input
+              className="button button-info"
+              type="submit"
+            />
+          </form>,
+        ],
         "className": "container",
       },
       "ref": null,
-      "rendered": Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": <div
-            className="col-md-8 m-auto"
-          >
-            <h1
-              className="display-4 text-center"
-            >
-              Sign Up
-            </h1>
-            <p
-              className="lead text-center"
-            >
-              Create your DevConnector account
-            </p>
-            <form
-              noValidate={true}
-              onSubmit={[Function]}
-            >
-              <TextFieldGroup
-                name="name"
-                onChange={[Function]}
-                placeholder="Name"
-                type="name"
-                value=""
-              />
-              <TextFieldGroup
-                info="This site uses Gravatar so if you want a profile image, use a Gravatar email"
-                name="email"
-                onChange={[Function]}
-                placeholder="Email Address"
-                type="email"
-                value=""
-              />
-              <TextFieldGroup
-                name="password"
-                onChange={[Function]}
-                placeholder="Password"
-                type="password"
-                value=""
-              />
-              <TextFieldGroup
-                name="password2"
-                onChange={[Function]}
-                placeholder="Confirm Password"
-                type="password"
-                value=""
-              />
-              <input
-                className="btn btn-info btn-block mt-4"
-                type="submit"
-              />
-            </form>
-          </div>,
-          "className": "row",
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Sign Up",
+            "className": "display-4 text-center",
+          },
+          "ref": null,
+          "rendered": "Sign Up",
+          "type": "h1",
         },
-        "ref": null,
-        "rendered": Object {
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Create your Members Account",
+            "className": "lead text-center",
+          },
+          "ref": null,
+          "rendered": "Create your Members Account",
+          "type": "h3",
+        },
+        Object {
           "instance": null,
           "key": undefined,
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              <h1
-                className="display-4 text-center"
-              >
-                Sign Up
-              </h1>,
-              <p
-                className="lead text-center"
-              >
-                Create your DevConnector account
-              </p>,
-              <form
-                noValidate={true}
-                onSubmit={[Function]}
-              >
-                <TextFieldGroup
-                  name="name"
-                  onChange={[Function]}
-                  placeholder="Name"
-                  type="name"
-                  value=""
-                />
-                <TextFieldGroup
-                  info="This site uses Gravatar so if you want a profile image, use a Gravatar email"
-                  name="email"
-                  onChange={[Function]}
-                  placeholder="Email Address"
-                  type="email"
-                  value=""
-                />
-                <TextFieldGroup
-                  name="password"
-                  onChange={[Function]}
-                  placeholder="Password"
-                  type="password"
-                  value=""
-                />
-                <TextFieldGroup
-                  name="password2"
-                  onChange={[Function]}
-                  placeholder="Confirm Password"
-                  type="password"
-                  value=""
-                />
-                <input
-                  className="btn btn-info btn-block mt-4"
-                  type="submit"
-                />
-              </form>,
+              <TextFieldGroup
+                name="name"
+                onChange={[Function]}
+                placeholder="Name"
+                type="name"
+                value=""
+              />,
+              <TextFieldGroup
+                name="email"
+                onChange={[Function]}
+                placeholder="Email Address"
+                type="email"
+                value=""
+              />,
+              <TextFieldGroup
+                name="password"
+                onChange={[Function]}
+                placeholder="Password"
+                type="password"
+                value=""
+              />,
+              <TextFieldGroup
+                name="password2"
+                onChange={[Function]}
+                placeholder="Confirm Password"
+                type="password"
+                value=""
+              />,
+              <input
+                className="button button-info"
+                type="submit"
+              />,
             ],
-            "className": "col-md-8 m-auto",
+            "noValidate": true,
+            "onSubmit": [Function],
           },
           "ref": null,
           "rendered": Array [
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "host",
+              "nodeType": "function",
               "props": Object {
-                "children": "Sign Up",
-                "className": "display-4 text-center",
+                "error": undefined,
+                "name": "name",
+                "onChange": [Function],
+                "placeholder": "Name",
+                "type": "name",
+                "value": "",
               },
               "ref": null,
-              "rendered": "Sign Up",
-              "type": "h1",
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "error": undefined,
+                "name": "email",
+                "onChange": [Function],
+                "placeholder": "Email Address",
+                "type": "email",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "error": undefined,
+                "name": "password",
+                "onChange": [Function],
+                "placeholder": "Password",
+                "type": "password",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "error": undefined,
+                "name": "password2",
+                "onChange": [Function],
+                "placeholder": "Confirm Password",
+                "type": "password",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
             },
             Object {
               "instance": null,
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": "Create your DevConnector account",
-                "className": "lead text-center",
+                "className": "button button-info",
+                "type": "submit",
               },
               "ref": null,
-              "rendered": "Create your DevConnector account",
-              "type": "p",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": Array [
-                  <TextFieldGroup
-                    name="name"
-                    onChange={[Function]}
-                    placeholder="Name"
-                    type="name"
-                    value=""
-                  />,
-                  <TextFieldGroup
-                    info="This site uses Gravatar so if you want a profile image, use a Gravatar email"
-                    name="email"
-                    onChange={[Function]}
-                    placeholder="Email Address"
-                    type="email"
-                    value=""
-                  />,
-                  <TextFieldGroup
-                    name="password"
-                    onChange={[Function]}
-                    placeholder="Password"
-                    type="password"
-                    value=""
-                  />,
-                  <TextFieldGroup
-                    name="password2"
-                    onChange={[Function]}
-                    placeholder="Confirm Password"
-                    type="password"
-                    value=""
-                  />,
-                  <input
-                    className="btn btn-info btn-block mt-4"
-                    type="submit"
-                  />,
-                ],
-                "noValidate": true,
-                "onSubmit": [Function],
-              },
-              "ref": null,
-              "rendered": Array [
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "function",
-                  "props": Object {
-                    "error": undefined,
-                    "name": "name",
-                    "onChange": [Function],
-                    "placeholder": "Name",
-                    "type": "name",
-                    "value": "",
-                  },
-                  "ref": null,
-                  "rendered": null,
-                  "type": [Function],
-                },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "function",
-                  "props": Object {
-                    "error": undefined,
-                    "info": "This site uses Gravatar so if you want a profile image, use a Gravatar email",
-                    "name": "email",
-                    "onChange": [Function],
-                    "placeholder": "Email Address",
-                    "type": "email",
-                    "value": "",
-                  },
-                  "ref": null,
-                  "rendered": null,
-                  "type": [Function],
-                },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "function",
-                  "props": Object {
-                    "error": undefined,
-                    "name": "password",
-                    "onChange": [Function],
-                    "placeholder": "Password",
-                    "type": "password",
-                    "value": "",
-                  },
-                  "ref": null,
-                  "rendered": null,
-                  "type": [Function],
-                },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "function",
-                  "props": Object {
-                    "error": undefined,
-                    "name": "password2",
-                    "onChange": [Function],
-                    "placeholder": "Confirm Password",
-                    "type": "password",
-                    "value": "",
-                  },
-                  "ref": null,
-                  "rendered": null,
-                  "type": [Function],
-                },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "className": "btn btn-info btn-block mt-4",
-                    "type": "submit",
-                  },
-                  "ref": null,
-                  "rendered": null,
-                  "type": "input",
-                },
-              ],
-              "type": "form",
+              "rendered": null,
+              "type": "input",
             },
           ],
-          "type": "div",
+          "type": "form",
         },
-        "type": "div",
-      },
+      ],
       "type": "div",
     },
     "type": "div",
@@ -442,62 +302,53 @@ ShallowWrapper {
         "children": <div
           className="container"
         >
-          <div
-            className="row"
+          <h1
+            className="display-4 text-center"
           >
-            <div
-              className="col-md-8 m-auto"
-            >
-              <h1
-                className="display-4 text-center"
-              >
-                Sign Up
-              </h1>
-              <p
-                className="lead text-center"
-              >
-                Create your DevConnector account
-              </p>
-              <form
-                noValidate={true}
-                onSubmit={[Function]}
-              >
-                <TextFieldGroup
-                  name="name"
-                  onChange={[Function]}
-                  placeholder="Name"
-                  type="name"
-                  value=""
-                />
-                <TextFieldGroup
-                  info="This site uses Gravatar so if you want a profile image, use a Gravatar email"
-                  name="email"
-                  onChange={[Function]}
-                  placeholder="Email Address"
-                  type="email"
-                  value=""
-                />
-                <TextFieldGroup
-                  name="password"
-                  onChange={[Function]}
-                  placeholder="Password"
-                  type="password"
-                  value=""
-                />
-                <TextFieldGroup
-                  name="password2"
-                  onChange={[Function]}
-                  placeholder="Confirm Password"
-                  type="password"
-                  value=""
-                />
-                <input
-                  className="btn btn-info btn-block mt-4"
-                  type="submit"
-                />
-              </form>
-            </div>
-          </div>
+            Sign Up
+          </h1>
+          <h3
+            className="lead text-center"
+          >
+            Create your Members Account
+          </h3>
+          <form
+            noValidate={true}
+            onSubmit={[Function]}
+          >
+            <TextFieldGroup
+              name="name"
+              onChange={[Function]}
+              placeholder="Name"
+              type="name"
+              value=""
+            />
+            <TextFieldGroup
+              name="email"
+              onChange={[Function]}
+              placeholder="Email Address"
+              type="email"
+              value=""
+            />
+            <TextFieldGroup
+              name="password"
+              onChange={[Function]}
+              placeholder="Password"
+              type="password"
+              value=""
+            />
+            <TextFieldGroup
+              name="password2"
+              onChange={[Function]}
+              placeholder="Confirm Password"
+              type="password"
+              value=""
+            />
+            <input
+              className="button button-info"
+              type="submit"
+            />
+          </form>
         </div>,
         "className": "register",
       },
@@ -507,338 +358,207 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": <div
-            className="row"
-          >
-            <div
-              className="col-md-8 m-auto"
+          "children": Array [
+            <h1
+              className="display-4 text-center"
             >
-              <h1
-                className="display-4 text-center"
-              >
-                Sign Up
-              </h1>
-              <p
-                className="lead text-center"
-              >
-                Create your DevConnector account
-              </p>
-              <form
-                noValidate={true}
-                onSubmit={[Function]}
-              >
-                <TextFieldGroup
-                  name="name"
-                  onChange={[Function]}
-                  placeholder="Name"
-                  type="name"
-                  value=""
-                />
-                <TextFieldGroup
-                  info="This site uses Gravatar so if you want a profile image, use a Gravatar email"
-                  name="email"
-                  onChange={[Function]}
-                  placeholder="Email Address"
-                  type="email"
-                  value=""
-                />
-                <TextFieldGroup
-                  name="password"
-                  onChange={[Function]}
-                  placeholder="Password"
-                  type="password"
-                  value=""
-                />
-                <TextFieldGroup
-                  name="password2"
-                  onChange={[Function]}
-                  placeholder="Confirm Password"
-                  type="password"
-                  value=""
-                />
-                <input
-                  className="btn btn-info btn-block mt-4"
-                  type="submit"
-                />
-              </form>
-            </div>
-          </div>,
+              Sign Up
+            </h1>,
+            <h3
+              className="lead text-center"
+            >
+              Create your Members Account
+            </h3>,
+            <form
+              noValidate={true}
+              onSubmit={[Function]}
+            >
+              <TextFieldGroup
+                name="name"
+                onChange={[Function]}
+                placeholder="Name"
+                type="name"
+                value=""
+              />
+              <TextFieldGroup
+                name="email"
+                onChange={[Function]}
+                placeholder="Email Address"
+                type="email"
+                value=""
+              />
+              <TextFieldGroup
+                name="password"
+                onChange={[Function]}
+                placeholder="Password"
+                type="password"
+                value=""
+              />
+              <TextFieldGroup
+                name="password2"
+                onChange={[Function]}
+                placeholder="Confirm Password"
+                type="password"
+                value=""
+              />
+              <input
+                className="button button-info"
+                type="submit"
+              />
+            </form>,
+          ],
           "className": "container",
         },
         "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": <div
-              className="col-md-8 m-auto"
-            >
-              <h1
-                className="display-4 text-center"
-              >
-                Sign Up
-              </h1>
-              <p
-                className="lead text-center"
-              >
-                Create your DevConnector account
-              </p>
-              <form
-                noValidate={true}
-                onSubmit={[Function]}
-              >
-                <TextFieldGroup
-                  name="name"
-                  onChange={[Function]}
-                  placeholder="Name"
-                  type="name"
-                  value=""
-                />
-                <TextFieldGroup
-                  info="This site uses Gravatar so if you want a profile image, use a Gravatar email"
-                  name="email"
-                  onChange={[Function]}
-                  placeholder="Email Address"
-                  type="email"
-                  value=""
-                />
-                <TextFieldGroup
-                  name="password"
-                  onChange={[Function]}
-                  placeholder="Password"
-                  type="password"
-                  value=""
-                />
-                <TextFieldGroup
-                  name="password2"
-                  onChange={[Function]}
-                  placeholder="Confirm Password"
-                  type="password"
-                  value=""
-                />
-                <input
-                  className="btn btn-info btn-block mt-4"
-                  type="submit"
-                />
-              </form>
-            </div>,
-            "className": "row",
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Sign Up",
+              "className": "display-4 text-center",
+            },
+            "ref": null,
+            "rendered": "Sign Up",
+            "type": "h1",
           },
-          "ref": null,
-          "rendered": Object {
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Create your Members Account",
+              "className": "lead text-center",
+            },
+            "ref": null,
+            "rendered": "Create your Members Account",
+            "type": "h3",
+          },
+          Object {
             "instance": null,
             "key": undefined,
             "nodeType": "host",
             "props": Object {
               "children": Array [
-                <h1
-                  className="display-4 text-center"
-                >
-                  Sign Up
-                </h1>,
-                <p
-                  className="lead text-center"
-                >
-                  Create your DevConnector account
-                </p>,
-                <form
-                  noValidate={true}
-                  onSubmit={[Function]}
-                >
-                  <TextFieldGroup
-                    name="name"
-                    onChange={[Function]}
-                    placeholder="Name"
-                    type="name"
-                    value=""
-                  />
-                  <TextFieldGroup
-                    info="This site uses Gravatar so if you want a profile image, use a Gravatar email"
-                    name="email"
-                    onChange={[Function]}
-                    placeholder="Email Address"
-                    type="email"
-                    value=""
-                  />
-                  <TextFieldGroup
-                    name="password"
-                    onChange={[Function]}
-                    placeholder="Password"
-                    type="password"
-                    value=""
-                  />
-                  <TextFieldGroup
-                    name="password2"
-                    onChange={[Function]}
-                    placeholder="Confirm Password"
-                    type="password"
-                    value=""
-                  />
-                  <input
-                    className="btn btn-info btn-block mt-4"
-                    type="submit"
-                  />
-                </form>,
+                <TextFieldGroup
+                  name="name"
+                  onChange={[Function]}
+                  placeholder="Name"
+                  type="name"
+                  value=""
+                />,
+                <TextFieldGroup
+                  name="email"
+                  onChange={[Function]}
+                  placeholder="Email Address"
+                  type="email"
+                  value=""
+                />,
+                <TextFieldGroup
+                  name="password"
+                  onChange={[Function]}
+                  placeholder="Password"
+                  type="password"
+                  value=""
+                />,
+                <TextFieldGroup
+                  name="password2"
+                  onChange={[Function]}
+                  placeholder="Confirm Password"
+                  type="password"
+                  value=""
+                />,
+                <input
+                  className="button button-info"
+                  type="submit"
+                />,
               ],
-              "className": "col-md-8 m-auto",
+              "noValidate": true,
+              "onSubmit": [Function],
             },
             "ref": null,
             "rendered": Array [
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "host",
+                "nodeType": "function",
                 "props": Object {
-                  "children": "Sign Up",
-                  "className": "display-4 text-center",
+                  "error": undefined,
+                  "name": "name",
+                  "onChange": [Function],
+                  "placeholder": "Name",
+                  "type": "name",
+                  "value": "",
                 },
                 "ref": null,
-                "rendered": "Sign Up",
-                "type": "h1",
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "error": undefined,
+                  "name": "email",
+                  "onChange": [Function],
+                  "placeholder": "Email Address",
+                  "type": "email",
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "error": undefined,
+                  "name": "password",
+                  "onChange": [Function],
+                  "placeholder": "Password",
+                  "type": "password",
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "error": undefined,
+                  "name": "password2",
+                  "onChange": [Function],
+                  "placeholder": "Confirm Password",
+                  "type": "password",
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
               },
               Object {
                 "instance": null,
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "Create your DevConnector account",
-                  "className": "lead text-center",
+                  "className": "button button-info",
+                  "type": "submit",
                 },
                 "ref": null,
-                "rendered": "Create your DevConnector account",
-                "type": "p",
-              },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": Array [
-                    <TextFieldGroup
-                      name="name"
-                      onChange={[Function]}
-                      placeholder="Name"
-                      type="name"
-                      value=""
-                    />,
-                    <TextFieldGroup
-                      info="This site uses Gravatar so if you want a profile image, use a Gravatar email"
-                      name="email"
-                      onChange={[Function]}
-                      placeholder="Email Address"
-                      type="email"
-                      value=""
-                    />,
-                    <TextFieldGroup
-                      name="password"
-                      onChange={[Function]}
-                      placeholder="Password"
-                      type="password"
-                      value=""
-                    />,
-                    <TextFieldGroup
-                      name="password2"
-                      onChange={[Function]}
-                      placeholder="Confirm Password"
-                      type="password"
-                      value=""
-                    />,
-                    <input
-                      className="btn btn-info btn-block mt-4"
-                      type="submit"
-                    />,
-                  ],
-                  "noValidate": true,
-                  "onSubmit": [Function],
-                },
-                "ref": null,
-                "rendered": Array [
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "function",
-                    "props": Object {
-                      "error": undefined,
-                      "name": "name",
-                      "onChange": [Function],
-                      "placeholder": "Name",
-                      "type": "name",
-                      "value": "",
-                    },
-                    "ref": null,
-                    "rendered": null,
-                    "type": [Function],
-                  },
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "function",
-                    "props": Object {
-                      "error": undefined,
-                      "info": "This site uses Gravatar so if you want a profile image, use a Gravatar email",
-                      "name": "email",
-                      "onChange": [Function],
-                      "placeholder": "Email Address",
-                      "type": "email",
-                      "value": "",
-                    },
-                    "ref": null,
-                    "rendered": null,
-                    "type": [Function],
-                  },
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "function",
-                    "props": Object {
-                      "error": undefined,
-                      "name": "password",
-                      "onChange": [Function],
-                      "placeholder": "Password",
-                      "type": "password",
-                      "value": "",
-                    },
-                    "ref": null,
-                    "rendered": null,
-                    "type": [Function],
-                  },
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "function",
-                    "props": Object {
-                      "error": undefined,
-                      "name": "password2",
-                      "onChange": [Function],
-                      "placeholder": "Confirm Password",
-                      "type": "password",
-                      "value": "",
-                    },
-                    "ref": null,
-                    "rendered": null,
-                    "type": [Function],
-                  },
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "className": "btn btn-info btn-block mt-4",
-                      "type": "submit",
-                    },
-                    "ref": null,
-                    "rendered": null,
-                    "type": "input",
-                  },
-                ],
-                "type": "form",
+                "rendered": null,
+                "type": "input",
               },
             ],
-            "type": "div",
+            "type": "form",
           },
-          "type": "div",
-        },
+        ],
         "type": "div",
       },
       "type": "div",
@@ -896,62 +616,53 @@ ShallowWrapper {
       "children": <div
         className="container"
       >
-        <div
-          className="row"
+        <h1
+          className="display-4 text-center"
         >
-          <div
-            className="col-md-8 m-auto"
-          >
-            <h1
-              className="display-4 text-center"
-            >
-              Sign Up
-            </h1>
-            <p
-              className="lead text-center"
-            >
-              Create your DevConnector account
-            </p>
-            <form
-              noValidate={true}
-              onSubmit={[Function]}
-            >
-              <TextFieldGroup
-                name="name"
-                onChange={[Function]}
-                placeholder="Name"
-                type="name"
-                value=""
-              />
-              <TextFieldGroup
-                info="This site uses Gravatar so if you want a profile image, use a Gravatar email"
-                name="email"
-                onChange={[Function]}
-                placeholder="Email Address"
-                type="email"
-                value=""
-              />
-              <TextFieldGroup
-                name="password"
-                onChange={[Function]}
-                placeholder="Password"
-                type="password"
-                value=""
-              />
-              <TextFieldGroup
-                name="password2"
-                onChange={[Function]}
-                placeholder="Confirm Password"
-                type="password"
-                value=""
-              />
-              <input
-                className="btn btn-info btn-block mt-4"
-                type="submit"
-              />
-            </form>
-          </div>
-        </div>
+          Sign Up
+        </h1>
+        <h3
+          className="lead text-center"
+        >
+          Create your Members Account
+        </h3>
+        <form
+          noValidate={true}
+          onSubmit={[Function]}
+        >
+          <TextFieldGroup
+            name="name"
+            onChange={[Function]}
+            placeholder="Name"
+            type="name"
+            value=""
+          />
+          <TextFieldGroup
+            name="email"
+            onChange={[Function]}
+            placeholder="Email Address"
+            type="email"
+            value=""
+          />
+          <TextFieldGroup
+            name="password"
+            onChange={[Function]}
+            placeholder="Password"
+            type="password"
+            value=""
+          />
+          <TextFieldGroup
+            name="password2"
+            onChange={[Function]}
+            placeholder="Confirm Password"
+            type="password"
+            value=""
+          />
+          <input
+            className="button button-info"
+            type="submit"
+          />
+        </form>
       </div>,
       "className": "register",
     },
@@ -961,338 +672,207 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": <div
-          className="row"
-        >
-          <div
-            className="col-md-8 m-auto"
+        "children": Array [
+          <h1
+            className="display-4 text-center"
           >
-            <h1
-              className="display-4 text-center"
-            >
-              Sign Up
-            </h1>
-            <p
-              className="lead text-center"
-            >
-              Create your DevConnector account
-            </p>
-            <form
-              noValidate={true}
-              onSubmit={[Function]}
-            >
-              <TextFieldGroup
-                name="name"
-                onChange={[Function]}
-                placeholder="Name"
-                type="name"
-                value=""
-              />
-              <TextFieldGroup
-                info="This site uses Gravatar so if you want a profile image, use a Gravatar email"
-                name="email"
-                onChange={[Function]}
-                placeholder="Email Address"
-                type="email"
-                value=""
-              />
-              <TextFieldGroup
-                name="password"
-                onChange={[Function]}
-                placeholder="Password"
-                type="password"
-                value=""
-              />
-              <TextFieldGroup
-                name="password2"
-                onChange={[Function]}
-                placeholder="Confirm Password"
-                type="password"
-                value=""
-              />
-              <input
-                className="btn btn-info btn-block mt-4"
-                type="submit"
-              />
-            </form>
-          </div>
-        </div>,
+            Sign Up
+          </h1>,
+          <h3
+            className="lead text-center"
+          >
+            Create your Members Account
+          </h3>,
+          <form
+            noValidate={true}
+            onSubmit={[Function]}
+          >
+            <TextFieldGroup
+              name="name"
+              onChange={[Function]}
+              placeholder="Name"
+              type="name"
+              value=""
+            />
+            <TextFieldGroup
+              name="email"
+              onChange={[Function]}
+              placeholder="Email Address"
+              type="email"
+              value=""
+            />
+            <TextFieldGroup
+              name="password"
+              onChange={[Function]}
+              placeholder="Password"
+              type="password"
+              value=""
+            />
+            <TextFieldGroup
+              name="password2"
+              onChange={[Function]}
+              placeholder="Confirm Password"
+              type="password"
+              value=""
+            />
+            <input
+              className="button button-info"
+              type="submit"
+            />
+          </form>,
+        ],
         "className": "container",
       },
       "ref": null,
-      "rendered": Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": <div
-            className="col-md-8 m-auto"
-          >
-            <h1
-              className="display-4 text-center"
-            >
-              Sign Up
-            </h1>
-            <p
-              className="lead text-center"
-            >
-              Create your DevConnector account
-            </p>
-            <form
-              noValidate={true}
-              onSubmit={[Function]}
-            >
-              <TextFieldGroup
-                name="name"
-                onChange={[Function]}
-                placeholder="Name"
-                type="name"
-                value=""
-              />
-              <TextFieldGroup
-                info="This site uses Gravatar so if you want a profile image, use a Gravatar email"
-                name="email"
-                onChange={[Function]}
-                placeholder="Email Address"
-                type="email"
-                value=""
-              />
-              <TextFieldGroup
-                name="password"
-                onChange={[Function]}
-                placeholder="Password"
-                type="password"
-                value=""
-              />
-              <TextFieldGroup
-                name="password2"
-                onChange={[Function]}
-                placeholder="Confirm Password"
-                type="password"
-                value=""
-              />
-              <input
-                className="btn btn-info btn-block mt-4"
-                type="submit"
-              />
-            </form>
-          </div>,
-          "className": "row",
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Sign Up",
+            "className": "display-4 text-center",
+          },
+          "ref": null,
+          "rendered": "Sign Up",
+          "type": "h1",
         },
-        "ref": null,
-        "rendered": Object {
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Create your Members Account",
+            "className": "lead text-center",
+          },
+          "ref": null,
+          "rendered": "Create your Members Account",
+          "type": "h3",
+        },
+        Object {
           "instance": null,
           "key": undefined,
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              <h1
-                className="display-4 text-center"
-              >
-                Sign Up
-              </h1>,
-              <p
-                className="lead text-center"
-              >
-                Create your DevConnector account
-              </p>,
-              <form
-                noValidate={true}
-                onSubmit={[Function]}
-              >
-                <TextFieldGroup
-                  name="name"
-                  onChange={[Function]}
-                  placeholder="Name"
-                  type="name"
-                  value=""
-                />
-                <TextFieldGroup
-                  info="This site uses Gravatar so if you want a profile image, use a Gravatar email"
-                  name="email"
-                  onChange={[Function]}
-                  placeholder="Email Address"
-                  type="email"
-                  value=""
-                />
-                <TextFieldGroup
-                  name="password"
-                  onChange={[Function]}
-                  placeholder="Password"
-                  type="password"
-                  value=""
-                />
-                <TextFieldGroup
-                  name="password2"
-                  onChange={[Function]}
-                  placeholder="Confirm Password"
-                  type="password"
-                  value=""
-                />
-                <input
-                  className="btn btn-info btn-block mt-4"
-                  type="submit"
-                />
-              </form>,
+              <TextFieldGroup
+                name="name"
+                onChange={[Function]}
+                placeholder="Name"
+                type="name"
+                value=""
+              />,
+              <TextFieldGroup
+                name="email"
+                onChange={[Function]}
+                placeholder="Email Address"
+                type="email"
+                value=""
+              />,
+              <TextFieldGroup
+                name="password"
+                onChange={[Function]}
+                placeholder="Password"
+                type="password"
+                value=""
+              />,
+              <TextFieldGroup
+                name="password2"
+                onChange={[Function]}
+                placeholder="Confirm Password"
+                type="password"
+                value=""
+              />,
+              <input
+                className="button button-info"
+                type="submit"
+              />,
             ],
-            "className": "col-md-8 m-auto",
+            "noValidate": true,
+            "onSubmit": [Function],
           },
           "ref": null,
           "rendered": Array [
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "host",
+              "nodeType": "function",
               "props": Object {
-                "children": "Sign Up",
-                "className": "display-4 text-center",
+                "error": undefined,
+                "name": "name",
+                "onChange": [Function],
+                "placeholder": "Name",
+                "type": "name",
+                "value": "",
               },
               "ref": null,
-              "rendered": "Sign Up",
-              "type": "h1",
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "error": undefined,
+                "name": "email",
+                "onChange": [Function],
+                "placeholder": "Email Address",
+                "type": "email",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "error": undefined,
+                "name": "password",
+                "onChange": [Function],
+                "placeholder": "Password",
+                "type": "password",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "error": undefined,
+                "name": "password2",
+                "onChange": [Function],
+                "placeholder": "Confirm Password",
+                "type": "password",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
             },
             Object {
               "instance": null,
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": "Create your DevConnector account",
-                "className": "lead text-center",
+                "className": "button button-info",
+                "type": "submit",
               },
               "ref": null,
-              "rendered": "Create your DevConnector account",
-              "type": "p",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": Array [
-                  <TextFieldGroup
-                    name="name"
-                    onChange={[Function]}
-                    placeholder="Name"
-                    type="name"
-                    value=""
-                  />,
-                  <TextFieldGroup
-                    info="This site uses Gravatar so if you want a profile image, use a Gravatar email"
-                    name="email"
-                    onChange={[Function]}
-                    placeholder="Email Address"
-                    type="email"
-                    value=""
-                  />,
-                  <TextFieldGroup
-                    name="password"
-                    onChange={[Function]}
-                    placeholder="Password"
-                    type="password"
-                    value=""
-                  />,
-                  <TextFieldGroup
-                    name="password2"
-                    onChange={[Function]}
-                    placeholder="Confirm Password"
-                    type="password"
-                    value=""
-                  />,
-                  <input
-                    className="btn btn-info btn-block mt-4"
-                    type="submit"
-                  />,
-                ],
-                "noValidate": true,
-                "onSubmit": [Function],
-              },
-              "ref": null,
-              "rendered": Array [
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "function",
-                  "props": Object {
-                    "error": undefined,
-                    "name": "name",
-                    "onChange": [Function],
-                    "placeholder": "Name",
-                    "type": "name",
-                    "value": "",
-                  },
-                  "ref": null,
-                  "rendered": null,
-                  "type": [Function],
-                },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "function",
-                  "props": Object {
-                    "error": undefined,
-                    "info": "This site uses Gravatar so if you want a profile image, use a Gravatar email",
-                    "name": "email",
-                    "onChange": [Function],
-                    "placeholder": "Email Address",
-                    "type": "email",
-                    "value": "",
-                  },
-                  "ref": null,
-                  "rendered": null,
-                  "type": [Function],
-                },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "function",
-                  "props": Object {
-                    "error": undefined,
-                    "name": "password",
-                    "onChange": [Function],
-                    "placeholder": "Password",
-                    "type": "password",
-                    "value": "",
-                  },
-                  "ref": null,
-                  "rendered": null,
-                  "type": [Function],
-                },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "function",
-                  "props": Object {
-                    "error": undefined,
-                    "name": "password2",
-                    "onChange": [Function],
-                    "placeholder": "Confirm Password",
-                    "type": "password",
-                    "value": "",
-                  },
-                  "ref": null,
-                  "rendered": null,
-                  "type": [Function],
-                },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "className": "btn btn-info btn-block mt-4",
-                    "type": "submit",
-                  },
-                  "ref": null,
-                  "rendered": null,
-                  "type": "input",
-                },
-              ],
-              "type": "form",
+              "rendered": null,
+              "type": "input",
             },
           ],
-          "type": "div",
+          "type": "form",
         },
-        "type": "div",
-      },
+      ],
       "type": "div",
     },
     "type": "div",
@@ -1306,62 +886,53 @@ ShallowWrapper {
         "children": <div
           className="container"
         >
-          <div
-            className="row"
+          <h1
+            className="display-4 text-center"
           >
-            <div
-              className="col-md-8 m-auto"
-            >
-              <h1
-                className="display-4 text-center"
-              >
-                Sign Up
-              </h1>
-              <p
-                className="lead text-center"
-              >
-                Create your DevConnector account
-              </p>
-              <form
-                noValidate={true}
-                onSubmit={[Function]}
-              >
-                <TextFieldGroup
-                  name="name"
-                  onChange={[Function]}
-                  placeholder="Name"
-                  type="name"
-                  value=""
-                />
-                <TextFieldGroup
-                  info="This site uses Gravatar so if you want a profile image, use a Gravatar email"
-                  name="email"
-                  onChange={[Function]}
-                  placeholder="Email Address"
-                  type="email"
-                  value=""
-                />
-                <TextFieldGroup
-                  name="password"
-                  onChange={[Function]}
-                  placeholder="Password"
-                  type="password"
-                  value=""
-                />
-                <TextFieldGroup
-                  name="password2"
-                  onChange={[Function]}
-                  placeholder="Confirm Password"
-                  type="password"
-                  value=""
-                />
-                <input
-                  className="btn btn-info btn-block mt-4"
-                  type="submit"
-                />
-              </form>
-            </div>
-          </div>
+            Sign Up
+          </h1>
+          <h3
+            className="lead text-center"
+          >
+            Create your Members Account
+          </h3>
+          <form
+            noValidate={true}
+            onSubmit={[Function]}
+          >
+            <TextFieldGroup
+              name="name"
+              onChange={[Function]}
+              placeholder="Name"
+              type="name"
+              value=""
+            />
+            <TextFieldGroup
+              name="email"
+              onChange={[Function]}
+              placeholder="Email Address"
+              type="email"
+              value=""
+            />
+            <TextFieldGroup
+              name="password"
+              onChange={[Function]}
+              placeholder="Password"
+              type="password"
+              value=""
+            />
+            <TextFieldGroup
+              name="password2"
+              onChange={[Function]}
+              placeholder="Confirm Password"
+              type="password"
+              value=""
+            />
+            <input
+              className="button button-info"
+              type="submit"
+            />
+          </form>
         </div>,
         "className": "register",
       },
@@ -1371,338 +942,207 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": <div
-            className="row"
-          >
-            <div
-              className="col-md-8 m-auto"
+          "children": Array [
+            <h1
+              className="display-4 text-center"
             >
-              <h1
-                className="display-4 text-center"
-              >
-                Sign Up
-              </h1>
-              <p
-                className="lead text-center"
-              >
-                Create your DevConnector account
-              </p>
-              <form
-                noValidate={true}
-                onSubmit={[Function]}
-              >
-                <TextFieldGroup
-                  name="name"
-                  onChange={[Function]}
-                  placeholder="Name"
-                  type="name"
-                  value=""
-                />
-                <TextFieldGroup
-                  info="This site uses Gravatar so if you want a profile image, use a Gravatar email"
-                  name="email"
-                  onChange={[Function]}
-                  placeholder="Email Address"
-                  type="email"
-                  value=""
-                />
-                <TextFieldGroup
-                  name="password"
-                  onChange={[Function]}
-                  placeholder="Password"
-                  type="password"
-                  value=""
-                />
-                <TextFieldGroup
-                  name="password2"
-                  onChange={[Function]}
-                  placeholder="Confirm Password"
-                  type="password"
-                  value=""
-                />
-                <input
-                  className="btn btn-info btn-block mt-4"
-                  type="submit"
-                />
-              </form>
-            </div>
-          </div>,
+              Sign Up
+            </h1>,
+            <h3
+              className="lead text-center"
+            >
+              Create your Members Account
+            </h3>,
+            <form
+              noValidate={true}
+              onSubmit={[Function]}
+            >
+              <TextFieldGroup
+                name="name"
+                onChange={[Function]}
+                placeholder="Name"
+                type="name"
+                value=""
+              />
+              <TextFieldGroup
+                name="email"
+                onChange={[Function]}
+                placeholder="Email Address"
+                type="email"
+                value=""
+              />
+              <TextFieldGroup
+                name="password"
+                onChange={[Function]}
+                placeholder="Password"
+                type="password"
+                value=""
+              />
+              <TextFieldGroup
+                name="password2"
+                onChange={[Function]}
+                placeholder="Confirm Password"
+                type="password"
+                value=""
+              />
+              <input
+                className="button button-info"
+                type="submit"
+              />
+            </form>,
+          ],
           "className": "container",
         },
         "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": <div
-              className="col-md-8 m-auto"
-            >
-              <h1
-                className="display-4 text-center"
-              >
-                Sign Up
-              </h1>
-              <p
-                className="lead text-center"
-              >
-                Create your DevConnector account
-              </p>
-              <form
-                noValidate={true}
-                onSubmit={[Function]}
-              >
-                <TextFieldGroup
-                  name="name"
-                  onChange={[Function]}
-                  placeholder="Name"
-                  type="name"
-                  value=""
-                />
-                <TextFieldGroup
-                  info="This site uses Gravatar so if you want a profile image, use a Gravatar email"
-                  name="email"
-                  onChange={[Function]}
-                  placeholder="Email Address"
-                  type="email"
-                  value=""
-                />
-                <TextFieldGroup
-                  name="password"
-                  onChange={[Function]}
-                  placeholder="Password"
-                  type="password"
-                  value=""
-                />
-                <TextFieldGroup
-                  name="password2"
-                  onChange={[Function]}
-                  placeholder="Confirm Password"
-                  type="password"
-                  value=""
-                />
-                <input
-                  className="btn btn-info btn-block mt-4"
-                  type="submit"
-                />
-              </form>
-            </div>,
-            "className": "row",
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Sign Up",
+              "className": "display-4 text-center",
+            },
+            "ref": null,
+            "rendered": "Sign Up",
+            "type": "h1",
           },
-          "ref": null,
-          "rendered": Object {
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Create your Members Account",
+              "className": "lead text-center",
+            },
+            "ref": null,
+            "rendered": "Create your Members Account",
+            "type": "h3",
+          },
+          Object {
             "instance": null,
             "key": undefined,
             "nodeType": "host",
             "props": Object {
               "children": Array [
-                <h1
-                  className="display-4 text-center"
-                >
-                  Sign Up
-                </h1>,
-                <p
-                  className="lead text-center"
-                >
-                  Create your DevConnector account
-                </p>,
-                <form
-                  noValidate={true}
-                  onSubmit={[Function]}
-                >
-                  <TextFieldGroup
-                    name="name"
-                    onChange={[Function]}
-                    placeholder="Name"
-                    type="name"
-                    value=""
-                  />
-                  <TextFieldGroup
-                    info="This site uses Gravatar so if you want a profile image, use a Gravatar email"
-                    name="email"
-                    onChange={[Function]}
-                    placeholder="Email Address"
-                    type="email"
-                    value=""
-                  />
-                  <TextFieldGroup
-                    name="password"
-                    onChange={[Function]}
-                    placeholder="Password"
-                    type="password"
-                    value=""
-                  />
-                  <TextFieldGroup
-                    name="password2"
-                    onChange={[Function]}
-                    placeholder="Confirm Password"
-                    type="password"
-                    value=""
-                  />
-                  <input
-                    className="btn btn-info btn-block mt-4"
-                    type="submit"
-                  />
-                </form>,
+                <TextFieldGroup
+                  name="name"
+                  onChange={[Function]}
+                  placeholder="Name"
+                  type="name"
+                  value=""
+                />,
+                <TextFieldGroup
+                  name="email"
+                  onChange={[Function]}
+                  placeholder="Email Address"
+                  type="email"
+                  value=""
+                />,
+                <TextFieldGroup
+                  name="password"
+                  onChange={[Function]}
+                  placeholder="Password"
+                  type="password"
+                  value=""
+                />,
+                <TextFieldGroup
+                  name="password2"
+                  onChange={[Function]}
+                  placeholder="Confirm Password"
+                  type="password"
+                  value=""
+                />,
+                <input
+                  className="button button-info"
+                  type="submit"
+                />,
               ],
-              "className": "col-md-8 m-auto",
+              "noValidate": true,
+              "onSubmit": [Function],
             },
             "ref": null,
             "rendered": Array [
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "host",
+                "nodeType": "function",
                 "props": Object {
-                  "children": "Sign Up",
-                  "className": "display-4 text-center",
+                  "error": undefined,
+                  "name": "name",
+                  "onChange": [Function],
+                  "placeholder": "Name",
+                  "type": "name",
+                  "value": "",
                 },
                 "ref": null,
-                "rendered": "Sign Up",
-                "type": "h1",
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "error": undefined,
+                  "name": "email",
+                  "onChange": [Function],
+                  "placeholder": "Email Address",
+                  "type": "email",
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "error": undefined,
+                  "name": "password",
+                  "onChange": [Function],
+                  "placeholder": "Password",
+                  "type": "password",
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "error": undefined,
+                  "name": "password2",
+                  "onChange": [Function],
+                  "placeholder": "Confirm Password",
+                  "type": "password",
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
               },
               Object {
                 "instance": null,
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "Create your DevConnector account",
-                  "className": "lead text-center",
+                  "className": "button button-info",
+                  "type": "submit",
                 },
                 "ref": null,
-                "rendered": "Create your DevConnector account",
-                "type": "p",
-              },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": Array [
-                    <TextFieldGroup
-                      name="name"
-                      onChange={[Function]}
-                      placeholder="Name"
-                      type="name"
-                      value=""
-                    />,
-                    <TextFieldGroup
-                      info="This site uses Gravatar so if you want a profile image, use a Gravatar email"
-                      name="email"
-                      onChange={[Function]}
-                      placeholder="Email Address"
-                      type="email"
-                      value=""
-                    />,
-                    <TextFieldGroup
-                      name="password"
-                      onChange={[Function]}
-                      placeholder="Password"
-                      type="password"
-                      value=""
-                    />,
-                    <TextFieldGroup
-                      name="password2"
-                      onChange={[Function]}
-                      placeholder="Confirm Password"
-                      type="password"
-                      value=""
-                    />,
-                    <input
-                      className="btn btn-info btn-block mt-4"
-                      type="submit"
-                    />,
-                  ],
-                  "noValidate": true,
-                  "onSubmit": [Function],
-                },
-                "ref": null,
-                "rendered": Array [
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "function",
-                    "props": Object {
-                      "error": undefined,
-                      "name": "name",
-                      "onChange": [Function],
-                      "placeholder": "Name",
-                      "type": "name",
-                      "value": "",
-                    },
-                    "ref": null,
-                    "rendered": null,
-                    "type": [Function],
-                  },
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "function",
-                    "props": Object {
-                      "error": undefined,
-                      "info": "This site uses Gravatar so if you want a profile image, use a Gravatar email",
-                      "name": "email",
-                      "onChange": [Function],
-                      "placeholder": "Email Address",
-                      "type": "email",
-                      "value": "",
-                    },
-                    "ref": null,
-                    "rendered": null,
-                    "type": [Function],
-                  },
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "function",
-                    "props": Object {
-                      "error": undefined,
-                      "name": "password",
-                      "onChange": [Function],
-                      "placeholder": "Password",
-                      "type": "password",
-                      "value": "",
-                    },
-                    "ref": null,
-                    "rendered": null,
-                    "type": [Function],
-                  },
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "function",
-                    "props": Object {
-                      "error": undefined,
-                      "name": "password2",
-                      "onChange": [Function],
-                      "placeholder": "Confirm Password",
-                      "type": "password",
-                      "value": "",
-                    },
-                    "ref": null,
-                    "rendered": null,
-                    "type": [Function],
-                  },
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "className": "btn btn-info btn-block mt-4",
-                      "type": "submit",
-                    },
-                    "ref": null,
-                    "rendered": null,
-                    "type": "input",
-                  },
-                ],
-                "type": "form",
+                "rendered": null,
+                "type": "input",
               },
             ],
-            "type": "div",
+            "type": "form",
           },
-          "type": "div",
-        },
+        ],
         "type": "div",
       },
       "type": "div",

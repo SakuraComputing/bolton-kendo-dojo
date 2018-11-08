@@ -43,37 +43,33 @@ export class Login extends Component {
     return (
       <div>
         <div className="login">
-            <div className="container">
-                <div className="row">
-                    <div className="col-md-8 m-auto">
-                        <h1 className="login-title">Log In</h1>
-                        <p className="login-text">Sign in to the Members Area</p>
-                        <form onSubmit={this.onSubmit}>
-                            <TextFieldGroup
-                                placeholder="Email Address"
-                                name="email"
-                                value={this.state.email}
-                                type="email"
-                                onChange={this.onChange}
-                                error={errors.email}
-                            />
-                            <TextFieldGroup
-                                placeholder="Password"
-                                name="password"
-                                value={this.state.password}
-                                type="password"
-                                onChange={this.onChange}
-                                error={errors.password}
-                            />
-                            <input
-                                type="submit"
-                                className="button button-info"
-                            />
-                        </form>
-                        <div className="login-request">
-                            <Link to="/register">New - Click here to request membership</Link>
-                        </div>
-                    </div>
+            <div className="content-container">
+                <h1 className="form-title">Log In</h1>
+                <p className="form-text">Sign in to the Members Area</p>
+                <form onSubmit={this.onSubmit}>
+                    <TextFieldGroup
+                        placeholder="Email Address"
+                        name="email"
+                        value={this.state.email}
+                        type="email"
+                        onChange={this.onChange}
+                        error={errors.email}
+                    />
+                    <TextFieldGroup
+                        placeholder="Password"
+                        name="password"
+                        value={this.state.password}
+                        type="password"
+                        onChange={this.onChange}
+                        error={errors.password}
+                    />
+                    <input
+                        type="submit"
+                        className="button button-info"
+                    />
+                </form>
+                <div className="login-request">
+                    <Link to="/register">New - Click here to request membership</Link>
                 </div>
             </div>
         </div>

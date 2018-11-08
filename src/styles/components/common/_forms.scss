@@ -2,6 +2,18 @@
     padding: 10px;
 }
 
+.form-title {
+    font-size: $xl-size;
+    font-weight: 200;
+    padding-top: 1em;
+}
+
+.form-text {
+    font-size: 1.8em;
+}
+
+
+
 .input-box {
     padding: 10px;
     border: solid 1px $dark-grey;

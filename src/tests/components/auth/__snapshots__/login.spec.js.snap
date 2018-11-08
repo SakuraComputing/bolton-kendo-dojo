@@ -33,47 +33,49 @@ ShallowWrapper {
         className="login"
       >
         <div
-          className="container"
+          className="content-container"
         >
-          <div
-            className="row"
+          <h1
+            className="login-title"
           >
-            <div
-              className="col-md-8 m-auto"
+            Log In
+          </h1>
+          <p
+            className="login-text"
+          >
+            Sign in to the Members Area
+          </p>
+          <form
+            onSubmit={[Function]}
+          >
+            <TextFieldGroup
+              name="email"
+              onChange={[Function]}
+              placeholder="Email Address"
+              type="email"
+              value=""
+            />
+            <TextFieldGroup
+              name="password"
+              onChange={[Function]}
+              placeholder="Password"
+              type="password"
+              value=""
+            />
+            <input
+              className="button button-info"
+              type="submit"
+            />
+          </form>
+          <div
+            className="login-request"
+          >
+            <Link
+              replace={false}
+              to="/register"
             >
-              <h1
-                className="login-title"
-              >
-                Log In
-              </h1>
-              <p
-                className="login-text"
-              >
-                Sign in to the Members Area
-              </p>
-              <form
-                onSubmit={[Function]}
-              >
-                <TextFieldGroup
-                  name="email"
-                  onChange={[Function]}
-                  placeholder="Email Address"
-                  type="email"
-                  value=""
-                />
-                <TextFieldGroup
-                  name="password"
-                  onChange={[Function]}
-                  placeholder="Password"
-                  type="password"
-                  value=""
-                />
-                <input
-                  className="button button-info"
-                  type="submit"
-                />
-              </form>
-            </div>
+              New - Click here to request membership
+            </Link>
           </div>
         </div>
       </div>,
@@ -85,47 +87,49 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": <div
-          className="container"
+          className="content-container"
         >
-          <div
-            className="row"
+          <h1
+            className="login-title"
           >
-            <div
-              className="col-md-8 m-auto"
+            Log In
+          </h1>
+          <p
+            className="login-text"
+          >
+            Sign in to the Members Area
+          </p>
+          <form
+            onSubmit={[Function]}
+          >
+            <TextFieldGroup
+              name="email"
+              onChange={[Function]}
+              placeholder="Email Address"
+              type="email"
+              value=""
+            />
+            <TextFieldGroup
+              name="password"
+              onChange={[Function]}
+              placeholder="Password"
+              type="password"
+              value=""
+            />
+            <input
+              className="button button-info"
+              type="submit"
+            />
+          </form>
+          <div
+            className="login-request"
+          >
+            <Link
+              replace={false}
+              to="/register"
             >
-              <h1
-                className="login-title"
-              >
-                Log In
-              </h1>
-              <p
-                className="login-text"
-              >
-                Sign in to the Members Area
-              </p>
-              <form
-                onSubmit={[Function]}
-              >
-                <TextFieldGroup
-                  name="email"
-                  onChange={[Function]}
-                  placeholder="Email Address"
-                  type="email"
-                  value=""
-                />
-                <TextFieldGroup
-                  name="password"
-                  onChange={[Function]}
-                  placeholder="Password"
-                  type="password"
-                  value=""
-                />
-                <input
-                  className="button button-info"
-                  type="submit"
-                />
-              </form>
-            </div>
+              New - Click here to request membership
+            </Link>
           </div>
         </div>,
         "className": "login",
@@ -136,241 +140,184 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": <div
-            className="row"
-          >
-            <div
-              className="col-md-8 m-auto"
+          "children": Array [
+            <h1
+              className="login-title"
             >
-              <h1
-                className="login-title"
+              Log In
+            </h1>,
+            <p
+              className="login-text"
+            >
+              Sign in to the Members Area
+            </p>,
+            <form
+              onSubmit={[Function]}
+            >
+              <TextFieldGroup
+                name="email"
+                onChange={[Function]}
+                placeholder="Email Address"
+                type="email"
+                value=""
+              />
+              <TextFieldGroup
+                name="password"
+                onChange={[Function]}
+                placeholder="Password"
+                type="password"
+                value=""
+              />
+              <input
+                className="button button-info"
+                type="submit"
+              />
+            </form>,
+            <div
+              className="login-request"
+            >
+              <Link
+                replace={false}
+                to="/register"
               >
-                Log In
-              </h1>
-              <p
-                className="login-text"
-              >
-                Sign in to the Members Area
-              </p>
-              <form
-                onSubmit={[Function]}
-              >
-                <TextFieldGroup
-                  name="email"
-                  onChange={[Function]}
-                  placeholder="Email Address"
-                  type="email"
-                  value=""
-                />
-                <TextFieldGroup
-                  name="password"
-                  onChange={[Function]}
-                  placeholder="Password"
-                  type="password"
-                  value=""
-                />
-                <input
-                  className="button button-info"
-                  type="submit"
-                />
-              </form>
-            </div>
-          </div>,
-          "className": "container",
+                New - Click here to request membership
+              </Link>
+            </div>,
+          ],
+          "className": "content-container",
         },
         "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": <div
-              className="col-md-8 m-auto"
-            >
-              <h1
-                className="login-title"
-              >
-                Log In
-              </h1>
-              <p
-                className="login-text"
-              >
-                Sign in to the Members Area
-              </p>
-              <form
-                onSubmit={[Function]}
-              >
-                <TextFieldGroup
-                  name="email"
-                  onChange={[Function]}
-                  placeholder="Email Address"
-                  type="email"
-                  value=""
-                />
-                <TextFieldGroup
-                  name="password"
-                  onChange={[Function]}
-                  placeholder="Password"
-                  type="password"
-                  value=""
-                />
-                <input
-                  className="button button-info"
-                  type="submit"
-                />
-              </form>
-            </div>,
-            "className": "row",
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Log In",
+              "className": "login-title",
+            },
+            "ref": null,
+            "rendered": "Log In",
+            "type": "h1",
           },
-          "ref": null,
-          "rendered": Object {
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Sign in to the Members Area",
+              "className": "login-text",
+            },
+            "ref": null,
+            "rendered": "Sign in to the Members Area",
+            "type": "p",
+          },
+          Object {
             "instance": null,
             "key": undefined,
             "nodeType": "host",
             "props": Object {
               "children": Array [
-                <h1
-                  className="login-title"
-                >
-                  Log In
-                </h1>,
-                <p
-                  className="login-text"
-                >
-                  Sign in to the Members Area
-                </p>,
-                <form
-                  onSubmit={[Function]}
-                >
-                  <TextFieldGroup
-                    name="email"
-                    onChange={[Function]}
-                    placeholder="Email Address"
-                    type="email"
-                    value=""
-                  />
-                  <TextFieldGroup
-                    name="password"
-                    onChange={[Function]}
-                    placeholder="Password"
-                    type="password"
-                    value=""
-                  />
-                  <input
-                    className="button button-info"
-                    type="submit"
-                  />
-                </form>,
+                <TextFieldGroup
+                  name="email"
+                  onChange={[Function]}
+                  placeholder="Email Address"
+                  type="email"
+                  value=""
+                />,
+                <TextFieldGroup
+                  name="password"
+                  onChange={[Function]}
+                  placeholder="Password"
+                  type="password"
+                  value=""
+                />,
+                <input
+                  className="button button-info"
+                  type="submit"
+                />,
               ],
-              "className": "col-md-8 m-auto",
+              "onSubmit": [Function],
             },
             "ref": null,
             "rendered": Array [
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "host",
+                "nodeType": "function",
                 "props": Object {
-                  "children": "Log In",
-                  "className": "login-title",
+                  "error": undefined,
+                  "name": "email",
+                  "onChange": [Function],
+                  "placeholder": "Email Address",
+                  "type": "email",
+                  "value": "",
                 },
                 "ref": null,
-                "rendered": "Log In",
-                "type": "h1",
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "error": undefined,
+                  "name": "password",
+                  "onChange": [Function],
+                  "placeholder": "Password",
+                  "type": "password",
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
               },
               Object {
                 "instance": null,
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "Sign in to the Members Area",
-                  "className": "login-text",
+                  "className": "button button-info",
+                  "type": "submit",
                 },
                 "ref": null,
-                "rendered": "Sign in to the Members Area",
-                "type": "p",
-              },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": Array [
-                    <TextFieldGroup
-                      name="email"
-                      onChange={[Function]}
-                      placeholder="Email Address"
-                      type="email"
-                      value=""
-                    />,
-                    <TextFieldGroup
-                      name="password"
-                      onChange={[Function]}
-                      placeholder="Password"
-                      type="password"
-                      value=""
-                    />,
-                    <input
-                      className="button button-info"
-                      type="submit"
-                    />,
-                  ],
-                  "onSubmit": [Function],
-                },
-                "ref": null,
-                "rendered": Array [
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "function",
-                    "props": Object {
-                      "error": undefined,
-                      "name": "email",
-                      "onChange": [Function],
-                      "placeholder": "Email Address",
-                      "type": "email",
-                      "value": "",
-                    },
-                    "ref": null,
-                    "rendered": null,
-                    "type": [Function],
-                  },
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "function",
-                    "props": Object {
-                      "error": undefined,
-                      "name": "password",
-                      "onChange": [Function],
-                      "placeholder": "Password",
-                      "type": "password",
-                      "value": "",
-                    },
-                    "ref": null,
-                    "rendered": null,
-                    "type": [Function],
-                  },
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "className": "button button-info",
-                      "type": "submit",
-                    },
-                    "ref": null,
-                    "rendered": null,
-                    "type": "input",
-                  },
-                ],
-                "type": "form",
+                "rendered": null,
+                "type": "input",
               },
             ],
+            "type": "form",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <Link
+                replace={false}
+                to="/register"
+              >
+                New - Click here to request membership
+              </Link>,
+              "className": "login-request",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "New - Click here to request membership",
+                "replace": false,
+                "to": "/register",
+              },
+              "ref": null,
+              "rendered": "New - Click here to request membership",
+              "type": [Function],
+            },
             "type": "div",
           },
-          "type": "div",
-        },
+        ],
         "type": "div",
       },
       "type": "div",
@@ -387,47 +334,49 @@ ShallowWrapper {
           className="login"
         >
           <div
-            className="container"
+            className="content-container"
           >
-            <div
-              className="row"
+            <h1
+              className="login-title"
             >
-              <div
-                className="col-md-8 m-auto"
+              Log In
+            </h1>
+            <p
+              className="login-text"
+            >
+              Sign in to the Members Area
+            </p>
+            <form
+              onSubmit={[Function]}
+            >
+              <TextFieldGroup
+                name="email"
+                onChange={[Function]}
+                placeholder="Email Address"
+                type="email"
+                value=""
+              />
+              <TextFieldGroup
+                name="password"
+                onChange={[Function]}
+                placeholder="Password"
+                type="password"
+                value=""
+              />
+              <input
+                className="button button-info"
+                type="submit"
+              />
+            </form>
+            <div
+              className="login-request"
+            >
+              <Link
+                replace={false}
+                to="/register"
               >
-                <h1
-                  className="login-title"
-                >
-                  Log In
-                </h1>
-                <p
-                  className="login-text"
-                >
-                  Sign in to the Members Area
-                </p>
-                <form
-                  onSubmit={[Function]}
-                >
-                  <TextFieldGroup
-                    name="email"
-                    onChange={[Function]}
-                    placeholder="Email Address"
-                    type="email"
-                    value=""
-                  />
-                  <TextFieldGroup
-                    name="password"
-                    onChange={[Function]}
-                    placeholder="Password"
-                    type="password"
-                    value=""
-                  />
-                  <input
-                    className="button button-info"
-                    type="submit"
-                  />
-                </form>
-              </div>
+                New - Click here to request membership
+              </Link>
             </div>
           </div>
         </div>,
@@ -439,47 +388,49 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": <div
-            className="container"
+            className="content-container"
           >
-            <div
-              className="row"
+            <h1
+              className="login-title"
             >
-              <div
-                className="col-md-8 m-auto"
+              Log In
+            </h1>
+            <p
+              className="login-text"
+            >
+              Sign in to the Members Area
+            </p>
+            <form
+              onSubmit={[Function]}
+            >
+              <TextFieldGroup
+                name="email"
+                onChange={[Function]}
+                placeholder="Email Address"
+                type="email"
+                value=""
+              />
+              <TextFieldGroup
+                name="password"
+                onChange={[Function]}
+                placeholder="Password"
+                type="password"
+                value=""
+              />
+              <input
+                className="button button-info"
+                type="submit"
+              />
+            </form>
+            <div
+              className="login-request"
+            >
+              <Link
+                replace={false}
+                to="/register"
               >
-                <h1
-                  className="login-title"
-                >
-                  Log In
-                </h1>
-                <p
-                  className="login-text"
-                >
-                  Sign in to the Members Area
-                </p>
-                <form
-                  onSubmit={[Function]}
-                >
-                  <TextFieldGroup
-                    name="email"
-                    onChange={[Function]}
-                    placeholder="Email Address"
-                    type="email"
-                    value=""
-                  />
-                  <TextFieldGroup
-                    name="password"
-                    onChange={[Function]}
-                    placeholder="Password"
-                    type="password"
-                    value=""
-                  />
-                  <input
-                    className="button button-info"
-                    type="submit"
-                  />
-                </form>
-              </div>
+                New - Click here to request membership
+              </Link>
             </div>
           </div>,
           "className": "login",
@@ -490,241 +441,184 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": <div
-              className="row"
-            >
-              <div
-                className="col-md-8 m-auto"
+            "children": Array [
+              <h1
+                className="login-title"
               >
-                <h1
-                  className="login-title"
+                Log In
+              </h1>,
+              <p
+                className="login-text"
+              >
+                Sign in to the Members Area
+              </p>,
+              <form
+                onSubmit={[Function]}
+              >
+                <TextFieldGroup
+                  name="email"
+                  onChange={[Function]}
+                  placeholder="Email Address"
+                  type="email"
+                  value=""
+                />
+                <TextFieldGroup
+                  name="password"
+                  onChange={[Function]}
+                  placeholder="Password"
+                  type="password"
+                  value=""
+                />
+                <input
+                  className="button button-info"
+                  type="submit"
+                />
+              </form>,
+              <div
+                className="login-request"
+              >
+                <Link
+                  replace={false}
+                  to="/register"
                 >
-                  Log In
-                </h1>
-                <p
-                  className="login-text"
-                >
-                  Sign in to the Members Area
-                </p>
-                <form
-                  onSubmit={[Function]}
-                >
-                  <TextFieldGroup
-                    name="email"
-                    onChange={[Function]}
-                    placeholder="Email Address"
-                    type="email"
-                    value=""
-                  />
-                  <TextFieldGroup
-                    name="password"
-                    onChange={[Function]}
-                    placeholder="Password"
-                    type="password"
-                    value=""
-                  />
-                  <input
-                    className="button button-info"
-                    type="submit"
-                  />
-                </form>
-              </div>
-            </div>,
-            "className": "container",
+                  New - Click here to request membership
+                </Link>
+              </div>,
+            ],
+            "className": "content-container",
           },
           "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": <div
-                className="col-md-8 m-auto"
-              >
-                <h1
-                  className="login-title"
-                >
-                  Log In
-                </h1>
-                <p
-                  className="login-text"
-                >
-                  Sign in to the Members Area
-                </p>
-                <form
-                  onSubmit={[Function]}
-                >
-                  <TextFieldGroup
-                    name="email"
-                    onChange={[Function]}
-                    placeholder="Email Address"
-                    type="email"
-                    value=""
-                  />
-                  <TextFieldGroup
-                    name="password"
-                    onChange={[Function]}
-                    placeholder="Password"
-                    type="password"
-                    value=""
-                  />
-                  <input
-                    className="button button-info"
-                    type="submit"
-                  />
-                </form>
-              </div>,
-              "className": "row",
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Log In",
+                "className": "login-title",
+              },
+              "ref": null,
+              "rendered": "Log In",
+              "type": "h1",
             },
-            "ref": null,
-            "rendered": Object {
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Sign in to the Members Area",
+                "className": "login-text",
+              },
+              "ref": null,
+              "rendered": "Sign in to the Members Area",
+              "type": "p",
+            },
+            Object {
               "instance": null,
               "key": undefined,
               "nodeType": "host",
               "props": Object {
                 "children": Array [
-                  <h1
-                    className="login-title"
-                  >
-                    Log In
-                  </h1>,
-                  <p
-                    className="login-text"
-                  >
-                    Sign in to the Members Area
-                  </p>,
-                  <form
-                    onSubmit={[Function]}
-                  >
-                    <TextFieldGroup
-                      name="email"
-                      onChange={[Function]}
-                      placeholder="Email Address"
-                      type="email"
-                      value=""
-                    />
-                    <TextFieldGroup
-                      name="password"
-                      onChange={[Function]}
-                      placeholder="Password"
-                      type="password"
-                      value=""
-                    />
-                    <input
-                      className="button button-info"
-                      type="submit"
-                    />
-                  </form>,
+                  <TextFieldGroup
+                    name="email"
+                    onChange={[Function]}
+                    placeholder="Email Address"
+                    type="email"
+                    value=""
+                  />,
+                  <TextFieldGroup
+                    name="password"
+                    onChange={[Function]}
+                    placeholder="Password"
+                    type="password"
+                    value=""
+                  />,
+                  <input
+                    className="button button-info"
+                    type="submit"
+                  />,
                 ],
-                "className": "col-md-8 m-auto",
+                "onSubmit": [Function],
               },
               "ref": null,
               "rendered": Array [
                 Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "host",
+                  "nodeType": "function",
                   "props": Object {
-                    "children": "Log In",
-                    "className": "login-title",
+                    "error": undefined,
+                    "name": "email",
+                    "onChange": [Function],
+                    "placeholder": "Email Address",
+                    "type": "email",
+                    "value": "",
                   },
                   "ref": null,
-                  "rendered": "Log In",
-                  "type": "h1",
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "error": undefined,
+                    "name": "password",
+                    "onChange": [Function],
+                    "placeholder": "Password",
+                    "type": "password",
+                    "value": "",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
                 },
                 Object {
                   "instance": null,
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "Sign in to the Members Area",
-                    "className": "login-text",
+                    "className": "button button-info",
+                    "type": "submit",
                   },
                   "ref": null,
-                  "rendered": "Sign in to the Members Area",
-                  "type": "p",
-                },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": Array [
-                      <TextFieldGroup
-                        name="email"
-                        onChange={[Function]}
-                        placeholder="Email Address"
-                        type="email"
-                        value=""
-                      />,
-                      <TextFieldGroup
-                        name="password"
-                        onChange={[Function]}
-                        placeholder="Password"
-                        type="password"
-                        value=""
-                      />,
-                      <input
-                        className="button button-info"
-                        type="submit"
-                      />,
-                    ],
-                    "onSubmit": [Function],
-                  },
-                  "ref": null,
-                  "rendered": Array [
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "function",
-                      "props": Object {
-                        "error": undefined,
-                        "name": "email",
-                        "onChange": [Function],
-                        "placeholder": "Email Address",
-                        "type": "email",
-                        "value": "",
-                      },
-                      "ref": null,
-                      "rendered": null,
-                      "type": [Function],
-                    },
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "function",
-                      "props": Object {
-                        "error": undefined,
-                        "name": "password",
-                        "onChange": [Function],
-                        "placeholder": "Password",
-                        "type": "password",
-                        "value": "",
-                      },
-                      "ref": null,
-                      "rendered": null,
-                      "type": [Function],
-                    },
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "className": "button button-info",
-                        "type": "submit",
-                      },
-                      "ref": null,
-                      "rendered": null,
-                      "type": "input",
-                    },
-                  ],
-                  "type": "form",
+                  "rendered": null,
+                  "type": "input",
                 },
               ],
+              "type": "form",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <Link
+                  replace={false}
+                  to="/register"
+                >
+                  New - Click here to request membership
+                </Link>,
+                "className": "login-request",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "New - Click here to request membership",
+                  "replace": false,
+                  "to": "/register",
+                },
+                "ref": null,
+                "rendered": "New - Click here to request membership",
+                "type": [Function],
+              },
               "type": "div",
             },
-            "type": "div",
-          },
+          ],
           "type": "div",
         },
         "type": "div",
@@ -785,47 +679,49 @@ ShallowWrapper {
         className="login"
       >
         <div
-          className="container"
+          className="content-container"
         >
-          <div
-            className="row"
+          <h1
+            className="login-title"
           >
-            <div
-              className="col-md-8 m-auto"
+            Log In
+          </h1>
+          <p
+            className="login-text"
+          >
+            Sign in to the Members Area
+          </p>
+          <form
+            onSubmit={[Function]}
+          >
+            <TextFieldGroup
+              name="email"
+              onChange={[Function]}
+              placeholder="Email Address"
+              type="email"
+              value=""
+            />
+            <TextFieldGroup
+              name="password"
+              onChange={[Function]}
+              placeholder="Password"
+              type="password"
+              value=""
+            />
+            <input
+              className="button button-info"
+              type="submit"
+            />
+          </form>
+          <div
+            className="login-request"
+          >
+            <Link
+              replace={false}
+              to="/register"
             >
-              <h1
-                className="login-title"
-              >
-                Log In
-              </h1>
-              <p
-                className="login-text"
-              >
-                Sign in to the Members Area
-              </p>
-              <form
-                onSubmit={[Function]}
-              >
-                <TextFieldGroup
-                  name="email"
-                  onChange={[Function]}
-                  placeholder="Email Address"
-                  type="email"
-                  value=""
-                />
-                <TextFieldGroup
-                  name="password"
-                  onChange={[Function]}
-                  placeholder="Password"
-                  type="password"
-                  value=""
-                />
-                <input
-                  className="button button-info"
-                  type="submit"
-                />
-              </form>
-            </div>
+              New - Click here to request membership
+            </Link>
           </div>
         </div>
       </div>,
@@ -837,47 +733,49 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": <div
-          className="container"
+          className="content-container"
         >
-          <div
-            className="row"
+          <h1
+            className="login-title"
           >
-            <div
-              className="col-md-8 m-auto"
+            Log In
+          </h1>
+          <p
+            className="login-text"
+          >
+            Sign in to the Members Area
+          </p>
+          <form
+            onSubmit={[Function]}
+          >
+            <TextFieldGroup
+              name="email"
+              onChange={[Function]}
+              placeholder="Email Address"
+              type="email"
+              value=""
+            />
+            <TextFieldGroup
+              name="password"
+              onChange={[Function]}
+              placeholder="Password"
+              type="password"
+              value=""
+            />
+            <input
+              className="button button-info"
+              type="submit"
+            />
+          </form>
+          <div
+            className="login-request"
+          >
+            <Link
+              replace={false}
+              to="/register"
             >
-              <h1
-                className="login-title"
-              >
-                Log In
-              </h1>
-              <p
-                className="login-text"
-              >
-                Sign in to the Members Area
-              </p>
-              <form
-                onSubmit={[Function]}
-              >
-                <TextFieldGroup
-                  name="email"
-                  onChange={[Function]}
-                  placeholder="Email Address"
-                  type="email"
-                  value=""
-                />
-                <TextFieldGroup
-                  name="password"
-                  onChange={[Function]}
-                  placeholder="Password"
-                  type="password"
-                  value=""
-                />
-                <input
-                  className="button button-info"
-                  type="submit"
-                />
-              </form>
-            </div>
+              New - Click here to request membership
+            </Link>
           </div>
         </div>,
         "className": "login",
@@ -888,241 +786,184 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": <div
-            className="row"
-          >
-            <div
-              className="col-md-8 m-auto"
+          "children": Array [
+            <h1
+              className="login-title"
             >
-              <h1
-                className="login-title"
+              Log In
+            </h1>,
+            <p
+              className="login-text"
+            >
+              Sign in to the Members Area
+            </p>,
+            <form
+              onSubmit={[Function]}
+            >
+              <TextFieldGroup
+                name="email"
+                onChange={[Function]}
+                placeholder="Email Address"
+                type="email"
+                value=""
+              />
+              <TextFieldGroup
+                name="password"
+                onChange={[Function]}
+                placeholder="Password"
+                type="password"
+                value=""
+              />
+              <input
+                className="button button-info"
+                type="submit"
+              />
+            </form>,
+            <div
+              className="login-request"
+            >
+              <Link
+                replace={false}
+                to="/register"
               >
-                Log In
-              </h1>
-              <p
-                className="login-text"
-              >
-                Sign in to the Members Area
-              </p>
-              <form
-                onSubmit={[Function]}
-              >
-                <TextFieldGroup
-                  name="email"
-                  onChange={[Function]}
-                  placeholder="Email Address"
-                  type="email"
-                  value=""
-                />
-                <TextFieldGroup
-                  name="password"
-                  onChange={[Function]}
-                  placeholder="Password"
-                  type="password"
-                  value=""
-                />
-                <input
-                  className="button button-info"
-                  type="submit"
-                />
-              </form>
-            </div>
-          </div>,
-          "className": "container",
+                New - Click here to request membership
+              </Link>
+            </div>,
+          ],
+          "className": "content-container",
         },
         "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": <div
-              className="col-md-8 m-auto"
-            >
-              <h1
-                className="login-title"
-              >
-                Log In
-              </h1>
-              <p
-                className="login-text"
-              >
-                Sign in to the Members Area
-              </p>
-              <form
-                onSubmit={[Function]}
-              >
-                <TextFieldGroup
-                  name="email"
-                  onChange={[Function]}
-                  placeholder="Email Address"
-                  type="email"
-                  value=""
-                />
-                <TextFieldGroup
-                  name="password"
-                  onChange={[Function]}
-                  placeholder="Password"
-                  type="password"
-                  value=""
-                />
-                <input
-                  className="button button-info"
-                  type="submit"
-                />
-              </form>
-            </div>,
-            "className": "row",
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Log In",
+              "className": "login-title",
+            },
+            "ref": null,
+            "rendered": "Log In",
+            "type": "h1",
           },
-          "ref": null,
-          "rendered": Object {
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Sign in to the Members Area",
+              "className": "login-text",
+            },
+            "ref": null,
+            "rendered": "Sign in to the Members Area",
+            "type": "p",
+          },
+          Object {
             "instance": null,
             "key": undefined,
             "nodeType": "host",
             "props": Object {
               "children": Array [
-                <h1
-                  className="login-title"
-                >
-                  Log In
-                </h1>,
-                <p
-                  className="login-text"
-                >
-                  Sign in to the Members Area
-                </p>,
-                <form
-                  onSubmit={[Function]}
-                >
-                  <TextFieldGroup
-                    name="email"
-                    onChange={[Function]}
-                    placeholder="Email Address"
-                    type="email"
-                    value=""
-                  />
-                  <TextFieldGroup
-                    name="password"
-                    onChange={[Function]}
-                    placeholder="Password"
-                    type="password"
-                    value=""
-                  />
-                  <input
-                    className="button button-info"
-                    type="submit"
-                  />
-                </form>,
+                <TextFieldGroup
+                  name="email"
+                  onChange={[Function]}
+                  placeholder="Email Address"
+                  type="email"
+                  value=""
+                />,
+                <TextFieldGroup
+                  name="password"
+                  onChange={[Function]}
+                  placeholder="Password"
+                  type="password"
+                  value=""
+                />,
+                <input
+                  className="button button-info"
+                  type="submit"
+                />,
               ],
-              "className": "col-md-8 m-auto",
+              "onSubmit": [Function],
             },
             "ref": null,
             "rendered": Array [
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "host",
+                "nodeType": "function",
                 "props": Object {
-                  "children": "Log In",
-                  "className": "login-title",
+                  "error": undefined,
+                  "name": "email",
+                  "onChange": [Function],
+                  "placeholder": "Email Address",
+                  "type": "email",
+                  "value": "",
                 },
                 "ref": null,
-                "rendered": "Log In",
-                "type": "h1",
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "error": undefined,
+                  "name": "password",
+                  "onChange": [Function],
+                  "placeholder": "Password",
+                  "type": "password",
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
               },
               Object {
                 "instance": null,
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "Sign in to the Members Area",
-                  "className": "login-text",
+                  "className": "button button-info",
+                  "type": "submit",
                 },
                 "ref": null,
-                "rendered": "Sign in to the Members Area",
-                "type": "p",
-              },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": Array [
-                    <TextFieldGroup
-                      name="email"
-                      onChange={[Function]}
-                      placeholder="Email Address"
-                      type="email"
-                      value=""
-                    />,
-                    <TextFieldGroup
-                      name="password"
-                      onChange={[Function]}
-                      placeholder="Password"
-                      type="password"
-                      value=""
-                    />,
-                    <input
-                      className="button button-info"
-                      type="submit"
-                    />,
-                  ],
-                  "onSubmit": [Function],
-                },
-                "ref": null,
-                "rendered": Array [
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "function",
-                    "props": Object {
-                      "error": undefined,
-                      "name": "email",
-                      "onChange": [Function],
-                      "placeholder": "Email Address",
-                      "type": "email",
-                      "value": "",
-                    },
-                    "ref": null,
-                    "rendered": null,
-                    "type": [Function],
-                  },
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "function",
-                    "props": Object {
-                      "error": undefined,
-                      "name": "password",
-                      "onChange": [Function],
-                      "placeholder": "Password",
-                      "type": "password",
-                      "value": "",
-                    },
-                    "ref": null,
-                    "rendered": null,
-                    "type": [Function],
-                  },
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "className": "button button-info",
-                      "type": "submit",
-                    },
-                    "ref": null,
-                    "rendered": null,
-                    "type": "input",
-                  },
-                ],
-                "type": "form",
+                "rendered": null,
+                "type": "input",
               },
             ],
+            "type": "form",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <Link
+                replace={false}
+                to="/register"
+              >
+                New - Click here to request membership
+              </Link>,
+              "className": "login-request",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "New - Click here to request membership",
+                "replace": false,
+                "to": "/register",
+              },
+              "ref": null,
+              "rendered": "New - Click here to request membership",
+              "type": [Function],
+            },
             "type": "div",
           },
-          "type": "div",
-        },
+        ],
         "type": "div",
       },
       "type": "div",
@@ -1139,47 +980,49 @@ ShallowWrapper {
           className="login"
         >
           <div
-            className="container"
+            className="content-container"
           >
-            <div
-              className="row"
+            <h1
+              className="login-title"
             >
-              <div
-                className="col-md-8 m-auto"
+              Log In
+            </h1>
+            <p
+              className="login-text"
+            >
+              Sign in to the Members Area
+            </p>
+            <form
+              onSubmit={[Function]}
+            >
+              <TextFieldGroup
+                name="email"
+                onChange={[Function]}
+                placeholder="Email Address"
+                type="email"
+                value=""
+              />
+              <TextFieldGroup
+                name="password"
+                onChange={[Function]}
+                placeholder="Password"
+                type="password"
+                value=""
+              />
+              <input
+                className="button button-info"
+                type="submit"
+              />
+            </form>
+            <div
+              className="login-request"
+            >
+              <Link
+                replace={false}
+                to="/register"
               >
-                <h1
-                  className="login-title"
-                >
-                  Log In
-                </h1>
-                <p
-                  className="login-text"
-                >
-                  Sign in to the Members Area
-                </p>
-                <form
-                  onSubmit={[Function]}
-                >
-                  <TextFieldGroup
-                    name="email"
-                    onChange={[Function]}
-                    placeholder="Email Address"
-                    type="email"
-                    value=""
-                  />
-                  <TextFieldGroup
-                    name="password"
-                    onChange={[Function]}
-                    placeholder="Password"
-                    type="password"
-                    value=""
-                  />
-                  <input
-                    className="button button-info"
-                    type="submit"
-                  />
-                </form>
-              </div>
+                New - Click here to request membership
+              </Link>
             </div>
           </div>
         </div>,
@@ -1191,47 +1034,49 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": <div
-            className="container"
+            className="content-container"
           >
-            <div
-              className="row"
+            <h1
+              className="login-title"
             >
-              <div
-                className="col-md-8 m-auto"
+              Log In
+            </h1>
+            <p
+              className="login-text"
+            >
+              Sign in to the Members Area
+            </p>
+            <form
+              onSubmit={[Function]}
+            >
+              <TextFieldGroup
+                name="email"
+                onChange={[Function]}
+                placeholder="Email Address"
+                type="email"
+                value=""
+              />
+              <TextFieldGroup
+                name="password"
+                onChange={[Function]}
+                placeholder="Password"
+                type="password"
+                value=""
+              />
+              <input
+                className="button button-info"
+                type="submit"
+              />
+            </form>
+            <div
+              className="login-request"
+            >
+              <Link
+                replace={false}
+                to="/register"
               >
-                <h1
-                  className="login-title"
-                >
-                  Log In
-                </h1>
-                <p
-                  className="login-text"
-                >
-                  Sign in to the Members Area
-                </p>
-                <form
-                  onSubmit={[Function]}
-                >
-                  <TextFieldGroup
-                    name="email"
-                    onChange={[Function]}
-                    placeholder="Email Address"
-                    type="email"
-                    value=""
-                  />
-                  <TextFieldGroup
-                    name="password"
-                    onChange={[Function]}
-                    placeholder="Password"
-                    type="password"
-                    value=""
-                  />
-                  <input
-                    className="button button-info"
-                    type="submit"
-                  />
-                </form>
-              </div>
+                New - Click here to request membership
+              </Link>
             </div>
           </div>,
           "className": "login",
@@ -1242,241 +1087,184 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": <div
-              className="row"
-            >
-              <div
-                className="col-md-8 m-auto"
+            "children": Array [
+              <h1
+                className="login-title"
               >
-                <h1
-                  className="login-title"
+                Log In
+              </h1>,
+              <p
+                className="login-text"
+              >
+                Sign in to the Members Area
+              </p>,
+              <form
+                onSubmit={[Function]}
+              >
+                <TextFieldGroup
+                  name="email"
+                  onChange={[Function]}
+                  placeholder="Email Address"
+                  type="email"
+                  value=""
+                />
+                <TextFieldGroup
+                  name="password"
+                  onChange={[Function]}
+                  placeholder="Password"
+                  type="password"
+                  value=""
+                />
+                <input
+                  className="button button-info"
+                  type="submit"
+                />
+              </form>,
+              <div
+                className="login-request"
+              >
+                <Link
+                  replace={false}
+                  to="/register"
                 >
-                  Log In
-                </h1>
-                <p
-                  className="login-text"
-                >
-                  Sign in to the Members Area
-                </p>
-                <form
-                  onSubmit={[Function]}
-                >
-                  <TextFieldGroup
-                    name="email"
-                    onChange={[Function]}
-                    placeholder="Email Address"
-                    type="email"
-                    value=""
-                  />
-                  <TextFieldGroup
-                    name="password"
-                    onChange={[Function]}
-                    placeholder="Password"
-                    type="password"
-                    value=""
-                  />
-                  <input
-                    className="button button-info"
-                    type="submit"
-                  />
-                </form>
-              </div>
-            </div>,
-            "className": "container",
+                  New - Click here to request membership
+                </Link>
+              </div>,
+            ],
+            "className": "content-container",
           },
           "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": <div
-                className="col-md-8 m-auto"
-              >
-                <h1
-                  className="login-title"
-                >
-                  Log In
-                </h1>
-                <p
-                  className="login-text"
-                >
-                  Sign in to the Members Area
-                </p>
-                <form
-                  onSubmit={[Function]}
-                >
-                  <TextFieldGroup
-                    name="email"
-                    onChange={[Function]}
-                    placeholder="Email Address"
-                    type="email"
-                    value=""
-                  />
-                  <TextFieldGroup
-                    name="password"
-                    onChange={[Function]}
-                    placeholder="Password"
-                    type="password"
-                    value=""
-                  />
-                  <input
-                    className="button button-info"
-                    type="submit"
-                  />
-                </form>
-              </div>,
-              "className": "row",
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Log In",
+                "className": "login-title",
+              },
+              "ref": null,
+              "rendered": "Log In",
+              "type": "h1",
             },
-            "ref": null,
-            "rendered": Object {
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Sign in to the Members Area",
+                "className": "login-text",
+              },
+              "ref": null,
+              "rendered": "Sign in to the Members Area",
+              "type": "p",
+            },
+            Object {
               "instance": null,
               "key": undefined,
               "nodeType": "host",
               "props": Object {
                 "children": Array [
-                  <h1
-                    className="login-title"
-                  >
-                    Log In
-                  </h1>,
-                  <p
-                    className="login-text"
-                  >
-                    Sign in to the Members Area
-                  </p>,
-                  <form
-                    onSubmit={[Function]}
-                  >
-                    <TextFieldGroup
-                      name="email"
-                      onChange={[Function]}
-                      placeholder="Email Address"
-                      type="email"
-                      value=""
-                    />
-                    <TextFieldGroup
-                      name="password"
-                      onChange={[Function]}
-                      placeholder="Password"
-                      type="password"
-                      value=""
-                    />
-                    <input
-                      className="button button-info"
-                      type="submit"
-                    />
-                  </form>,
+                  <TextFieldGroup
+                    name="email"
+                    onChange={[Function]}
+                    placeholder="Email Address"
+                    type="email"
+                    value=""
+                  />,
+                  <TextFieldGroup
+                    name="password"
+                    onChange={[Function]}
+                    placeholder="Password"
+                    type="password"
+                    value=""
+                  />,
+                  <input
+                    className="button button-info"
+                    type="submit"
+                  />,
                 ],
-                "className": "col-md-8 m-auto",
+                "onSubmit": [Function],
               },
               "ref": null,
               "rendered": Array [
                 Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "host",
+                  "nodeType": "function",
                   "props": Object {
-                    "children": "Log In",
-                    "className": "login-title",
+                    "error": undefined,
+                    "name": "email",
+                    "onChange": [Function],
+                    "placeholder": "Email Address",
+                    "type": "email",
+                    "value": "",
                   },
                   "ref": null,
-                  "rendered": "Log In",
-                  "type": "h1",
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "error": undefined,
+                    "name": "password",
+                    "onChange": [Function],
+                    "placeholder": "Password",
+                    "type": "password",
+                    "value": "",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
                 },
                 Object {
                   "instance": null,
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "Sign in to the Members Area",
-                    "className": "login-text",
+                    "className": "button button-info",
+                    "type": "submit",
                   },
                   "ref": null,
-                  "rendered": "Sign in to the Members Area",
-                  "type": "p",
-                },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": Array [
-                      <TextFieldGroup
-                        name="email"
-                        onChange={[Function]}
-                        placeholder="Email Address"
-                        type="email"
-                        value=""
-                      />,
-                      <TextFieldGroup
-                        name="password"
-                        onChange={[Function]}
-                        placeholder="Password"
-                        type="password"
-                        value=""
-                      />,
-                      <input
-                        className="button button-info"
-                        type="submit"
-                      />,
-                    ],
-                    "onSubmit": [Function],
-                  },
-                  "ref": null,
-                  "rendered": Array [
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "function",
-                      "props": Object {
-                        "error": undefined,
-                        "name": "email",
-                        "onChange": [Function],
-                        "placeholder": "Email Address",
-                        "type": "email",
-                        "value": "",
-                      },
-                      "ref": null,
-                      "rendered": null,
-                      "type": [Function],
-                    },
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "function",
-                      "props": Object {
-                        "error": undefined,
-                        "name": "password",
-                        "onChange": [Function],
-                        "placeholder": "Password",
-                        "type": "password",
-                        "value": "",
-                      },
-                      "ref": null,
-                      "rendered": null,
-                      "type": [Function],
-                    },
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "className": "button button-info",
-                        "type": "submit",
-                      },
-                      "ref": null,
-                      "rendered": null,
-                      "type": "input",
-                    },
-                  ],
-                  "type": "form",
+                  "rendered": null,
+                  "type": "input",
                 },
               ],
+              "type": "form",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <Link
+                  replace={false}
+                  to="/register"
+                >
+                  New - Click here to request membership
+                </Link>,
+                "className": "login-request",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "New - Click here to request membership",
+                  "replace": false,
+                  "to": "/register",
+                },
+                "ref": null,
+                "rendered": "New - Click here to request membership",
+                "type": [Function],
+              },
               "type": "div",
             },
-            "type": "div",
-          },
+          ],
           "type": "div",
         },
         "type": "div",
