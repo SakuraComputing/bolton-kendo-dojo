@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import { Link } from 'react-router-dom';
 import { loginUser } from '../../actions/authActions';
 import PropTypes from 'prop-types';
 import TextFieldGroup from '../../common/TextFieldGroup';
@@ -66,8 +67,12 @@ export class Login extends Component {
                             />
                             <input
                                 type="submit"
-                                className="button button-info"/>
+                                className="button button-info"
+                            />
                         </form>
+                        <div className="login-request">
+                            <Link to="/register">New - Click here to request membership</Link>
+                        </div>
                     </div>
                 </div>
             </div>
