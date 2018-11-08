@@ -8,10 +8,8 @@ describe('Login Form', () => {
 
     beforeEach(() => {
         const loginUser = jest.fn();
-        const errors = { twat: 'twat' }
-        const props = {
-            auth: 'balls'
-        }
+        const errors = { errors: 'error' }
+        const props = { auth: 'auth'}
         wrapper = shallow(<Login 
             loginUser={loginUser}
             auth={props}

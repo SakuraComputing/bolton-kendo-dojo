@@ -6,12 +6,12 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <Login
     auth={
       Object {
-        "auth": "balls",
+        "auth": "auth",
       }
     }
     errors={
       Object {
-        "twat": "twat",
+        "errors": "error",
       }
     }
     loginUser={[MockFunction]}
@@ -758,12 +758,12 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <Login
     auth={
       Object {
-        "auth": "balls",
+        "auth": "auth",
       }
     }
     errors={
       Object {
-        "twat": "twat",
+        "errors": "error",
       }
     }
     loginUser={[MockFunction]}
