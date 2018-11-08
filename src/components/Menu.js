@@ -16,7 +16,7 @@ const Menu = () => {
                 <Link to="/history">Club History</Link>
             </li>
             <li>
-                <Link to="/whatskendo">What is Kendo</Link>
+                <Link to="/theory">What is Kendo</Link>
             </li>
             <li>
                 <Link to="/study">Kendo Study</Link>

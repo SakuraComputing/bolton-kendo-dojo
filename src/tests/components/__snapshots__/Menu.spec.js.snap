@@ -47,7 +47,7 @@ ShallowWrapper {
         <li>
           <Link
             replace={false}
-            to="/whatskendo"
+            to="/theory"
           >
             What is Kendo
           </Link>
@@ -128,7 +128,7 @@ ShallowWrapper {
           <li>
             <Link
               replace={false}
-              to="/whatskendo"
+              to="/theory"
             >
               What is Kendo
             </Link>
@@ -269,7 +269,7 @@ ShallowWrapper {
           "props": Object {
             "children": <Link
               replace={false}
-              to="/whatskendo"
+              to="/theory"
             >
               What is Kendo
             </Link>,
@@ -282,7 +282,7 @@ ShallowWrapper {
             "props": Object {
               "children": "What is Kendo",
               "replace": false,
-              "to": "/whatskendo",
+              "to": "/theory",
             },
             "ref": null,
             "rendered": "What is Kendo",
@@ -471,7 +471,7 @@ ShallowWrapper {
           <li>
             <Link
               replace={false}
-              to="/whatskendo"
+              to="/theory"
             >
               What is Kendo
             </Link>
@@ -552,7 +552,7 @@ ShallowWrapper {
             <li>
               <Link
                 replace={false}
-                to="/whatskendo"
+                to="/theory"
               >
                 What is Kendo
               </Link>
@@ -693,7 +693,7 @@ ShallowWrapper {
             "props": Object {
               "children": <Link
                 replace={false}
-                to="/whatskendo"
+                to="/theory"
               >
                 What is Kendo
               </Link>,
@@ -706,7 +706,7 @@ ShallowWrapper {
               "props": Object {
                 "children": "What is Kendo",
                 "replace": false,
-                "to": "/whatskendo",
+                "to": "/theory",
               },
               "ref": null,
               "rendered": "What is Kendo",

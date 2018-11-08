@@ -6,6 +6,7 @@ import Login from '../components/auth/login';
 import Menu from '../components/Menu';
 import Footer from '../components/Footer';
 import Register from '../components/auth/Register';
+import TheoryPage from '../components/static/TheoryPage';
 
 import '../styles/styles.scss';
 
@@ -17,6 +18,7 @@ const AppRouter = () => (
                 <Route path="/" component={LandingPage} exact={true}/>
                 <Route exact path="/login" component={Login}></Route>
                 <Route exact path="/register" component={Register}></Route>
+                <Route exact path="/theory" component={TheoryPage}></Route>
             </Switch>
             <Footer />
         </div>
