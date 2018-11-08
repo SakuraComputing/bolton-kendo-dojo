@@ -17,7 +17,6 @@ export class Login extends Component {
     }
     
     componentWillReceiveProps(nextProps) {
-        console.log('Component Will Mount', nextProps);
         if(nextProps.errors) {
             this.setState({ errors: nextProps.errors });
         }

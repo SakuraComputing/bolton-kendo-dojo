@@ -36,12 +36,12 @@ ShallowWrapper {
           className="content-container"
         >
           <h1
-            className="login-title"
+            className="form-title"
           >
             Log In
           </h1>
           <p
-            className="login-text"
+            className="form-text"
           >
             Sign in to the Members Area
           </p>
@@ -90,12 +90,12 @@ ShallowWrapper {
           className="content-container"
         >
           <h1
-            className="login-title"
+            className="form-title"
           >
             Log In
           </h1>
           <p
-            className="login-text"
+            className="form-text"
           >
             Sign in to the Members Area
           </p>
@@ -142,12 +142,12 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <h1
-              className="login-title"
+              className="form-title"
             >
               Log In
             </h1>,
             <p
-              className="login-text"
+              className="form-text"
             >
               Sign in to the Members Area
             </p>,
@@ -194,7 +194,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": "Log In",
-              "className": "login-title",
+              "className": "form-title",
             },
             "ref": null,
             "rendered": "Log In",
@@ -206,7 +206,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": "Sign in to the Members Area",
-              "className": "login-text",
+              "className": "form-text",
             },
             "ref": null,
             "rendered": "Sign in to the Members Area",
@@ -337,12 +337,12 @@ ShallowWrapper {
             className="content-container"
           >
             <h1
-              className="login-title"
+              className="form-title"
             >
               Log In
             </h1>
             <p
-              className="login-text"
+              className="form-text"
             >
               Sign in to the Members Area
             </p>
@@ -391,12 +391,12 @@ ShallowWrapper {
             className="content-container"
           >
             <h1
-              className="login-title"
+              className="form-title"
             >
               Log In
             </h1>
             <p
-              className="login-text"
+              className="form-text"
             >
               Sign in to the Members Area
             </p>
@@ -443,12 +443,12 @@ ShallowWrapper {
           "props": Object {
             "children": Array [
               <h1
-                className="login-title"
+                className="form-title"
               >
                 Log In
               </h1>,
               <p
-                className="login-text"
+                className="form-text"
               >
                 Sign in to the Members Area
               </p>,
@@ -495,7 +495,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": "Log In",
-                "className": "login-title",
+                "className": "form-title",
               },
               "ref": null,
               "rendered": "Log In",
@@ -507,7 +507,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": "Sign in to the Members Area",
-                "className": "login-text",
+                "className": "form-text",
               },
               "ref": null,
               "rendered": "Sign in to the Members Area",
@@ -682,12 +682,12 @@ ShallowWrapper {
           className="content-container"
         >
           <h1
-            className="login-title"
+            className="form-title"
           >
             Log In
           </h1>
           <p
-            className="login-text"
+            className="form-text"
           >
             Sign in to the Members Area
           </p>
@@ -736,12 +736,12 @@ ShallowWrapper {
           className="content-container"
         >
           <h1
-            className="login-title"
+            className="form-title"
           >
             Log In
           </h1>
           <p
-            className="login-text"
+            className="form-text"
           >
             Sign in to the Members Area
           </p>
@@ -788,12 +788,12 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <h1
-              className="login-title"
+              className="form-title"
             >
               Log In
             </h1>,
             <p
-              className="login-text"
+              className="form-text"
             >
               Sign in to the Members Area
             </p>,
@@ -840,7 +840,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": "Log In",
-              "className": "login-title",
+              "className": "form-title",
             },
             "ref": null,
             "rendered": "Log In",
@@ -852,7 +852,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": "Sign in to the Members Area",
-              "className": "login-text",
+              "className": "form-text",
             },
             "ref": null,
             "rendered": "Sign in to the Members Area",
@@ -983,12 +983,12 @@ ShallowWrapper {
             className="content-container"
           >
             <h1
-              className="login-title"
+              className="form-title"
             >
               Log In
             </h1>
             <p
-              className="login-text"
+              className="form-text"
             >
               Sign in to the Members Area
             </p>
@@ -1037,12 +1037,12 @@ ShallowWrapper {
             className="content-container"
           >
             <h1
-              className="login-title"
+              className="form-title"
             >
               Log In
             </h1>
             <p
-              className="login-text"
+              className="form-text"
             >
               Sign in to the Members Area
             </p>
@@ -1089,12 +1089,12 @@ ShallowWrapper {
           "props": Object {
             "children": Array [
               <h1
-                className="login-title"
+                className="form-title"
               >
                 Log In
               </h1>,
               <p
-                className="login-text"
+                className="form-text"
               >
                 Sign in to the Members Area
               </p>,
@@ -1141,7 +1141,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": "Log In",
-                "className": "login-title",
+                "className": "form-title",
               },
               "ref": null,
               "rendered": "Log In",
@@ -1153,7 +1153,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": "Sign in to the Members Area",
-                "className": "login-text",
+                "className": "form-text",
               },
               "ref": null,
               "rendered": "Sign in to the Members Area",

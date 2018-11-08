@@ -33,15 +33,15 @@ ShallowWrapper {
         className="container"
       >
         <h1
-          className="display-4 text-center"
+          className="form-title"
         >
           Sign Up
         </h1>
-        <h3
-          className="lead text-center"
+        <p
+          className="form-text"
         >
           Create your Members Account
-        </h3>
+        </p>
         <form
           noValidate={true}
           onSubmit={[Function]}
@@ -90,15 +90,15 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <h1
-            className="display-4 text-center"
+            className="form-title"
           >
             Sign Up
           </h1>,
-          <h3
-            className="lead text-center"
+          <p
+            className="form-text"
           >
             Create your Members Account
-          </h3>,
+          </p>,
           <form
             noValidate={true}
             onSubmit={[Function]}
@@ -147,7 +147,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "Sign Up",
-            "className": "display-4 text-center",
+            "className": "form-title",
           },
           "ref": null,
           "rendered": "Sign Up",
@@ -159,11 +159,11 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "Create your Members Account",
-            "className": "lead text-center",
+            "className": "form-text",
           },
           "ref": null,
           "rendered": "Create your Members Account",
-          "type": "h3",
+          "type": "p",
         },
         Object {
           "instance": null,
@@ -303,15 +303,15 @@ ShallowWrapper {
           className="container"
         >
           <h1
-            className="display-4 text-center"
+            className="form-title"
           >
             Sign Up
           </h1>
-          <h3
-            className="lead text-center"
+          <p
+            className="form-text"
           >
             Create your Members Account
-          </h3>
+          </p>
           <form
             noValidate={true}
             onSubmit={[Function]}
@@ -360,15 +360,15 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <h1
-              className="display-4 text-center"
+              className="form-title"
             >
               Sign Up
             </h1>,
-            <h3
-              className="lead text-center"
+            <p
+              className="form-text"
             >
               Create your Members Account
-            </h3>,
+            </p>,
             <form
               noValidate={true}
               onSubmit={[Function]}
@@ -417,7 +417,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": "Sign Up",
-              "className": "display-4 text-center",
+              "className": "form-title",
             },
             "ref": null,
             "rendered": "Sign Up",
@@ -429,11 +429,11 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": "Create your Members Account",
-              "className": "lead text-center",
+              "className": "form-text",
             },
             "ref": null,
             "rendered": "Create your Members Account",
-            "type": "h3",
+            "type": "p",
           },
           Object {
             "instance": null,
@@ -617,15 +617,15 @@ ShallowWrapper {
         className="container"
       >
         <h1
-          className="display-4 text-center"
+          className="form-title"
         >
           Sign Up
         </h1>
-        <h3
-          className="lead text-center"
+        <p
+          className="form-text"
         >
           Create your Members Account
-        </h3>
+        </p>
         <form
           noValidate={true}
           onSubmit={[Function]}
@@ -674,15 +674,15 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <h1
-            className="display-4 text-center"
+            className="form-title"
           >
             Sign Up
           </h1>,
-          <h3
-            className="lead text-center"
+          <p
+            className="form-text"
           >
             Create your Members Account
-          </h3>,
+          </p>,
           <form
             noValidate={true}
             onSubmit={[Function]}
@@ -731,7 +731,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "Sign Up",
-            "className": "display-4 text-center",
+            "className": "form-title",
           },
           "ref": null,
           "rendered": "Sign Up",
@@ -743,11 +743,11 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "Create your Members Account",
-            "className": "lead text-center",
+            "className": "form-text",
           },
           "ref": null,
           "rendered": "Create your Members Account",
-          "type": "h3",
+          "type": "p",
         },
         Object {
           "instance": null,
@@ -887,15 +887,15 @@ ShallowWrapper {
           className="container"
         >
           <h1
-            className="display-4 text-center"
+            className="form-title"
           >
             Sign Up
           </h1>
-          <h3
-            className="lead text-center"
+          <p
+            className="form-text"
           >
             Create your Members Account
-          </h3>
+          </p>
           <form
             noValidate={true}
             onSubmit={[Function]}
@@ -944,15 +944,15 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <h1
-              className="display-4 text-center"
+              className="form-title"
             >
               Sign Up
             </h1>,
-            <h3
-              className="lead text-center"
+            <p
+              className="form-text"
             >
               Create your Members Account
-            </h3>,
+            </p>,
             <form
               noValidate={true}
               onSubmit={[Function]}
@@ -1001,7 +1001,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": "Sign Up",
-              "className": "display-4 text-center",
+              "className": "form-title",
             },
             "ref": null,
             "rendered": "Sign Up",
@@ -1013,11 +1013,11 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": "Create your Members Account",
-              "className": "lead text-center",
+              "className": "form-text",
             },
             "ref": null,
             "rendered": "Create your Members Account",
-            "type": "h3",
+            "type": "p",
           },
           Object {
             "instance": null,
