@@ -27,12 +27,18 @@
 .button-info {
     margin-top: 2em;
     color: $blue-black;
-    background-color: #ffedb3;
-    transition: 0.5s
+    background-color: $light-orange;
+    transition: 0.5s;
+    outline-color: $dark-orange;
 }
 
 .button-info:hover {
     background-color: #ffc91a;
+}
+
+// error messsgae
+.invalid-feedback {
+    color: $warning-red;
 }
 
 
