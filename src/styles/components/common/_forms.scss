@@ -1,0 +1,38 @@
+.form-group {
+    padding: 10px;
+}
+
+.input-box {
+    padding: 10px;
+    border: solid 1px $dark-grey;
+    border-radius: 5px;
+    font-size: 100%;
+    width: 20em;
+    transition: 0.3s;
+}
+
+.input-box:hover {
+  background-color: $light-blue;
+}
+
+.button {
+    border: solid 1px $blue-black;
+    padding: .9em;
+    border-radius: 5px;
+    font-size: 100%;
+    font-weight: bold;
+    width: 130px;
+}
+
+.button-info {
+    margin-top: 2em;
+    color: $blue-black;
+    background-color: #ffedb3;
+    transition: 0.5s
+}
+
+.button-info:hover {
+    background-color: #ffc91a;
+}
+
+

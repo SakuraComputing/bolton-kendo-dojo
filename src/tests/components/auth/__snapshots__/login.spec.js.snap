@@ -30,12 +30,12 @@ ShallowWrapper {
               className="col-md-8 m-auto"
             >
               <h1
-                className="display-4 text-center"
+                className="login-title"
               >
                 Log In
               </h1>
               <p
-                className="lead text-center"
+                className="login-text"
               >
                 Sign in to the Members Area
               </p>
@@ -57,7 +57,7 @@ ShallowWrapper {
                   value=""
                 />
                 <input
-                  className="btn btn-info btn-block mt-4"
+                  className="button button-info"
                   type="submit"
                 />
               </form>
@@ -82,12 +82,12 @@ ShallowWrapper {
               className="col-md-8 m-auto"
             >
               <h1
-                className="display-4 text-center"
+                className="login-title"
               >
                 Log In
               </h1>
               <p
-                className="lead text-center"
+                className="login-text"
               >
                 Sign in to the Members Area
               </p>
@@ -109,7 +109,7 @@ ShallowWrapper {
                   value=""
                 />
                 <input
-                  className="btn btn-info btn-block mt-4"
+                  className="button button-info"
                   type="submit"
                 />
               </form>
@@ -131,12 +131,12 @@ ShallowWrapper {
               className="col-md-8 m-auto"
             >
               <h1
-                className="display-4 text-center"
+                className="login-title"
               >
                 Log In
               </h1>
               <p
-                className="lead text-center"
+                className="login-text"
               >
                 Sign in to the Members Area
               </p>
@@ -158,7 +158,7 @@ ShallowWrapper {
                   value=""
                 />
                 <input
-                  className="btn btn-info btn-block mt-4"
+                  className="button button-info"
                   type="submit"
                 />
               </form>
@@ -176,12 +176,12 @@ ShallowWrapper {
               className="col-md-8 m-auto"
             >
               <h1
-                className="display-4 text-center"
+                className="login-title"
               >
                 Log In
               </h1>
               <p
-                className="lead text-center"
+                className="login-text"
               >
                 Sign in to the Members Area
               </p>
@@ -203,7 +203,7 @@ ShallowWrapper {
                   value=""
                 />
                 <input
-                  className="btn btn-info btn-block mt-4"
+                  className="button button-info"
                   type="submit"
                 />
               </form>
@@ -218,12 +218,12 @@ ShallowWrapper {
             "props": Object {
               "children": Array [
                 <h1
-                  className="display-4 text-center"
+                  className="login-title"
                 >
                   Log In
                 </h1>,
                 <p
-                  className="lead text-center"
+                  className="login-text"
                 >
                   Sign in to the Members Area
                 </p>,
@@ -245,7 +245,7 @@ ShallowWrapper {
                     value=""
                   />
                   <input
-                    className="btn btn-info btn-block mt-4"
+                    className="button button-info"
                     type="submit"
                   />
                 </form>,
@@ -260,7 +260,7 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "children": "Log In",
-                  "className": "display-4 text-center",
+                  "className": "login-title",
                 },
                 "ref": null,
                 "rendered": "Log In",
@@ -272,7 +272,7 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "children": "Sign in to the Members Area",
-                  "className": "lead text-center",
+                  "className": "login-text",
                 },
                 "ref": null,
                 "rendered": "Sign in to the Members Area",
@@ -299,7 +299,7 @@ ShallowWrapper {
                       value=""
                     />,
                     <input
-                      className="btn btn-info btn-block mt-4"
+                      className="button button-info"
                       type="submit"
                     />,
                   ],
@@ -344,7 +344,7 @@ ShallowWrapper {
                     "key": undefined,
                     "nodeType": "host",
                     "props": Object {
-                      "className": "btn btn-info btn-block mt-4",
+                      "className": "button button-info",
                       "type": "submit",
                     },
                     "ref": null,
@@ -384,12 +384,12 @@ ShallowWrapper {
                 className="col-md-8 m-auto"
               >
                 <h1
-                  className="display-4 text-center"
+                  className="login-title"
                 >
                   Log In
                 </h1>
                 <p
-                  className="lead text-center"
+                  className="login-text"
                 >
                   Sign in to the Members Area
                 </p>
@@ -411,7 +411,7 @@ ShallowWrapper {
                     value=""
                   />
                   <input
-                    className="btn btn-info btn-block mt-4"
+                    className="button button-info"
                     type="submit"
                   />
                 </form>
@@ -436,12 +436,12 @@ ShallowWrapper {
                 className="col-md-8 m-auto"
               >
                 <h1
-                  className="display-4 text-center"
+                  className="login-title"
                 >
                   Log In
                 </h1>
                 <p
-                  className="lead text-center"
+                  className="login-text"
                 >
                   Sign in to the Members Area
                 </p>
@@ -463,7 +463,7 @@ ShallowWrapper {
                     value=""
                   />
                   <input
-                    className="btn btn-info btn-block mt-4"
+                    className="button button-info"
                     type="submit"
                   />
                 </form>
@@ -485,12 +485,12 @@ ShallowWrapper {
                 className="col-md-8 m-auto"
               >
                 <h1
-                  className="display-4 text-center"
+                  className="login-title"
                 >
                   Log In
                 </h1>
                 <p
-                  className="lead text-center"
+                  className="login-text"
                 >
                   Sign in to the Members Area
                 </p>
@@ -512,7 +512,7 @@ ShallowWrapper {
                     value=""
                   />
                   <input
-                    className="btn btn-info btn-block mt-4"
+                    className="button button-info"
                     type="submit"
                   />
                 </form>
@@ -530,12 +530,12 @@ ShallowWrapper {
                 className="col-md-8 m-auto"
               >
                 <h1
-                  className="display-4 text-center"
+                  className="login-title"
                 >
                   Log In
                 </h1>
                 <p
-                  className="lead text-center"
+                  className="login-text"
                 >
                   Sign in to the Members Area
                 </p>
@@ -557,7 +557,7 @@ ShallowWrapper {
                     value=""
                   />
                   <input
-                    className="btn btn-info btn-block mt-4"
+                    className="button button-info"
                     type="submit"
                   />
                 </form>
@@ -572,12 +572,12 @@ ShallowWrapper {
               "props": Object {
                 "children": Array [
                   <h1
-                    className="display-4 text-center"
+                    className="login-title"
                   >
                     Log In
                   </h1>,
                   <p
-                    className="lead text-center"
+                    className="login-text"
                   >
                     Sign in to the Members Area
                   </p>,
@@ -599,7 +599,7 @@ ShallowWrapper {
                       value=""
                     />
                     <input
-                      className="btn btn-info btn-block mt-4"
+                      className="button button-info"
                       type="submit"
                     />
                   </form>,
@@ -614,7 +614,7 @@ ShallowWrapper {
                   "nodeType": "host",
                   "props": Object {
                     "children": "Log In",
-                    "className": "display-4 text-center",
+                    "className": "login-title",
                   },
                   "ref": null,
                   "rendered": "Log In",
@@ -626,7 +626,7 @@ ShallowWrapper {
                   "nodeType": "host",
                   "props": Object {
                     "children": "Sign in to the Members Area",
-                    "className": "lead text-center",
+                    "className": "login-text",
                   },
                   "ref": null,
                   "rendered": "Sign in to the Members Area",
@@ -653,7 +653,7 @@ ShallowWrapper {
                         value=""
                       />,
                       <input
-                        className="btn btn-info btn-block mt-4"
+                        className="button button-info"
                         type="submit"
                       />,
                     ],
@@ -698,7 +698,7 @@ ShallowWrapper {
                       "key": undefined,
                       "nodeType": "host",
                       "props": Object {
-                        "className": "btn btn-info btn-block mt-4",
+                        "className": "button button-info",
                         "type": "submit",
                       },
                       "ref": null,
@@ -770,12 +770,12 @@ ShallowWrapper {
               className="col-md-8 m-auto"
             >
               <h1
-                className="display-4 text-center"
+                className="login-title"
               >
                 Log In
               </h1>
               <p
-                className="lead text-center"
+                className="login-text"
               >
                 Sign in to the Members Area
               </p>
@@ -797,7 +797,7 @@ ShallowWrapper {
                   value=""
                 />
                 <input
-                  className="btn btn-info btn-block mt-4"
+                  className="button button-info"
                   type="submit"
                 />
               </form>
@@ -822,12 +822,12 @@ ShallowWrapper {
               className="col-md-8 m-auto"
             >
               <h1
-                className="display-4 text-center"
+                className="login-title"
               >
                 Log In
               </h1>
               <p
-                className="lead text-center"
+                className="login-text"
               >
                 Sign in to the Members Area
               </p>
@@ -849,7 +849,7 @@ ShallowWrapper {
                   value=""
                 />
                 <input
-                  className="btn btn-info btn-block mt-4"
+                  className="button button-info"
                   type="submit"
                 />
               </form>
@@ -871,12 +871,12 @@ ShallowWrapper {
               className="col-md-8 m-auto"
             >
               <h1
-                className="display-4 text-center"
+                className="login-title"
               >
                 Log In
               </h1>
               <p
-                className="lead text-center"
+                className="login-text"
               >
                 Sign in to the Members Area
               </p>
@@ -898,7 +898,7 @@ ShallowWrapper {
                   value=""
                 />
                 <input
-                  className="btn btn-info btn-block mt-4"
+                  className="button button-info"
                   type="submit"
                 />
               </form>
@@ -916,12 +916,12 @@ ShallowWrapper {
               className="col-md-8 m-auto"
             >
               <h1
-                className="display-4 text-center"
+                className="login-title"
               >
                 Log In
               </h1>
               <p
-                className="lead text-center"
+                className="login-text"
               >
                 Sign in to the Members Area
               </p>
@@ -943,7 +943,7 @@ ShallowWrapper {
                   value=""
                 />
                 <input
-                  className="btn btn-info btn-block mt-4"
+                  className="button button-info"
                   type="submit"
                 />
               </form>
@@ -958,12 +958,12 @@ ShallowWrapper {
             "props": Object {
               "children": Array [
                 <h1
-                  className="display-4 text-center"
+                  className="login-title"
                 >
                   Log In
                 </h1>,
                 <p
-                  className="lead text-center"
+                  className="login-text"
                 >
                   Sign in to the Members Area
                 </p>,
@@ -985,7 +985,7 @@ ShallowWrapper {
                     value=""
                   />
                   <input
-                    className="btn btn-info btn-block mt-4"
+                    className="button button-info"
                     type="submit"
                   />
                 </form>,
@@ -1000,7 +1000,7 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "children": "Log In",
-                  "className": "display-4 text-center",
+                  "className": "login-title",
                 },
                 "ref": null,
                 "rendered": "Log In",
@@ -1012,7 +1012,7 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "children": "Sign in to the Members Area",
-                  "className": "lead text-center",
+                  "className": "login-text",
                 },
                 "ref": null,
                 "rendered": "Sign in to the Members Area",
@@ -1039,7 +1039,7 @@ ShallowWrapper {
                       value=""
                     />,
                     <input
-                      className="btn btn-info btn-block mt-4"
+                      className="button button-info"
                       type="submit"
                     />,
                   ],
@@ -1084,7 +1084,7 @@ ShallowWrapper {
                     "key": undefined,
                     "nodeType": "host",
                     "props": Object {
-                      "className": "btn btn-info btn-block mt-4",
+                      "className": "button button-info",
                       "type": "submit",
                     },
                     "ref": null,
@@ -1124,12 +1124,12 @@ ShallowWrapper {
                 className="col-md-8 m-auto"
               >
                 <h1
-                  className="display-4 text-center"
+                  className="login-title"
                 >
                   Log In
                 </h1>
                 <p
-                  className="lead text-center"
+                  className="login-text"
                 >
                   Sign in to the Members Area
                 </p>
@@ -1151,7 +1151,7 @@ ShallowWrapper {
                     value=""
                   />
                   <input
-                    className="btn btn-info btn-block mt-4"
+                    className="button button-info"
                     type="submit"
                   />
                 </form>
@@ -1176,12 +1176,12 @@ ShallowWrapper {
                 className="col-md-8 m-auto"
               >
                 <h1
-                  className="display-4 text-center"
+                  className="login-title"
                 >
                   Log In
                 </h1>
                 <p
-                  className="lead text-center"
+                  className="login-text"
                 >
                   Sign in to the Members Area
                 </p>
@@ -1203,7 +1203,7 @@ ShallowWrapper {
                     value=""
                   />
                   <input
-                    className="btn btn-info btn-block mt-4"
+                    className="button button-info"
                     type="submit"
                   />
                 </form>
@@ -1225,12 +1225,12 @@ ShallowWrapper {
                 className="col-md-8 m-auto"
               >
                 <h1
-                  className="display-4 text-center"
+                  className="login-title"
                 >
                   Log In
                 </h1>
                 <p
-                  className="lead text-center"
+                  className="login-text"
                 >
                   Sign in to the Members Area
                 </p>
@@ -1252,7 +1252,7 @@ ShallowWrapper {
                     value=""
                   />
                   <input
-                    className="btn btn-info btn-block mt-4"
+                    className="button button-info"
                     type="submit"
                   />
                 </form>
@@ -1270,12 +1270,12 @@ ShallowWrapper {
                 className="col-md-8 m-auto"
               >
                 <h1
-                  className="display-4 text-center"
+                  className="login-title"
                 >
                   Log In
                 </h1>
                 <p
-                  className="lead text-center"
+                  className="login-text"
                 >
                   Sign in to the Members Area
                 </p>
@@ -1297,7 +1297,7 @@ ShallowWrapper {
                     value=""
                   />
                   <input
-                    className="btn btn-info btn-block mt-4"
+                    className="button button-info"
                     type="submit"
                   />
                 </form>
@@ -1312,12 +1312,12 @@ ShallowWrapper {
               "props": Object {
                 "children": Array [
                   <h1
-                    className="display-4 text-center"
+                    className="login-title"
                   >
                     Log In
                   </h1>,
                   <p
-                    className="lead text-center"
+                    className="login-text"
                   >
                     Sign in to the Members Area
                   </p>,
@@ -1339,7 +1339,7 @@ ShallowWrapper {
                       value=""
                     />
                     <input
-                      className="btn btn-info btn-block mt-4"
+                      className="button button-info"
                       type="submit"
                     />
                   </form>,
@@ -1354,7 +1354,7 @@ ShallowWrapper {
                   "nodeType": "host",
                   "props": Object {
                     "children": "Log In",
-                    "className": "display-4 text-center",
+                    "className": "login-title",
                   },
                   "ref": null,
                   "rendered": "Log In",
@@ -1366,7 +1366,7 @@ ShallowWrapper {
                   "nodeType": "host",
                   "props": Object {
                     "children": "Sign in to the Members Area",
-                    "className": "lead text-center",
+                    "className": "login-text",
                   },
                   "ref": null,
                   "rendered": "Sign in to the Members Area",
@@ -1393,7 +1393,7 @@ ShallowWrapper {
                         value=""
                       />,
                       <input
-                        className="btn btn-info btn-block mt-4"
+                        className="button button-info"
                         type="submit"
                       />,
                     ],
@@ -1438,7 +1438,7 @@ ShallowWrapper {
                       "key": undefined,
                       "nodeType": "host",
                       "props": Object {
-                        "className": "btn btn-info btn-block mt-4",
+                        "className": "button button-info",
                         "type": "submit",
                       },
                       "ref": null,
