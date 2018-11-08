@@ -10,7 +10,7 @@ describe('Error Reducer', () => {
     it('should return a payload when GET_ERRORS is called', () => {
         const error = 'error';
         const action = { 
-            type: 'GET_ERRORS',
+            type: GET_ERRORS,
             payload: error
         };
         const state = errorReducer({}, action);

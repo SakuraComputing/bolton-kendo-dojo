@@ -6,26 +6,36 @@ import TextFieldGroup from '../../common/TextFieldGroup';
 
 export class Login extends Component {
 
-  state = {
-      email: '',
-      password: '',
-      errors: {}
-  }
+    constructor() {
+        super();
+        this.state = {
+             email: '',
+            password: '',
+            errors: {}
+        }
+    }
+    
+    componentWillReceiveProps(nextProps) {
+        console.log('Component Will Mount', nextProps);
+        if(nextProps.errors) {
+            this.setState({ errors: nextProps.errors });
+        }
+    }
 
-  onChange = (e) => {
-      this.setState({ [e.target.name]: e.target.value })
-  };
+    onChange = (e) => {
+        this.setState({ [e.target.name]: e.target.value })
+    };
 
-  onSubmit = (e) => {
-      e.preventDefault();
-      const userData = {
-          email: this.state.email,
-          password: this.state.password
-      };
-      this.props.loginUser(userData);
-  }
+    onSubmit = (e) => {
+        e.preventDefault();
+        const userData = {
+            email: this.state.email,
+            password: this.state.password
+        };
+        this.props.loginUser(userData);
+    }
 
-  render() {
+    render() {
 
     const { errors } = this.state;
 
@@ -52,7 +62,7 @@ export class Login extends Component {
                                 value={this.state.password}
                                 type="password"
                                 onChange={this.onChange}
-                                error={errors.email}
+                                error={errors.password}
                             />
                             <input
                                 type="submit"
@@ -75,7 +85,7 @@ Login.propTypes = {
 
 const mapStateToProps = (state) => ({
    auth: state.auth,
-   errors: state.errors
+   errors: state.errors,
 });
 
 export default connect(mapStateToProps, { loginUser })(Login);
