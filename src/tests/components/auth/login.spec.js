@@ -7,7 +7,21 @@ describe('Login Form', () => {
     let wrapper;
 
     beforeEach(() => {
-        wrapper = shallow(<Login />);
+        const loginUser = jest.fn();
+        const errors = { twat: 'twat' }
+        const props = {
+            auth: 'balls'
+        }
+        wrapper = shallow(<Login 
+            loginUser={loginUser}
+            auth={props}
+            errors={errors}
+        />);
+        console.error = jest.fn();
+    });
+
+    afterEach(() => {
+        console.error.mockClear()
     })
 
     it('should render correctly', () => {

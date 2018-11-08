@@ -3,7 +3,19 @@
 exports[`Login Form should render correctly 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Login />,
+  Symbol(enzyme.__unrendered__): <Login
+    auth={
+      Object {
+        "auth": "balls",
+      }
+    }
+    errors={
+      Object {
+        "twat": "twat",
+      }
+    }
+    loginUser={[MockFunction]}
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -743,7 +755,19 @@ ShallowWrapper {
 exports[`Login Form should set the state on change 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Login />,
+  Symbol(enzyme.__unrendered__): <Login
+    auth={
+      Object {
+        "auth": "balls",
+      }
+    }
+    errors={
+      Object {
+        "twat": "twat",
+      }
+    }
+    loginUser={[MockFunction]}
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
