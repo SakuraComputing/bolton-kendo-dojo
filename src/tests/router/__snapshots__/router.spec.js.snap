@@ -20,7 +20,7 @@ ShallowWrapper {
       "children": <div
         className="App"
       >
-        <Menu />
+        <Connect(Menu) />
         <Switch>
           <Route
             component={[Function]}
@@ -53,7 +53,7 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <Menu />,
+          <Connect(Menu) />,
           <Switch>
             <Route
               component={[Function]}
@@ -85,7 +85,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "function",
+          "nodeType": "class",
           "props": Object {},
           "ref": null,
           "rendered": null,
@@ -199,7 +199,7 @@ ShallowWrapper {
         "children": <div
           className="App"
         >
-          <Menu />
+          <Connect(Menu) />
           <Switch>
             <Route
               component={[Function]}
@@ -232,7 +232,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            <Menu />,
+            <Connect(Menu) />,
             <Switch>
               <Route
                 component={[Function]}
@@ -264,7 +264,7 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "function",
+            "nodeType": "class",
             "props": Object {},
             "ref": null,
             "rendered": null,

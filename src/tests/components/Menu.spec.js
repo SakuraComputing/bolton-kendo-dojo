@@ -1,16 +1,20 @@
 import { shallow } from 'enzyme';
 import React from 'react';
-import Menu from '../../components/Menu.js'
+import { Menu } from '../../components/Menu.js'
 
 describe('menu component', () => {
 
-    let wrapper;
+    let wrapper, auth;
 
     beforeEach(() => {
-        wrapper = shallow(<Menu />);
+        auth = jest.fn();
+        wrapper = shallow(<Menu auth={auth} />);
     });
 
     it('should render correctly', () => {
         expect(wrapper).toMatchSnapshot();
+    });
+    it('should render different options when user logged in', () => {
+        expect(wrapper).toMatchSnapshot();        
     });
 });

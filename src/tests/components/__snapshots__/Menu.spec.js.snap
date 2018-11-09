@@ -3,7 +3,9 @@
 exports[`menu component should render correctly 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Menu />,
+  Symbol(enzyme.__unrendered__): <Menu
+    auth={[MockFunction]}
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -50,14 +52,6 @@ ShallowWrapper {
             to="/theory"
           >
             What is Kendo
-          </Link>
-        </li>
-        <li>
-          <Link
-            replace={false}
-            to="/study"
-          >
-            Kendo Study
           </Link>
         </li>
         <li>
@@ -131,14 +125,6 @@ ShallowWrapper {
               to="/theory"
             >
               What is Kendo
-            </Link>
-          </li>,
-          <li>
-            <Link
-              replace={false}
-              to="/study"
-            >
-              Kendo Study
             </Link>
           </li>,
           <li>
@@ -286,34 +272,6 @@ ShallowWrapper {
             },
             "ref": null,
             "rendered": "What is Kendo",
-            "type": [Function],
-          },
-          "type": "li",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": <Link
-              replace={false}
-              to="/study"
-            >
-              Kendo Study
-            </Link>,
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "children": "Kendo Study",
-              "replace": false,
-              "to": "/study",
-            },
-            "ref": null,
-            "rendered": "Kendo Study",
             "type": [Function],
           },
           "type": "li",
@@ -479,14 +437,6 @@ ShallowWrapper {
           <li>
             <Link
               replace={false}
-              to="/study"
-            >
-              Kendo Study
-            </Link>
-          </li>
-          <li>
-            <Link
-              replace={false}
               to="/links"
             >
               Kendo Links
@@ -555,14 +505,6 @@ ShallowWrapper {
                 to="/theory"
               >
                 What is Kendo
-              </Link>
-            </li>,
-            <li>
-              <Link
-                replace={false}
-                to="/study"
-              >
-                Kendo Study
               </Link>
             </li>,
             <li>
@@ -721,9 +663,9 @@ ShallowWrapper {
             "props": Object {
               "children": <Link
                 replace={false}
-                to="/study"
+                to="/links"
               >
-                Kendo Study
+                Kendo Links
               </Link>,
             },
             "ref": null,
@@ -732,12 +674,778 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "class",
               "props": Object {
-                "children": "Kendo Study",
+                "children": "Kendo Links",
                 "replace": false,
-                "to": "/study",
+                "to": "/links",
               },
               "ref": null,
-              "rendered": "Kendo Study",
+              "rendered": "Kendo Links",
+              "type": [Function],
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <Link
+                replace={false}
+                to="/photos"
+              >
+                Kendo Photograph's
+              </Link>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Kendo Photograph's",
+                "replace": false,
+                "to": "/photos",
+              },
+              "ref": null,
+              "rendered": "Kendo Photograph's",
+              "type": [Function],
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <Link
+                replace={false}
+                to="/videos"
+              >
+                Kendo Videos
+              </Link>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Kendo Videos",
+                "replace": false,
+                "to": "/videos",
+              },
+              "ref": null,
+              "rendered": "Kendo Videos",
+              "type": [Function],
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <Link
+                replace={false}
+                to="/login"
+              >
+                Login / Registration
+              </Link>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Login / Registration",
+                "replace": false,
+                "to": "/login",
+              },
+              "ref": null,
+              "rendered": "Login / Registration",
+              "type": [Function],
+            },
+            "type": "li",
+          },
+        ],
+        "type": "ul",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`menu component should render different options when user logged in 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Menu
+    auth={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <ul
+        className="nav"
+      >
+        <li>
+          <Link
+            replace={false}
+            to="/"
+          >
+            Home
+          </Link>
+        </li>
+        <li>
+          <Link
+            replace={false}
+            to="/about"
+          >
+            Where and When
+          </Link>
+        </li>
+        <li>
+          <Link
+            replace={false}
+            to="/history"
+          >
+            Club History
+          </Link>
+        </li>
+        <li>
+          <Link
+            replace={false}
+            to="/theory"
+          >
+            What is Kendo
+          </Link>
+        </li>
+        <li>
+          <Link
+            replace={false}
+            to="/links"
+          >
+            Kendo Links
+          </Link>
+        </li>
+        <li>
+          <Link
+            replace={false}
+            to="/photos"
+          >
+            Kendo Photograph's
+          </Link>
+        </li>
+        <li>
+          <Link
+            replace={false}
+            to="/videos"
+          >
+            Kendo Videos
+          </Link>
+        </li>
+        <li>
+          <Link
+            replace={false}
+            to="/login"
+          >
+            Login / Registration
+          </Link>
+        </li>
+      </ul>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <li>
+            <Link
+              replace={false}
+              to="/"
+            >
+              Home
+            </Link>
+          </li>,
+          <li>
+            <Link
+              replace={false}
+              to="/about"
+            >
+              Where and When
+            </Link>
+          </li>,
+          <li>
+            <Link
+              replace={false}
+              to="/history"
+            >
+              Club History
+            </Link>
+          </li>,
+          <li>
+            <Link
+              replace={false}
+              to="/theory"
+            >
+              What is Kendo
+            </Link>
+          </li>,
+          <li>
+            <Link
+              replace={false}
+              to="/links"
+            >
+              Kendo Links
+            </Link>
+          </li>,
+          <li>
+            <Link
+              replace={false}
+              to="/photos"
+            >
+              Kendo Photograph's
+            </Link>
+          </li>,
+          <li>
+            <Link
+              replace={false}
+              to="/videos"
+            >
+              Kendo Videos
+            </Link>
+          </li>,
+          <li>
+            <Link
+              replace={false}
+              to="/login"
+            >
+              Login / Registration
+            </Link>
+          </li>,
+        ],
+        "className": "nav",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <Link
+              replace={false}
+              to="/"
+            >
+              Home
+            </Link>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Home",
+              "replace": false,
+              "to": "/",
+            },
+            "ref": null,
+            "rendered": "Home",
+            "type": [Function],
+          },
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <Link
+              replace={false}
+              to="/about"
+            >
+              Where and When
+            </Link>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Where and When",
+              "replace": false,
+              "to": "/about",
+            },
+            "ref": null,
+            "rendered": "Where and When",
+            "type": [Function],
+          },
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <Link
+              replace={false}
+              to="/history"
+            >
+              Club History
+            </Link>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Club History",
+              "replace": false,
+              "to": "/history",
+            },
+            "ref": null,
+            "rendered": "Club History",
+            "type": [Function],
+          },
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <Link
+              replace={false}
+              to="/theory"
+            >
+              What is Kendo
+            </Link>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "What is Kendo",
+              "replace": false,
+              "to": "/theory",
+            },
+            "ref": null,
+            "rendered": "What is Kendo",
+            "type": [Function],
+          },
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <Link
+              replace={false}
+              to="/links"
+            >
+              Kendo Links
+            </Link>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Kendo Links",
+              "replace": false,
+              "to": "/links",
+            },
+            "ref": null,
+            "rendered": "Kendo Links",
+            "type": [Function],
+          },
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <Link
+              replace={false}
+              to="/photos"
+            >
+              Kendo Photograph's
+            </Link>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Kendo Photograph's",
+              "replace": false,
+              "to": "/photos",
+            },
+            "ref": null,
+            "rendered": "Kendo Photograph's",
+            "type": [Function],
+          },
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <Link
+              replace={false}
+              to="/videos"
+            >
+              Kendo Videos
+            </Link>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Kendo Videos",
+              "replace": false,
+              "to": "/videos",
+            },
+            "ref": null,
+            "rendered": "Kendo Videos",
+            "type": [Function],
+          },
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <Link
+              replace={false}
+              to="/login"
+            >
+              Login / Registration
+            </Link>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Login / Registration",
+              "replace": false,
+              "to": "/login",
+            },
+            "ref": null,
+            "rendered": "Login / Registration",
+            "type": [Function],
+          },
+          "type": "li",
+        },
+      ],
+      "type": "ul",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <ul
+          className="nav"
+        >
+          <li>
+            <Link
+              replace={false}
+              to="/"
+            >
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link
+              replace={false}
+              to="/about"
+            >
+              Where and When
+            </Link>
+          </li>
+          <li>
+            <Link
+              replace={false}
+              to="/history"
+            >
+              Club History
+            </Link>
+          </li>
+          <li>
+            <Link
+              replace={false}
+              to="/theory"
+            >
+              What is Kendo
+            </Link>
+          </li>
+          <li>
+            <Link
+              replace={false}
+              to="/links"
+            >
+              Kendo Links
+            </Link>
+          </li>
+          <li>
+            <Link
+              replace={false}
+              to="/photos"
+            >
+              Kendo Photograph's
+            </Link>
+          </li>
+          <li>
+            <Link
+              replace={false}
+              to="/videos"
+            >
+              Kendo Videos
+            </Link>
+          </li>
+          <li>
+            <Link
+              replace={false}
+              to="/login"
+            >
+              Login / Registration
+            </Link>
+          </li>
+        </ul>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <li>
+              <Link
+                replace={false}
+                to="/"
+              >
+                Home
+              </Link>
+            </li>,
+            <li>
+              <Link
+                replace={false}
+                to="/about"
+              >
+                Where and When
+              </Link>
+            </li>,
+            <li>
+              <Link
+                replace={false}
+                to="/history"
+              >
+                Club History
+              </Link>
+            </li>,
+            <li>
+              <Link
+                replace={false}
+                to="/theory"
+              >
+                What is Kendo
+              </Link>
+            </li>,
+            <li>
+              <Link
+                replace={false}
+                to="/links"
+              >
+                Kendo Links
+              </Link>
+            </li>,
+            <li>
+              <Link
+                replace={false}
+                to="/photos"
+              >
+                Kendo Photograph's
+              </Link>
+            </li>,
+            <li>
+              <Link
+                replace={false}
+                to="/videos"
+              >
+                Kendo Videos
+              </Link>
+            </li>,
+            <li>
+              <Link
+                replace={false}
+                to="/login"
+              >
+                Login / Registration
+              </Link>
+            </li>,
+          ],
+          "className": "nav",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <Link
+                replace={false}
+                to="/"
+              >
+                Home
+              </Link>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Home",
+                "replace": false,
+                "to": "/",
+              },
+              "ref": null,
+              "rendered": "Home",
+              "type": [Function],
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <Link
+                replace={false}
+                to="/about"
+              >
+                Where and When
+              </Link>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Where and When",
+                "replace": false,
+                "to": "/about",
+              },
+              "ref": null,
+              "rendered": "Where and When",
+              "type": [Function],
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <Link
+                replace={false}
+                to="/history"
+              >
+                Club History
+              </Link>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Club History",
+                "replace": false,
+                "to": "/history",
+              },
+              "ref": null,
+              "rendered": "Club History",
+              "type": [Function],
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <Link
+                replace={false}
+                to="/theory"
+              >
+                What is Kendo
+              </Link>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "What is Kendo",
+                "replace": false,
+                "to": "/theory",
+              },
+              "ref": null,
+              "rendered": "What is Kendo",
               "type": [Function],
             },
             "type": "li",
