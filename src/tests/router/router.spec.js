@@ -1,0 +1,35 @@
+import React from 'react';
+import AppRouter from '../../routers/AppRouter';
+import { shallow } from 'enzyme';
+import LandingPage from '../../components/LandingPage';
+import Login from '../../components/auth/Login';
+import Register from '../../components/auth/Register';
+import Theory from '../../components/static/TheoryPage';
+
+describe('App Router', () => {
+    it('AppRouter is a function', () => {
+        expect(typeof AppRouter).toEqual('function');
+    })
+
+    let wrapper; 
+
+    beforeEach(() => {
+        wrapper = shallow(<AppRouter />);
+    })
+    it('renders as expected', () => {
+        expect(wrapper).toMatchSnapshot();
+    });
+    it('should route to the landing page', () => {
+        expect(wrapper.find('Route[exact=true][path="/"]').first().prop('component')).toBe(LandingPage);
+    });
+    it('should route to the login page', () => {
+        expect(JSON.stringify(wrapper.find('Route[path="/login"]').first().prop('component'))).toEqual(JSON.stringify(Login));
+    });
+    it('should route to the register page', () => {
+        expect(wrapper.find('Route[path="/register"]').first().prop('component')).toEqual(Register);
+    });
+    it('should route to the Theory page', () => {
+        expect(wrapper.find('Route[path="/theory"]').first().prop('component')).toEqual(Theory);
+    });
+
+})
