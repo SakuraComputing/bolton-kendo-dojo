@@ -35,6 +35,13 @@
     "api-server": "nodemon server/server.js",
     "dev": "concurrently \"yarn run api-server\" \"yarn run start\""
   },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.js",
+      "!src/index.js",
+      "!src/serviceWorker.js"
+    ]
+  },
   "eslintConfig": {
     "extends": "react-app"
   },

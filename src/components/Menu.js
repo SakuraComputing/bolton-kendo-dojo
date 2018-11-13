@@ -2,7 +2,6 @@ import React from 'react'
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 
-
 export class Menu extends React.Component {
 
   render() { 
@@ -10,14 +9,14 @@ export class Menu extends React.Component {
         const { isAuthenticated } = this.props.auth;
 
         const authLinks = (
-            <ul className="nav">
+            <div>
                 <li>
                     <Link to="/study">Kendo Study</Link>
                 </li>
                 <li>
                     <Link to="/logout">Logout</Link>
                 </li>
-            </ul>
+            </div>
         )
 
         const guestLinks = (
