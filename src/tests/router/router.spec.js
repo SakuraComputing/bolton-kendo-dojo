@@ -5,6 +5,7 @@ import LandingPage from '../../components/LandingPage';
 import Login from '../../components/auth/Login';
 import Register from '../../components/auth/Register';
 import Theory from '../../components/static/TheoryPage';
+import KendoLinks from '../../components/static/KendoLinks';
 
 describe('App Router', () => {
     it('AppRouter is a function', () => {
@@ -30,6 +31,9 @@ describe('App Router', () => {
     });
     it('should route to the Theory page', () => {
         expect(wrapper.find('Route[path="/theory"]').first().prop('component')).toEqual(Theory);
+    });
+    it('should route to the Links page', () => {
+        expect(wrapper.find('Route[path="/links"]').first().prop('component')).toEqual(KendoLinks);
     });
 
 })

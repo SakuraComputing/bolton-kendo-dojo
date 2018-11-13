@@ -7,6 +7,7 @@ import Menu from '../components/Menu';
 import Footer from '../components/Footer';
 import Register from '../components/auth/Register';
 import TheoryPage from '../components/static/TheoryPage';
+import KendoLinks from '../components/static/KendoLinks';
 
 import '../styles/styles.scss';
 
@@ -19,6 +20,7 @@ const AppRouter = () => (
                 <Route exact path="/login" component={Login}></Route>
                 <Route exact path="/register" component={Register}></Route>
                 <Route exact path="/theory" component={TheoryPage}></Route>
+                <Route exact path="/links" component={KendoLinks}></Route>
             </Switch>
             <Footer />
         </div>

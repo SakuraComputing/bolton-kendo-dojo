@@ -2,7 +2,7 @@ import React from 'react'
 
 const KendoLinks = () => {
   return (
-       <div class="kendo-links">
+       <div class="kendo-links content-container">
         <h1>Kendo Links</h1>
 
           <h2>Kendo Federations</h2>
@@ -34,5 +34,4 @@ const KendoLinks = () => {
     </div>
   )
 };
-
 export default KendoLinks;
