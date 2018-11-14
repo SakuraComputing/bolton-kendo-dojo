@@ -20,6 +20,13 @@ export class Menu extends React.Component {
                     <Link to="/study">Kendo Study</Link>
                 </li>
                 <li>
+                    <Link
+                        to="/members"
+                    >
+                    Members
+                    </Link>
+                </li>
+                <li>
                     <Link 
                         to="/logout"
                         href=""

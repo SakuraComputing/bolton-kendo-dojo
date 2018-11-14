@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
+
+
 import LandingPage from '../components/LandingPage';
 import Login from '../components/auth/login';
 import Menu from '../components/Menu';
@@ -9,8 +11,10 @@ import Register from '../components/auth/Register';
 import TheoryPage from '../components/static/TheoryPage';
 import KendoLinks from '../components/static/KendoLinks';
 import NotFound from '../components/static/NotFoundPage';
+import Members from '../components/Members';
 
 import '../styles/styles.scss';
+import PrivateRoute from '../common/PrivateRoute';
 
 class AppRouter extends Component {
 
@@ -26,6 +30,12 @@ class AppRouter extends Component {
                         <Route exact path="/theory" component={TheoryPage}></Route>
                         <Route exact path="/links" component={KendoLinks}></Route>
                         <Route path="/not-found" component={NotFound}/>
+                    </Switch>
+                    <Switch>
+                        <PrivateRoute
+                            exact path="/members"
+                            component={Members}
+                        />
                     </Switch>
                     <Footer />
                 </div>
