@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import LandingPage from '../components/LandingPage';
@@ -11,20 +11,25 @@ import KendoLinks from '../components/static/KendoLinks';
 
 import '../styles/styles.scss';
 
-const AppRouter = () => (
-    <BrowserRouter>
-        <div className="App">
-            <Menu />
-            <Switch>
-                <Route path="/" component={LandingPage} exact={true}/>
-                <Route exact path="/login" component={Login}></Route>
-                <Route exact path="/register" component={Register}></Route>
-                <Route exact path="/theory" component={TheoryPage}></Route>
-                <Route exact path="/links" component={KendoLinks}></Route>
-            </Switch>
-            <Footer />
-        </div>
-    </BrowserRouter>
-);
+class AppRouter extends Component {
+
+    render() {
+        return (
+            <BrowserRouter>
+                <div className="App">
+                    <Menu />
+                    <Switch>
+                        <Route path="/" component={LandingPage} exact={true}/>
+                        <Route exact path="/login" component={Login}></Route>
+                        <Route exact path="/register" component={Register}></Route>
+                        <Route exact path="/theory" component={TheoryPage}></Route>
+                        <Route exact path="/links" component={KendoLinks}></Route>
+                    </Switch>
+                    <Footer />
+                </div>
+            </BrowserRouter>
+        )
+    }
+};
 
 export default AppRouter;

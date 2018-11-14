@@ -1,8 +1,14 @@
 import React from 'react'
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
+import { logoutUser } from '../actions/authActions';
 
 export class Menu extends React.Component {
+
+  onLogoutClick = (e) => {
+      e.preventDefault();
+      this.props.logoutUser();
+  }  
 
   render() { 
 
@@ -14,7 +20,13 @@ export class Menu extends React.Component {
                     <Link to="/study">Kendo Study</Link>
                 </li>
                 <li>
-                    <Link to="/logout">Logout</Link>
+                    <Link 
+                        to="/logout"
+                        href=""
+                        onClick={this.onLogoutClick}
+                    >
+                    Logout
+                    </Link>
                 </li>
             </div>
         )
@@ -58,4 +70,4 @@ export class Menu extends React.Component {
 const mapStateToProps = state => ({
     auth: state.auth
 })
-export default connect(mapStateToProps, )(Menu);
+export default connect(mapStateToProps, { logoutUser})(Menu);
