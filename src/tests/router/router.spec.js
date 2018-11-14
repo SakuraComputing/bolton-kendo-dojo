@@ -6,6 +6,7 @@ import Login from '../../components/auth/Login';
 import Register from '../../components/auth/Register';
 import Theory from '../../components/static/TheoryPage';
 import KendoLinks from '../../components/static/KendoLinks';
+import NotFound from '../../components/static/NotFoundPage';
 
 describe('App Router', () => {
     it('AppRouter is a function', () => {
@@ -35,5 +36,7 @@ describe('App Router', () => {
     it('should route to the Links page', () => {
         expect(wrapper.find('Route[path="/links"]').first().prop('component')).toEqual(KendoLinks);
     });
-
+    it('should route to the not found page', () => {
+        expect(wrapper.find('Route[path="/not-found"]').first().prop('component')).toEqual(NotFound);
+    })
 })

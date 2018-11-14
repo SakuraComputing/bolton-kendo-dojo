@@ -8,6 +8,7 @@ import Footer from '../components/Footer';
 import Register from '../components/auth/Register';
 import TheoryPage from '../components/static/TheoryPage';
 import KendoLinks from '../components/static/KendoLinks';
+import NotFound from '../components/static/NotFoundPage';
 
 import '../styles/styles.scss';
 
@@ -24,6 +25,7 @@ class AppRouter extends Component {
                         <Route exact path="/register" component={Register}></Route>
                         <Route exact path="/theory" component={TheoryPage}></Route>
                         <Route exact path="/links" component={KendoLinks}></Route>
+                        <Route path="/not-found" component={NotFound}/>
                     </Switch>
                     <Footer />
                 </div>

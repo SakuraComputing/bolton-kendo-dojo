@@ -47,6 +47,10 @@ ShallowWrapper {
             exact={true}
             path="/links"
           />
+          <Route
+            component={[Function]}
+            path="/not-found"
+          />
         </Switch>
         <Footer />
       </div>,
@@ -84,6 +88,10 @@ ShallowWrapper {
               component={[Function]}
               exact={true}
               path="/links"
+            />
+            <Route
+              component={[Function]}
+              path="/not-found"
             />
           </Switch>,
           <Footer />,
@@ -131,6 +139,10 @@ ShallowWrapper {
                 component={[Function]}
                 exact={true}
                 path="/links"
+              />,
+              <Route
+                component={[Function]}
+                path="/not-found"
               />,
             ],
           },
@@ -201,6 +213,18 @@ ShallowWrapper {
               "rendered": null,
               "type": [Function],
             },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "component": [Function],
+                "path": "/not-found",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
           ],
           "type": [Function],
         },
@@ -254,6 +278,10 @@ ShallowWrapper {
               exact={true}
               path="/links"
             />
+            <Route
+              component={[Function]}
+              path="/not-found"
+            />
           </Switch>
           <Footer />
         </div>,
@@ -291,6 +319,10 @@ ShallowWrapper {
                 component={[Function]}
                 exact={true}
                 path="/links"
+              />
+              <Route
+                component={[Function]}
+                path="/not-found"
               />
             </Switch>,
             <Footer />,
@@ -338,6 +370,10 @@ ShallowWrapper {
                   component={[Function]}
                   exact={true}
                   path="/links"
+                />,
+                <Route
+                  component={[Function]}
+                  path="/not-found"
                 />,
               ],
             },
@@ -403,6 +439,18 @@ ShallowWrapper {
                   "component": [Function],
                   "exact": true,
                   "path": "/links",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "component": [Function],
+                  "path": "/not-found",
                 },
                 "ref": null,
                 "rendered": null,
