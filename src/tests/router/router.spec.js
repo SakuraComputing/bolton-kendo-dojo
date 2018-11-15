@@ -6,6 +6,7 @@ import Login from '../../components/auth/Login';
 import Register from '../../components/auth/Register';
 import Theory from '../../components/static/TheoryPage';
 import KendoLinks from '../../components/static/KendoLinks';
+import About from '../../components/static/About';
 import NotFound from '../../components/static/NotFoundPage';
 
 describe('App Router', () => {
@@ -38,5 +39,9 @@ describe('App Router', () => {
     });
     it('should route to the not found page', () => {
         expect(wrapper.find('Route[path="/not-found"]').first().prop('component')).toEqual(NotFound);
-    })
+    });
+    it('should route to the about page', () => {
+        expect(wrapper.find('Route[path="/about"]').first().prop('component')).toEqual(About);
+    });
+
 })

@@ -20,6 +20,7 @@ ShallowWrapper {
       "children": <h1>
         Where and When
       </h1>,
+      "className": "about",
     },
     "ref": null,
     "rendered": Object {
@@ -44,6 +45,7 @@ ShallowWrapper {
         "children": <h1>
           Where and When
         </h1>,
+        "className": "about",
       },
       "ref": null,
       "rendered": Object {
