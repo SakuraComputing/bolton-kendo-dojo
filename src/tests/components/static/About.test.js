@@ -3,8 +3,13 @@ import { shallow } from 'enzyme';
 import About from '../../../components/static/About.js';
 
 describe('About Bolton Kendo Dojo', () => {
-    it('should render correctly', () => {
-        const about = shallow(<About />);
-        expect(about).toMatchSnapshot();
+
+    let about;
+
+    beforeEach(() => {
+        about = shallow(<About />);
     })
+    it('should render correctly', () => {
+        expect(about).toMatchSnapshot();
+    });
 })
