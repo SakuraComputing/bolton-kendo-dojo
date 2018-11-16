@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 // DB Config
-const db = require('../config/keys').mongoURI;
+const db = require('../src/config/keys').mongoURI;
 
 // Connect to Mongo DB
 mongoose
@@ -25,7 +25,7 @@ mongoose
 app.use(passport.initialize());
 
 // Passport Config
-require('../config/passport')(passport);
+require('../src/config/passport')(passport);
 
 // Allow CORS
 app.use(function(req, res, next) {

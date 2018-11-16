@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
-
-
 import LandingPage from '../components/LandingPage';
 import Login from '../components/auth/login';
 import Menu from '../components/Menu';

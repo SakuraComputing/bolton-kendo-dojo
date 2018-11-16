@@ -17,501 +17,15 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": <div
-        className="about-section"
-      >
+      "children": Array [
         <div
-          className="about-map"
-        >
-          <InteractiveMap
-            attributionControl={true}
-            bearing={0}
-            className=""
-            clickRadius={0}
-            container={<body />}
-            disableTokenWarning={false}
-            doubleClickZoom={true}
-            dragPan={true}
-            dragRotate={true}
-            getCursor={[Function]}
-            height={400}
-            keyboard={true}
-            latitude={53.562614}
-            longitude={-2.384833}
-            mapOptions={Object {}}
-            mapStyle="mapbox://styles/mapbox/streets-v10"
-            mapboxApiAccessToken="pk.eyJ1IjoiZXdhbmJkIiwiYSI6ImNqb2ozcnEycDAxMjkza3BhbjVpMWd0azUifQ.gRjILY0KoVrvFBY_Hvkv2w"
-            maxPitch={60}
-            maxZoom={24}
-            minPitch={0}
-            minZoom={0}
-            onClick={null}
-            onContextMenu={[Function]}
-            onError={[Function]}
-            onHover={null}
-            onLoad={[Function]}
-            onResize={[Function]}
-            onStateChange={[Function]}
-            onTransitionEnd={[Function]}
-            onTransitionInterrupt={[Function]}
-            onTransitionStart={[Function]}
-            onViewStateChange={null}
-            onViewportChange={null}
-            pitch={0}
-            preserveDrawingBuffer={false}
-            preventStyleDiffing={false}
-            reuseMaps={false}
-            scrollZoom={true}
-            style={null}
-            touchAction="none"
-            touchRotate={false}
-            touchZoom={true}
-            transitionDuration={0}
-            transitionEasing={[Function]}
-            transitionInterpolator={
-              LinearInterpolator {
-                "around": undefined,
-                "propNames": Array [
-                  "longitude",
-                  "latitude",
-                  "zoom",
-                  "bearing",
-                  "pitch",
-                ],
-              }
-            }
-            transitionInterruption={1}
-            visibilityConstraints={
-              Object {
-                "maxPitch": 60,
-                "maxZoom": 24,
-                "minPitch": 0,
-                "minZoom": 0,
-              }
-            }
-            visible={true}
-            width="100%"
-            zoom={14}
-          >
-            <Marker
-              captureClick={true}
-              captureDoubleClick={true}
-              captureDrag={true}
-              captureScroll={false}
-              className=""
-              draggable={false}
-              latitude={53.562614}
-              longitude={-2.384833}
-              offsetLeft={0}
-              offsetTop={0}
-            >
-              <div
-                className="marker"
-              >
-                <div
-                  className="pin"
-                />
-                <div
-                  className="pin-effect"
-                />
-              </div>
-            </Marker>
-          </InteractiveMap>
-        </div>
-      </div>,
-      "className": "about-container",
-    },
-    "ref": null,
-    "rendered": Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": <div
-          className="about-map"
-        >
-          <InteractiveMap
-            attributionControl={true}
-            bearing={0}
-            className=""
-            clickRadius={0}
-            container={<body />}
-            disableTokenWarning={false}
-            doubleClickZoom={true}
-            dragPan={true}
-            dragRotate={true}
-            getCursor={[Function]}
-            height={400}
-            keyboard={true}
-            latitude={53.562614}
-            longitude={-2.384833}
-            mapOptions={Object {}}
-            mapStyle="mapbox://styles/mapbox/streets-v10"
-            mapboxApiAccessToken="pk.eyJ1IjoiZXdhbmJkIiwiYSI6ImNqb2ozcnEycDAxMjkza3BhbjVpMWd0azUifQ.gRjILY0KoVrvFBY_Hvkv2w"
-            maxPitch={60}
-            maxZoom={24}
-            minPitch={0}
-            minZoom={0}
-            onClick={null}
-            onContextMenu={[Function]}
-            onError={[Function]}
-            onHover={null}
-            onLoad={[Function]}
-            onResize={[Function]}
-            onStateChange={[Function]}
-            onTransitionEnd={[Function]}
-            onTransitionInterrupt={[Function]}
-            onTransitionStart={[Function]}
-            onViewStateChange={null}
-            onViewportChange={null}
-            pitch={0}
-            preserveDrawingBuffer={false}
-            preventStyleDiffing={false}
-            reuseMaps={false}
-            scrollZoom={true}
-            style={null}
-            touchAction="none"
-            touchRotate={false}
-            touchZoom={true}
-            transitionDuration={0}
-            transitionEasing={[Function]}
-            transitionInterpolator={
-              LinearInterpolator {
-                "around": undefined,
-                "propNames": Array [
-                  "longitude",
-                  "latitude",
-                  "zoom",
-                  "bearing",
-                  "pitch",
-                ],
-              }
-            }
-            transitionInterruption={1}
-            visibilityConstraints={
-              Object {
-                "maxPitch": 60,
-                "maxZoom": 24,
-                "minPitch": 0,
-                "minZoom": 0,
-              }
-            }
-            visible={true}
-            width="100%"
-            zoom={14}
-          >
-            <Marker
-              captureClick={true}
-              captureDoubleClick={true}
-              captureDrag={true}
-              captureScroll={false}
-              className=""
-              draggable={false}
-              latitude={53.562614}
-              longitude={-2.384833}
-              offsetLeft={0}
-              offsetTop={0}
-            >
-              <div
-                className="marker"
-              >
-                <div
-                  className="pin"
-                />
-                <div
-                  className="pin-effect"
-                />
-              </div>
-            </Marker>
-          </InteractiveMap>
-        </div>,
-        "className": "about-section",
-      },
-      "ref": null,
-      "rendered": Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": <InteractiveMap
-            attributionControl={true}
-            bearing={0}
-            className=""
-            clickRadius={0}
-            container={<body />}
-            disableTokenWarning={false}
-            doubleClickZoom={true}
-            dragPan={true}
-            dragRotate={true}
-            getCursor={[Function]}
-            height={400}
-            keyboard={true}
-            latitude={53.562614}
-            longitude={-2.384833}
-            mapOptions={Object {}}
-            mapStyle="mapbox://styles/mapbox/streets-v10"
-            mapboxApiAccessToken="pk.eyJ1IjoiZXdhbmJkIiwiYSI6ImNqb2ozcnEycDAxMjkza3BhbjVpMWd0azUifQ.gRjILY0KoVrvFBY_Hvkv2w"
-            maxPitch={60}
-            maxZoom={24}
-            minPitch={0}
-            minZoom={0}
-            onClick={null}
-            onContextMenu={[Function]}
-            onError={[Function]}
-            onHover={null}
-            onLoad={[Function]}
-            onResize={[Function]}
-            onStateChange={[Function]}
-            onTransitionEnd={[Function]}
-            onTransitionInterrupt={[Function]}
-            onTransitionStart={[Function]}
-            onViewStateChange={null}
-            onViewportChange={null}
-            pitch={0}
-            preserveDrawingBuffer={false}
-            preventStyleDiffing={false}
-            reuseMaps={false}
-            scrollZoom={true}
-            style={null}
-            touchAction="none"
-            touchRotate={false}
-            touchZoom={true}
-            transitionDuration={0}
-            transitionEasing={[Function]}
-            transitionInterpolator={
-              LinearInterpolator {
-                "around": undefined,
-                "propNames": Array [
-                  "longitude",
-                  "latitude",
-                  "zoom",
-                  "bearing",
-                  "pitch",
-                ],
-              }
-            }
-            transitionInterruption={1}
-            visibilityConstraints={
-              Object {
-                "maxPitch": 60,
-                "maxZoom": 24,
-                "minPitch": 0,
-                "minZoom": 0,
-              }
-            }
-            visible={true}
-            width="100%"
-            zoom={14}
-          >
-            <Marker
-              captureClick={true}
-              captureDoubleClick={true}
-              captureDrag={true}
-              captureScroll={false}
-              className=""
-              draggable={false}
-              latitude={53.562614}
-              longitude={-2.384833}
-              offsetLeft={0}
-              offsetTop={0}
-            >
-              <div
-                className="marker"
-              >
-                <div
-                  className="pin"
-                />
-                <div
-                  className="pin-effect"
-                />
-              </div>
-            </Marker>
-          </InteractiveMap>,
-          "className": "about-map",
-        },
-        "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "attributionControl": true,
-            "bearing": 0,
-            "children": <Marker
-              captureClick={true}
-              captureDoubleClick={true}
-              captureDrag={true}
-              captureScroll={false}
-              className=""
-              draggable={false}
-              latitude={53.562614}
-              longitude={-2.384833}
-              offsetLeft={0}
-              offsetTop={0}
-            >
-              <div
-                className="marker"
-              >
-                <div
-                  className="pin"
-                />
-                <div
-                  className="pin-effect"
-                />
-              </div>
-            </Marker>,
-            "className": "",
-            "clickRadius": 0,
-            "container": <body />,
-            "disableTokenWarning": false,
-            "doubleClickZoom": true,
-            "dragPan": true,
-            "dragRotate": true,
-            "getCursor": [Function],
-            "height": 400,
-            "keyboard": true,
-            "latitude": 53.562614,
-            "longitude": -2.384833,
-            "mapOptions": Object {},
-            "mapStyle": "mapbox://styles/mapbox/streets-v10",
-            "mapboxApiAccessToken": "pk.eyJ1IjoiZXdhbmJkIiwiYSI6ImNqb2ozcnEycDAxMjkza3BhbjVpMWd0azUifQ.gRjILY0KoVrvFBY_Hvkv2w",
-            "maxPitch": 60,
-            "maxZoom": 24,
-            "minPitch": 0,
-            "minZoom": 0,
-            "onClick": null,
-            "onContextMenu": [Function],
-            "onError": [Function],
-            "onHover": null,
-            "onLoad": [Function],
-            "onResize": [Function],
-            "onStateChange": [Function],
-            "onTransitionEnd": [Function],
-            "onTransitionInterrupt": [Function],
-            "onTransitionStart": [Function],
-            "onViewStateChange": null,
-            "onViewportChange": null,
-            "pitch": 0,
-            "preserveDrawingBuffer": false,
-            "preventStyleDiffing": false,
-            "reuseMaps": false,
-            "scrollZoom": true,
-            "style": null,
-            "touchAction": "none",
-            "touchRotate": false,
-            "touchZoom": true,
-            "transitionDuration": 0,
-            "transitionEasing": [Function],
-            "transitionInterpolator": LinearInterpolator {
-              "around": undefined,
-              "propNames": Array [
-                "longitude",
-                "latitude",
-                "zoom",
-                "bearing",
-                "pitch",
-              ],
-            },
-            "transitionInterruption": 1,
-            "visibilityConstraints": Object {
-              "maxPitch": 60,
-              "maxZoom": 24,
-              "minPitch": 0,
-              "minZoom": 0,
-            },
-            "visible": true,
-            "width": "100%",
-            "zoom": 14,
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "captureClick": true,
-              "captureDoubleClick": true,
-              "captureDrag": true,
-              "captureScroll": false,
-              "children": <div
-                className="marker"
-              >
-                <div
-                  className="pin"
-                />
-                <div
-                  className="pin-effect"
-                />
-              </div>,
-              "className": "",
-              "draggable": false,
-              "latitude": 53.562614,
-              "longitude": -2.384833,
-              "offsetLeft": 0,
-              "offsetTop": 0,
-            },
-            "ref": null,
-            "rendered": Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": Array [
-                  <div
-                    className="pin"
-                  />,
-                  <div
-                    className="pin-effect"
-                  />,
-                ],
-                "className": "marker",
-              },
-              "ref": null,
-              "rendered": Array [
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "className": "pin",
-                  },
-                  "ref": null,
-                  "rendered": null,
-                  "type": "div",
-                },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "className": "pin-effect",
-                  },
-                  "ref": null,
-                  "rendered": null,
-                  "type": "div",
-                },
-              ],
-              "type": "div",
-            },
-            "type": [Function],
-          },
-          "type": [Function],
-        },
-        "type": "div",
-      },
-      "type": "div",
-    },
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": <div
           className="about-section"
         >
+          <h2
+            className="about-header"
+          >
+            Where we practice
+          </h2>
           <div
             className="about-map"
           >
@@ -597,78 +111,304 @@ ShallowWrapper {
                 offsetLeft={0}
                 offsetTop={0}
               >
-                <div
-                  className="marker"
-                >
-                  <div
-                    className="pin"
-                  />
-                  <div
-                    className="pin-effect"
-                  />
-                </div>
+                <Pin />
               </Marker>
             </InteractiveMap>
           </div>
         </div>,
-        "className": "about-container",
-      },
-      "ref": null,
-      "rendered": Object {
+        <div
+          className="about-section"
+        >
+          <h2>
+            Practice Times
+          </h2>
+        </div>,
+        <div
+          className="about-section"
+        >
+          <h2>
+            Contact
+          </h2>
+        </div>,
+      ],
+      "className": "about-container",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
         "instance": null,
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": <div
-            className="about-map"
-          >
-            <InteractiveMap
-              attributionControl={true}
-              bearing={0}
-              className=""
-              clickRadius={0}
-              container={<body />}
-              disableTokenWarning={false}
-              doubleClickZoom={true}
-              dragPan={true}
-              dragRotate={true}
-              getCursor={[Function]}
-              height={400}
-              keyboard={true}
-              latitude={53.562614}
-              longitude={-2.384833}
-              mapOptions={Object {}}
-              mapStyle="mapbox://styles/mapbox/streets-v10"
-              mapboxApiAccessToken="pk.eyJ1IjoiZXdhbmJkIiwiYSI6ImNqb2ozcnEycDAxMjkza3BhbjVpMWd0azUifQ.gRjILY0KoVrvFBY_Hvkv2w"
-              maxPitch={60}
-              maxZoom={24}
-              minPitch={0}
-              minZoom={0}
-              onClick={null}
-              onContextMenu={[Function]}
-              onError={[Function]}
-              onHover={null}
-              onLoad={[Function]}
-              onResize={[Function]}
-              onStateChange={[Function]}
-              onTransitionEnd={[Function]}
-              onTransitionInterrupt={[Function]}
-              onTransitionStart={[Function]}
-              onViewStateChange={null}
-              onViewportChange={null}
-              pitch={0}
-              preserveDrawingBuffer={false}
-              preventStyleDiffing={false}
-              reuseMaps={false}
-              scrollZoom={true}
-              style={null}
-              touchAction="none"
-              touchRotate={false}
-              touchZoom={true}
-              transitionDuration={0}
-              transitionEasing={[Function]}
-              transitionInterpolator={
-                LinearInterpolator {
+          "children": Array [
+            <h2
+              className="about-header"
+            >
+              Where we practice
+            </h2>,
+            <div
+              className="about-map"
+            >
+              <InteractiveMap
+                attributionControl={true}
+                bearing={0}
+                className=""
+                clickRadius={0}
+                container={<body />}
+                disableTokenWarning={false}
+                doubleClickZoom={true}
+                dragPan={true}
+                dragRotate={true}
+                getCursor={[Function]}
+                height={400}
+                keyboard={true}
+                latitude={53.562614}
+                longitude={-2.384833}
+                mapOptions={Object {}}
+                mapStyle="mapbox://styles/mapbox/streets-v10"
+                mapboxApiAccessToken="pk.eyJ1IjoiZXdhbmJkIiwiYSI6ImNqb2ozcnEycDAxMjkza3BhbjVpMWd0azUifQ.gRjILY0KoVrvFBY_Hvkv2w"
+                maxPitch={60}
+                maxZoom={24}
+                minPitch={0}
+                minZoom={0}
+                onClick={null}
+                onContextMenu={[Function]}
+                onError={[Function]}
+                onHover={null}
+                onLoad={[Function]}
+                onResize={[Function]}
+                onStateChange={[Function]}
+                onTransitionEnd={[Function]}
+                onTransitionInterrupt={[Function]}
+                onTransitionStart={[Function]}
+                onViewStateChange={null}
+                onViewportChange={null}
+                pitch={0}
+                preserveDrawingBuffer={false}
+                preventStyleDiffing={false}
+                reuseMaps={false}
+                scrollZoom={true}
+                style={null}
+                touchAction="none"
+                touchRotate={false}
+                touchZoom={true}
+                transitionDuration={0}
+                transitionEasing={[Function]}
+                transitionInterpolator={
+                  LinearInterpolator {
+                    "around": undefined,
+                    "propNames": Array [
+                      "longitude",
+                      "latitude",
+                      "zoom",
+                      "bearing",
+                      "pitch",
+                    ],
+                  }
+                }
+                transitionInterruption={1}
+                visibilityConstraints={
+                  Object {
+                    "maxPitch": 60,
+                    "maxZoom": 24,
+                    "minPitch": 0,
+                    "minZoom": 0,
+                  }
+                }
+                visible={true}
+                width="100%"
+                zoom={14}
+              >
+                <Marker
+                  captureClick={true}
+                  captureDoubleClick={true}
+                  captureDrag={true}
+                  captureScroll={false}
+                  className=""
+                  draggable={false}
+                  latitude={53.562614}
+                  longitude={-2.384833}
+                  offsetLeft={0}
+                  offsetTop={0}
+                >
+                  <Pin />
+                </Marker>
+              </InteractiveMap>
+            </div>,
+          ],
+          "className": "about-section",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Where we practice",
+              "className": "about-header",
+            },
+            "ref": null,
+            "rendered": "Where we practice",
+            "type": "h2",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <InteractiveMap
+                attributionControl={true}
+                bearing={0}
+                className=""
+                clickRadius={0}
+                container={<body />}
+                disableTokenWarning={false}
+                doubleClickZoom={true}
+                dragPan={true}
+                dragRotate={true}
+                getCursor={[Function]}
+                height={400}
+                keyboard={true}
+                latitude={53.562614}
+                longitude={-2.384833}
+                mapOptions={Object {}}
+                mapStyle="mapbox://styles/mapbox/streets-v10"
+                mapboxApiAccessToken="pk.eyJ1IjoiZXdhbmJkIiwiYSI6ImNqb2ozcnEycDAxMjkza3BhbjVpMWd0azUifQ.gRjILY0KoVrvFBY_Hvkv2w"
+                maxPitch={60}
+                maxZoom={24}
+                minPitch={0}
+                minZoom={0}
+                onClick={null}
+                onContextMenu={[Function]}
+                onError={[Function]}
+                onHover={null}
+                onLoad={[Function]}
+                onResize={[Function]}
+                onStateChange={[Function]}
+                onTransitionEnd={[Function]}
+                onTransitionInterrupt={[Function]}
+                onTransitionStart={[Function]}
+                onViewStateChange={null}
+                onViewportChange={null}
+                pitch={0}
+                preserveDrawingBuffer={false}
+                preventStyleDiffing={false}
+                reuseMaps={false}
+                scrollZoom={true}
+                style={null}
+                touchAction="none"
+                touchRotate={false}
+                touchZoom={true}
+                transitionDuration={0}
+                transitionEasing={[Function]}
+                transitionInterpolator={
+                  LinearInterpolator {
+                    "around": undefined,
+                    "propNames": Array [
+                      "longitude",
+                      "latitude",
+                      "zoom",
+                      "bearing",
+                      "pitch",
+                    ],
+                  }
+                }
+                transitionInterruption={1}
+                visibilityConstraints={
+                  Object {
+                    "maxPitch": 60,
+                    "maxZoom": 24,
+                    "minPitch": 0,
+                    "minZoom": 0,
+                  }
+                }
+                visible={true}
+                width="100%"
+                zoom={14}
+              >
+                <Marker
+                  captureClick={true}
+                  captureDoubleClick={true}
+                  captureDrag={true}
+                  captureScroll={false}
+                  className=""
+                  draggable={false}
+                  latitude={53.562614}
+                  longitude={-2.384833}
+                  offsetLeft={0}
+                  offsetTop={0}
+                >
+                  <Pin />
+                </Marker>
+              </InteractiveMap>,
+              "className": "about-map",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "attributionControl": true,
+                "bearing": 0,
+                "children": <Marker
+                  captureClick={true}
+                  captureDoubleClick={true}
+                  captureDrag={true}
+                  captureScroll={false}
+                  className=""
+                  draggable={false}
+                  latitude={53.562614}
+                  longitude={-2.384833}
+                  offsetLeft={0}
+                  offsetTop={0}
+                >
+                  <Pin />
+                </Marker>,
+                "className": "",
+                "clickRadius": 0,
+                "container": <body />,
+                "disableTokenWarning": false,
+                "doubleClickZoom": true,
+                "dragPan": true,
+                "dragRotate": true,
+                "getCursor": [Function],
+                "height": 400,
+                "keyboard": true,
+                "latitude": 53.562614,
+                "longitude": -2.384833,
+                "mapOptions": Object {},
+                "mapStyle": "mapbox://styles/mapbox/streets-v10",
+                "mapboxApiAccessToken": "pk.eyJ1IjoiZXdhbmJkIiwiYSI6ImNqb2ozcnEycDAxMjkza3BhbjVpMWd0azUifQ.gRjILY0KoVrvFBY_Hvkv2w",
+                "maxPitch": 60,
+                "maxZoom": 24,
+                "minPitch": 0,
+                "minZoom": 0,
+                "onClick": null,
+                "onContextMenu": [Function],
+                "onError": [Function],
+                "onHover": null,
+                "onLoad": [Function],
+                "onResize": [Function],
+                "onStateChange": [Function],
+                "onTransitionEnd": [Function],
+                "onTransitionInterrupt": [Function],
+                "onTransitionStart": [Function],
+                "onViewStateChange": null,
+                "onViewportChange": null,
+                "pitch": 0,
+                "preserveDrawingBuffer": false,
+                "preventStyleDiffing": false,
+                "reuseMaps": false,
+                "scrollZoom": true,
+                "style": null,
+                "touchAction": "none",
+                "touchRotate": false,
+                "touchZoom": true,
+                "transitionDuration": 0,
+                "transitionEasing": [Function],
+                "transitionInterpolator": LinearInterpolator {
                   "around": undefined,
                   "propNames": Array [
                     "longitude",
@@ -677,46 +417,63 @@ ShallowWrapper {
                     "bearing",
                     "pitch",
                   ],
-                }
-              }
-              transitionInterruption={1}
-              visibilityConstraints={
-                Object {
+                },
+                "transitionInterruption": 1,
+                "visibilityConstraints": Object {
                   "maxPitch": 60,
                   "maxZoom": 24,
                   "minPitch": 0,
                   "minZoom": 0,
-                }
-              }
-              visible={true}
-              width="100%"
-              zoom={14}
-            >
-              <Marker
-                captureClick={true}
-                captureDoubleClick={true}
-                captureDrag={true}
-                captureScroll={false}
-                className=""
-                draggable={false}
-                latitude={53.562614}
-                longitude={-2.384833}
-                offsetLeft={0}
-                offsetTop={0}
-              >
-                <div
-                  className="marker"
-                >
-                  <div
-                    className="pin"
-                  />
-                  <div
-                    className="pin-effect"
-                  />
-                </div>
-              </Marker>
-            </InteractiveMap>
-          </div>,
+                },
+                "visible": true,
+                "width": "100%",
+                "zoom": 14,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "captureClick": true,
+                  "captureDoubleClick": true,
+                  "captureDrag": true,
+                  "captureScroll": false,
+                  "children": <Pin />,
+                  "className": "",
+                  "draggable": false,
+                  "latitude": 53.562614,
+                  "longitude": -2.384833,
+                  "offsetLeft": 0,
+                  "offsetTop": 0,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <h2>
+            Practice Times
+          </h2>,
           "className": "about-section",
         },
         "ref": null,
@@ -725,274 +482,545 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": <InteractiveMap
-              attributionControl={true}
-              bearing={0}
-              className=""
-              clickRadius={0}
-              container={<body />}
-              disableTokenWarning={false}
-              doubleClickZoom={true}
-              dragPan={true}
-              dragRotate={true}
-              getCursor={[Function]}
-              height={400}
-              keyboard={true}
-              latitude={53.562614}
-              longitude={-2.384833}
-              mapOptions={Object {}}
-              mapStyle="mapbox://styles/mapbox/streets-v10"
-              mapboxApiAccessToken="pk.eyJ1IjoiZXdhbmJkIiwiYSI6ImNqb2ozcnEycDAxMjkza3BhbjVpMWd0azUifQ.gRjILY0KoVrvFBY_Hvkv2w"
-              maxPitch={60}
-              maxZoom={24}
-              minPitch={0}
-              minZoom={0}
-              onClick={null}
-              onContextMenu={[Function]}
-              onError={[Function]}
-              onHover={null}
-              onLoad={[Function]}
-              onResize={[Function]}
-              onStateChange={[Function]}
-              onTransitionEnd={[Function]}
-              onTransitionInterrupt={[Function]}
-              onTransitionStart={[Function]}
-              onViewStateChange={null}
-              onViewportChange={null}
-              pitch={0}
-              preserveDrawingBuffer={false}
-              preventStyleDiffing={false}
-              reuseMaps={false}
-              scrollZoom={true}
-              style={null}
-              touchAction="none"
-              touchRotate={false}
-              touchZoom={true}
-              transitionDuration={0}
-              transitionEasing={[Function]}
-              transitionInterpolator={
-                LinearInterpolator {
-                  "around": undefined,
-                  "propNames": Array [
-                    "longitude",
-                    "latitude",
-                    "zoom",
-                    "bearing",
-                    "pitch",
-                  ],
-                }
-              }
-              transitionInterruption={1}
-              visibilityConstraints={
-                Object {
-                  "maxPitch": 60,
-                  "maxZoom": 24,
-                  "minPitch": 0,
-                  "minZoom": 0,
-                }
-              }
-              visible={true}
-              width="100%"
-              zoom={14}
-            >
-              <Marker
-                captureClick={true}
-                captureDoubleClick={true}
-                captureDrag={true}
-                captureScroll={false}
-                className=""
-                draggable={false}
-                latitude={53.562614}
-                longitude={-2.384833}
-                offsetLeft={0}
-                offsetTop={0}
-              >
-                <div
-                  className="marker"
-                >
-                  <div
-                    className="pin"
-                  />
-                  <div
-                    className="pin-effect"
-                  />
-                </div>
-              </Marker>
-            </InteractiveMap>,
-            "className": "about-map",
+            "children": "Practice Times",
           },
           "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "attributionControl": true,
-              "bearing": 0,
-              "children": <Marker
-                captureClick={true}
-                captureDoubleClick={true}
-                captureDrag={true}
-                captureScroll={false}
+          "rendered": "Practice Times",
+          "type": "h2",
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <h2>
+            Contact
+          </h2>,
+          "className": "about-section",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Contact",
+          },
+          "ref": null,
+          "rendered": "Contact",
+          "type": "h2",
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="about-section"
+          >
+            <h2
+              className="about-header"
+            >
+              Where we practice
+            </h2>
+            <div
+              className="about-map"
+            >
+              <InteractiveMap
+                attributionControl={true}
+                bearing={0}
                 className=""
-                draggable={false}
+                clickRadius={0}
+                container={<body />}
+                disableTokenWarning={false}
+                doubleClickZoom={true}
+                dragPan={true}
+                dragRotate={true}
+                getCursor={[Function]}
+                height={400}
+                keyboard={true}
                 latitude={53.562614}
                 longitude={-2.384833}
-                offsetLeft={0}
-                offsetTop={0}
+                mapOptions={Object {}}
+                mapStyle="mapbox://styles/mapbox/streets-v10"
+                mapboxApiAccessToken="pk.eyJ1IjoiZXdhbmJkIiwiYSI6ImNqb2ozcnEycDAxMjkza3BhbjVpMWd0azUifQ.gRjILY0KoVrvFBY_Hvkv2w"
+                maxPitch={60}
+                maxZoom={24}
+                minPitch={0}
+                minZoom={0}
+                onClick={null}
+                onContextMenu={[Function]}
+                onError={[Function]}
+                onHover={null}
+                onLoad={[Function]}
+                onResize={[Function]}
+                onStateChange={[Function]}
+                onTransitionEnd={[Function]}
+                onTransitionInterrupt={[Function]}
+                onTransitionStart={[Function]}
+                onViewStateChange={null}
+                onViewportChange={null}
+                pitch={0}
+                preserveDrawingBuffer={false}
+                preventStyleDiffing={false}
+                reuseMaps={false}
+                scrollZoom={true}
+                style={null}
+                touchAction="none"
+                touchRotate={false}
+                touchZoom={true}
+                transitionDuration={0}
+                transitionEasing={[Function]}
+                transitionInterpolator={
+                  LinearInterpolator {
+                    "around": undefined,
+                    "propNames": Array [
+                      "longitude",
+                      "latitude",
+                      "zoom",
+                      "bearing",
+                      "pitch",
+                    ],
+                  }
+                }
+                transitionInterruption={1}
+                visibilityConstraints={
+                  Object {
+                    "maxPitch": 60,
+                    "maxZoom": 24,
+                    "minPitch": 0,
+                    "minZoom": 0,
+                  }
+                }
+                visible={true}
+                width="100%"
+                zoom={14}
               >
-                <div
-                  className="marker"
+                <Marker
+                  captureClick={true}
+                  captureDoubleClick={true}
+                  captureDrag={true}
+                  captureScroll={false}
+                  className=""
+                  draggable={false}
+                  latitude={53.562614}
+                  longitude={-2.384833}
+                  offsetLeft={0}
+                  offsetTop={0}
                 >
-                  <div
-                    className="pin"
-                  />
-                  <div
-                    className="pin-effect"
-                  />
-                </div>
-              </Marker>,
-              "className": "",
-              "clickRadius": 0,
-              "container": <body />,
-              "disableTokenWarning": false,
-              "doubleClickZoom": true,
-              "dragPan": true,
-              "dragRotate": true,
-              "getCursor": [Function],
-              "height": 400,
-              "keyboard": true,
-              "latitude": 53.562614,
-              "longitude": -2.384833,
-              "mapOptions": Object {},
-              "mapStyle": "mapbox://styles/mapbox/streets-v10",
-              "mapboxApiAccessToken": "pk.eyJ1IjoiZXdhbmJkIiwiYSI6ImNqb2ozcnEycDAxMjkza3BhbjVpMWd0azUifQ.gRjILY0KoVrvFBY_Hvkv2w",
-              "maxPitch": 60,
-              "maxZoom": 24,
-              "minPitch": 0,
-              "minZoom": 0,
-              "onClick": null,
-              "onContextMenu": [Function],
-              "onError": [Function],
-              "onHover": null,
-              "onLoad": [Function],
-              "onResize": [Function],
-              "onStateChange": [Function],
-              "onTransitionEnd": [Function],
-              "onTransitionInterrupt": [Function],
-              "onTransitionStart": [Function],
-              "onViewStateChange": null,
-              "onViewportChange": null,
-              "pitch": 0,
-              "preserveDrawingBuffer": false,
-              "preventStyleDiffing": false,
-              "reuseMaps": false,
-              "scrollZoom": true,
-              "style": null,
-              "touchAction": "none",
-              "touchRotate": false,
-              "touchZoom": true,
-              "transitionDuration": 0,
-              "transitionEasing": [Function],
-              "transitionInterpolator": LinearInterpolator {
-                "around": undefined,
-                "propNames": Array [
-                  "longitude",
-                  "latitude",
-                  "zoom",
-                  "bearing",
-                  "pitch",
-                ],
-              },
-              "transitionInterruption": 1,
-              "visibilityConstraints": Object {
-                "maxPitch": 60,
-                "maxZoom": 24,
-                "minPitch": 0,
-                "minZoom": 0,
-              },
-              "visible": true,
-              "width": "100%",
-              "zoom": 14,
-            },
-            "ref": null,
-            "rendered": Object {
+                  <Pin />
+                </Marker>
+              </InteractiveMap>
+            </div>
+          </div>,
+          <div
+            className="about-section"
+          >
+            <h2>
+              Practice Times
+            </h2>
+          </div>,
+          <div
+            className="about-section"
+          >
+            <h2>
+              Contact
+            </h2>
+          </div>,
+        ],
+        "className": "about-container",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h2
+                className="about-header"
+              >
+                Where we practice
+              </h2>,
+              <div
+                className="about-map"
+              >
+                <InteractiveMap
+                  attributionControl={true}
+                  bearing={0}
+                  className=""
+                  clickRadius={0}
+                  container={<body />}
+                  disableTokenWarning={false}
+                  doubleClickZoom={true}
+                  dragPan={true}
+                  dragRotate={true}
+                  getCursor={[Function]}
+                  height={400}
+                  keyboard={true}
+                  latitude={53.562614}
+                  longitude={-2.384833}
+                  mapOptions={Object {}}
+                  mapStyle="mapbox://styles/mapbox/streets-v10"
+                  mapboxApiAccessToken="pk.eyJ1IjoiZXdhbmJkIiwiYSI6ImNqb2ozcnEycDAxMjkza3BhbjVpMWd0azUifQ.gRjILY0KoVrvFBY_Hvkv2w"
+                  maxPitch={60}
+                  maxZoom={24}
+                  minPitch={0}
+                  minZoom={0}
+                  onClick={null}
+                  onContextMenu={[Function]}
+                  onError={[Function]}
+                  onHover={null}
+                  onLoad={[Function]}
+                  onResize={[Function]}
+                  onStateChange={[Function]}
+                  onTransitionEnd={[Function]}
+                  onTransitionInterrupt={[Function]}
+                  onTransitionStart={[Function]}
+                  onViewStateChange={null}
+                  onViewportChange={null}
+                  pitch={0}
+                  preserveDrawingBuffer={false}
+                  preventStyleDiffing={false}
+                  reuseMaps={false}
+                  scrollZoom={true}
+                  style={null}
+                  touchAction="none"
+                  touchRotate={false}
+                  touchZoom={true}
+                  transitionDuration={0}
+                  transitionEasing={[Function]}
+                  transitionInterpolator={
+                    LinearInterpolator {
+                      "around": undefined,
+                      "propNames": Array [
+                        "longitude",
+                        "latitude",
+                        "zoom",
+                        "bearing",
+                        "pitch",
+                      ],
+                    }
+                  }
+                  transitionInterruption={1}
+                  visibilityConstraints={
+                    Object {
+                      "maxPitch": 60,
+                      "maxZoom": 24,
+                      "minPitch": 0,
+                      "minZoom": 0,
+                    }
+                  }
+                  visible={true}
+                  width="100%"
+                  zoom={14}
+                >
+                  <Marker
+                    captureClick={true}
+                    captureDoubleClick={true}
+                    captureDrag={true}
+                    captureScroll={false}
+                    className=""
+                    draggable={false}
+                    latitude={53.562614}
+                    longitude={-2.384833}
+                    offsetLeft={0}
+                    offsetTop={0}
+                  >
+                    <Pin />
+                  </Marker>
+                </InteractiveMap>
+              </div>,
+            ],
+            "className": "about-section",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "host",
               "props": Object {
-                "captureClick": true,
-                "captureDoubleClick": true,
-                "captureDrag": true,
-                "captureScroll": false,
-                "children": <div
-                  className="marker"
+                "children": "Where we practice",
+                "className": "about-header",
+              },
+              "ref": null,
+              "rendered": "Where we practice",
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <InteractiveMap
+                  attributionControl={true}
+                  bearing={0}
+                  className=""
+                  clickRadius={0}
+                  container={<body />}
+                  disableTokenWarning={false}
+                  doubleClickZoom={true}
+                  dragPan={true}
+                  dragRotate={true}
+                  getCursor={[Function]}
+                  height={400}
+                  keyboard={true}
+                  latitude={53.562614}
+                  longitude={-2.384833}
+                  mapOptions={Object {}}
+                  mapStyle="mapbox://styles/mapbox/streets-v10"
+                  mapboxApiAccessToken="pk.eyJ1IjoiZXdhbmJkIiwiYSI6ImNqb2ozcnEycDAxMjkza3BhbjVpMWd0azUifQ.gRjILY0KoVrvFBY_Hvkv2w"
+                  maxPitch={60}
+                  maxZoom={24}
+                  minPitch={0}
+                  minZoom={0}
+                  onClick={null}
+                  onContextMenu={[Function]}
+                  onError={[Function]}
+                  onHover={null}
+                  onLoad={[Function]}
+                  onResize={[Function]}
+                  onStateChange={[Function]}
+                  onTransitionEnd={[Function]}
+                  onTransitionInterrupt={[Function]}
+                  onTransitionStart={[Function]}
+                  onViewStateChange={null}
+                  onViewportChange={null}
+                  pitch={0}
+                  preserveDrawingBuffer={false}
+                  preventStyleDiffing={false}
+                  reuseMaps={false}
+                  scrollZoom={true}
+                  style={null}
+                  touchAction="none"
+                  touchRotate={false}
+                  touchZoom={true}
+                  transitionDuration={0}
+                  transitionEasing={[Function]}
+                  transitionInterpolator={
+                    LinearInterpolator {
+                      "around": undefined,
+                      "propNames": Array [
+                        "longitude",
+                        "latitude",
+                        "zoom",
+                        "bearing",
+                        "pitch",
+                      ],
+                    }
+                  }
+                  transitionInterruption={1}
+                  visibilityConstraints={
+                    Object {
+                      "maxPitch": 60,
+                      "maxZoom": 24,
+                      "minPitch": 0,
+                      "minZoom": 0,
+                    }
+                  }
+                  visible={true}
+                  width="100%"
+                  zoom={14}
                 >
-                  <div
-                    className="pin"
-                  />
-                  <div
-                    className="pin-effect"
-                  />
-                </div>,
-                "className": "",
-                "draggable": false,
-                "latitude": 53.562614,
-                "longitude": -2.384833,
-                "offsetLeft": 0,
-                "offsetTop": 0,
+                  <Marker
+                    captureClick={true}
+                    captureDoubleClick={true}
+                    captureDrag={true}
+                    captureScroll={false}
+                    className=""
+                    draggable={false}
+                    latitude={53.562614}
+                    longitude={-2.384833}
+                    offsetLeft={0}
+                    offsetTop={0}
+                  >
+                    <Pin />
+                  </Marker>
+                </InteractiveMap>,
+                "className": "about-map",
               },
               "ref": null,
               "rendered": Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "host",
+                "nodeType": "class",
                 "props": Object {
-                  "children": Array [
-                    <div
-                      className="pin"
-                    />,
-                    <div
-                      className="pin-effect"
-                    />,
-                  ],
-                  "className": "marker",
+                  "attributionControl": true,
+                  "bearing": 0,
+                  "children": <Marker
+                    captureClick={true}
+                    captureDoubleClick={true}
+                    captureDrag={true}
+                    captureScroll={false}
+                    className=""
+                    draggable={false}
+                    latitude={53.562614}
+                    longitude={-2.384833}
+                    offsetLeft={0}
+                    offsetTop={0}
+                  >
+                    <Pin />
+                  </Marker>,
+                  "className": "",
+                  "clickRadius": 0,
+                  "container": <body />,
+                  "disableTokenWarning": false,
+                  "doubleClickZoom": true,
+                  "dragPan": true,
+                  "dragRotate": true,
+                  "getCursor": [Function],
+                  "height": 400,
+                  "keyboard": true,
+                  "latitude": 53.562614,
+                  "longitude": -2.384833,
+                  "mapOptions": Object {},
+                  "mapStyle": "mapbox://styles/mapbox/streets-v10",
+                  "mapboxApiAccessToken": "pk.eyJ1IjoiZXdhbmJkIiwiYSI6ImNqb2ozcnEycDAxMjkza3BhbjVpMWd0azUifQ.gRjILY0KoVrvFBY_Hvkv2w",
+                  "maxPitch": 60,
+                  "maxZoom": 24,
+                  "minPitch": 0,
+                  "minZoom": 0,
+                  "onClick": null,
+                  "onContextMenu": [Function],
+                  "onError": [Function],
+                  "onHover": null,
+                  "onLoad": [Function],
+                  "onResize": [Function],
+                  "onStateChange": [Function],
+                  "onTransitionEnd": [Function],
+                  "onTransitionInterrupt": [Function],
+                  "onTransitionStart": [Function],
+                  "onViewStateChange": null,
+                  "onViewportChange": null,
+                  "pitch": 0,
+                  "preserveDrawingBuffer": false,
+                  "preventStyleDiffing": false,
+                  "reuseMaps": false,
+                  "scrollZoom": true,
+                  "style": null,
+                  "touchAction": "none",
+                  "touchRotate": false,
+                  "touchZoom": true,
+                  "transitionDuration": 0,
+                  "transitionEasing": [Function],
+                  "transitionInterpolator": LinearInterpolator {
+                    "around": undefined,
+                    "propNames": Array [
+                      "longitude",
+                      "latitude",
+                      "zoom",
+                      "bearing",
+                      "pitch",
+                    ],
+                  },
+                  "transitionInterruption": 1,
+                  "visibilityConstraints": Object {
+                    "maxPitch": 60,
+                    "maxZoom": 24,
+                    "minPitch": 0,
+                    "minZoom": 0,
+                  },
+                  "visible": true,
+                  "width": "100%",
+                  "zoom": 14,
                 },
                 "ref": null,
-                "rendered": Array [
-                  Object {
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "captureClick": true,
+                    "captureDoubleClick": true,
+                    "captureDrag": true,
+                    "captureScroll": false,
+                    "children": <Pin />,
+                    "className": "",
+                    "draggable": false,
+                    "latitude": 53.562614,
+                    "longitude": -2.384833,
+                    "offsetLeft": 0,
+                    "offsetTop": 0,
+                  },
+                  "ref": null,
+                  "rendered": Object {
                     "instance": null,
                     "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "className": "pin",
-                    },
+                    "nodeType": "function",
+                    "props": Object {},
                     "ref": null,
                     "rendered": null,
-                    "type": "div",
+                    "type": [Function],
                   },
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "className": "pin-effect",
-                    },
-                    "ref": null,
-                    "rendered": null,
-                    "type": "div",
-                  },
-                ],
-                "type": "div",
+                  "type": [Function],
+                },
+                "type": [Function],
               },
-              "type": [Function],
+              "type": "div",
             },
-            "type": [Function],
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <h2>
+              Practice Times
+            </h2>,
+            "className": "about-section",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Practice Times",
+            },
+            "ref": null,
+            "rendered": "Practice Times",
+            "type": "h2",
           },
           "type": "div",
         },
-        "type": "div",
-      },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <h2>
+              Contact
+            </h2>,
+            "className": "about-section",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Contact",
+            },
+            "ref": null,
+            "rendered": "Contact",
+            "type": "h2",
+          },
+          "type": "div",
+        },
+      ],
       "type": "div",
     },
   ],

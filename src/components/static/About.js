@@ -1,14 +1,10 @@
 import React from 'react';
-import Map, { NavigationControl, Marker } from 'react-map-gl';
+import Map, { Marker } from 'react-map-gl';
 import Pin from '../../common/Pin';
 
-const API_KEY = 'pk.eyJ1IjoiZXdhbmJkIiwiYSI6ImNqb2ozcnEycDAxMjkza3BhbjVpMWd0azUifQ.gRjILY0KoVrvFBY_Hvkv2w';
+const key = require('../../config/keys').apiMapKey;
 
-const navStyle = {
-    top: 0,
-    left: 0,
-    padding: '10px'
-};
+const API_KEY = key;
 
 const LATITUDE = 53.562614;
 const LONGITUDE = -2.384833;
@@ -37,6 +33,7 @@ class About extends React.Component {
     return (
         <div className="about-container">
             <div className="about-section" >
+                <h2 className="about-header">Where we practice</h2>
                 <div className="about-map">
                     <Map
                         {...viewport}
@@ -46,15 +43,17 @@ class About extends React.Component {
                             latitude={LATITUDE} 
                             longitude={LONGITUDE}
                         >
-                        {/* <Pin size={20} />        */}
-                            <div className="marker">
-                                <div className="pin"></div>
-                                <div className="pin-effect"></div>
-                            </div>             
+                            <Pin />       
                         </Marker>
                     </Map>
                     
                 </div>
+            </div>
+            <div className="about-section" >
+                <h2>Practice Times</h2>
+            </div>
+            <div className="about-section" >
+                <h2>Contact</h2>
             </div>
         </div>
     )
