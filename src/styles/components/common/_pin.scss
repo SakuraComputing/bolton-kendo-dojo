@@ -1,0 +1,47 @@
+.marker {
+    width: 100px;
+    height: 100px;
+    top: 120px; /*positions our marker*/
+    left: 200px; /*positions our marker*/
+    display: block;  
+}
+
+.pin {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 38px;
+    left: 38px;
+    background: $warning-red;    
+    opacity: .80;
+    border: 2px solid $off-white;
+    border-radius: 50%;
+    z-index: 1000;
+}
+
+.pin-effect {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    display: block;
+    background: $warning-red;
+    border-radius: 50%;
+    opacity: 0;
+    animation: pulsate 2400ms ease-out infinite;
+}
+
+@keyframes pulsate {
+    0% {
+    transform: scale(0.1);
+    opacity: 0;
+    }
+    50% {
+    opacity: 0.50;
+    }
+    100% {
+    transform: scale(1.2);
+    opacity: 0;
+    }
+}
+

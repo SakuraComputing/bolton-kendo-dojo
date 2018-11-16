@@ -1,5 +1,6 @@
 import React from 'react';
 import Map, { NavigationControl, Marker } from 'react-map-gl';
+import Pin from '../../common/Pin';
 
 const API_KEY = 'pk.eyJ1IjoiZXdhbmJkIiwiYSI6ImNqb2ozcnEycDAxMjkza3BhbjVpMWd0azUifQ.gRjILY0KoVrvFBY_Hvkv2w';
 
@@ -41,8 +42,15 @@ class About extends React.Component {
                         {...viewport}
                         mapStyle="mapbox://styles/mapbox/streets-v10"
                         mapboxApiAccessToken={API_KEY}>
-                        <Marker latitude={LATITUDE} longitude={LONGITUDE}>
-                            <div>You are Here</div>
+                        <Marker 
+                            latitude={LATITUDE} 
+                            longitude={LONGITUDE}
+                        >
+                        {/* <Pin size={20} />        */}
+                            <div className="marker">
+                                <div className="pin"></div>
+                                <div className="pin-effect"></div>
+                            </div>             
                         </Marker>
                     </Map>
                     
