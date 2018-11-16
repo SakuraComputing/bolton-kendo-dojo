@@ -2,7 +2,7 @@
 
 # dependencies
 /node_modules
-/config/keys_dev.js
+/src/config/keys_dev.js
 /.pnp
 .pnp.js
 
