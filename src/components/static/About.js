@@ -1,6 +1,5 @@
 import React from 'react';
-import Map, { NavigationControl } from 'react-map-gl';
-
+import Map, { NavigationControl, Marker } from 'react-map-gl';
 
 const API_KEY = 'pk.eyJ1IjoiZXdhbmJkIiwiYSI6ImNqb2ozcnEycDAxMjkza3BhbjVpMWd0azUifQ.gRjILY0KoVrvFBY_Hvkv2w';
 
@@ -10,14 +9,17 @@ const navStyle = {
     padding: '10px'
 };
 
+const LATITUDE = 53.562614;
+const LONGITUDE = -2.384833;
+
 class About extends React.Component {
 
   constructor(props) {
     super(props);
       this.state = {
         viewport: {
-            latitude: 53.562614,
-            longitude: -2.384833,
+            latitude: LATITUDE,
+            longitude: LONGITUDE,
             zoom: 14,
             bearing: 0,
             pitch: 0,
@@ -39,7 +41,11 @@ class About extends React.Component {
                         {...viewport}
                         mapStyle="mapbox://styles/mapbox/streets-v10"
                         mapboxApiAccessToken={API_KEY}>
+                        <Marker latitude={LATITUDE} longitude={LONGITUDE}>
+                            <div>You are Here</div>
+                        </Marker>
                     </Map>
+                    
                 </div>
             </div>
         </div>
