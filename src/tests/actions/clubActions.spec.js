@@ -1,5 +1,5 @@
-import { getClubProfile } from '../../actions/clubActions';
-import { GET_CLUB_PROFILE, GET_ERRORS } from '../../actions/types';
+import { getClubProfile, setProfileLoading } from '../../actions/clubActions';
+import { GET_CLUB_PROFILE, GET_ERRORS, PROFILE_LOADING } from '../../actions/types';
 import Axios from 'axios';
 import MockAdapter from 'axios-mock-adapter';
 import configureMockStore from 'redux-mock-store';
@@ -49,3 +49,10 @@ describe('club action', () => {
       ])
     });
 });
+
+describe('Club Profile Load', () => {
+    it('should return a profile loading object', () => {
+        const action = setProfileLoading();
+        expect(action).toEqual({ type: PROFILE_LOADING })
+    });
+})
