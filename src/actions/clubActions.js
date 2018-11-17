@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { GET_CLUB_PROFILE, GET_ERRORS } from './types';
+import { GET_CLUB_PROFILE, GET_ERRORS, PROFILE_LOADING } from './types';
 
 export const getClubProfile = () => dispatch => {
     axios.get('/api/club')
@@ -16,3 +16,11 @@ export const getClubProfile = () => dispatch => {
         })
     })
 }
+
+export const setProfileLoading = () => {
+    return {
+        type: PROFILE_LOADING
+    }
+}
+
+
