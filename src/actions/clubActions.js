@@ -2,6 +2,7 @@ import axios from 'axios';
 import { GET_CLUB_PROFILE, GET_ERRORS, PROFILE_LOADING } from './types';
 
 export const getClubProfile = () => dispatch => {
+    dispatch(setProfileLoading());
     axios.get('/api/club')
     .then(res => 
         dispatch({
