@@ -30,13 +30,14 @@ describe('club reducer', () => {
         expect(state).toEqual(club);
     });
     it('should return club profile loading', () => {
-        const club = {
+        const loading = {
+            club: {},
             loading: true
         }
         const action = {
             type: PROFILE_LOADING
         }
-        const state = clubReducer(action);
-        expect(state).toEqual(club);
+        const state = clubReducer(undefined, action);
+        expect(state).toEqual(loading);
     });
 });
