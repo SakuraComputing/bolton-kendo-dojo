@@ -18,15 +18,69 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <h1>
+        <h1
+          className="members-header"
+        >
           Welcome to the Members Area
         </h1>,
-        <Link
-          replace={false}
-          to="/memberphoto"
-        />,
+        <div
+          className="members-area-container"
+        >
+          <div
+            className="members-area-link"
+          >
+            <Link
+              replace={false}
+              to="/memberphoto"
+            >
+              Photographs
+            </Link>
+            <p>
+              Select the photgraphs to go in to the photgraph section
+            </p>
+          </div>
+          <div
+            className="members-area-link"
+          >
+            <Link
+              replace={false}
+              to="/memberphoto"
+            >
+              Kendo Mind Map
+            </Link>
+            <p>
+              Enter the Kendo Mind Map section for all deeper kendo study
+            </p>
+          </div>
+          <div
+            className="members-area-link"
+          >
+            <Link
+              replace={false}
+              to="/memberphoto"
+            >
+              Videos
+            </Link>
+            <p>
+              Go into the video section and view private members videos
+            </p>
+          </div>
+          <div
+            className="members-area-link"
+          >
+            <Link
+              replace={false}
+              to="/members"
+            >
+              Bulletin Board
+            </Link>
+            <p>
+              Add a post to the bulletin board. Responds to other posts
+            </p>
+          </div>
+        </div>,
       ],
-      "className": "content-container members",
+      "className": "members",
     },
     "ref": null,
     "rendered": Array [
@@ -36,6 +90,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": "Welcome to the Members Area",
+          "className": "members-header",
         },
         "ref": null,
         "rendered": "Welcome to the Members Area",
@@ -44,14 +99,256 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "class",
+        "nodeType": "host",
         "props": Object {
-          "replace": false,
-          "to": "/memberphoto",
+          "children": Array [
+            <div
+              className="members-area-link"
+            >
+              <Link
+                replace={false}
+                to="/memberphoto"
+              >
+                Photographs
+              </Link>
+              <p>
+                Select the photgraphs to go in to the photgraph section
+              </p>
+            </div>,
+            <div
+              className="members-area-link"
+            >
+              <Link
+                replace={false}
+                to="/memberphoto"
+              >
+                Kendo Mind Map
+              </Link>
+              <p>
+                Enter the Kendo Mind Map section for all deeper kendo study
+              </p>
+            </div>,
+            <div
+              className="members-area-link"
+            >
+              <Link
+                replace={false}
+                to="/memberphoto"
+              >
+                Videos
+              </Link>
+              <p>
+                Go into the video section and view private members videos
+              </p>
+            </div>,
+            <div
+              className="members-area-link"
+            >
+              <Link
+                replace={false}
+                to="/members"
+              >
+                Bulletin Board
+              </Link>
+              <p>
+                Add a post to the bulletin board. Responds to other posts
+              </p>
+            </div>,
+          ],
+          "className": "members-area-container",
         },
         "ref": null,
-        "rendered": null,
-        "type": [Function],
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <Link
+                  replace={false}
+                  to="/memberphoto"
+                >
+                  Photographs
+                </Link>,
+                <p>
+                  Select the photgraphs to go in to the photgraph section
+                </p>,
+              ],
+              "className": "members-area-link",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "Photographs",
+                  "replace": false,
+                  "to": "/memberphoto",
+                },
+                "ref": null,
+                "rendered": "Photographs",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Select the photgraphs to go in to the photgraph section",
+                },
+                "ref": null,
+                "rendered": "Select the photgraphs to go in to the photgraph section",
+                "type": "p",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <Link
+                  replace={false}
+                  to="/memberphoto"
+                >
+                  Kendo Mind Map
+                </Link>,
+                <p>
+                  Enter the Kendo Mind Map section for all deeper kendo study
+                </p>,
+              ],
+              "className": "members-area-link",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "Kendo Mind Map",
+                  "replace": false,
+                  "to": "/memberphoto",
+                },
+                "ref": null,
+                "rendered": "Kendo Mind Map",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Enter the Kendo Mind Map section for all deeper kendo study",
+                },
+                "ref": null,
+                "rendered": "Enter the Kendo Mind Map section for all deeper kendo study",
+                "type": "p",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <Link
+                  replace={false}
+                  to="/memberphoto"
+                >
+                  Videos
+                </Link>,
+                <p>
+                  Go into the video section and view private members videos
+                </p>,
+              ],
+              "className": "members-area-link",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "Videos",
+                  "replace": false,
+                  "to": "/memberphoto",
+                },
+                "ref": null,
+                "rendered": "Videos",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Go into the video section and view private members videos",
+                },
+                "ref": null,
+                "rendered": "Go into the video section and view private members videos",
+                "type": "p",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <Link
+                  replace={false}
+                  to="/members"
+                >
+                  Bulletin Board
+                </Link>,
+                <p>
+                  Add a post to the bulletin board. Responds to other posts
+                </p>,
+              ],
+              "className": "members-area-link",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "Bulletin Board",
+                  "replace": false,
+                  "to": "/members",
+                },
+                "ref": null,
+                "rendered": "Bulletin Board",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Add a post to the bulletin board. Responds to other posts",
+                },
+                "ref": null,
+                "rendered": "Add a post to the bulletin board. Responds to other posts",
+                "type": "p",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
       },
     ],
     "type": "div",
@@ -63,15 +360,69 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <h1>
+          <h1
+            className="members-header"
+          >
             Welcome to the Members Area
           </h1>,
-          <Link
-            replace={false}
-            to="/memberphoto"
-          />,
+          <div
+            className="members-area-container"
+          >
+            <div
+              className="members-area-link"
+            >
+              <Link
+                replace={false}
+                to="/memberphoto"
+              >
+                Photographs
+              </Link>
+              <p>
+                Select the photgraphs to go in to the photgraph section
+              </p>
+            </div>
+            <div
+              className="members-area-link"
+            >
+              <Link
+                replace={false}
+                to="/memberphoto"
+              >
+                Kendo Mind Map
+              </Link>
+              <p>
+                Enter the Kendo Mind Map section for all deeper kendo study
+              </p>
+            </div>
+            <div
+              className="members-area-link"
+            >
+              <Link
+                replace={false}
+                to="/memberphoto"
+              >
+                Videos
+              </Link>
+              <p>
+                Go into the video section and view private members videos
+              </p>
+            </div>
+            <div
+              className="members-area-link"
+            >
+              <Link
+                replace={false}
+                to="/members"
+              >
+                Bulletin Board
+              </Link>
+              <p>
+                Add a post to the bulletin board. Responds to other posts
+              </p>
+            </div>
+          </div>,
         ],
-        "className": "content-container members",
+        "className": "members",
       },
       "ref": null,
       "rendered": Array [
@@ -81,6 +432,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "Welcome to the Members Area",
+            "className": "members-header",
           },
           "ref": null,
           "rendered": "Welcome to the Members Area",
@@ -89,14 +441,256 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "host",
           "props": Object {
-            "replace": false,
-            "to": "/memberphoto",
+            "children": Array [
+              <div
+                className="members-area-link"
+              >
+                <Link
+                  replace={false}
+                  to="/memberphoto"
+                >
+                  Photographs
+                </Link>
+                <p>
+                  Select the photgraphs to go in to the photgraph section
+                </p>
+              </div>,
+              <div
+                className="members-area-link"
+              >
+                <Link
+                  replace={false}
+                  to="/memberphoto"
+                >
+                  Kendo Mind Map
+                </Link>
+                <p>
+                  Enter the Kendo Mind Map section for all deeper kendo study
+                </p>
+              </div>,
+              <div
+                className="members-area-link"
+              >
+                <Link
+                  replace={false}
+                  to="/memberphoto"
+                >
+                  Videos
+                </Link>
+                <p>
+                  Go into the video section and view private members videos
+                </p>
+              </div>,
+              <div
+                className="members-area-link"
+              >
+                <Link
+                  replace={false}
+                  to="/members"
+                >
+                  Bulletin Board
+                </Link>
+                <p>
+                  Add a post to the bulletin board. Responds to other posts
+                </p>
+              </div>,
+            ],
+            "className": "members-area-container",
           },
           "ref": null,
-          "rendered": null,
-          "type": [Function],
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <Link
+                    replace={false}
+                    to="/memberphoto"
+                  >
+                    Photographs
+                  </Link>,
+                  <p>
+                    Select the photgraphs to go in to the photgraph section
+                  </p>,
+                ],
+                "className": "members-area-link",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Photographs",
+                    "replace": false,
+                    "to": "/memberphoto",
+                  },
+                  "ref": null,
+                  "rendered": "Photographs",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Select the photgraphs to go in to the photgraph section",
+                  },
+                  "ref": null,
+                  "rendered": "Select the photgraphs to go in to the photgraph section",
+                  "type": "p",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <Link
+                    replace={false}
+                    to="/memberphoto"
+                  >
+                    Kendo Mind Map
+                  </Link>,
+                  <p>
+                    Enter the Kendo Mind Map section for all deeper kendo study
+                  </p>,
+                ],
+                "className": "members-area-link",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Kendo Mind Map",
+                    "replace": false,
+                    "to": "/memberphoto",
+                  },
+                  "ref": null,
+                  "rendered": "Kendo Mind Map",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Enter the Kendo Mind Map section for all deeper kendo study",
+                  },
+                  "ref": null,
+                  "rendered": "Enter the Kendo Mind Map section for all deeper kendo study",
+                  "type": "p",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <Link
+                    replace={false}
+                    to="/memberphoto"
+                  >
+                    Videos
+                  </Link>,
+                  <p>
+                    Go into the video section and view private members videos
+                  </p>,
+                ],
+                "className": "members-area-link",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Videos",
+                    "replace": false,
+                    "to": "/memberphoto",
+                  },
+                  "ref": null,
+                  "rendered": "Videos",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Go into the video section and view private members videos",
+                  },
+                  "ref": null,
+                  "rendered": "Go into the video section and view private members videos",
+                  "type": "p",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <Link
+                    replace={false}
+                    to="/members"
+                  >
+                    Bulletin Board
+                  </Link>,
+                  <p>
+                    Add a post to the bulletin board. Responds to other posts
+                  </p>,
+                ],
+                "className": "members-area-link",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Bulletin Board",
+                    "replace": false,
+                    "to": "/members",
+                  },
+                  "ref": null,
+                  "rendered": "Bulletin Board",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Add a post to the bulletin board. Responds to other posts",
+                  },
+                  "ref": null,
+                  "rendered": "Add a post to the bulletin board. Responds to other posts",
+                  "type": "p",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
         },
       ],
       "type": "div",
