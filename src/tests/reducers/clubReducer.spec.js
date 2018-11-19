@@ -1,5 +1,5 @@
 import clubReducer from '../../reducers/club';
-import { GET_CLUB_PROFILE } from '../../actions/types'
+import { GET_CLUB_PROFILE, PROFILE_LOADING } from '../../actions/types'
 
 describe('club reducer', () => {
 
@@ -27,6 +27,16 @@ describe('club reducer', () => {
             club
         }
         const state = clubReducer(club, action);
+        expect(state).toEqual(club);
+    });
+    it('should return club profile loading', () => {
+        const club = {
+            loading: true
+        }
+        const action = {
+            type: PROFILE_LOADING
+        }
+        const state = clubReducer(action);
         expect(state).toEqual(club);
     });
 });
