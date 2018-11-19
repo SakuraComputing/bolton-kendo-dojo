@@ -22,6 +22,7 @@ ShallowWrapper {
         className="spinner"
         src="spinner.gif"
       />,
+      "className": "spinner-container",
     },
     "ref": null,
     "rendered": Object {
@@ -50,6 +51,7 @@ ShallowWrapper {
           className="spinner"
           src="spinner.gif"
         />,
+        "className": "spinner-container",
       },
       "ref": null,
       "rendered": Object {
