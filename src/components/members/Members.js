@@ -11,7 +11,7 @@ const  Members = () => {
           <p>Select the photgraphs to go in to the photgraph section</p>
         </div>
         <div className="members-area-link">
-          <Link to="/memberphoto">Kendo Mind Map</Link>
+          <Link to="/mindmap">Kendo Mind Map</Link>
           <p>Enter the Kendo Mind Map section for all deeper kendo study</p>
         </div>
         <div className="members-area-link">

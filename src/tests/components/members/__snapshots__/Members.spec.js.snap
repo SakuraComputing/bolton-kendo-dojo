@@ -44,7 +44,7 @@ ShallowWrapper {
           >
             <Link
               replace={false}
-              to="/memberphoto"
+              to="/mindmap"
             >
               Kendo Mind Map
             </Link>
@@ -120,7 +120,7 @@ ShallowWrapper {
             >
               <Link
                 replace={false}
-                to="/memberphoto"
+                to="/mindmap"
               >
                 Kendo Mind Map
               </Link>
@@ -214,7 +214,7 @@ ShallowWrapper {
               "children": Array [
                 <Link
                   replace={false}
-                  to="/memberphoto"
+                  to="/mindmap"
                 >
                   Kendo Mind Map
                 </Link>,
@@ -233,7 +233,7 @@ ShallowWrapper {
                 "props": Object {
                   "children": "Kendo Mind Map",
                   "replace": false,
-                  "to": "/memberphoto",
+                  "to": "/mindmap",
                 },
                 "ref": null,
                 "rendered": "Kendo Mind Map",
@@ -386,7 +386,7 @@ ShallowWrapper {
             >
               <Link
                 replace={false}
-                to="/memberphoto"
+                to="/mindmap"
               >
                 Kendo Mind Map
               </Link>
@@ -462,7 +462,7 @@ ShallowWrapper {
               >
                 <Link
                   replace={false}
-                  to="/memberphoto"
+                  to="/mindmap"
                 >
                   Kendo Mind Map
                 </Link>
@@ -556,7 +556,7 @@ ShallowWrapper {
                 "children": Array [
                   <Link
                     replace={false}
-                    to="/memberphoto"
+                    to="/mindmap"
                   >
                     Kendo Mind Map
                   </Link>,
@@ -575,7 +575,7 @@ ShallowWrapper {
                   "props": Object {
                     "children": "Kendo Mind Map",
                     "replace": false,
-                    "to": "/memberphoto",
+                    "to": "/mindmap",
                   },
                   "ref": null,
                   "rendered": "Kendo Mind Map",

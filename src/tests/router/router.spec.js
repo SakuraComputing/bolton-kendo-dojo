@@ -8,6 +8,8 @@ import Theory from '../../components/static/TheoryPage';
 import KendoLinks from '../../components/static/KendoLinks';
 import About from '../../components/static/About';
 import ClubHistory from '../../components/ClubHistory';
+import Members from '../../components/members/Members';
+import KendoMindMap from '../../components/members/KendoMindMap';
 import NotFound from '../../components/static/NotFoundPage';
 
 describe('App Router', () => {
@@ -46,6 +48,12 @@ describe('App Router', () => {
     });
     it('should route to the club history page', () => {
         expect(wrapper.find('Route[path="/history"]').first().prop('component')).toEqual(ClubHistory);
+    });
+    it.skip('should route to the kendo members page', () => {
+        expect(wrapper.find('PrivateRoute[path="/members"]').first().prop('component')).toEqual(Members);
+    });
+    it.skip('should route to the kendo mind map page', () => {
+        expect(wrapper.find('Route[path="/mindmap"]').first().prop('component')).toEqual(KendoMindMap);
     });
 
 })
