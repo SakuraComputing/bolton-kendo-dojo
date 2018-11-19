@@ -1,0 +1,49 @@
+.members {
+    height: 90vh;
+    background-color: $off-white;
+}
+
+.members-header {
+    text-align: center;
+    padding: 3% 0;
+}
+
+.members-area-container {
+    display: flex;
+}
+
+.members-area-link {
+    flex: 1;
+    border: solid 1px $blue-black;
+    border-radius: 5px;
+    padding: 50px;
+    width: 200px;
+    margin: 10px;
+    background-color: $light-orange;
+    transition: 0.3s;
+    color: $color__primary;
+    text-align: center;
+}
+
+.members-area-link:after {
+        background-color: $dark-orange;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+}
+
+.members-area-link a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 120%;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.members-area-link:hover {
+    background-color: $dark-orange;
+}
+
+@media (max-width: 400px) {
+    .members-area-container {
+      display: block;
+    }
+}
