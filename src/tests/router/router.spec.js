@@ -7,6 +7,7 @@ import Register from '../../components/auth/Register';
 import Theory from '../../components/static/TheoryPage';
 import KendoLinks from '../../components/static/KendoLinks';
 import About from '../../components/static/About';
+import ClubHistory from '../../components/ClubHistory';
 import NotFound from '../../components/static/NotFoundPage';
 
 describe('App Router', () => {
@@ -42,6 +43,9 @@ describe('App Router', () => {
     });
     it('should route to the about page', () => {
         expect(wrapper.find('Route[path="/about"]').first().prop('component')).toEqual(About);
+    });
+    it('should route to the club hostory page', () => {
+        expect(wrapper.find('Route[path="/history"]').first().prop('component')).toEqual(ClubHistory);
     });
 
 })
