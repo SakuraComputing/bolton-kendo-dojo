@@ -19,7 +19,7 @@ export class ClubHistory extends React.Component {
     }
 
     return (
-      <div>
+      <div className="content-container">
         <h1>Club History</h1>
         {clubHistory}
       </div>

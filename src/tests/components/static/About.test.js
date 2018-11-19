@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import { About } from '../../../components/static/About.js';
-import club from '../../fixtures/club';
+import club from '../../fixtures/club'; 
 
 describe('About Bolton Kendo Dojo', () => {
     let about;
