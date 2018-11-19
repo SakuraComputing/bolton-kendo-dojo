@@ -20,6 +20,7 @@ describe('club action', () => {
 
     afterEach(() => {
         mockAxios.reset();
+        store.clearActions();
     })
 
     it('should get the club profile', async () => {
@@ -32,6 +33,7 @@ describe('club action', () => {
       await flushAllPromises();
       // then
        expect(store.getActions()).toEqual([
+           { type: PROFILE_LOADING },
            { payload: { test: 'Club Details'}, type: GET_CLUB_PROFILE }
        ])
     });
@@ -43,6 +45,7 @@ describe('club action', () => {
       await flushAllPromises();
       // Then
       expect(store.getActions()).toEqual([
+        { type: PROFILE_LOADING },
         { payload: undefined,
           type: GET_ERRORS
         }
