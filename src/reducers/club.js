@@ -1,4 +1,4 @@
-import { GET_CLUB_PROFILE } from '../actions/types';
+import { GET_CLUB_PROFILE, PROFILE_LOADING } from '../actions/types';
 
 const initialState = {
     loading: false,
@@ -12,6 +12,11 @@ export default (state = initialState, action) => {
                 ...state,
                 club: action.payload,
                 loading: false
+            }
+        case PROFILE_LOADING:
+            return {
+                ...state,
+                loading: true
             }
         default:
             return state
