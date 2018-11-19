@@ -2,23 +2,23 @@
     height: 90vh;
     background-color: $off-white;
     align-items: center;
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url('/img/background/Kyu-Butokuden.jpg');
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('/img/background/Kyu-Butokuden.jpg');
     background-size: cover;
     // display: flex;
     height: 100vh;
     justify-content: left;
     width: 100vw;
-
 }
 
 .members-header {
     text-align: center;
-    padding: 3% 0;
+    padding: 2% 0;
     color: $off-white;
 }
 
 .members-area-container {
     display: flex;
+    margin-right: 20px;
 }
 
 .members-area-link {
@@ -27,17 +27,12 @@
     border-radius: 5px;
     padding: 50px;
     width: 200px;
-    margin: 10px;
+    margin: 15px;
     background-color: $light-orange;
     transition: 0.3s;
     color: $color__primary;
     text-align: center;
-}
-
-.members-area-link:after {
-        background-color: $dark-orange;
-        box-shadow: 0 5px #666;
-        transform: translateY(4px);
+    opacity: 0.8;
 }
 
 .members-area-link a {
