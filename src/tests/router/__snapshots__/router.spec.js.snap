@@ -54,6 +54,11 @@ ShallowWrapper {
           />
           <Route
             component={[Function]}
+            exact={true}
+            path="/history"
+          />
+          <Route
+            component={[Function]}
             path="/not-found"
           />
         </Switch>
@@ -105,6 +110,11 @@ ShallowWrapper {
               component={[Function]}
               exact={true}
               path="/about"
+            />
+            <Route
+              component={[Function]}
+              exact={true}
+              path="/history"
             />
             <Route
               component={[Function]}
@@ -168,6 +178,11 @@ ShallowWrapper {
                 component={[Function]}
                 exact={true}
                 path="/about"
+              />,
+              <Route
+                component={[Function]}
+                exact={true}
+                path="/history"
               />,
               <Route
                 component={[Function]}
@@ -250,6 +265,19 @@ ShallowWrapper {
                 "component": [Function],
                 "exact": true,
                 "path": "/about",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "component": [Function],
+                "exact": true,
+                "path": "/history",
               },
               "ref": null,
               "rendered": null,
@@ -354,6 +382,11 @@ ShallowWrapper {
             />
             <Route
               component={[Function]}
+              exact={true}
+              path="/history"
+            />
+            <Route
+              component={[Function]}
               path="/not-found"
             />
           </Switch>
@@ -405,6 +438,11 @@ ShallowWrapper {
                 component={[Function]}
                 exact={true}
                 path="/about"
+              />
+              <Route
+                component={[Function]}
+                exact={true}
+                path="/history"
               />
               <Route
                 component={[Function]}
@@ -468,6 +506,11 @@ ShallowWrapper {
                   component={[Function]}
                   exact={true}
                   path="/about"
+                />,
+                <Route
+                  component={[Function]}
+                  exact={true}
+                  path="/history"
                 />,
                 <Route
                   component={[Function]}
@@ -550,6 +593,19 @@ ShallowWrapper {
                   "component": [Function],
                   "exact": true,
                   "path": "/about",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "component": [Function],
+                  "exact": true,
+                  "path": "/history",
                 },
                 "ref": null,
                 "rendered": null,

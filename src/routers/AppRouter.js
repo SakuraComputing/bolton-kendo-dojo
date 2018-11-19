@@ -11,6 +11,7 @@ import KendoLinks from '../components/static/KendoLinks';
 import NotFound from '../components/static/NotFoundPage';
 import Members from '../components/Members';
 import About from '../components/static/About';
+import ClubHistory from '../components/ClubHistory';
 
 import '../styles/styles.scss';
 import PrivateRoute from '../common/PrivateRoute';
@@ -29,6 +30,7 @@ class AppRouter extends Component {
                         <Route exact path="/theory" component={TheoryPage}></Route>
                         <Route exact path="/links" component={KendoLinks}></Route>
                         <Route exact path="/about" component={About}></Route>
+                        <Route exact path="/history" component={ClubHistory}></Route>
                         <Route path="/not-found" component={NotFound}/>
                     </Switch>
                     <Switch>
