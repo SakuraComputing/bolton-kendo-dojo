@@ -22,7 +22,7 @@ describe('About Bolton Kendo Dojo', () => {
             },
         }
         about = shallow(<About {...props} />)
-        expect(about.find('Spinner').length).toEqual(1);
+        expect(about.find('Spinner').length).toEqual(0);
     });
 
     it('should display a spinner when state loading is true', () => {

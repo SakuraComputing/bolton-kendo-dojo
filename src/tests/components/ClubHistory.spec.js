@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import ClubHistory from '../../components/ClubHidtory';
+import ClubHistory from '../../components/ClubHistory';
 
 describe('Club History Component', () => {
     it('should render correctly', () => {
