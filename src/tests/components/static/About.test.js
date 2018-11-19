@@ -4,7 +4,6 @@ import { About } from '../../../components/static/About.js';
 import club from '../../fixtures/club';
 
 describe('About Bolton Kendo Dojo', () => {
-
     let about;
 
     beforeEach(() => {
@@ -14,4 +13,4 @@ describe('About Bolton Kendo Dojo', () => {
     it('should render correctly', () => {
         expect(about).toMatchSnapshot();
     });
-})
+});

@@ -29,7 +29,7 @@ export class About extends React.Component {
 
   render() {
 
-    let clubContent, practises;
+    let clubContent, practises, contacts;
 
     const { viewport } = this.state;
 
@@ -42,6 +42,13 @@ export class About extends React.Component {
                 <div>Times: {practise.time}</div>
             </div>
         ));
+        contacts = club[0].contacts.map(contact => (
+            <div key={key}>
+                <div>Name: {contact.name}</div>
+                <div>Contact Number: {contact.telephoneNumber}</div>
+                <div>Email: {contact.email}</div>
+            </div>
+        ));
         clubContent = (
             <div>
                 <div className="about-section">
@@ -50,9 +57,7 @@ export class About extends React.Component {
                 </div>
                 <div className="about-section" >
                     <h2>Contact</h2>
-                    <div>Name: {club[0].contacts[0].name}</div>
-                    <div>Contact Number: {club[0].contacts[0].telephoneNumber}</div>
-                    <div>Email: {club[0].contacts[0].email}</div>
+                    {contacts}
                 </div>
             </div>
         )

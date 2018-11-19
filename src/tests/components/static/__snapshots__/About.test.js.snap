@@ -192,16 +192,18 @@ ShallowWrapper {
               Contact
             </h2>
             <div>
-              Name: 
-              T Bone Walker
-            </div>
-            <div>
-              Contact Number: 
-              764554 453457
-            </div>
-            <div>
-              Email: 
-              tbobe@dr.com
+              <div>
+                Name: 
+                T Bone Walker
+              </div>
+              <div>
+                Contact Number: 
+                764554 453457
+              </div>
+              <div>
+                Email: 
+                tbobe@dr.com
+              </div>
             </div>
           </div>
         </div>,
@@ -571,16 +573,18 @@ ShallowWrapper {
                 Contact
               </h2>
               <div>
-                Name: 
-                T Bone Walker
-              </div>
-              <div>
-                Contact Number: 
-                764554 453457
-              </div>
-              <div>
-                Email: 
-                tbobe@dr.com
+                <div>
+                  Name: 
+                  T Bone Walker
+                </div>
+                <div>
+                  Contact Number: 
+                  764554 453457
+                </div>
+                <div>
+                  Email: 
+                  tbobe@dr.com
+                </div>
               </div>
             </div>,
           ],
@@ -691,18 +695,22 @@ ShallowWrapper {
                 <h2>
                   Contact
                 </h2>,
-                <div>
-                  Name: 
-                  T Bone Walker
-                </div>,
-                <div>
-                  Contact Number: 
-                  764554 453457
-                </div>,
-                <div>
-                  Email: 
-                  tbobe@dr.com
-                </div>,
+                Array [
+                  <div>
+                    <div>
+                      Name: 
+                      T Bone Walker
+                    </div>
+                    <div>
+                      Contact Number: 
+                      764554 453457
+                    </div>
+                    <div>
+                      Email: 
+                      tbobe@dr.com
+                    </div>
+                  </div>,
+                ],
               ],
               "className": "about-section",
             },
@@ -721,52 +729,77 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
-                "key": undefined,
+                "key": "pk.eyJ1IjoiZXdhbmJkIiwiYSI6ImNqb2ozcnEycDAxMjkza3BhbjVpMWd0azUifQ.gRjILY0KoVrvFBY_Hvkv2w",
                 "nodeType": "host",
                 "props": Object {
                   "children": Array [
-                    "Name: ",
-                    "T Bone Walker",
+                    <div>
+                      Name: 
+                      T Bone Walker
+                    </div>,
+                    <div>
+                      Contact Number: 
+                      764554 453457
+                    </div>,
+                    <div>
+                      Email: 
+                      tbobe@dr.com
+                    </div>,
                   ],
                 },
                 "ref": null,
                 "rendered": Array [
-                  "Name: ",
-                  "T Bone Walker",
-                ],
-                "type": "div",
-              },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": Array [
-                    "Contact Number: ",
-                    "764554 453457",
-                  ],
-                },
-                "ref": null,
-                "rendered": Array [
-                  "Contact Number: ",
-                  "764554 453457",
-                ],
-                "type": "div",
-              },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": Array [
-                    "Email: ",
-                    "tbobe@dr.com",
-                  ],
-                },
-                "ref": null,
-                "rendered": Array [
-                  "Email: ",
-                  "tbobe@dr.com",
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        "Name: ",
+                        "T Bone Walker",
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "Name: ",
+                      "T Bone Walker",
+                    ],
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        "Contact Number: ",
+                        "764554 453457",
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "Contact Number: ",
+                      "764554 453457",
+                    ],
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        "Email: ",
+                        "tbobe@dr.com",
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "Email: ",
+                      "tbobe@dr.com",
+                    ],
+                    "type": "div",
+                  },
                 ],
                 "type": "div",
               },
@@ -909,16 +942,18 @@ ShallowWrapper {
                 Contact
               </h2>
               <div>
-                Name: 
-                T Bone Walker
-              </div>
-              <div>
-                Contact Number: 
-                764554 453457
-              </div>
-              <div>
-                Email: 
-                tbobe@dr.com
+                <div>
+                  Name: 
+                  T Bone Walker
+                </div>
+                <div>
+                  Contact Number: 
+                  764554 453457
+                </div>
+                <div>
+                  Email: 
+                  tbobe@dr.com
+                </div>
               </div>
             </div>
           </div>,
@@ -1288,16 +1323,18 @@ ShallowWrapper {
                   Contact
                 </h2>
                 <div>
-                  Name: 
-                  T Bone Walker
-                </div>
-                <div>
-                  Contact Number: 
-                  764554 453457
-                </div>
-                <div>
-                  Email: 
-                  tbobe@dr.com
+                  <div>
+                    Name: 
+                    T Bone Walker
+                  </div>
+                  <div>
+                    Contact Number: 
+                    764554 453457
+                  </div>
+                  <div>
+                    Email: 
+                    tbobe@dr.com
+                  </div>
                 </div>
               </div>,
             ],
@@ -1408,18 +1445,22 @@ ShallowWrapper {
                   <h2>
                     Contact
                   </h2>,
-                  <div>
-                    Name: 
-                    T Bone Walker
-                  </div>,
-                  <div>
-                    Contact Number: 
-                    764554 453457
-                  </div>,
-                  <div>
-                    Email: 
-                    tbobe@dr.com
-                  </div>,
+                  Array [
+                    <div>
+                      <div>
+                        Name: 
+                        T Bone Walker
+                      </div>
+                      <div>
+                        Contact Number: 
+                        764554 453457
+                      </div>
+                      <div>
+                        Email: 
+                        tbobe@dr.com
+                      </div>
+                    </div>,
+                  ],
                 ],
                 "className": "about-section",
               },
@@ -1438,52 +1479,77 @@ ShallowWrapper {
                 },
                 Object {
                   "instance": null,
-                  "key": undefined,
+                  "key": "pk.eyJ1IjoiZXdhbmJkIiwiYSI6ImNqb2ozcnEycDAxMjkza3BhbjVpMWd0azUifQ.gRjILY0KoVrvFBY_Hvkv2w",
                   "nodeType": "host",
                   "props": Object {
                     "children": Array [
-                      "Name: ",
-                      "T Bone Walker",
+                      <div>
+                        Name: 
+                        T Bone Walker
+                      </div>,
+                      <div>
+                        Contact Number: 
+                        764554 453457
+                      </div>,
+                      <div>
+                        Email: 
+                        tbobe@dr.com
+                      </div>,
                     ],
                   },
                   "ref": null,
                   "rendered": Array [
-                    "Name: ",
-                    "T Bone Walker",
-                  ],
-                  "type": "div",
-                },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": Array [
-                      "Contact Number: ",
-                      "764554 453457",
-                    ],
-                  },
-                  "ref": null,
-                  "rendered": Array [
-                    "Contact Number: ",
-                    "764554 453457",
-                  ],
-                  "type": "div",
-                },
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": Array [
-                      "Email: ",
-                      "tbobe@dr.com",
-                    ],
-                  },
-                  "ref": null,
-                  "rendered": Array [
-                    "Email: ",
-                    "tbobe@dr.com",
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "Name: ",
+                          "T Bone Walker",
+                        ],
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "Name: ",
+                        "T Bone Walker",
+                      ],
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "Contact Number: ",
+                          "764554 453457",
+                        ],
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "Contact Number: ",
+                        "764554 453457",
+                      ],
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "Email: ",
+                          "tbobe@dr.com",
+                        ],
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "Email: ",
+                        "tbobe@dr.com",
+                      ],
+                      "type": "div",
+                    },
                   ],
                   "type": "div",
                 },
