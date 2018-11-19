@@ -29,7 +29,7 @@ export class About extends React.Component {
 
   render() {
 
-    let clubContent, practises, contacts;
+    let clubContent, practises, contacts, address;
 
     const { viewport } = this.state;
 
@@ -49,6 +49,15 @@ export class About extends React.Component {
                 <div>Email: {contact.email}</div>
             </div>
         ));
+        address = club[0].addresses.map(address => (
+            <div key={key}>
+                <div>{address.address1}</div>
+                <div>{address.address2}</div>
+                <div>{address.address3}</div>
+                <div>{address.address4}</div>
+                <div>{address.postcode.slice(0,3) + " " + address.postcode.slice(3,6)}</div>
+            </div>
+        ));
         clubContent = (
             <div>
                 <div className="about-section">
@@ -65,12 +74,14 @@ export class About extends React.Component {
         // TODO: Display Spinner
 
     }
-        
-
+    
     return (
         <div className="about-container">
             <div className="about-map-section" >
                 <h2 className="about-header">Where we practice</h2>
+                <div className="about-address">
+                    {address}
+                </div>
                 <div className="about-map">
                     <Map
                         {...viewport}

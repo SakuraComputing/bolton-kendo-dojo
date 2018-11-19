@@ -78,6 +78,27 @@ ShallowWrapper {
             Where we practice
           </h2>
           <div
+            className="about-address"
+          >
+            <div>
+              <div>
+                School
+              </div>
+              <div>
+                Church Street
+              </div>
+              <div>
+                Anywhere
+              </div>
+              <div>
+                Trumpton
+              </div>
+              <div>
+                TR3 5YG
+              </div>
+            </div>
+          </div>
+          <div
             className="about-map"
           >
             <InteractiveMap
@@ -224,6 +245,27 @@ ShallowWrapper {
               Where we practice
             </h2>,
             <div
+              className="about-address"
+            >
+              <div>
+                <div>
+                  School
+                </div>
+                <div>
+                  Church Street
+                </div>
+                <div>
+                  Anywhere
+                </div>
+                <div>
+                  Trumpton
+                </div>
+                <div>
+                  TR3 5YG
+                </div>
+              </div>
+            </div>,
+            <div
               className="about-map"
             >
               <InteractiveMap
@@ -328,6 +370,120 @@ ShallowWrapper {
             "ref": null,
             "rendered": "Where we practice",
             "type": "h2",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div>
+                  <div>
+                    School
+                  </div>
+                  <div>
+                    Church Street
+                  </div>
+                  <div>
+                    Anywhere
+                  </div>
+                  <div>
+                    Trumpton
+                  </div>
+                  <div>
+                    TR3 5YG
+                  </div>
+                </div>,
+              ],
+              "className": "about-address",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "pk.eyJ1IjoiZXdhbmJkIiwiYSI6ImNqb2ozcnEycDAxMjkza3BhbjVpMWd0azUifQ.gRjILY0KoVrvFBY_Hvkv2w",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <div>
+                      School
+                    </div>,
+                    <div>
+                      Church Street
+                    </div>,
+                    <div>
+                      Anywhere
+                    </div>,
+                    <div>
+                      Trumpton
+                    </div>,
+                    <div>
+                      TR3 5YG
+                    </div>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "School",
+                    },
+                    "ref": null,
+                    "rendered": "School",
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Church Street",
+                    },
+                    "ref": null,
+                    "rendered": "Church Street",
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Anywhere",
+                    },
+                    "ref": null,
+                    "rendered": "Anywhere",
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Trumpton",
+                    },
+                    "ref": null,
+                    "rendered": "Trumpton",
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "TR3 5YG",
+                    },
+                    "ref": null,
+                    "rendered": "TR3 5YG",
+                    "type": "div",
+                  },
+                ],
+                "type": "div",
+              },
+            ],
+            "type": "div",
           },
           Object {
             "instance": null,
@@ -828,6 +984,27 @@ ShallowWrapper {
               Where we practice
             </h2>
             <div
+              className="about-address"
+            >
+              <div>
+                <div>
+                  School
+                </div>
+                <div>
+                  Church Street
+                </div>
+                <div>
+                  Anywhere
+                </div>
+                <div>
+                  Trumpton
+                </div>
+                <div>
+                  TR3 5YG
+                </div>
+              </div>
+            </div>
+            <div
               className="about-map"
             >
               <InteractiveMap
@@ -974,6 +1151,27 @@ ShallowWrapper {
                 Where we practice
               </h2>,
               <div
+                className="about-address"
+              >
+                <div>
+                  <div>
+                    School
+                  </div>
+                  <div>
+                    Church Street
+                  </div>
+                  <div>
+                    Anywhere
+                  </div>
+                  <div>
+                    Trumpton
+                  </div>
+                  <div>
+                    TR3 5YG
+                  </div>
+                </div>
+              </div>,
+              <div
                 className="about-map"
               >
                 <InteractiveMap
@@ -1078,6 +1276,120 @@ ShallowWrapper {
               "ref": null,
               "rendered": "Where we practice",
               "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div>
+                    <div>
+                      School
+                    </div>
+                    <div>
+                      Church Street
+                    </div>
+                    <div>
+                      Anywhere
+                    </div>
+                    <div>
+                      Trumpton
+                    </div>
+                    <div>
+                      TR3 5YG
+                    </div>
+                  </div>,
+                ],
+                "className": "about-address",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": "pk.eyJ1IjoiZXdhbmJkIiwiYSI6ImNqb2ozcnEycDAxMjkza3BhbjVpMWd0azUifQ.gRjILY0KoVrvFBY_Hvkv2w",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <div>
+                        School
+                      </div>,
+                      <div>
+                        Church Street
+                      </div>,
+                      <div>
+                        Anywhere
+                      </div>,
+                      <div>
+                        Trumpton
+                      </div>,
+                      <div>
+                        TR3 5YG
+                      </div>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "School",
+                      },
+                      "ref": null,
+                      "rendered": "School",
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Church Street",
+                      },
+                      "ref": null,
+                      "rendered": "Church Street",
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Anywhere",
+                      },
+                      "ref": null,
+                      "rendered": "Anywhere",
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Trumpton",
+                      },
+                      "ref": null,
+                      "rendered": "Trumpton",
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "TR3 5YG",
+                      },
+                      "ref": null,
+                      "rendered": "TR3 5YG",
+                      "type": "div",
+                    },
+                  ],
+                  "type": "div",
+                },
+              ],
+              "type": "div",
             },
             Object {
               "instance": null,
