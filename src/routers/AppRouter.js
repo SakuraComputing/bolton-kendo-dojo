@@ -9,7 +9,7 @@ import Register from '../components/auth/Register';
 import TheoryPage from '../components/static/TheoryPage';
 import KendoLinks from '../components/static/KendoLinks';
 import NotFound from '../components/static/NotFoundPage';
-import Members from '../components/Members';
+import Members from '../components/members/Members';
 import About from '../components/static/About';
 import ClubHistory from '../components/ClubHistory';
 

@@ -44,7 +44,7 @@ describe('App Router', () => {
     it('should route to the about page', () => {
         expect(wrapper.find('Route[path="/about"]').first().prop('component')).toEqual(About);
     });
-    it('should route to the club hostory page', () => {
+    it('should route to the club history page', () => {
         expect(wrapper.find('Route[path="/history"]').first().prop('component')).toEqual(ClubHistory);
     });
 
