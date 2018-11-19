@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import ClubHistory from '../../components/ClubHistory';
+import { ClubHistory } from '../../components/ClubHistory';
 import club from '../fixtures/club'; 
 
 describe('Club History Component', () => {
@@ -8,7 +8,7 @@ describe('Club History Component', () => {
     let clubhistory;
 
     beforeEach(() => {
-        clubhistory = shallow(<ClubHistory club={club} />)
+        clubhistory = shallow(<ClubHistory club={{club}} />);
     });
 
     it('should render correctly', () => {
@@ -22,8 +22,8 @@ describe('Club History Component', () => {
                 club
             },
         }
-        ClubHistory = shallow(<ClubHistory {...props} />)
-        expect(ClubHistory.find('Spinner').length).toEqual(0);
+        clubhistory = shallow(<ClubHistory {...props} />)
+        expect(clubhistory.find('Spinner').length).toEqual(0);
     });
 
     it('should display a spinner when state loading is true', () => {

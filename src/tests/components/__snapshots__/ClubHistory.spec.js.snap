@@ -3,7 +3,58 @@
 exports[`Club History Component should render correctly 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <ClubHistory />,
+  Symbol(enzyme.__unrendered__): <ClubHistory
+    club={
+      Object {
+        "club": Array [
+          Object {
+            "__v": 9,
+            "_id": "5b96fdds7463ea1d37be8751b7",
+            "about": "Some History",
+            "addresses": Array [
+              Object {
+                "_id": "5b9egfd516aa75c12041f5c6b",
+                "address1": "School",
+                "address2": "Church Street",
+                "address3": "Anywhere",
+                "address4": "Trumpton",
+                "postcode": "TR35YG",
+              },
+            ],
+            "clubHistory": "History of the club 
+",
+            "clubName": "Test Club",
+            "contacts": Array [
+              Object {
+                "_id": "5b9eb4ca222bdb0dfcec0a72",
+                "email": "tbobe@dr.com",
+                "name": "T Bone Walker",
+                "telephoneNumber": "764554 453457",
+              },
+            ],
+            "practices": Array [
+              Object {
+                "_id": "5b9ebf390e03gfgfdg0fe4db8544",
+                "time": "Sunday 10:00am - 12:00pm (2 Hours)",
+                "venue": "Room",
+              },
+            ],
+            "videos": Array [
+              Object {
+                "videoId": "8Ea2ih7uNW4",
+              },
+              Object {
+                "videoId": "oZ3M3mbWZ9A",
+              },
+              Object {
+                "videoId": "Q4SHWXQBVL4",
+              },
+            ],
+          },
+        ],
+      }
+    }
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -17,36 +68,19 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": <h1>
-        Club History
-      </h1>,
-    },
-    "ref": null,
-    "rendered": Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": "Club History",
-      },
-      "ref": null,
-      "rendered": "Club History",
-      "type": "h1",
-    },
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": <h1>
+      "children": Array [
+        <h1>
           Club History
         </h1>,
-      },
-      "ref": null,
-      "rendered": Object {
+        <div>
+          History of the club 
+
+        </div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
         "instance": null,
         "key": undefined,
         "nodeType": "host",
@@ -57,6 +91,65 @@ ShallowWrapper {
         "rendered": "Club History",
         "type": "h1",
       },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "History of the club 
+",
+        },
+        "ref": null,
+        "rendered": "History of the club 
+",
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1>
+            Club History
+          </h1>,
+          <div>
+            History of the club 
+
+          </div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Club History",
+          },
+          "ref": null,
+          "rendered": "Club History",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "History of the club 
+",
+          },
+          "ref": null,
+          "rendered": "History of the club 
+",
+          "type": "div",
+        },
+      ],
       "type": "div",
     },
   ],

@@ -95,7 +95,6 @@ export class About extends React.Component {
         )
     } else {
         clubContent = <Spinner />
-        setTimeout(200000);
     }
     
     return (
