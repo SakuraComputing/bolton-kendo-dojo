@@ -29,24 +29,42 @@ export class About extends React.Component {
 
   render() {
 
+    let clubContent, practises;
+
     const { viewport } = this.state;
 
     const { club } = this.props.club;
 
-    // const bollocks = club.address.map(alls => (
-    //     <div>
-    //         <div>{alls.clubName}</div>
-    //     </div>
-    // ));
+    if(club.length > 0) {
+        practises = club[0].practices.map(practise => (
+            <div key={key}>
+                <div>Venue: {practise.venue}</div>
+                <div>Times: {practise.time}</div>
+            </div>
+        ));
+        clubContent = (
+            <div>
+                <div className="about-section">
+                    <h2>Practice Times</h2>
+                    {practises}
+                </div>
+                <div className="about-section" >
+                    <h2>Contact</h2>
+                    <div>Name: {club[0].contacts[0].name}</div>
+                    <div>Contact Number: {club[0].contacts[0].telephoneNumber}</div>
+                    <div>Email: {club[0].contacts[0].email}</div>
+                </div>
+            </div>
+        )
+    } else {
+        // TODO: Display Spinner
 
-    if(club === null)
-        console.log('Props are', this.props.club.club[0].about);
-    else 
+    }
         
 
     return (
         <div className="about-container">
-            <div className="about-section" >
+            <div className="about-map-section" >
                 <h2 className="about-header">Where we practice</h2>
                 <div className="about-map">
                     <Map
@@ -63,12 +81,7 @@ export class About extends React.Component {
                     
                 </div>
             </div>
-            <div className="about-section" >
-                <h2>Practice Times</h2>
-            </div>
-            <div className="about-section" >
-                <h2>Contact</h2>
-            </div>
+            {clubContent}
         </div>
     )
   }
