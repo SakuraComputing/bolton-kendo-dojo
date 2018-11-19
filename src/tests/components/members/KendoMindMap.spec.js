@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import KendoMindMap from '../../components/members/KendoMindMap';
+import KendoMindMap from '../../../components/members/KendoMindMap';
 
 
 describe('Mind Map Component', () => {
@@ -12,6 +12,6 @@ describe('Mind Map Component', () => {
     })
 
     it('should redner correctly', () => {
-        expect(kendoMindMap).toMstchSnapshot();
+        expect(kendoMindMap).toMatchSnapshot();
     });
 });
