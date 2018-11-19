@@ -20,8 +20,7 @@ describe('club action', () => {
 
     afterEach(() => {
         mockAxios.reset();
-        store.clearActions();
-    })
+    });
 
     it('should get the club profile', async () => {
       // Given
