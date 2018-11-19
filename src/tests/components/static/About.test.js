@@ -13,4 +13,13 @@ describe('About Bolton Kendo Dojo', () => {
     it('should render correctly', () => {
         expect(about).toMatchSnapshot();
     });
+
+    it('should display a spinner whem state loading is true', () => {
+        const props = {
+            club: {},
+            loading: true
+        }
+        about = shallow(<About {...props}/>)
+        expect(about.find('Spinner').length).toEqual(1);
+    })
 });
