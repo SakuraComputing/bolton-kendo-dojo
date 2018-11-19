@@ -1,6 +1,7 @@
 import { createStore, combineReducers, applyMiddleware, compose } from 'redux';
 import authReducer from '../../reducers/auth';
 import errorReducer from '../../reducers/error';
+import clubReducer from '../../reducers/club';
 import thunk from 'redux-thunk';
 import { setCurrentUser } from '../../actions/authActions';
 
@@ -9,7 +10,8 @@ describe('Store', () => {
         const store = createStore(
             combineReducers({
                 auth: authReducer,
-                errors: errorReducer
+                errors: errorReducer,
+                club: clubReducer
             }),
             compose(applyMiddleware(thunk))
         );

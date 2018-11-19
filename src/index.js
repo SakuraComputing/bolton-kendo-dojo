@@ -8,6 +8,7 @@ import * as serviceWorker from './serviceWorker';
 import jwt_decode from 'jwt-decode';
 import setAuthToken from './utils/setAuthToken';
 import {logoutUser, setCurrentUser} from './actions/authActions';
+import { getClubProfile } from './actions/clubActions';
 
 const store = getAppStore();
 
@@ -29,6 +30,8 @@ if(localStorage.jwtToken) {
         window.location.href = '/login';
     }
 }
+
+store.dispatch(getClubProfile());
 
 const jsx = (
     <Provider store={store}>

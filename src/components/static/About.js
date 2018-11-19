@@ -1,4 +1,5 @@
 import React from 'react';
+import { connect } from 'react-redux';
 import Map, { Marker } from 'react-map-gl';
 import Pin from '../../common/Pin';
 
@@ -9,7 +10,7 @@ const API_KEY = key;
 const LATITUDE = 53.562614;
 const LONGITUDE = -2.384833;
 
-class About extends React.Component {
+export class About extends React.Component {
 
   constructor(props) {
     super(props);
@@ -29,6 +30,19 @@ class About extends React.Component {
   render() {
 
     const { viewport } = this.state;
+
+    const { club } = this.props.club;
+
+    // const bollocks = club.address.map(alls => (
+    //     <div>
+    //         <div>{alls.clubName}</div>
+    //     </div>
+    // ));
+
+    if(club === null)
+        console.log('Props are', this.props.club.club[0].about);
+    else 
+        
 
     return (
         <div className="about-container">
@@ -59,4 +73,9 @@ class About extends React.Component {
     )
   }
 }
-export default About;
+
+const mapStateToProps = (state) => ({
+    club: state.club
+});
+
+export default connect(mapStateToProps)(About);
