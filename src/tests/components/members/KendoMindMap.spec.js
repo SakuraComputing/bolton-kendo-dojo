@@ -11,7 +11,7 @@ describe('Mind Map Component', () => {
         kendoMindMap = shallow(<KendoMindMap />)
     })
 
-    it('should redner correctly', () => {
+    it('should render correctly', () => {
         expect(kendoMindMap).toMatchSnapshot();
     });
 });
