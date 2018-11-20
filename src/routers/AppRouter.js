@@ -13,6 +13,7 @@ import Members from '../components/members/Members';
 import About from '../components/static/About';
 import ClubHistory from '../components/ClubHistory';
 import KendoMindMap from '../components/members/KendoMindMap';
+import MemberPhotos from '../components/members/MembersPhotos';
 
 import '../styles/styles.scss';
 import PrivateRoute from '../common/PrivateRoute';
@@ -44,6 +45,12 @@ class AppRouter extends Component {
                         <PrivateRoute
                             exact path="/mindmap"
                             component={KendoMindMap}
+                        />
+                    </Switch>
+                    <Switch>
+                        <PrivateRoute
+                            exact path="/memberphoto"
+                            component={MemberPhotos}
                         />
                     </Switch>
                     <Footer />

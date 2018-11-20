@@ -10,6 +10,7 @@ import About from '../../components/static/About';
 import ClubHistory from '../../components/ClubHistory';
 import Members from '../../components/members/Members';
 import KendoMindMap from '../../components/members/KendoMindMap';
+import MembersPhoto from '../../components/members/MembersPhotos';
 import NotFound from '../../components/static/NotFoundPage';
 
 describe('App Router', () => {
@@ -51,6 +52,9 @@ describe('App Router', () => {
     });
     it.skip('should route to the kendo members page', () => {
         expect(wrapper.find('PrivateRoute[path="/members"]').first().prop('component')).toEqual(Members);
+    });
+    it.skip('should route to the members photo page', () => {
+        expect(wrapper.find('PrivateRoute[path="/memberphoto"]').first().prop('component')).toEqual(MembersPhoto);
     });
     it.skip('should route to the kendo mind map page', () => {
         expect(wrapper.find('Route[path="/mindmap"]').first().prop('component')).toEqual(KendoMindMap);
