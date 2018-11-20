@@ -4,7 +4,6 @@
     align-items: center;
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('/img/background/Kyu-Butokuden.jpg');
     background-size: cover;
-    // display: flex;
     height: 100vh;
     justify-content: left;
     width: 100vw;
@@ -19,6 +18,8 @@
 .members-area-container {
     display: flex;
     margin-right: 20px;
+    font-size: 125%;
+    font-style: italic;
 }
 
 .members-area-link {
