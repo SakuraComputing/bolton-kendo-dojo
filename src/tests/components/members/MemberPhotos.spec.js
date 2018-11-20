@@ -1,6 +1,6 @@
 import React from 'react'
 import { shallow } from 'enzyme';
-import MemberPhotos from '../../components/members/MemberPhotos.spec';
+import MemberPhotos from '../../../components/members/MembersPhotos';
 
 describe('Member Photos', () => {
     
