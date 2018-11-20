@@ -8,7 +8,7 @@ const  Members = () => {
       <div className="members-area-container">
         <div className="members-area-link">
           <Link to="/memberphoto">Photographs</Link>
-          <p>Select the photgraphs to go in to the photgraph section</p>
+          <p>Select the photographs to go in to the photgraph section</p>
         </div>
         <div className="members-area-link">
           <Link to="/mindmap">Kendo Mind Map</Link>
