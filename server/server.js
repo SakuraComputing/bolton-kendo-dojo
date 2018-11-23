@@ -6,6 +6,7 @@ const path = require('path');
 
 const users = require('../api/users');
 const club = require('../api/club');
+const uploads = require('../api/uploads');
 
 const app = express();
 
@@ -37,6 +38,7 @@ app.use(function(req, res, next) {
 // Use Routes 
 app.use('/api/users', users);
 app.use('/api/club', club);
+app.use('/api/uploads', uploads);
 
 const port = process.env.PORT || 5000;
 
