@@ -30,6 +30,7 @@ class MemberPhoto extends React.Component {
                 <div className="image-frame" key={image._id}>
                     <img className="image-item" src={`uploads/${image.filename}`} alt="photoU" />
                     {image.description}
+                    <button>Delete Photo</button>
                 </div>    
             ))
         }
