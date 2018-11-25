@@ -9,7 +9,17 @@
     padding: 2em;
 }
 
+.image-container {
+    display: flex;
+    flex-direction: row wrap;
+}
+
 .image-frame {
-    width: 500px;
-    height: 500px;
+    margin: 20px;
+    // text-align: center;
+}
+
+.image-item {
+    width: auto;
+    height: 200px;
 }

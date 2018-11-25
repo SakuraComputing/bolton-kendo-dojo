@@ -35,7 +35,7 @@ class MemberPhoto extends React.Component {
         }
         
         return (
-            <div className="images-uploads">
+            <div className="images-uploads content-container">
                 <h1 className="image-title">Member Photograph Upload</h1>
 
                 <div className="image-header">
@@ -45,7 +45,9 @@ class MemberPhoto extends React.Component {
                         <input type="submit" value="Submit" className="btn"/>
                     </form>
                 </div>
-                {album}
+                <div className="image-container">
+                    {album}
+                </div>
             </div>
         )
     }
