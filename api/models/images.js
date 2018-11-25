@@ -2,11 +2,17 @@ let mongoose = require("mongoose");
 
 //create the Schema
 let imagesSchema = mongoose.Schema({
-    image : {
+    filename: {
         type : String,
         required: true
-    }
-
+    },
+    description: {
+        type: String
+    },
+        Date: {
+        type: Date,
+        default: Date.now
+    }    
 });
 
 let Image= module.exports= mongoose.model("Image", imagesSchema);
