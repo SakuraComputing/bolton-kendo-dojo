@@ -1,4 +1,4 @@
-import { getMemeberUploads, setUploadsLoading } from '../../actions/uploadActions';
+import { getMemberUploads, setUploadsLoading } from '../../actions/uploadActions';
 import { GET_MEMBER_UPLOADS, UPLOADS_LOADING, GET_ERRORS } from '../../actions/types';
 import Axios from 'axios';
 import MockAdapter from 'axios-mock-adapter';
@@ -29,23 +29,34 @@ describe('Member upload action objects', () => {
         });
   
         // When
-        getMemeberUploads()(store.dispatch);
+        getMemberUploads()(store.dispatch);
         await flushAllPromises();
   
-        
         // Then
         expect(store.getActions()).toEqual([
-            { type: GET_MEMBER_UPLOADS },
-            { payload: undefined,
-              type: GET_ERRORS
-            }
+            { type: UPLOADS_LOADING },
+            { payload: { test: 'Member Uploads'} , type: GET_MEMBER_UPLOADS } 
         ])    
     });
-
-    describe('Uploading images', () => {
-        it('should set uploads to loading', () => {
-            const action = setUploadsLoading();
-            expect(action).toEqual({ type: UPLOADS_LOADING })  
-        })
+    it('should try to get member uploads and throw an error', async () => {
+        // Given
+        mockAxios.onGet('/api/uploads/all').timeout();
+        // When
+        getMemberUploads()(store.dispatch);
+        await flushAllPromises();
+        // Then
+        expect(store.getActions()).toEqual([
+            { type: UPLOADS_LOADING },
+            { payload: undefined,
+              type: GET_ERRORS  
+            }
+        ])
     })
-})
+});
+
+describe('Uploading images', () => {
+    it('should set uploads to loading', () => {
+        const action = setUploadsLoading();
+        expect(action).toEqual({ type: UPLOADS_LOADING })  
+    })
+});
