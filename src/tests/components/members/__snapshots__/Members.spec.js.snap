@@ -36,7 +36,7 @@ ShallowWrapper {
               Photographs
             </Link>
             <p>
-              Select the photgraphs to go in to the photgraph section
+              Select the photographs to go in to the photgraph section
             </p>
           </div>
           <div
@@ -112,7 +112,7 @@ ShallowWrapper {
                 Photographs
               </Link>
               <p>
-                Select the photgraphs to go in to the photgraph section
+                Select the photographs to go in to the photgraph section
               </p>
             </div>,
             <div
@@ -172,7 +172,7 @@ ShallowWrapper {
                   Photographs
                 </Link>,
                 <p>
-                  Select the photgraphs to go in to the photgraph section
+                  Select the photographs to go in to the photgraph section
                 </p>,
               ],
               "className": "members-area-link",
@@ -197,10 +197,10 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "Select the photgraphs to go in to the photgraph section",
+                  "children": "Select the photographs to go in to the photgraph section",
                 },
                 "ref": null,
-                "rendered": "Select the photgraphs to go in to the photgraph section",
+                "rendered": "Select the photographs to go in to the photgraph section",
                 "type": "p",
               },
             ],
@@ -378,7 +378,7 @@ ShallowWrapper {
                 Photographs
               </Link>
               <p>
-                Select the photgraphs to go in to the photgraph section
+                Select the photographs to go in to the photgraph section
               </p>
             </div>
             <div
@@ -454,7 +454,7 @@ ShallowWrapper {
                   Photographs
                 </Link>
                 <p>
-                  Select the photgraphs to go in to the photgraph section
+                  Select the photographs to go in to the photgraph section
                 </p>
               </div>,
               <div
@@ -514,7 +514,7 @@ ShallowWrapper {
                     Photographs
                   </Link>,
                   <p>
-                    Select the photgraphs to go in to the photgraph section
+                    Select the photographs to go in to the photgraph section
                   </p>,
                 ],
                 "className": "members-area-link",
@@ -539,10 +539,10 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "Select the photgraphs to go in to the photgraph section",
+                    "children": "Select the photographs to go in to the photgraph section",
                   },
                   "ref": null,
-                  "rendered": "Select the photgraphs to go in to the photgraph section",
+                  "rendered": "Select the photographs to go in to the photgraph section",
                   "type": "p",
                 },
               ],

@@ -1,38 +1,42 @@
 import React from 'react';
-import axios from 'axios';
+import { connect } from 'react-redux';
+import Spinner from '../../common/Spinner';
+import { getMemberUploads } from '../../actions/uploadActions';
 
-class MemberPhoto extends React.Component {
+export class MemberPhoto extends React.Component {
 
     constructor(props) {
         super(props);
         this.state = {
-            images: []
+            errors: {}
         };
     };
 
     componentDidMount() {
-        axios.get('/api/uploads/all')
-        .then(res => {
-            this.setState( { images: res.data });
-        })
-        .catch(err => console.log(err))
+        this.props.getMemberUploads();
     }
 
     render() {
 
         let album;
 
-        const { images } = this.state;
+        const { uploads, loading } = this.props.uploads;
 
-        if(images) {
-            console.log(this.state);
-            album = images.map(image => (
-                <div className="image-frame" key={image._id}>
-                    <img className="image-item" src={`uploads/${image.filename}`} alt="photoU" />
-                    {image.description}
-                    <button>Delete Photo</button>
-                </div>    
-            ))
+        if(uploads === null || uploads === undefined || loading) {
+            album = <Spinner />
+        } else {
+            console.log(this.props);
+            if(uploads.length > 0) {
+                album = uploads.map(image => (
+                    <div className="image-frame" key={image._id}>
+                        <img className="image-item" src={`uploads/${image.filename}`} alt="photoU" />
+                        {image.description}
+                        <button>Delete Photo</button>
+                    </div>    
+                ))
+            } else {
+                album = <h4>No uploads found....</h4>
+            }
         }
         
         return (
@@ -53,4 +57,8 @@ class MemberPhoto extends React.Component {
         )
     }
 }
-export default MemberPhoto;
+const mapStateToProps = (state) => ({
+    errors: state.errors,
+    uploads: state.uploads
+})
+export default connect(mapStateToProps, { getMemberUploads })(MemberPhoto);

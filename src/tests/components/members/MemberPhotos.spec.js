@@ -1,13 +1,15 @@
 import React from 'react'
 import { shallow } from 'enzyme';
-import MemberPhotos from '../../../components/members/MembersPhotos';
+import { MemberPhoto } from '../../../components/members/MembersPhotos';
+import uploads from '../../fixtures/uploads';
 
 describe('Member Photos', () => {
     
-    let photo;
+    let photo, getMemberUploads;
 
     beforeEach(() => {
-        photo = shallow(<MemberPhotos />)
+        getMemberUploads = jest.fn()
+        photo = shallow(<MemberPhoto getMemberUploads={getMemberUploads} uploads={uploads}/>)
     });
 
     it('should render correctly', () => {

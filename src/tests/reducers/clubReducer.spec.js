@@ -1,5 +1,5 @@
 import clubReducer from '../../reducers/club';
-import { GET_CLUB_PROFILE, PROFILE_LOADING } from '../../actions/types'
+import { GET_CLUB_PROFILE, PROFILE_LOADING } from '../../actions/types';
 
 describe('club reducer', () => {
 
