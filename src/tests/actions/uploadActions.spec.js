@@ -1,5 +1,5 @@
-import { getMemberUploads, setUploadsLoading } from '../../actions/uploadActions';
-import { GET_MEMBER_UPLOADS, UPLOADS_LOADING, GET_ERRORS } from '../../actions/types';
+import { getMemberUploads, postMemberUploads, setUploadsLoading } from '../../actions/uploadActions';
+import { GET_MEMBER_UPLOADS, UPLOADS_LOADING, GET_ERRORS, ADD_UPLOAD } from '../../actions/types';
 import Axios from 'axios';
 import MockAdapter from 'axios-mock-adapter';
 import configureMockStore from 'redux-mock-store';
@@ -49,6 +49,27 @@ describe('Member upload action objects', () => {
             { type: UPLOADS_LOADING },
             { payload: undefined,
               type: GET_ERRORS  
+            }
+        ])
+    });
+    it('should upload a new file', async () => {
+        // Given
+        mockAxios.onPost('/api/uploads').reply(200, {
+            status: true
+        });
+        const upload = { filename: 'testfile',
+                         description: 'test description'
+        }
+        // When 
+        postMemberUploads(upload)(store.dispatch);
+        await flushAllPromises();
+        //Then
+        expect(store.getActions()).toEqual([
+            { upload: {
+                filename: 'testfile',
+                description: 'test description'
+            },
+              type: ADD_UPLOAD
             }
         ])
     })
