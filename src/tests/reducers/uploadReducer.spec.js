@@ -1,5 +1,6 @@
 import uploadReducer from '../../reducers/upload';
-import { UPLOADS_LOADING, GET_MEMBER_UPLOADS } from '../../actions/types';
+import { UPLOADS_LOADING, GET_MEMBER_UPLOADS, ADD_UPLOAD } from '../../actions/types';
+import uploads from '../fixtures/uploads';
 
 describe('upload reducer', () => {
 
@@ -30,7 +31,7 @@ describe('upload reducer', () => {
         }
         const state = uploadReducer(uploads, action);
         expect(state).toEqual(uploads);
-    })
+    });
     it('should return uploads loading', () => {
         const loading = {
             uploads: {},
@@ -41,7 +42,19 @@ describe('upload reducer', () => {
         }
         const state = uploadReducer(undefined, action);
         expect(state).toEqual(loading);
-    })
+    });
+    it('should add an upload', () => {
+        const upload = {
+            filename: 'test filename',
+            description: ' test description'
+        }
+        const action = {
+            type: ADD_UPLOAD,
+            upload
+        }
+        const state = uploadReducer(uploads, action);
+        expect(state).toEqual([...uploads, upload])
+    });
 });
 
 

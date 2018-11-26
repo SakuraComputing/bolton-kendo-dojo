@@ -1,4 +1,4 @@
-import { GET_MEMBER_UPLOADS, UPLOADS_LOADING } from '../actions/types';
+import { GET_MEMBER_UPLOADS, UPLOADS_LOADING, ADD_UPLOAD } from '../actions/types';
 
 const initialState = {
     uploads: {},
@@ -17,6 +17,11 @@ export default (state = initialState, action) => {
                 ...state,
                 loading: true
             }
+        case ADD_UPLOAD:
+            return [
+                ...state,
+                action.upload
+            ]
         default:
             return state;
     }
