@@ -9,7 +9,7 @@ let imagesSchema = mongoose.Schema({
     description: {
         type: String
     },
-        Date: {
+    date: {
         type: Date,
         default: Date.now
     }    
