@@ -1,19 +1,40 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import Spinner from '../../common/Spinner';
-import { getMemberUploads } from '../../actions/uploadActions';
+import { getMemberUploads, postMemberUploads } from '../../actions/uploadActions';
 
 export class MemberPhoto extends React.Component {
 
     constructor(props) {
         super(props);
         this.state = {
-            errors: {}
+            errors: {},
+            file: null,
+            description: ''
         };
     };
 
     componentDidMount() {
         this.props.getMemberUploads();
+    }
+
+    onChange = (e) => {
+        this.setState({ file: e.target.files[0] })    
+    };
+
+    onDescriptionChange = (e) => {
+        this.setState({ description: e.target.value })
+    }
+
+    onFormSubmit = (e) => {
+        e.preventDefault();
+
+        const { file, description } = this.state; 
+        
+        let formData = new FormData();
+        formData.append('image', file);
+        formData.set('description', description);
+        this.props.postMemberUploads(formData);
     }
 
     render() {
@@ -25,7 +46,6 @@ export class MemberPhoto extends React.Component {
         if(uploads === null || uploads === undefined || loading) {
             album = <Spinner />
         } else {
-            console.log(this.props);
             if(uploads.length > 0) {
                 album = uploads.map(image => (
                     <div className="image-frame" key={image._id}>
@@ -44,10 +64,12 @@ export class MemberPhoto extends React.Component {
                 <h1 className="image-title">Member Photograph Upload</h1>
 
                 <div className="image-header">
-                    <form action="/upload">
-                        <input type="file" name="sampleFile" id="file"/>
+                    <form onSubmit={this.onFormSubmit}>
+                        <input type="file" name="image" id="file" onChange={this.onChange} />
                         <label htmlFor="file">Choose File</label>
                         <input type="submit" value="Submit" className="btn"/>
+                        <label htmlFor="description" >Add Photo Description</label>
+                        <input type="text" name="description" onChange={this.onDescriptionChange}/>
                     </form>
                 </div>
                 <div className="image-container">
@@ -61,4 +83,4 @@ const mapStateToProps = (state) => ({
     errors: state.errors,
     uploads: state.uploads
 })
-export default connect(mapStateToProps, { getMemberUploads })(MemberPhoto);
+export default connect(mapStateToProps, { getMemberUploads , postMemberUploads })(MemberPhoto);

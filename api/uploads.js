@@ -31,28 +31,30 @@ route.get("/all", (req, res)=>{
 //-----Manage the post requests.
 route.post("/", (req, res, next)=>{
     upload(req, res, function (err) {
-        if(req.file == null || req.file === undefined || req.file === ""){
-            //redirect to the same url            
-            res.redirect("/");            
-        } else {
-            // An error occurred when uploading
-            if (err) {
-                console.log(err);
+        if(err) {
+           console.log('An error has occured', err); 
+        }  else {
+            if(req.file == null || req.file === undefined || req.file === ""){
+                //redirect to the same url            
+                res.redirect("/memberphoto");            
             } else {
-                //store the file name to mongodb    
-                //we use the model to store the file.
-                let image = new Image();
-                image.filename = req.file.filename;
-                image.description = req.body.description
-        
-                //save the image
-                image.save()
-                    .then(image => res.json({ status: true }))
-                    .catch(err => res.status(404).json(err));
+                // An error occurred when uploading
+                if (err) {
+                    console.log(err);
+                } else {
+                    //store the file name to mongodb    
+                    //we use the model to store the file.
+                    let image = new Image();
+                    image.filename = req.file.filename;
+                    image.description = req.body.description
+            
+                    //save the image to the database
+                    image.save()
+                        .then(image => res.json({ status: true }))
+                        .catch(err => res.status(404).json(err));
+                }
             }
-        }
+        }      
     });     
 });
-
-//export the module
 module.exports = route;

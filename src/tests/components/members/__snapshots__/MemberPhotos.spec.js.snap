@@ -49,11 +49,12 @@ ShallowWrapper {
           className="image-header"
         >
           <form
-            action="/upload"
+            onSubmit={[Function]}
           >
             <input
               id="file"
-              name="sampleFile"
+              name="image"
+              onChange={[Function]}
               type="file"
             />
             <label
@@ -65,6 +66,16 @@ ShallowWrapper {
               className="btn"
               type="submit"
               value="Submit"
+            />
+            <label
+              htmlFor="description"
+            >
+              Add Photo Description
+            </label>
+            <input
+              name="description"
+              onChange={[Function]}
+              type="text"
             />
           </form>
         </div>,
@@ -96,11 +107,12 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": <form
-            action="/upload"
+            onSubmit={[Function]}
           >
             <input
               id="file"
-              name="sampleFile"
+              name="image"
+              onChange={[Function]}
               type="file"
             />
             <label
@@ -113,6 +125,16 @@ ShallowWrapper {
               type="submit"
               value="Submit"
             />
+            <label
+              htmlFor="description"
+            >
+              Add Photo Description
+            </label>
+            <input
+              name="description"
+              onChange={[Function]}
+              type="text"
+            />
           </form>,
           "className": "image-header",
         },
@@ -122,11 +144,11 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "action": "/upload",
             "children": Array [
               <input
                 id="file"
-                name="sampleFile"
+                name="image"
+                onChange={[Function]}
                 type="file"
               />,
               <label
@@ -139,7 +161,18 @@ ShallowWrapper {
                 type="submit"
                 value="Submit"
               />,
+              <label
+                htmlFor="description"
+              >
+                Add Photo Description
+              </label>,
+              <input
+                name="description"
+                onChange={[Function]}
+                type="text"
+              />,
             ],
+            "onSubmit": [Function],
           },
           "ref": null,
           "rendered": Array [
@@ -149,7 +182,8 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "id": "file",
-                "name": "sampleFile",
+                "name": "image",
+                "onChange": [Function],
                 "type": "file",
               },
               "ref": null,
@@ -176,6 +210,31 @@ ShallowWrapper {
                 "className": "btn",
                 "type": "submit",
                 "value": "Submit",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Add Photo Description",
+                "htmlFor": "description",
+              },
+              "ref": null,
+              "rendered": "Add Photo Description",
+              "type": "label",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "name": "description",
+                "onChange": [Function],
+                "type": "text",
               },
               "ref": null,
               "rendered": null,
@@ -225,11 +284,12 @@ ShallowWrapper {
             className="image-header"
           >
             <form
-              action="/upload"
+              onSubmit={[Function]}
             >
               <input
                 id="file"
-                name="sampleFile"
+                name="image"
+                onChange={[Function]}
                 type="file"
               />
               <label
@@ -241,6 +301,16 @@ ShallowWrapper {
                 className="btn"
                 type="submit"
                 value="Submit"
+              />
+              <label
+                htmlFor="description"
+              >
+                Add Photo Description
+              </label>
+              <input
+                name="description"
+                onChange={[Function]}
+                type="text"
               />
             </form>
           </div>,
@@ -272,11 +342,12 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": <form
-              action="/upload"
+              onSubmit={[Function]}
             >
               <input
                 id="file"
-                name="sampleFile"
+                name="image"
+                onChange={[Function]}
                 type="file"
               />
               <label
@@ -289,6 +360,16 @@ ShallowWrapper {
                 type="submit"
                 value="Submit"
               />
+              <label
+                htmlFor="description"
+              >
+                Add Photo Description
+              </label>
+              <input
+                name="description"
+                onChange={[Function]}
+                type="text"
+              />
             </form>,
             "className": "image-header",
           },
@@ -298,11 +379,11 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "action": "/upload",
               "children": Array [
                 <input
                   id="file"
-                  name="sampleFile"
+                  name="image"
+                  onChange={[Function]}
                   type="file"
                 />,
                 <label
@@ -315,7 +396,18 @@ ShallowWrapper {
                   type="submit"
                   value="Submit"
                 />,
+                <label
+                  htmlFor="description"
+                >
+                  Add Photo Description
+                </label>,
+                <input
+                  name="description"
+                  onChange={[Function]}
+                  type="text"
+                />,
               ],
+              "onSubmit": [Function],
             },
             "ref": null,
             "rendered": Array [
@@ -325,7 +417,8 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "id": "file",
-                  "name": "sampleFile",
+                  "name": "image",
+                  "onChange": [Function],
                   "type": "file",
                 },
                 "ref": null,
@@ -352,6 +445,31 @@ ShallowWrapper {
                   "className": "btn",
                   "type": "submit",
                   "value": "Submit",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Add Photo Description",
+                  "htmlFor": "description",
+                },
+                "ref": null,
+                "rendered": "Add Photo Description",
+                "type": "label",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "name": "description",
+                  "onChange": [Function],
+                  "type": "text",
                 },
                 "ref": null,
                 "rendered": null,

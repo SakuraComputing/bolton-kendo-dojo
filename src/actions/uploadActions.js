@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { UPLOADS_LOADING, GET_ERRORS, GET_MEMBER_UPLOADS, ADD_UPLOAD} from './types'
+import { UPLOADS_LOADING, GET_ERRORS, GET_MEMBER_UPLOADS} from './types'
 
 
 export const getMemberUploads = () => dispatch => {
@@ -19,14 +19,12 @@ export const getMemberUploads = () => dispatch => {
     })
 }
 
-export const postMemberUploads = (upload) => dispatch => {
-    axios.post('/api/uploads')
-    .then(res => 
-        dispatch({
-            type: ADD_UPLOAD,
-            upload
-        })    
-    )
+export const postMemberUploads = (data) => dispatch => {
+    axios.post('/api/uploads', data, {
+        onUploadProgress: progressEvent => console.log('Upload Progress: ' + Math.round(progressEvent.loaded / progressEvent.total * 100) + '%')
+    })
+    .then(res => dispatch(getMemberUploads()))
+    .catch(err => console.log(err));
 }
 
 export const setUploadsLoading = () => {

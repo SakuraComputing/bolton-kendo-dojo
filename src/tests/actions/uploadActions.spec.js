@@ -64,14 +64,7 @@ describe('Member upload action objects', () => {
         postMemberUploads(upload)(store.dispatch);
         await flushAllPromises();
         //Then
-        expect(store.getActions()).toEqual([
-            { upload: {
-                filename: 'testfile',
-                description: 'test description'
-            },
-              type: ADD_UPLOAD
-            }
-        ])
+        expect(store.getActions()).toEqual([]);
     })
 });
 
