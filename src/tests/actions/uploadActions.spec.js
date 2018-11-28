@@ -1,4 +1,4 @@
-import { getMemberUploads, postMemberUploads, setUploadsLoading } from '../../actions/uploadActions';
+import { getMemberUploads, postMemberUploads, deleteMemberUploads, setUploadsLoading } from '../../actions/uploadActions';
 import { GET_MEMBER_UPLOADS, UPLOADS_LOADING, GET_ERRORS, ADD_UPLOAD } from '../../actions/types';
 import Axios from 'axios';
 import MockAdapter from 'axios-mock-adapter';
@@ -65,7 +65,16 @@ describe('Member upload action objects', () => {
         await flushAllPromises();
         //Then
         expect(store.getActions()).toEqual([]);
-    })
+    });
+    it('should delete an exisitng file', async () => {
+        const id = "87rg32rg87f827823"
+        mockAxios.onDelete(`/api/uploads/${id}`).reply(200, {
+            status: true
+        });
+        deleteMemberUploads(id)(store.dispatch);
+        await flushAllPromises();
+        expect(store.getActions()).toEqual([]);
+    });
 });
 
 describe('Uploading images', () => {
