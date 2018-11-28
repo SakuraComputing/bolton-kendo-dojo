@@ -19,7 +19,7 @@ export class MemberPhoto extends React.Component {
     }
 
     onChange = (e) => {
-        this.setState({ file: e.target.files[0] })    
+        this.setState({ file: e.target.files[0] })  
     };
 
     onDescriptionChange = (e) => {
@@ -30,6 +30,8 @@ export class MemberPhoto extends React.Component {
         e.preventDefault();
 
         const { file, description } = this.state; 
+
+        
         
         let formData = new FormData();
         formData.append('image', file);

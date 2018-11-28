@@ -13,9 +13,24 @@ route.delete("/:id", (req,res) => {
     //get the id from the ajax response
     //in this case the id is the name of the image
     //we need it in order to delete the image from the uploads directory
-    Image.findByIdAndDelete(req.params.id)
-        .then(image => res.json({ status: true }))
-        .catch(err => res.status(404).json(err));
+    Image.findById(req.params.id)
+        .then(image => {
+            const realFilename = image.filename;
+            Image.findByIdAndDelete(req.params.id)
+            .then(image => {
+                let $filePath= "./public/uploads/" + realFilename
+                fs.unlinkSync($filePath, (err)=>{
+                    if(err){
+                        //send an error if the image was not deleted
+                        console.log("couldnt delete " + req.params.id + " image");
+                    }  
+                });
+                res.json({ success: true });
+            })
+            .catch(err => res.status(404).json(err));
+    
+        })
+        .catch(err => res.status(404).json({ imagenotfound: 'No image found unable to delete'}));
 });
  
 
