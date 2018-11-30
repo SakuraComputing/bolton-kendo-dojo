@@ -64,7 +64,9 @@ describe('Member upload action objects', () => {
         postMemberUploads(upload)(store.dispatch);
         await flushAllPromises();
         //Then
-        expect(store.getActions()).toEqual([]);
+        expect(store.getActions()).toEqual([
+            { payload: { status: true }, type: GET_MEMBER_UPLOADS }
+        ]);
     });
     it('should delete an exisitng file', async () => {
         const id = "87rg32rg87f827823"
@@ -73,7 +75,9 @@ describe('Member upload action objects', () => {
         });
         deleteMemberUploads(id)(store.dispatch);
         await flushAllPromises();
-        expect(store.getActions()).toEqual([]);
+        expect(store.getActions()).toEqual([
+            { payload: undefined, type: GET_MEMBER_UPLOADS }
+        ]);
     });
 });
 
