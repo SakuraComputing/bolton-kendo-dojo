@@ -20,8 +20,22 @@ ShallowWrapper {
     uploads={
       Array [
         Object {
+          "_id": "5bfed7528032901512c0f933",
+          "date": "2018-11-28T17:58:42.652Z",
           "description": "Kendo Photo Details",
           "filename": "image-1543168184113.png",
+        },
+        Object {
+          "_id": "5bfed7528036661512c0f933",
+          "date": "2018-11-21T17:58:42.652Z",
+          "description": "More Details",
+          "filename": "image-0000000000.png",
+        },
+        Object {
+          "_id": "5bfed7528032901512c05rtd",
+          "date": "2018-11-11T17:58:42.652Z",
+          "description": "Extra Details",
+          "filename": "image-3333333333.png",
         },
       ]
     }

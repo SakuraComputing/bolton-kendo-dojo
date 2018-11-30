@@ -1,5 +1,5 @@
 import uploadReducer from '../../reducers/upload';
-import { UPLOADS_LOADING, GET_MEMBER_UPLOADS, ADD_UPLOAD } from '../../actions/types';
+import { DELETE_UPLOAD, UPLOADS_LOADING, GET_MEMBER_UPLOADS, ADD_UPLOAD } from '../../actions/types';
 import uploads from '../fixtures/uploads';
 
 describe('upload reducer', () => {
@@ -55,6 +55,14 @@ describe('upload reducer', () => {
         const state = uploadReducer(uploads, action);
         expect(state).toEqual([...uploads, upload])
     });
+    it('should detele an upload by id', () => {
+        const action = {
+            type: DELETE_UPLOAD,
+            id: uploads[0]._id
+        }
+        const state = uploadReducer(uploads, action);
+        expect(state).toEqual([uploads[1], uploads[2]]);
+    })
 });
 
 
