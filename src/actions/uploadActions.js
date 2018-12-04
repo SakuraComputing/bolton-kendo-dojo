@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { DELETE_UPLOAD, UPLOADS_LOADING, GET_ERRORS, GET_MEMBER_UPLOADS} from './types'
+import { ADD_UPLOAD, DELETE_UPLOAD, UPLOADS_LOADING, GET_ERRORS, GET_MEMBER_UPLOADS} from './types'
 
 
 export const getMemberUploads = () => dispatch => {
@@ -23,31 +23,21 @@ export const postMemberUploads = (data) => dispatch => {
     axios.post('/api/uploads', data, {
         onUploadProgress: progressEvent => console.log('Upload Progress: ' + Math.round(progressEvent.loaded / progressEvent.total * 100) + '%')
     })
-    .then(res =>  dispatch({
-        type: GET_MEMBER_UPLOADS,
-        payload: res.data
+    .then(res => 
+        dispatch({
+        type: ADD_UPLOAD,
+        uploads: res.data
     }))
     .catch(err => console.log(err));
 }
 
 export const deleteMemberUploads = (id) => dispatch => {
-    axios.delete(`/api/uploads/${id}`)
-    .then(res => ({
+    axios.delete(`/api/uploads/${id}`, id)
+    .then(res => dispatch({
         type: DELETE_UPLOAD,
         id
     }))
-    .then(res => 
-        dispatch({
-            type: GET_MEMBER_UPLOADS,
-            payload: res.data
-    }))
-    .catch(err => {
-        dispatch({
-            type: GET_ERRORS,
-            payload: err.response
-        })
-    })
-
+    .catch(err => console.log(err));
 }
 
 export const setUploadsLoading = () => {

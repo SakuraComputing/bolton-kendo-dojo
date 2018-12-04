@@ -34,11 +34,11 @@ route.delete("/:id", (req,res) => {
 });
  
 
-//-----Get all the images.
+//-----Get all the uploads.
 route.get("/all", (req, res)=>{
    //find the images inside mongodb
    Image.find()
-        .then(images => res.json(images))
+        .then(uploads => res.json(uploads))
         .catch(err => console(err));
 });
 
@@ -65,7 +65,7 @@ route.post("/", (req, res, next)=>{
             
                     //save the image to the database
                     image.save()
-                        .then(image => res.json({ status: true }))
+                        .then(uploads => res.json(uploads))
                         .catch(err => res.status(404).json(err));
                 }
             }

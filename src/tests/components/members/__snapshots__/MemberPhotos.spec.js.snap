@@ -17,27 +17,31 @@ ShallowWrapper {
         ],
       }
     }
+    onUploadDelete={[MockFunction]}
     uploads={
-      Array [
-        Object {
-          "_id": "5bfed7528032901512c0f933",
-          "date": "2018-11-28T17:58:42.652Z",
-          "description": "Kendo Photo Details",
-          "filename": "image-1543168184113.png",
-        },
-        Object {
-          "_id": "5bfed7528036661512c0f933",
-          "date": "2018-11-21T17:58:42.652Z",
-          "description": "More Details",
-          "filename": "image-0000000000.png",
-        },
-        Object {
-          "_id": "5bfed7528032901512c05rtd",
-          "date": "2018-11-11T17:58:42.652Z",
-          "description": "Extra Details",
-          "filename": "image-3333333333.png",
-        },
-      ]
+      Object {
+        "loading": false,
+        "uploads": Array [
+          Object {
+            "_id": "5bfed7528032901512c0f933",
+            "date": "2018-11-28T17:58:42.652Z",
+            "description": "Kendo Photo Details",
+            "filename": "image-1543168184113.png",
+          },
+          Object {
+            "_id": "5bfed7528036661512c0f933",
+            "date": "2018-11-21T17:58:42.652Z",
+            "description": "More Details",
+            "filename": "image-0000000000.png",
+          },
+          Object {
+            "_id": "5bfed7528032901512c05rtd",
+            "date": "2018-11-11T17:58:42.652Z",
+            "description": "Extra Details",
+            "filename": "image-3333333333.png",
+          },
+        ],
+      }
     }
   />,
   Symbol(enzyme.__renderer__): Object {
@@ -96,7 +100,21 @@ ShallowWrapper {
         <div
           className="image-container"
         >
-          <Spinner />
+          <MemberPhotoItem
+            description="Kendo Photo Details"
+            filename="image-1543168184113.png"
+            onUploadDelete={[Function]}
+          />
+          <MemberPhotoItem
+            description="More Details"
+            filename="image-0000000000.png"
+            onUploadDelete={[Function]}
+          />
+          <MemberPhotoItem
+            description="Extra Details"
+            filename="image-3333333333.png"
+            onUploadDelete={[Function]}
+          />
         </div>,
       ],
       "className": "images-uploads content-container",
@@ -264,19 +282,67 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": <Spinner />,
+          "children": Array [
+            <MemberPhotoItem
+              description="Kendo Photo Details"
+              filename="image-1543168184113.png"
+              onUploadDelete={[Function]}
+            />,
+            <MemberPhotoItem
+              description="More Details"
+              filename="image-0000000000.png"
+              onUploadDelete={[Function]}
+            />,
+            <MemberPhotoItem
+              description="Extra Details"
+              filename="image-3333333333.png"
+              onUploadDelete={[Function]}
+            />,
+          ],
           "className": "image-container",
         },
         "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {},
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "5bfed7528032901512c0f933",
+            "nodeType": "function",
+            "props": Object {
+              "description": "Kendo Photo Details",
+              "filename": "image-1543168184113.png",
+              "onUploadDelete": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "5bfed7528036661512c0f933",
+            "nodeType": "function",
+            "props": Object {
+              "description": "More Details",
+              "filename": "image-0000000000.png",
+              "onUploadDelete": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "5bfed7528032901512c05rtd",
+            "nodeType": "function",
+            "props": Object {
+              "description": "Extra Details",
+              "filename": "image-3333333333.png",
+              "onUploadDelete": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
         "type": "div",
       },
     ],
@@ -331,7 +397,21 @@ ShallowWrapper {
           <div
             className="image-container"
           >
-            <Spinner />
+            <MemberPhotoItem
+              description="Kendo Photo Details"
+              filename="image-1543168184113.png"
+              onUploadDelete={[Function]}
+            />
+            <MemberPhotoItem
+              description="More Details"
+              filename="image-0000000000.png"
+              onUploadDelete={[Function]}
+            />
+            <MemberPhotoItem
+              description="Extra Details"
+              filename="image-3333333333.png"
+              onUploadDelete={[Function]}
+            />
           </div>,
         ],
         "className": "images-uploads content-container",
@@ -499,19 +579,67 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": <Spinner />,
+            "children": Array [
+              <MemberPhotoItem
+                description="Kendo Photo Details"
+                filename="image-1543168184113.png"
+                onUploadDelete={[Function]}
+              />,
+              <MemberPhotoItem
+                description="More Details"
+                filename="image-0000000000.png"
+                onUploadDelete={[Function]}
+              />,
+              <MemberPhotoItem
+                description="Extra Details"
+                filename="image-3333333333.png"
+                onUploadDelete={[Function]}
+              />,
+            ],
             "className": "image-container",
           },
           "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {},
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "5bfed7528032901512c0f933",
+              "nodeType": "function",
+              "props": Object {
+                "description": "Kendo Photo Details",
+                "filename": "image-1543168184113.png",
+                "onUploadDelete": [Function],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "5bfed7528036661512c0f933",
+              "nodeType": "function",
+              "props": Object {
+                "description": "More Details",
+                "filename": "image-0000000000.png",
+                "onUploadDelete": [Function],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "5bfed7528032901512c05rtd",
+              "nodeType": "function",
+              "props": Object {
+                "description": "Extra Details",
+                "filename": "image-3333333333.png",
+                "onUploadDelete": [Function],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
           "type": "div",
         },
       ],

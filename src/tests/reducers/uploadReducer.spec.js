@@ -8,7 +8,7 @@ describe('upload reducer', () => {
 
     beforeEach(() => {
         initialState = {
-            uploads: {},
+            uploads: [],
             loading: false
         }
     })
@@ -34,7 +34,7 @@ describe('upload reducer', () => {
     });
     it('should return uploads loading', () => {
         const loading = {
-            uploads: {},
+            uploads: [],
             loading: true
         }
         const action = {
@@ -44,24 +44,43 @@ describe('upload reducer', () => {
         expect(state).toEqual(loading);
     });
     it('should add an upload', () => {
-        const upload = {
-            filename: 'test filename',
-            description: ' test description'
-        }
+        const uploadObj = {
+            uploads: [
+                {
+                    "_id": "5bfed7528032901512c0f933",
+                    "date": "2018-11-28T17:58:42.652Z",
+                    "filename": "image-1543168184113.png",
+                    "description": "Kendo Photo Details",
+                }
+            ]
+        } 
+        const uploads = [{
+            _id: '74t34tp483tg34fgf',
+            date: '2018-11-28T17:58:42.652Z',
+            filename: 'testfilename.jpg',
+            description: 'test description'
+        }]
         const action = {
             type: ADD_UPLOAD,
-            upload
+            uploads
         }
-        const state = uploadReducer(uploads, action);
-        expect(state).toEqual([...uploads, upload])
+         
+        const state = uploadReducer(uploadObj, action);
+        expect(state).toEqual({ loading: false, uploads: [uploadObj.uploads[0], [...uploads]] })
     });
-    it('should detele an upload by id', () => {
+    it('should delete an upload by id', () => {
         const action = {
             type: DELETE_UPLOAD,
             id: uploads[0]._id
         }
-        const state = uploadReducer(uploads, action);
-        expect(state).toEqual([uploads[1], uploads[2]]);
+        const uploadsObj = {
+            uploads
+        }
+        const state = uploadReducer(uploadsObj, action);
+        expect(state).toEqual({ 
+            loading: false, 
+            uploads: [uploads[1], uploads[2]]
+        });
     })
 });
 

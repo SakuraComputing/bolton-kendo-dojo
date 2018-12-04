@@ -1,7 +1,7 @@
 import { GET_MEMBER_UPLOADS, UPLOADS_LOADING, ADD_UPLOAD, DELETE_UPLOAD } from '../actions/types';
 
 const initialState = {
-    uploads: {},
+    uploads: [],
     loading: false
 }
 export default (state = initialState, action) => {
@@ -18,12 +18,18 @@ export default (state = initialState, action) => {
                 loading: true
             }
         case ADD_UPLOAD:
-            return [
+            return {
                 ...state,
-                action.upload
-            ]
+                uploads: [...state.uploads, action.uploads],
+                loading: false
+            }
         case DELETE_UPLOAD:
-            return state.filter(({ _id }) => _id !== action.id);
+            const uploads = state.uploads.filter(upload => upload._id !== action.id);
+            return {
+                uploads,
+                loading: false
+            }
+
         default:
             return state;
     }

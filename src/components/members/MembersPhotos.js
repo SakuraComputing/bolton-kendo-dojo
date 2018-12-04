@@ -1,7 +1,8 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import Spinner from '../../common/Spinner';
-import { getMemberUploads, postMemberUploads } from '../../actions/uploadActions';
+import { getMemberUploads, postMemberUploads, deleteMemberUploads } from '../../actions/uploadActions';
+import MemberPhotoItem from '../../components/members/MemberPhotoItem';
 
 export class MemberPhoto extends React.Component {
 
@@ -31,12 +32,15 @@ export class MemberPhoto extends React.Component {
 
         const { file, description } = this.state; 
 
-        
-        
         let formData = new FormData();
         formData.append('image', file);
         formData.set('description', description);
         this.props.postMemberUploads(formData);
+    }
+
+    onUploadDelete = (index, e) => {
+        const photoId = this.props.uploads.uploads[index]._id;
+        this.props.deleteMemberUploads(photoId);
     }
 
     render() {
@@ -46,16 +50,18 @@ export class MemberPhoto extends React.Component {
         const { uploads, loading } = this.props.uploads;
 
         if(uploads === null || uploads === undefined || loading) {
+            console.log('Loading', loading, 'Uploads: ', uploads)
             album = <Spinner />
         } else {
             if(uploads.length > 0) {
-                album = uploads.map(image => (
-                    <div className="image-frame" key={image._id}>
-                        <img className="image-item" src={`uploads/${image.filename}`} alt="photoU" />
-                        {image.description}
-                        <button>Delete Photo</button>
-                    </div>    
-                ))
+                album = uploads.map(((image, key) => {
+                    return <MemberPhotoItem 
+                            key={image._id}
+                            filename={image.filename}
+                            description={image.description}
+                            onUploadDelete={this.onUploadDelete.bind(this, key)}
+                        />
+                }))
             } else {
                 album = <h4>No uploads found....</h4>
             }
@@ -85,4 +91,4 @@ const mapStateToProps = (state) => ({
     errors: state.errors,
     uploads: state.uploads
 })
-export default connect(mapStateToProps, { getMemberUploads , postMemberUploads })(MemberPhoto);
+export default connect(mapStateToProps, { getMemberUploads , postMemberUploads, deleteMemberUploads })(MemberPhoto);

@@ -1,5 +1,5 @@
 import { getMemberUploads, postMemberUploads, deleteMemberUploads, setUploadsLoading } from '../../actions/uploadActions';
-import { GET_MEMBER_UPLOADS, UPLOADS_LOADING, GET_ERRORS, ADD_UPLOAD } from '../../actions/types';
+import { GET_MEMBER_UPLOADS, UPLOADS_LOADING, GET_ERRORS, ADD_UPLOAD, DELETE_UPLOAD } from '../../actions/types';
 import Axios from 'axios';
 import MockAdapter from 'axios-mock-adapter';
 import configureMockStore from 'redux-mock-store';
@@ -65,7 +65,7 @@ describe('Member upload action objects', () => {
         await flushAllPromises();
         //Then
         expect(store.getActions()).toEqual([
-            { payload: { status: true }, type: GET_MEMBER_UPLOADS }
+            { uploads: { status: true }, type: ADD_UPLOAD } 
         ]);
     });
     it('should delete an exisitng file', async () => {
@@ -76,7 +76,7 @@ describe('Member upload action objects', () => {
         deleteMemberUploads(id)(store.dispatch);
         await flushAllPromises();
         expect(store.getActions()).toEqual([
-            { payload: undefined, type: GET_MEMBER_UPLOADS }
+            { id: id, type: DELETE_UPLOAD }
         ]);
     });
 });
