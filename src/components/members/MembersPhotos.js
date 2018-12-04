@@ -9,9 +9,9 @@ export class MemberPhoto extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            errors: {},
             file: null,
-            description: ''
+            description: '',
+            errors: {}
         };
     };
 
@@ -50,7 +50,6 @@ export class MemberPhoto extends React.Component {
         const { uploads, loading } = this.props.uploads;
 
         if(uploads === null || uploads === undefined || loading) {
-            console.log('Loading', loading, 'Uploads: ', uploads)
             album = <Spinner />
         } else {
             if(uploads.length > 0) {
@@ -73,11 +72,11 @@ export class MemberPhoto extends React.Component {
 
                 <div className="image-header">
                     <form onSubmit={this.onFormSubmit}>
-                        <input type="file" name="image" id="file" onChange={this.onChange} />
+                        <input type="file" className="upload-file" accept=".jpg,.jpeg,.png" name="image" id="file" onChange={this.onChange} />
                         <label htmlFor="file">Choose File</label>
                         <input type="submit" value="Submit" className="btn"/>
                         <label htmlFor="description" >Add Photo Description</label>
-                        <input type="text" name="description" onChange={this.onDescriptionChange}/>
+                        <input className="upload-text" type="text" name="description" onChange={this.onDescriptionChange}/>
                     </form>
                 </div>
                 <div className="image-container">

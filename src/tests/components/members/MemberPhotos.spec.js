@@ -26,9 +26,47 @@ describe('Member Photos', () => {
         });
     });
     
-    // describe('Form handling', () => {
-    //     it('should accept an input on the description', () => {
-    //         photo.find('upload-text').simulate('change')
-    //     })
-    // })
+    describe('Form Handling', () => {
+        describe('When typing in the description field', () => { 
+            const description = 'New Phtoto';
+    
+            beforeEach(() => {
+                photo.find('.upload-text').simulate('change', { target: { value: description }});
+            })
+
+            it('should accept an input on the description', () => {
+                expect(photo.state().description).toEqual(description);
+            });
+        });
+        
+        describe('When selecting a file for input', () => {
+            const file = 'f';
+            beforeEach(() => {
+                photo.find('.upload-file').simulate('change', { target: { files: file }});
+            });
+            it('should add the filename to the `state`', () => {    
+                expect(photo.state().file).toEqual(file);
+            });
+        });
+
+        describe('on Submit', () => {            
+            it('should call onSubmit', () => {
+
+                const onSubmitSpy = jest.fn();
+                let getMemberUploadsMock = jest.fn();
+                let postMemberUploadsMock = jest.fn();
+                const wrapper = shallow(
+                <MemberPhoto 
+                    uploads={uploads[0]} 
+                    onSubmit={onSubmitSpy} 
+                    getMemberUploads={getMemberUploadsMock}
+                    postMemberUploads={postMemberUploadsMock}
+                />)
+                wrapper.find('form').simulate('submit', {
+                   preventDefault: () => {}
+                });
+                expect(getMemberUploadsMock).toHaveBeenCalled();
+            });
+        });
+    })
 });

@@ -70,6 +70,8 @@ ShallowWrapper {
             onSubmit={[Function]}
           >
             <input
+              accept=".jpg,.jpeg,.png"
+              className="upload-file"
               id="file"
               name="image"
               onChange={[Function]}
@@ -91,6 +93,7 @@ ShallowWrapper {
               Add Photo Description
             </label>
             <input
+              className="upload-text"
               name="description"
               onChange={[Function]}
               type="text"
@@ -142,6 +145,8 @@ ShallowWrapper {
             onSubmit={[Function]}
           >
             <input
+              accept=".jpg,.jpeg,.png"
+              className="upload-file"
               id="file"
               name="image"
               onChange={[Function]}
@@ -163,6 +168,7 @@ ShallowWrapper {
               Add Photo Description
             </label>
             <input
+              className="upload-text"
               name="description"
               onChange={[Function]}
               type="text"
@@ -178,6 +184,8 @@ ShallowWrapper {
           "props": Object {
             "children": Array [
               <input
+                accept=".jpg,.jpeg,.png"
+                className="upload-file"
                 id="file"
                 name="image"
                 onChange={[Function]}
@@ -199,6 +207,7 @@ ShallowWrapper {
                 Add Photo Description
               </label>,
               <input
+                className="upload-text"
                 name="description"
                 onChange={[Function]}
                 type="text"
@@ -213,6 +222,8 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
+                "accept": ".jpg,.jpeg,.png",
+                "className": "upload-file",
                 "id": "file",
                 "name": "image",
                 "onChange": [Function],
@@ -264,6 +275,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
+                "className": "upload-text",
                 "name": "description",
                 "onChange": [Function],
                 "type": "text",
@@ -367,6 +379,8 @@ ShallowWrapper {
               onSubmit={[Function]}
             >
               <input
+                accept=".jpg,.jpeg,.png"
+                className="upload-file"
                 id="file"
                 name="image"
                 onChange={[Function]}
@@ -388,6 +402,7 @@ ShallowWrapper {
                 Add Photo Description
               </label>
               <input
+                className="upload-text"
                 name="description"
                 onChange={[Function]}
                 type="text"
@@ -439,6 +454,8 @@ ShallowWrapper {
               onSubmit={[Function]}
             >
               <input
+                accept=".jpg,.jpeg,.png"
+                className="upload-file"
                 id="file"
                 name="image"
                 onChange={[Function]}
@@ -460,6 +477,7 @@ ShallowWrapper {
                 Add Photo Description
               </label>
               <input
+                className="upload-text"
                 name="description"
                 onChange={[Function]}
                 type="text"
@@ -475,6 +493,8 @@ ShallowWrapper {
             "props": Object {
               "children": Array [
                 <input
+                  accept=".jpg,.jpeg,.png"
+                  className="upload-file"
                   id="file"
                   name="image"
                   onChange={[Function]}
@@ -496,6 +516,7 @@ ShallowWrapper {
                   Add Photo Description
                 </label>,
                 <input
+                  className="upload-text"
                   name="description"
                   onChange={[Function]}
                   type="text"
@@ -510,6 +531,8 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
+                  "accept": ".jpg,.jpeg,.png",
+                  "className": "upload-file",
                   "id": "file",
                   "name": "image",
                   "onChange": [Function],
@@ -561,6 +584,7 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
+                  "className": "upload-text",
                   "name": "description",
                   "onChange": [Function],
                   "type": "text",
