@@ -67,15 +67,7 @@ ShallowWrapper {
             replace={false}
             to="/photos"
           >
-            Kendo Photograph's
-          </Link>
-        </li>
-        <li>
-          <Link
-            replace={false}
-            to="/videos"
-          >
-            Kendo Videos
+            Kendo Media
           </Link>
         </li>
         <li>
@@ -140,15 +132,7 @@ ShallowWrapper {
               replace={false}
               to="/photos"
             >
-              Kendo Photograph's
-            </Link>
-          </li>,
-          <li>
-            <Link
-              replace={false}
-              to="/videos"
-            >
-              Kendo Videos
+              Kendo Media
             </Link>
           </li>,
           <li>
@@ -313,7 +297,7 @@ ShallowWrapper {
               replace={false}
               to="/photos"
             >
-              Kendo Photograph's
+              Kendo Media
             </Link>,
           },
           "ref": null,
@@ -322,40 +306,12 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "class",
             "props": Object {
-              "children": "Kendo Photograph's",
+              "children": "Kendo Media",
               "replace": false,
               "to": "/photos",
             },
             "ref": null,
-            "rendered": "Kendo Photograph's",
-            "type": [Function],
-          },
-          "type": "li",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": <Link
-              replace={false}
-              to="/videos"
-            >
-              Kendo Videos
-            </Link>,
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "children": "Kendo Videos",
-              "replace": false,
-              "to": "/videos",
-            },
-            "ref": null,
-            "rendered": "Kendo Videos",
+            "rendered": "Kendo Media",
             "type": [Function],
           },
           "type": "li",
@@ -447,15 +403,7 @@ ShallowWrapper {
               replace={false}
               to="/photos"
             >
-              Kendo Photograph's
-            </Link>
-          </li>
-          <li>
-            <Link
-              replace={false}
-              to="/videos"
-            >
-              Kendo Videos
+              Kendo Media
             </Link>
           </li>
           <li>
@@ -520,15 +468,7 @@ ShallowWrapper {
                 replace={false}
                 to="/photos"
               >
-                Kendo Photograph's
-              </Link>
-            </li>,
-            <li>
-              <Link
-                replace={false}
-                to="/videos"
-              >
-                Kendo Videos
+                Kendo Media
               </Link>
             </li>,
             <li>
@@ -693,7 +633,7 @@ ShallowWrapper {
                 replace={false}
                 to="/photos"
               >
-                Kendo Photograph's
+                Kendo Media
               </Link>,
             },
             "ref": null,
@@ -702,40 +642,12 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "class",
               "props": Object {
-                "children": "Kendo Photograph's",
+                "children": "Kendo Media",
                 "replace": false,
                 "to": "/photos",
               },
               "ref": null,
-              "rendered": "Kendo Photograph's",
-              "type": [Function],
-            },
-            "type": "li",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": <Link
-                replace={false}
-                to="/videos"
-              >
-                Kendo Videos
-              </Link>,
-            },
-            "ref": null,
-            "rendered": Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "children": "Kendo Videos",
-                "replace": false,
-                "to": "/videos",
-              },
-              "ref": null,
-              "rendered": "Kendo Videos",
+              "rendered": "Kendo Media",
               "type": [Function],
             },
             "type": "li",
@@ -861,15 +773,7 @@ ShallowWrapper {
             replace={false}
             to="/photos"
           >
-            Kendo Photograph's
-          </Link>
-        </li>
-        <li>
-          <Link
-            replace={false}
-            to="/videos"
-          >
-            Kendo Videos
+            Kendo Media
           </Link>
         </li>
         <li>
@@ -934,15 +838,7 @@ ShallowWrapper {
               replace={false}
               to="/photos"
             >
-              Kendo Photograph's
-            </Link>
-          </li>,
-          <li>
-            <Link
-              replace={false}
-              to="/videos"
-            >
-              Kendo Videos
+              Kendo Media
             </Link>
           </li>,
           <li>
@@ -1107,7 +1003,7 @@ ShallowWrapper {
               replace={false}
               to="/photos"
             >
-              Kendo Photograph's
+              Kendo Media
             </Link>,
           },
           "ref": null,
@@ -1116,40 +1012,12 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "class",
             "props": Object {
-              "children": "Kendo Photograph's",
+              "children": "Kendo Media",
               "replace": false,
               "to": "/photos",
             },
             "ref": null,
-            "rendered": "Kendo Photograph's",
-            "type": [Function],
-          },
-          "type": "li",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": <Link
-              replace={false}
-              to="/videos"
-            >
-              Kendo Videos
-            </Link>,
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "children": "Kendo Videos",
-              "replace": false,
-              "to": "/videos",
-            },
-            "ref": null,
-            "rendered": "Kendo Videos",
+            "rendered": "Kendo Media",
             "type": [Function],
           },
           "type": "li",
@@ -1241,15 +1109,7 @@ ShallowWrapper {
               replace={false}
               to="/photos"
             >
-              Kendo Photograph's
-            </Link>
-          </li>
-          <li>
-            <Link
-              replace={false}
-              to="/videos"
-            >
-              Kendo Videos
+              Kendo Media
             </Link>
           </li>
           <li>
@@ -1314,15 +1174,7 @@ ShallowWrapper {
                 replace={false}
                 to="/photos"
               >
-                Kendo Photograph's
-              </Link>
-            </li>,
-            <li>
-              <Link
-                replace={false}
-                to="/videos"
-              >
-                Kendo Videos
+                Kendo Media
               </Link>
             </li>,
             <li>
@@ -1487,7 +1339,7 @@ ShallowWrapper {
                 replace={false}
                 to="/photos"
               >
-                Kendo Photograph's
+                Kendo Media
               </Link>,
             },
             "ref": null,
@@ -1496,40 +1348,12 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "class",
               "props": Object {
-                "children": "Kendo Photograph's",
+                "children": "Kendo Media",
                 "replace": false,
                 "to": "/photos",
               },
               "ref": null,
-              "rendered": "Kendo Photograph's",
-              "type": [Function],
-            },
-            "type": "li",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": <Link
-                replace={false}
-                to="/videos"
-              >
-                Kendo Videos
-              </Link>,
-            },
-            "ref": null,
-            "rendered": Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "children": "Kendo Videos",
-                "replace": false,
-                "to": "/videos",
-              },
-              "ref": null,
-              "rendered": "Kendo Videos",
+              "rendered": "Kendo Media",
               "type": [Function],
             },
             "type": "li",

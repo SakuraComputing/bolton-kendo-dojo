@@ -63,10 +63,7 @@ export class Menu extends React.Component {
                         <Link to="/links">Kendo Links</Link>
                     </li>
                     <li>
-                        <Link to="/photos">Kendo Photograph's</Link>
-                    </li>
-                    <li>
-                        <Link to="/videos">Kendo Videos</Link>
+                        <Link to="/photos">Kendo Media</Link>
                     </li>
                     {isAuthenticated ? authLinks :  guestLinks}
                 </ul>
