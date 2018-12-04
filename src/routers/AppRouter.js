@@ -23,7 +23,7 @@ class AppRouter extends Component {
     render() {
         return (
             <BrowserRouter>
-                <div className="App">
+                <div className="app-container">
                     <Menu />
                     <Switch>
                         <Route path="/" component={LandingPage} exact={true}/>

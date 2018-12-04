@@ -18,7 +18,7 @@ ShallowWrapper {
     "nodeType": "class",
     "props": Object {
       "children": <div
-        className="App"
+        className="app-container"
       >
         <Connect(Menu) />
         <Switch>
@@ -158,7 +158,7 @@ ShallowWrapper {
           </Switch>,
           <Footer />,
         ],
-        "className": "App",
+        "className": "app-container",
       },
       "ref": null,
       "rendered": Array [
@@ -428,7 +428,7 @@ ShallowWrapper {
       "nodeType": "class",
       "props": Object {
         "children": <div
-          className="App"
+          className="app-container"
         >
           <Connect(Menu) />
           <Switch>
@@ -568,7 +568,7 @@ ShallowWrapper {
             </Switch>,
             <Footer />,
           ],
-          "className": "App",
+          "className": "app-container",
         },
         "ref": null,
         "rendered": Array [

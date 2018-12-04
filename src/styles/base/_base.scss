@@ -25,7 +25,7 @@ button:disabled {
   font-weight: bold;
 }
 
-.App {
+.app-container {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -41,7 +41,7 @@ button:disabled {
 }
 
 .footer {
-  // position: fixed;
+  // position: relative;
   left: 0;
   bottom: 0;
   margin-top: 2px;
@@ -50,4 +50,5 @@ button:disabled {
   background-color: $color__primary;
   color: $off-white;
   text-align: center;
+  height: 45px;
 }

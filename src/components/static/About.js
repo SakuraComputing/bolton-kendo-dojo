@@ -39,15 +39,15 @@ export class About extends React.Component {
     if(club !== null && !loading) {
         practises = club[0].practices.map(practise => (
             <div key={key}>
-                <div>Venue: {practise.venue}</div>
-                <div>Times: {practise.time}</div>
+                <div>{practise.venue}</div>
+                <div>{practise.time}</div>
             </div>
         ));
         contacts = club[0].contacts.map(contact => (
             <div key={key}>
-                <div>Name: {contact.name}</div>
-                <div>Contact Number: {contact.telephoneNumber}</div>
-                <div>Email: {contact.email}</div>
+                <div>{contact.name}</div>
+                <div>{contact.telephoneNumber}</div>
+                <div>{contact.email}</div>
             </div>
         ));
         address = club[0].addresses.map(address => (
@@ -62,10 +62,20 @@ export class About extends React.Component {
         clubContent = (
             <div>
                 <div className="about-map-section" >
-                <h2 className="about-header">Where we practice</h2>
-                <div className="about-address">
-                    {address}
-                </div>
+                    <div className="about-header">
+                        <div className="about-section">
+                            <h2>Where we practice</h2>
+                            {address}
+                        </div>
+                        <div className="about-section">
+                            <h2>Practice Times</h2>
+                            {practises}
+                        </div>
+                        <div className="about-section" >
+                            <h2>Contact</h2>
+                            {contacts}
+                        </div>
+                    </div>
                     <div className="about-map">
                         <Map
                             {...viewport}
@@ -82,14 +92,6 @@ export class About extends React.Component {
                     </div>
                 </div>
                 <div>
-                    <div className="about-section">
-                        <h2>Practice Times</h2>
-                        {practises}
-                    </div>
-                    <div className="about-section" >
-                        <h2>Contact</h2>
-                        {contacts}
-                    </div>
                 </div>
             </div>
         )
