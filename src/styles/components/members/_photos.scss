@@ -1,17 +1,28 @@
+.images-uploads {
+    height: 100vh;
+}
+
 .image-title {
     text-align: center;
 }
 
 .image-header {
-    margin: 2%;
     border: solid 1px $blue-black;
     border-radius: 5px;
     padding: 2em;
 }
 
 .image-container {
-    display: flex;
-    flex-direction: row wrap;
+    // column-count: 3;
+    // column-gap: 0;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.image-item {
+    max-width: 100%;
+    padding: 5px;
+    text-align: center;
 }
 
 .image-frame {
@@ -19,7 +30,3 @@
     // text-align: center;
 }
 
-.image-item {
-    width: auto;
-    height: 200px;
-}

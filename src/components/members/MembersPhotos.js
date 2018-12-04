@@ -79,6 +79,7 @@ export class MemberPhoto extends React.Component {
                         <input className="upload-text" type="text" name="description" onChange={this.onDescriptionChange}/>
                     </form>
                 </div>
+                
                 <div className="image-container">
                     {album}
                 </div>
