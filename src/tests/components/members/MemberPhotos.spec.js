@@ -49,24 +49,37 @@ describe('Member Photos', () => {
             });
         });
 
-        describe('on Submit', () => {            
-            it('should call onSubmit', () => {
+        describe('on update', () => {            
 
+            let wrapper;
+            let getMemberUploadsMock;
+            let postMemberUploadsMock;
+
+            beforeEach(() => {
                 const onSubmitSpy = jest.fn();
-                let getMemberUploadsMock = jest.fn();
-                let postMemberUploadsMock = jest.fn();
-                const wrapper = shallow(
+                getMemberUploadsMock = jest.fn();
+                postMemberUploadsMock = jest.fn();
+                wrapper = shallow(
                 <MemberPhoto 
                     uploads={uploads[0]} 
                     onSubmit={onSubmitSpy} 
                     getMemberUploads={getMemberUploadsMock}
                     postMemberUploads={postMemberUploadsMock}
                 />)
+            });
+            it('should call onSubmit', () => {
                 wrapper.find('form').simulate('submit', {
                    preventDefault: () => {}
                 });
                 expect(getMemberUploadsMock).toHaveBeenCalled();
             });
+        });
+        it('should display no uplaods when none are passed in', () => {
+            getMemberUploads = jest.fn();
+            onUploadDelete = jest.fn();
+
+            props = { loading: false, uploads: [] } ;
+            photo = shallow(<MemberPhoto getMemberUploads={getMemberUploads} onUploadDelete={onUploadDelete} uploads={props} />)
         });
     })
 });
