@@ -73,10 +73,10 @@ export class MemberPhoto extends React.Component {
                 <div className="image-header">
                     <form onSubmit={this.onFormSubmit}>
                         <input type="file" className="upload-file" accept=".jpg,.jpeg,.png" name="image" id="file" onChange={this.onChange} />
-                        <label htmlFor="file">Choose File</label>
-                        <input type="submit" value="Submit" className="btn"/>
-                        <label htmlFor="description" >Add Photo Description</label>
-                        <input className="upload-text" type="text" name="description" onChange={this.onDescriptionChange}/>
+                        <label className="upload-label" htmlFor="file">Upload Photo</label>
+                        <input type="submit" value="Submit" className="button-small"/>
+                        <label className="upload-label" htmlFor="description" >Add Photo Description</label>
+                        <input className="upload-text input-box" type="text" name="description" onChange={this.onDescriptionChange}/>
                     </form>
                 </div>
                 

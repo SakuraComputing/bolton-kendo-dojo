@@ -9,12 +9,10 @@
 .image-header {
     border: solid 1px $blue-black;
     border-radius: 5px;
-    padding: 2em;
+    padding: 1em;
 }
 
 .image-container {
-    // column-count: 3;
-    // column-gap: 0;
     display: grid;
     grid-template-columns: auto auto auto;
 }
@@ -26,7 +24,13 @@
 }
 
 .image-frame {
+    border: solid 1px $blue-black;
     margin: 20px;
+    padding-bottom: 5px;
+    border-radius: 3px;
     // text-align: center;
 }
 
+.upload-label {
+    padding: 1%;
+}

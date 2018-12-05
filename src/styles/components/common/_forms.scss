@@ -34,7 +34,8 @@
     width: 130px;
 }
 
-.button-info {
+.button-info,
+.button-small {
     margin-top: 1em;
     color: $blue-black;
     background-color: $light-orange;
@@ -42,8 +43,18 @@
     outline-color: $dark-orange;
 }
 
-.button-info:hover {
+.button-info:hover,
+.button-small:hover {
     background-color: #ffc91a;
+}
+
+.button-small {
+    border: solid 1px $blue-black;
+    padding: .5em;
+    border-radius: 3px;
+    font-size: 80%;
+    font-weight: normal;
+    width: 100px;
 }
 
 // error messsgae

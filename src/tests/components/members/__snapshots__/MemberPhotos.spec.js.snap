@@ -78,22 +78,24 @@ ShallowWrapper {
               type="file"
             />
             <label
+              className="upload-label"
               htmlFor="file"
             >
-              Choose File
+              Upload Photo
             </label>
             <input
-              className="btn"
+              className="button-small"
               type="submit"
               value="Submit"
             />
             <label
+              className="upload-label"
               htmlFor="description"
             >
               Add Photo Description
             </label>
             <input
-              className="upload-text"
+              className="upload-text input-box"
               name="description"
               onChange={[Function]}
               type="text"
@@ -153,22 +155,24 @@ ShallowWrapper {
               type="file"
             />
             <label
+              className="upload-label"
               htmlFor="file"
             >
-              Choose File
+              Upload Photo
             </label>
             <input
-              className="btn"
+              className="button-small"
               type="submit"
               value="Submit"
             />
             <label
+              className="upload-label"
               htmlFor="description"
             >
               Add Photo Description
             </label>
             <input
-              className="upload-text"
+              className="upload-text input-box"
               name="description"
               onChange={[Function]}
               type="text"
@@ -192,22 +196,24 @@ ShallowWrapper {
                 type="file"
               />,
               <label
+                className="upload-label"
                 htmlFor="file"
               >
-                Choose File
+                Upload Photo
               </label>,
               <input
-                className="btn"
+                className="button-small"
                 type="submit"
                 value="Submit"
               />,
               <label
+                className="upload-label"
                 htmlFor="description"
               >
                 Add Photo Description
               </label>,
               <input
-                className="upload-text"
+                className="upload-text input-box"
                 name="description"
                 onChange={[Function]}
                 type="text"
@@ -238,11 +244,12 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": "Choose File",
+                "children": "Upload Photo",
+                "className": "upload-label",
                 "htmlFor": "file",
               },
               "ref": null,
-              "rendered": "Choose File",
+              "rendered": "Upload Photo",
               "type": "label",
             },
             Object {
@@ -250,7 +257,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "className": "btn",
+                "className": "button-small",
                 "type": "submit",
                 "value": "Submit",
               },
@@ -264,6 +271,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": "Add Photo Description",
+                "className": "upload-label",
                 "htmlFor": "description",
               },
               "ref": null,
@@ -275,7 +283,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "className": "upload-text",
+                "className": "upload-text input-box",
                 "name": "description",
                 "onChange": [Function],
                 "type": "text",
@@ -387,22 +395,24 @@ ShallowWrapper {
                 type="file"
               />
               <label
+                className="upload-label"
                 htmlFor="file"
               >
-                Choose File
+                Upload Photo
               </label>
               <input
-                className="btn"
+                className="button-small"
                 type="submit"
                 value="Submit"
               />
               <label
+                className="upload-label"
                 htmlFor="description"
               >
                 Add Photo Description
               </label>
               <input
-                className="upload-text"
+                className="upload-text input-box"
                 name="description"
                 onChange={[Function]}
                 type="text"
@@ -462,22 +472,24 @@ ShallowWrapper {
                 type="file"
               />
               <label
+                className="upload-label"
                 htmlFor="file"
               >
-                Choose File
+                Upload Photo
               </label>
               <input
-                className="btn"
+                className="button-small"
                 type="submit"
                 value="Submit"
               />
               <label
+                className="upload-label"
                 htmlFor="description"
               >
                 Add Photo Description
               </label>
               <input
-                className="upload-text"
+                className="upload-text input-box"
                 name="description"
                 onChange={[Function]}
                 type="text"
@@ -501,22 +513,24 @@ ShallowWrapper {
                   type="file"
                 />,
                 <label
+                  className="upload-label"
                   htmlFor="file"
                 >
-                  Choose File
+                  Upload Photo
                 </label>,
                 <input
-                  className="btn"
+                  className="button-small"
                   type="submit"
                   value="Submit"
                 />,
                 <label
+                  className="upload-label"
                   htmlFor="description"
                 >
                   Add Photo Description
                 </label>,
                 <input
-                  className="upload-text"
+                  className="upload-text input-box"
                   name="description"
                   onChange={[Function]}
                   type="text"
@@ -547,11 +561,12 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "Choose File",
+                  "children": "Upload Photo",
+                  "className": "upload-label",
                   "htmlFor": "file",
                 },
                 "ref": null,
-                "rendered": "Choose File",
+                "rendered": "Upload Photo",
                 "type": "label",
               },
               Object {
@@ -559,7 +574,7 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "className": "btn",
+                  "className": "button-small",
                   "type": "submit",
                   "value": "Submit",
                 },
@@ -573,6 +588,7 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "children": "Add Photo Description",
+                  "className": "upload-label",
                   "htmlFor": "description",
                 },
                 "ref": null,
@@ -584,7 +600,7 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "className": "upload-text",
+                  "className": "upload-text input-box",
                   "name": "description",
                   "onChange": [Function],
                   "type": "text",

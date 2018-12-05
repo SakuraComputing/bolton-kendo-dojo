@@ -33,11 +33,11 @@ button:disabled {
   margin: 0;
   padding: 0;
   background-color: $off-white;
-  overflow-x: hidden;
-  display: grid;
-  grid-template-rows: auto 1fr auto;
-  min-height: 100%;
-  grid-template-columns: 100%;
+  // overflow-x: hidden;
+  // display: grid;
+  // grid-template-rows: auto 1fr auto;
+  // min-height: 100%;
+  // grid-template-columns: 100%;
 }
 
 .footer {

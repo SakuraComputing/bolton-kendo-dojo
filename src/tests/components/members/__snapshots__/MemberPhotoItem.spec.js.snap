@@ -27,12 +27,13 @@ ShallowWrapper {
         />,
         <div />,
         <button
-          className="btn-delete"
+          className="button-small"
           onClick={[MockFunction]}
         >
           Delete Photo
         </button>,
       ],
+      "className": "image-frame",
     },
     "ref": null,
     "rendered": Array [
@@ -66,7 +67,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": "Delete Photo",
-          "className": "btn-delete",
+          "className": "button-small",
           "onClick": [MockFunction],
         },
         "ref": null,
@@ -90,12 +91,13 @@ ShallowWrapper {
           />,
           <div />,
           <button
-            className="btn-delete"
+            className="button-small"
             onClick={[MockFunction]}
           >
             Delete Photo
           </button>,
         ],
+        "className": "image-frame",
       },
       "ref": null,
       "rendered": Array [
@@ -129,7 +131,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "Delete Photo",
-            "className": "btn-delete",
+            "className": "button-small",
             "onClick": [MockFunction],
           },
           "ref": null,
