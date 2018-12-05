@@ -39,8 +39,10 @@ export class MemberPhoto extends React.Component {
     }
 
     onUploadDelete = (index, e) => {
-        const photoId = this.props.uploads.uploads[index]._id;
-        this.props.deleteMemberUploads(photoId);
+        if(window.confirm('Are you sure you wish to delete this item?')) {
+            const photoId = this.props.uploads.uploads[index]._id;
+            this.props.deleteMemberUploads(photoId);
+        }
     }
 
     render() {
@@ -73,8 +75,8 @@ export class MemberPhoto extends React.Component {
                 <div className="image-header">
                     <form onSubmit={this.onFormSubmit}>
                         <input type="file" className="upload-file" accept=".jpg,.jpeg,.png" name="image" id="file" onChange={this.onChange} />
-                        <label className="upload-label" htmlFor="file">Upload Photo</label>
-                        <input type="submit" value="Submit" className="button-small"/>
+                        <label className="upload-label" htmlFor="submit">Upload Photo</label>
+                        <input type="submit" value="Submit" name="submit" className="button-small"/>
                         <label className="upload-label" htmlFor="description" >Add Photo Description</label>
                         <input className="upload-text input-box" type="text" name="description" onChange={this.onDescriptionChange}/>
                     </form>

@@ -79,12 +79,13 @@ ShallowWrapper {
             />
             <label
               className="upload-label"
-              htmlFor="file"
+              htmlFor="submit"
             >
               Upload Photo
             </label>
             <input
               className="button-small"
+              name="submit"
               type="submit"
               value="Submit"
             />
@@ -156,12 +157,13 @@ ShallowWrapper {
             />
             <label
               className="upload-label"
-              htmlFor="file"
+              htmlFor="submit"
             >
               Upload Photo
             </label>
             <input
               className="button-small"
+              name="submit"
               type="submit"
               value="Submit"
             />
@@ -197,12 +199,13 @@ ShallowWrapper {
               />,
               <label
                 className="upload-label"
-                htmlFor="file"
+                htmlFor="submit"
               >
                 Upload Photo
               </label>,
               <input
                 className="button-small"
+                name="submit"
                 type="submit"
                 value="Submit"
               />,
@@ -246,7 +249,7 @@ ShallowWrapper {
               "props": Object {
                 "children": "Upload Photo",
                 "className": "upload-label",
-                "htmlFor": "file",
+                "htmlFor": "submit",
               },
               "ref": null,
               "rendered": "Upload Photo",
@@ -258,6 +261,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "className": "button-small",
+                "name": "submit",
                 "type": "submit",
                 "value": "Submit",
               },
@@ -396,12 +400,13 @@ ShallowWrapper {
               />
               <label
                 className="upload-label"
-                htmlFor="file"
+                htmlFor="submit"
               >
                 Upload Photo
               </label>
               <input
                 className="button-small"
+                name="submit"
                 type="submit"
                 value="Submit"
               />
@@ -473,12 +478,13 @@ ShallowWrapper {
               />
               <label
                 className="upload-label"
-                htmlFor="file"
+                htmlFor="submit"
               >
                 Upload Photo
               </label>
               <input
                 className="button-small"
+                name="submit"
                 type="submit"
                 value="Submit"
               />
@@ -514,12 +520,13 @@ ShallowWrapper {
                 />,
                 <label
                   className="upload-label"
-                  htmlFor="file"
+                  htmlFor="submit"
                 >
                   Upload Photo
                 </label>,
                 <input
                   className="button-small"
+                  name="submit"
                   type="submit"
                   value="Submit"
                 />,
@@ -563,7 +570,7 @@ ShallowWrapper {
                 "props": Object {
                   "children": "Upload Photo",
                   "className": "upload-label",
-                  "htmlFor": "file",
+                  "htmlFor": "submit",
                 },
                 "ref": null,
                 "rendered": "Upload Photo",
@@ -575,6 +582,7 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "className": "button-small",
+                  "name": "submit",
                   "type": "submit",
                   "value": "Submit",
                 },
