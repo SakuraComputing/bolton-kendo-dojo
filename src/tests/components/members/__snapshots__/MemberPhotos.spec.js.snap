@@ -63,20 +63,26 @@ ShallowWrapper {
         >
           Member Photograph Upload
         </h1>,
-        <div
+        <form
           className="image-header"
+          onSubmit={[Function]}
         >
-          <form
-            onSubmit={[Function]}
-          >
+          <div>
+            <label
+              className="upload-file button-small"
+              htmlFor="upload-file"
+            >
+              Get Photo
+            </label>
             <input
               accept=".jpg,.jpeg,.png"
-              className="upload-file"
-              id="file"
+              id="upload-file"
               name="image"
               onChange={[Function]}
               type="file"
             />
+          </div>
+          <div>
             <label
               className="upload-label"
               htmlFor="submit"
@@ -89,20 +95,24 @@ ShallowWrapper {
               type="submit"
               value="Submit"
             />
+          </div>
+          <div>
             <label
               className="upload-label"
               htmlFor="description"
             >
               Add Photo Description
             </label>
-            <input
+            <textarea
               className="upload-text input-box"
+              col="2"
               name="description"
               onChange={[Function]}
+              rows="2"
               type="text"
             />
-          </form>
-        </div>,
+          </div>
+        </form>,
         <div
           className="image-container"
         >
@@ -144,162 +154,222 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": <form
-            onSubmit={[Function]}
-          >
-            <input
-              accept=".jpg,.jpeg,.png"
-              className="upload-file"
-              id="file"
-              name="image"
-              onChange={[Function]}
-              type="file"
-            />
-            <label
-              className="upload-label"
-              htmlFor="submit"
-            >
-              Upload Photo
-            </label>
-            <input
-              className="button-small"
-              name="submit"
-              type="submit"
-              value="Submit"
-            />
-            <label
-              className="upload-label"
-              htmlFor="description"
-            >
-              Add Photo Description
-            </label>
-            <input
-              className="upload-text input-box"
-              name="description"
-              onChange={[Function]}
-              type="text"
-            />
-          </form>,
-          "className": "image-header",
-        },
-        "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
+          "children": Array [
+            <div>
+              <label
+                className="upload-file button-small"
+                htmlFor="upload-file"
+              >
+                Get Photo
+              </label>
               <input
                 accept=".jpg,.jpeg,.png"
-                className="upload-file"
-                id="file"
+                id="upload-file"
                 name="image"
                 onChange={[Function]}
                 type="file"
-              />,
+              />
+            </div>,
+            <div>
               <label
                 className="upload-label"
                 htmlFor="submit"
               >
                 Upload Photo
-              </label>,
+              </label>
               <input
                 className="button-small"
                 name="submit"
                 type="submit"
                 value="Submit"
-              />,
+              />
+            </div>,
+            <div>
               <label
                 className="upload-label"
                 htmlFor="description"
               >
                 Add Photo Description
-              </label>,
-              <input
+              </label>
+              <textarea
                 className="upload-text input-box"
+                col="2"
                 name="description"
                 onChange={[Function]}
+                rows="2"
                 type="text"
-              />,
-            ],
-            "onSubmit": [Function],
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "accept": ".jpg,.jpeg,.png",
-                "className": "upload-file",
-                "id": "file",
-                "name": "image",
-                "onChange": [Function],
-                "type": "file",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": "input",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Upload Photo",
-                "className": "upload-label",
-                "htmlFor": "submit",
-              },
-              "ref": null,
-              "rendered": "Upload Photo",
-              "type": "label",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "className": "button-small",
-                "name": "submit",
-                "type": "submit",
-                "value": "Submit",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": "input",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Add Photo Description",
-                "className": "upload-label",
-                "htmlFor": "description",
-              },
-              "ref": null,
-              "rendered": "Add Photo Description",
-              "type": "label",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "className": "upload-text input-box",
-                "name": "description",
-                "onChange": [Function],
-                "type": "text",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": "input",
-            },
+              />
+            </div>,
           ],
-          "type": "form",
+          "className": "image-header",
+          "onSubmit": [Function],
         },
-        "type": "div",
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <label
+                  className="upload-file button-small"
+                  htmlFor="upload-file"
+                >
+                  Get Photo
+                </label>,
+                <input
+                  accept=".jpg,.jpeg,.png"
+                  id="upload-file"
+                  name="image"
+                  onChange={[Function]}
+                  type="file"
+                />,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Get Photo",
+                  "className": "upload-file button-small",
+                  "htmlFor": "upload-file",
+                },
+                "ref": null,
+                "rendered": "Get Photo",
+                "type": "label",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "accept": ".jpg,.jpeg,.png",
+                  "id": "upload-file",
+                  "name": "image",
+                  "onChange": [Function],
+                  "type": "file",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <label
+                  className="upload-label"
+                  htmlFor="submit"
+                >
+                  Upload Photo
+                </label>,
+                <input
+                  className="button-small"
+                  name="submit"
+                  type="submit"
+                  value="Submit"
+                />,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Upload Photo",
+                  "className": "upload-label",
+                  "htmlFor": "submit",
+                },
+                "ref": null,
+                "rendered": "Upload Photo",
+                "type": "label",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "button-small",
+                  "name": "submit",
+                  "type": "submit",
+                  "value": "Submit",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <label
+                  className="upload-label"
+                  htmlFor="description"
+                >
+                  Add Photo Description
+                </label>,
+                <textarea
+                  className="upload-text input-box"
+                  col="2"
+                  name="description"
+                  onChange={[Function]}
+                  rows="2"
+                  type="text"
+                />,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Add Photo Description",
+                  "className": "upload-label",
+                  "htmlFor": "description",
+                },
+                "ref": null,
+                "rendered": "Add Photo Description",
+                "type": "label",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "upload-text input-box",
+                  "col": "2",
+                  "name": "description",
+                  "onChange": [Function],
+                  "rows": "2",
+                  "type": "text",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "textarea",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "form",
       },
       Object {
         "instance": null,
@@ -384,20 +454,26 @@ ShallowWrapper {
           >
             Member Photograph Upload
           </h1>,
-          <div
+          <form
             className="image-header"
+            onSubmit={[Function]}
           >
-            <form
-              onSubmit={[Function]}
-            >
+            <div>
+              <label
+                className="upload-file button-small"
+                htmlFor="upload-file"
+              >
+                Get Photo
+              </label>
               <input
                 accept=".jpg,.jpeg,.png"
-                className="upload-file"
-                id="file"
+                id="upload-file"
                 name="image"
                 onChange={[Function]}
                 type="file"
               />
+            </div>
+            <div>
               <label
                 className="upload-label"
                 htmlFor="submit"
@@ -410,20 +486,24 @@ ShallowWrapper {
                 type="submit"
                 value="Submit"
               />
+            </div>
+            <div>
               <label
                 className="upload-label"
                 htmlFor="description"
               >
                 Add Photo Description
               </label>
-              <input
+              <textarea
                 className="upload-text input-box"
+                col="2"
                 name="description"
                 onChange={[Function]}
+                rows="2"
                 type="text"
               />
-            </form>
-          </div>,
+            </div>
+          </form>,
           <div
             className="image-container"
           >
@@ -465,162 +545,222 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": <form
-              onSubmit={[Function]}
-            >
-              <input
-                accept=".jpg,.jpeg,.png"
-                className="upload-file"
-                id="file"
-                name="image"
-                onChange={[Function]}
-                type="file"
-              />
-              <label
-                className="upload-label"
-                htmlFor="submit"
-              >
-                Upload Photo
-              </label>
-              <input
-                className="button-small"
-                name="submit"
-                type="submit"
-                value="Submit"
-              />
-              <label
-                className="upload-label"
-                htmlFor="description"
-              >
-                Add Photo Description
-              </label>
-              <input
-                className="upload-text input-box"
-                name="description"
-                onChange={[Function]}
-                type="text"
-              />
-            </form>,
-            "className": "image-header",
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": Array [
+            "children": Array [
+              <div>
+                <label
+                  className="upload-file button-small"
+                  htmlFor="upload-file"
+                >
+                  Get Photo
+                </label>
                 <input
                   accept=".jpg,.jpeg,.png"
-                  className="upload-file"
-                  id="file"
+                  id="upload-file"
                   name="image"
                   onChange={[Function]}
                   type="file"
-                />,
+                />
+              </div>,
+              <div>
                 <label
                   className="upload-label"
                   htmlFor="submit"
                 >
                   Upload Photo
-                </label>,
+                </label>
                 <input
                   className="button-small"
                   name="submit"
                   type="submit"
                   value="Submit"
-                />,
+                />
+              </div>,
+              <div>
                 <label
                   className="upload-label"
                   htmlFor="description"
                 >
                   Add Photo Description
-                </label>,
-                <input
+                </label>
+                <textarea
                   className="upload-text input-box"
+                  col="2"
                   name="description"
                   onChange={[Function]}
+                  rows="2"
                   type="text"
-                />,
-              ],
-              "onSubmit": [Function],
-            },
-            "ref": null,
-            "rendered": Array [
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "accept": ".jpg,.jpeg,.png",
-                  "className": "upload-file",
-                  "id": "file",
-                  "name": "image",
-                  "onChange": [Function],
-                  "type": "file",
-                },
-                "ref": null,
-                "rendered": null,
-                "type": "input",
-              },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": "Upload Photo",
-                  "className": "upload-label",
-                  "htmlFor": "submit",
-                },
-                "ref": null,
-                "rendered": "Upload Photo",
-                "type": "label",
-              },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "className": "button-small",
-                  "name": "submit",
-                  "type": "submit",
-                  "value": "Submit",
-                },
-                "ref": null,
-                "rendered": null,
-                "type": "input",
-              },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": "Add Photo Description",
-                  "className": "upload-label",
-                  "htmlFor": "description",
-                },
-                "ref": null,
-                "rendered": "Add Photo Description",
-                "type": "label",
-              },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "className": "upload-text input-box",
-                  "name": "description",
-                  "onChange": [Function],
-                  "type": "text",
-                },
-                "ref": null,
-                "rendered": null,
-                "type": "input",
-              },
+                />
+              </div>,
             ],
-            "type": "form",
+            "className": "image-header",
+            "onSubmit": [Function],
           },
-          "type": "div",
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <label
+                    className="upload-file button-small"
+                    htmlFor="upload-file"
+                  >
+                    Get Photo
+                  </label>,
+                  <input
+                    accept=".jpg,.jpeg,.png"
+                    id="upload-file"
+                    name="image"
+                    onChange={[Function]}
+                    type="file"
+                  />,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Get Photo",
+                    "className": "upload-file button-small",
+                    "htmlFor": "upload-file",
+                  },
+                  "ref": null,
+                  "rendered": "Get Photo",
+                  "type": "label",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "accept": ".jpg,.jpeg,.png",
+                    "id": "upload-file",
+                    "name": "image",
+                    "onChange": [Function],
+                    "type": "file",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "input",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <label
+                    className="upload-label"
+                    htmlFor="submit"
+                  >
+                    Upload Photo
+                  </label>,
+                  <input
+                    className="button-small"
+                    name="submit"
+                    type="submit"
+                    value="Submit"
+                  />,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Upload Photo",
+                    "className": "upload-label",
+                    "htmlFor": "submit",
+                  },
+                  "ref": null,
+                  "rendered": "Upload Photo",
+                  "type": "label",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "button-small",
+                    "name": "submit",
+                    "type": "submit",
+                    "value": "Submit",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "input",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <label
+                    className="upload-label"
+                    htmlFor="description"
+                  >
+                    Add Photo Description
+                  </label>,
+                  <textarea
+                    className="upload-text input-box"
+                    col="2"
+                    name="description"
+                    onChange={[Function]}
+                    rows="2"
+                    type="text"
+                  />,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Add Photo Description",
+                    "className": "upload-label",
+                    "htmlFor": "description",
+                  },
+                  "ref": null,
+                  "rendered": "Add Photo Description",
+                  "type": "label",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "upload-text input-box",
+                    "col": "2",
+                    "name": "description",
+                    "onChange": [Function],
+                    "rows": "2",
+                    "type": "text",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "textarea",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "form",
         },
         Object {
           "instance": null,
