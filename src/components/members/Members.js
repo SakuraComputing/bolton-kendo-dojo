@@ -7,8 +7,8 @@ const  Members = () => {
       <h1 className="members-header">Welcome to the Members Area</h1>
       <div className="members-area-container">
         <div className="members-area-link">
-          <Link to="/memberphoto">Photographs</Link>
-          <p>Select the photographs to go in to the photgraph section</p>
+          <Link to="/memberphoto">Photos</Link>
+          <p>Select the photographs and upload these with text for other members to see.</p>
         </div>
         <div className="members-area-link">
           <Link to="/mindmap">Kendo Mind Map</Link>
@@ -20,7 +20,7 @@ const  Members = () => {
         </div>
         <div className="members-area-link">
           <Link to="/members">Bulletin Board</Link>
-          <p>Add a post to the bulletin board. Responds to other posts</p>
+          <p>Add a post to the bulletin board. Respond to other posts</p>
         </div>
       </div>
     </div>

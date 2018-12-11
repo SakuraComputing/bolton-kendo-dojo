@@ -67,7 +67,9 @@ ShallowWrapper {
           className="image-header"
           onSubmit={[Function]}
         >
-          <div>
+          <div
+            className="image-header-container"
+          >
             <label
               className="upload-file button-small"
               htmlFor="upload-file"
@@ -82,7 +84,9 @@ ShallowWrapper {
               type="file"
             />
           </div>
-          <div>
+          <div
+            className="image-header-container"
+          >
             <label
               className="upload-label"
               htmlFor="submit"
@@ -96,7 +100,9 @@ ShallowWrapper {
               value="Submit"
             />
           </div>
-          <div>
+          <div
+            className="image-header-container"
+          >
             <label
               className="upload-label"
               htmlFor="description"
@@ -105,7 +111,7 @@ ShallowWrapper {
             </label>
             <textarea
               className="upload-text input-box"
-              col="2"
+              col="3"
               name="description"
               onChange={[Function]}
               rows="2"
@@ -155,7 +161,9 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            <div>
+            <div
+              className="image-header-container"
+            >
               <label
                 className="upload-file button-small"
                 htmlFor="upload-file"
@@ -170,7 +178,9 @@ ShallowWrapper {
                 type="file"
               />
             </div>,
-            <div>
+            <div
+              className="image-header-container"
+            >
               <label
                 className="upload-label"
                 htmlFor="submit"
@@ -184,7 +194,9 @@ ShallowWrapper {
                 value="Submit"
               />
             </div>,
-            <div>
+            <div
+              className="image-header-container"
+            >
               <label
                 className="upload-label"
                 htmlFor="description"
@@ -193,7 +205,7 @@ ShallowWrapper {
               </label>
               <textarea
                 className="upload-text input-box"
-                col="2"
+                col="3"
                 name="description"
                 onChange={[Function]}
                 rows="2"
@@ -226,6 +238,7 @@ ShallowWrapper {
                   type="file"
                 />,
               ],
+              "className": "image-header-container",
             },
             "ref": null,
             "rendered": Array [
@@ -279,6 +292,7 @@ ShallowWrapper {
                   value="Submit"
                 />,
               ],
+              "className": "image-header-container",
             },
             "ref": null,
             "rendered": Array [
@@ -326,13 +340,14 @@ ShallowWrapper {
                 </label>,
                 <textarea
                   className="upload-text input-box"
-                  col="2"
+                  col="3"
                   name="description"
                   onChange={[Function]}
                   rows="2"
                   type="text"
                 />,
               ],
+              "className": "image-header-container",
             },
             "ref": null,
             "rendered": Array [
@@ -355,7 +370,7 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "className": "upload-text input-box",
-                  "col": "2",
+                  "col": "3",
                   "name": "description",
                   "onChange": [Function],
                   "rows": "2",
@@ -458,7 +473,9 @@ ShallowWrapper {
             className="image-header"
             onSubmit={[Function]}
           >
-            <div>
+            <div
+              className="image-header-container"
+            >
               <label
                 className="upload-file button-small"
                 htmlFor="upload-file"
@@ -473,7 +490,9 @@ ShallowWrapper {
                 type="file"
               />
             </div>
-            <div>
+            <div
+              className="image-header-container"
+            >
               <label
                 className="upload-label"
                 htmlFor="submit"
@@ -487,7 +506,9 @@ ShallowWrapper {
                 value="Submit"
               />
             </div>
-            <div>
+            <div
+              className="image-header-container"
+            >
               <label
                 className="upload-label"
                 htmlFor="description"
@@ -496,7 +517,7 @@ ShallowWrapper {
               </label>
               <textarea
                 className="upload-text input-box"
-                col="2"
+                col="3"
                 name="description"
                 onChange={[Function]}
                 rows="2"
@@ -546,7 +567,9 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              <div>
+              <div
+                className="image-header-container"
+              >
                 <label
                   className="upload-file button-small"
                   htmlFor="upload-file"
@@ -561,7 +584,9 @@ ShallowWrapper {
                   type="file"
                 />
               </div>,
-              <div>
+              <div
+                className="image-header-container"
+              >
                 <label
                   className="upload-label"
                   htmlFor="submit"
@@ -575,7 +600,9 @@ ShallowWrapper {
                   value="Submit"
                 />
               </div>,
-              <div>
+              <div
+                className="image-header-container"
+              >
                 <label
                   className="upload-label"
                   htmlFor="description"
@@ -584,7 +611,7 @@ ShallowWrapper {
                 </label>
                 <textarea
                   className="upload-text input-box"
-                  col="2"
+                  col="3"
                   name="description"
                   onChange={[Function]}
                   rows="2"
@@ -617,6 +644,7 @@ ShallowWrapper {
                     type="file"
                   />,
                 ],
+                "className": "image-header-container",
               },
               "ref": null,
               "rendered": Array [
@@ -670,6 +698,7 @@ ShallowWrapper {
                     value="Submit"
                   />,
                 ],
+                "className": "image-header-container",
               },
               "ref": null,
               "rendered": Array [
@@ -717,13 +746,14 @@ ShallowWrapper {
                   </label>,
                   <textarea
                     className="upload-text input-box"
-                    col="2"
+                    col="3"
                     name="description"
                     onChange={[Function]}
                     rows="2"
                     type="text"
                   />,
                 ],
+                "className": "image-header-container",
               },
               "ref": null,
               "rendered": Array [
@@ -746,7 +776,7 @@ ShallowWrapper {
                   "nodeType": "host",
                   "props": Object {
                     "className": "upload-text input-box",
-                    "col": "2",
+                    "col": "3",
                     "name": "description",
                     "onChange": [Function],
                     "rows": "2",

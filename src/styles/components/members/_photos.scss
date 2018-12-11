@@ -9,10 +9,14 @@
 .image-header {
     border: solid 1px $blue-black;
     border-radius: 5px;
-    padding: 1em;
+    padding: .5em 1em;
     display: flex;
-    align-items: flex-start;
-    align-content: space-between;
+    align-items: baseline;
+    justify-content: flex-start;
+}
+
+.image-header-container:last-child {
+    flex-grow: 1;
 }
 
 .image-container {
@@ -40,8 +44,14 @@
 }
 
 .upload-label {
-    padding: 1%;
+    padding: 3%;
 }
+
+.upload-text {
+    width: 90%;
+    margin-left: 1%;
+}
+
 
 input[type="file"] {
     display: none;

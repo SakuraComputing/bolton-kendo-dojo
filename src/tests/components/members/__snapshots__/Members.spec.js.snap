@@ -33,10 +33,10 @@ ShallowWrapper {
               replace={false}
               to="/memberphoto"
             >
-              Photographs
+              Photos
             </Link>
             <p>
-              Select the photographs to go in to the photgraph section
+              Select the photographs and upload these with text for other members to see.
             </p>
           </div>
           <div
@@ -75,7 +75,7 @@ ShallowWrapper {
               Bulletin Board
             </Link>
             <p>
-              Add a post to the bulletin board. Responds to other posts
+              Add a post to the bulletin board. Respond to other posts
             </p>
           </div>
         </div>,
@@ -109,10 +109,10 @@ ShallowWrapper {
                 replace={false}
                 to="/memberphoto"
               >
-                Photographs
+                Photos
               </Link>
               <p>
-                Select the photographs to go in to the photgraph section
+                Select the photographs and upload these with text for other members to see.
               </p>
             </div>,
             <div
@@ -151,7 +151,7 @@ ShallowWrapper {
                 Bulletin Board
               </Link>
               <p>
-                Add a post to the bulletin board. Responds to other posts
+                Add a post to the bulletin board. Respond to other posts
               </p>
             </div>,
           ],
@@ -169,10 +169,10 @@ ShallowWrapper {
                   replace={false}
                   to="/memberphoto"
                 >
-                  Photographs
+                  Photos
                 </Link>,
                 <p>
-                  Select the photographs to go in to the photgraph section
+                  Select the photographs and upload these with text for other members to see.
                 </p>,
               ],
               "className": "members-area-link",
@@ -184,12 +184,12 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "class",
                 "props": Object {
-                  "children": "Photographs",
+                  "children": "Photos",
                   "replace": false,
                   "to": "/memberphoto",
                 },
                 "ref": null,
-                "rendered": "Photographs",
+                "rendered": "Photos",
                 "type": [Function],
               },
               Object {
@@ -197,10 +197,10 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "Select the photographs to go in to the photgraph section",
+                  "children": "Select the photographs and upload these with text for other members to see.",
                 },
                 "ref": null,
-                "rendered": "Select the photographs to go in to the photgraph section",
+                "rendered": "Select the photographs and upload these with text for other members to see.",
                 "type": "p",
               },
             ],
@@ -313,7 +313,7 @@ ShallowWrapper {
                   Bulletin Board
                 </Link>,
                 <p>
-                  Add a post to the bulletin board. Responds to other posts
+                  Add a post to the bulletin board. Respond to other posts
                 </p>,
               ],
               "className": "members-area-link",
@@ -338,10 +338,10 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "Add a post to the bulletin board. Responds to other posts",
+                  "children": "Add a post to the bulletin board. Respond to other posts",
                 },
                 "ref": null,
-                "rendered": "Add a post to the bulletin board. Responds to other posts",
+                "rendered": "Add a post to the bulletin board. Respond to other posts",
                 "type": "p",
               },
             ],
@@ -375,10 +375,10 @@ ShallowWrapper {
                 replace={false}
                 to="/memberphoto"
               >
-                Photographs
+                Photos
               </Link>
               <p>
-                Select the photographs to go in to the photgraph section
+                Select the photographs and upload these with text for other members to see.
               </p>
             </div>
             <div
@@ -417,7 +417,7 @@ ShallowWrapper {
                 Bulletin Board
               </Link>
               <p>
-                Add a post to the bulletin board. Responds to other posts
+                Add a post to the bulletin board. Respond to other posts
               </p>
             </div>
           </div>,
@@ -451,10 +451,10 @@ ShallowWrapper {
                   replace={false}
                   to="/memberphoto"
                 >
-                  Photographs
+                  Photos
                 </Link>
                 <p>
-                  Select the photographs to go in to the photgraph section
+                  Select the photographs and upload these with text for other members to see.
                 </p>
               </div>,
               <div
@@ -493,7 +493,7 @@ ShallowWrapper {
                   Bulletin Board
                 </Link>
                 <p>
-                  Add a post to the bulletin board. Responds to other posts
+                  Add a post to the bulletin board. Respond to other posts
                 </p>
               </div>,
             ],
@@ -511,10 +511,10 @@ ShallowWrapper {
                     replace={false}
                     to="/memberphoto"
                   >
-                    Photographs
+                    Photos
                   </Link>,
                   <p>
-                    Select the photographs to go in to the photgraph section
+                    Select the photographs and upload these with text for other members to see.
                   </p>,
                 ],
                 "className": "members-area-link",
@@ -526,12 +526,12 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "class",
                   "props": Object {
-                    "children": "Photographs",
+                    "children": "Photos",
                     "replace": false,
                     "to": "/memberphoto",
                   },
                   "ref": null,
-                  "rendered": "Photographs",
+                  "rendered": "Photos",
                   "type": [Function],
                 },
                 Object {
@@ -539,10 +539,10 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "Select the photographs to go in to the photgraph section",
+                    "children": "Select the photographs and upload these with text for other members to see.",
                   },
                   "ref": null,
-                  "rendered": "Select the photographs to go in to the photgraph section",
+                  "rendered": "Select the photographs and upload these with text for other members to see.",
                   "type": "p",
                 },
               ],
@@ -655,7 +655,7 @@ ShallowWrapper {
                     Bulletin Board
                   </Link>,
                   <p>
-                    Add a post to the bulletin board. Responds to other posts
+                    Add a post to the bulletin board. Respond to other posts
                   </p>,
                 ],
                 "className": "members-area-link",
@@ -680,10 +680,10 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "Add a post to the bulletin board. Responds to other posts",
+                    "children": "Add a post to the bulletin board. Respond to other posts",
                   },
                   "ref": null,
-                  "rendered": "Add a post to the bulletin board. Responds to other posts",
+                  "rendered": "Add a post to the bulletin board. Respond to other posts",
                   "type": "p",
                 },
               ],

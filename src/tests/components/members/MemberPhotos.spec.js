@@ -40,7 +40,7 @@ describe('Member Photos', () => {
         });
         
         describe('When selecting a file for input', () => {
-            const file = 'f';
+            const file = null;
             beforeEach(() => {
                 photo.find('.upload-file').simulate('change', { target: { files: file }});
             });
