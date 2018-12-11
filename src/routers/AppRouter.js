@@ -23,36 +23,38 @@ class AppRouter extends Component {
     render() {
         return (
             <BrowserRouter>
-                <div className="app-container">
-                    <Menu />
-                    <Switch>
-                        <Route path="/" component={LandingPage} exact={true}/>
-                        <Route exact path="/login" component={Login}></Route>
-                        <Route exact path="/register" component={Register}></Route>
-                        <Route exact path="/theory" component={TheoryPage}></Route>
-                        <Route exact path="/links" component={KendoLinks}></Route>
-                        <Route exact path="/about" component={About}></Route>
-                        <Route exact path="/history" component={ClubHistory}></Route>
-                        <Route path="/not-found" component={NotFound}/>
-                    </Switch>
-                    <Switch>
-                        <PrivateRoute
-                            exact path="/members"
-                            component={Members}
-                        />
-                    </Switch>
-                    <Switch>
-                        <PrivateRoute
-                            exact path="/mindmap"
-                            component={KendoMindMap}
-                        />
-                    </Switch>
-                    <Switch>
-                        <PrivateRoute
-                            exact path="/memberphoto"
-                            component={MemberPhotos}
-                        />
-                    </Switch>
+                <div className="app-wrapper">
+                    <div className="app-container">
+                        <Menu />
+                        <Switch>
+                            <Route path="/" component={LandingPage} exact={true}/>
+                            <Route exact path="/login" component={Login}></Route>
+                            <Route exact path="/register" component={Register}></Route>
+                            <Route exact path="/theory" component={TheoryPage}></Route>
+                            <Route exact path="/links" component={KendoLinks}></Route>
+                            <Route exact path="/about" component={About}></Route>
+                            <Route exact path="/history" component={ClubHistory}></Route>
+                            <Route path="/not-found" component={NotFound}/>
+                        </Switch>
+                        <Switch>
+                            <PrivateRoute
+                                exact path="/members"
+                                component={Members}
+                            />
+                        </Switch>
+                        <Switch>
+                            <PrivateRoute
+                                exact path="/mindmap"
+                                component={KendoMindMap}
+                            />
+                        </Switch>
+                        <Switch>
+                            <PrivateRoute
+                                exact path="/memberphoto"
+                                component={MemberPhotos}
+                            />
+                        </Switch>
+                    </div>
                     <Footer />
                 </div>
             </BrowserRouter>

@@ -18,416 +18,9 @@ ShallowWrapper {
     "nodeType": "class",
     "props": Object {
       "children": <div
-        className="app-container"
+        className="app-wrapper"
       >
-        <Connect(Menu) />
-        <Switch>
-          <Route
-            component={[Function]}
-            exact={true}
-            path="/"
-          />
-          <Route
-            component={[Function]}
-            exact={true}
-            path="/login"
-          />
-          <Route
-            component={[Function]}
-            exact={true}
-            path="/register"
-          />
-          <Route
-            component={[Function]}
-            exact={true}
-            path="/theory"
-          />
-          <Route
-            component={[Function]}
-            exact={true}
-            path="/links"
-          />
-          <Route
-            component={[Function]}
-            exact={true}
-            path="/about"
-          />
-          <Route
-            component={[Function]}
-            exact={true}
-            path="/history"
-          />
-          <Route
-            component={[Function]}
-            path="/not-found"
-          />
-        </Switch>
-        <Switch>
-          <Connect(PrivateRoute)
-            component={[Function]}
-            exact={true}
-            path="/members"
-          />
-        </Switch>
-        <Switch>
-          <Connect(PrivateRoute)
-            component={[Function]}
-            exact={true}
-            path="/mindmap"
-          />
-        </Switch>
-        <Switch>
-          <Connect(PrivateRoute)
-            component={[Function]}
-            exact={true}
-            path="/memberphoto"
-          />
-        </Switch>
-        <Footer />
-      </div>,
-    },
-    "ref": null,
-    "rendered": Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": Array [
-          <Connect(Menu) />,
-          <Switch>
-            <Route
-              component={[Function]}
-              exact={true}
-              path="/"
-            />
-            <Route
-              component={[Function]}
-              exact={true}
-              path="/login"
-            />
-            <Route
-              component={[Function]}
-              exact={true}
-              path="/register"
-            />
-            <Route
-              component={[Function]}
-              exact={true}
-              path="/theory"
-            />
-            <Route
-              component={[Function]}
-              exact={true}
-              path="/links"
-            />
-            <Route
-              component={[Function]}
-              exact={true}
-              path="/about"
-            />
-            <Route
-              component={[Function]}
-              exact={true}
-              path="/history"
-            />
-            <Route
-              component={[Function]}
-              path="/not-found"
-            />
-          </Switch>,
-          <Switch>
-            <Connect(PrivateRoute)
-              component={[Function]}
-              exact={true}
-              path="/members"
-            />
-          </Switch>,
-          <Switch>
-            <Connect(PrivateRoute)
-              component={[Function]}
-              exact={true}
-              path="/mindmap"
-            />
-          </Switch>,
-          <Switch>
-            <Connect(PrivateRoute)
-              component={[Function]}
-              exact={true}
-              path="/memberphoto"
-            />
-          </Switch>,
-          <Footer />,
-        ],
-        "className": "app-container",
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {},
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": Array [
-              <Route
-                component={[Function]}
-                exact={true}
-                path="/"
-              />,
-              <Route
-                component={[Function]}
-                exact={true}
-                path="/login"
-              />,
-              <Route
-                component={[Function]}
-                exact={true}
-                path="/register"
-              />,
-              <Route
-                component={[Function]}
-                exact={true}
-                path="/theory"
-              />,
-              <Route
-                component={[Function]}
-                exact={true}
-                path="/links"
-              />,
-              <Route
-                component={[Function]}
-                exact={true}
-                path="/about"
-              />,
-              <Route
-                component={[Function]}
-                exact={true}
-                path="/history"
-              />,
-              <Route
-                component={[Function]}
-                path="/not-found"
-              />,
-            ],
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "component": [Function],
-                "exact": true,
-                "path": "/",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "component": [Function],
-                "exact": true,
-                "path": "/login",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "component": [Function],
-                "exact": true,
-                "path": "/register",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "component": [Function],
-                "exact": true,
-                "path": "/theory",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "component": [Function],
-                "exact": true,
-                "path": "/links",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "component": [Function],
-                "exact": true,
-                "path": "/about",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "component": [Function],
-                "exact": true,
-                "path": "/history",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "component": [Function],
-                "path": "/not-found",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-          ],
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": <Connect(PrivateRoute)
-              component={[Function]}
-              exact={true}
-              path="/members"
-            />,
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "component": [Function],
-              "exact": true,
-              "path": "/members",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": <Connect(PrivateRoute)
-              component={[Function]}
-              exact={true}
-              path="/mindmap"
-            />,
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "component": [Function],
-              "exact": true,
-              "path": "/mindmap",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "children": <Connect(PrivateRoute)
-              component={[Function]}
-              exact={true}
-              path="/memberphoto"
-            />,
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "component": [Function],
-              "exact": true,
-              "path": "/memberphoto",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {},
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-      ],
-      "type": "div",
-    },
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "children": <div
+        <div
           className="app-container"
         >
           <Connect(Menu) />
@@ -493,17 +86,21 @@ ShallowWrapper {
               path="/memberphoto"
             />
           </Switch>
-          <Footer />
-        </div>,
-      },
-      "ref": null,
-      "rendered": Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": Array [
-            <Connect(Menu) />,
+        </div>
+        <Footer />
+      </div>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="app-container"
+          >
+            <Connect(Menu) />
             <Switch>
               <Route
                 component={[Function]}
@@ -544,89 +141,601 @@ ShallowWrapper {
                 component={[Function]}
                 path="/not-found"
               />
-            </Switch>,
+            </Switch>
             <Switch>
               <Connect(PrivateRoute)
                 component={[Function]}
                 exact={true}
                 path="/members"
               />
-            </Switch>,
+            </Switch>
             <Switch>
               <Connect(PrivateRoute)
                 component={[Function]}
                 exact={true}
                 path="/mindmap"
               />
-            </Switch>,
+            </Switch>
             <Switch>
               <Connect(PrivateRoute)
                 component={[Function]}
                 exact={true}
                 path="/memberphoto"
               />
-            </Switch>,
+            </Switch>
+          </div>,
+          <Footer />,
+        ],
+        "className": "app-wrapper",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <Connect(Menu) />,
+              <Switch>
+                <Route
+                  component={[Function]}
+                  exact={true}
+                  path="/"
+                />
+                <Route
+                  component={[Function]}
+                  exact={true}
+                  path="/login"
+                />
+                <Route
+                  component={[Function]}
+                  exact={true}
+                  path="/register"
+                />
+                <Route
+                  component={[Function]}
+                  exact={true}
+                  path="/theory"
+                />
+                <Route
+                  component={[Function]}
+                  exact={true}
+                  path="/links"
+                />
+                <Route
+                  component={[Function]}
+                  exact={true}
+                  path="/about"
+                />
+                <Route
+                  component={[Function]}
+                  exact={true}
+                  path="/history"
+                />
+                <Route
+                  component={[Function]}
+                  path="/not-found"
+                />
+              </Switch>,
+              <Switch>
+                <Connect(PrivateRoute)
+                  component={[Function]}
+                  exact={true}
+                  path="/members"
+                />
+              </Switch>,
+              <Switch>
+                <Connect(PrivateRoute)
+                  component={[Function]}
+                  exact={true}
+                  path="/mindmap"
+                />
+              </Switch>,
+              <Switch>
+                <Connect(PrivateRoute)
+                  component={[Function]}
+                  exact={true}
+                  path="/memberphoto"
+                />
+              </Switch>,
+            ],
+            "className": "app-container",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <Route
+                    component={[Function]}
+                    exact={true}
+                    path="/"
+                  />,
+                  <Route
+                    component={[Function]}
+                    exact={true}
+                    path="/login"
+                  />,
+                  <Route
+                    component={[Function]}
+                    exact={true}
+                    path="/register"
+                  />,
+                  <Route
+                    component={[Function]}
+                    exact={true}
+                    path="/theory"
+                  />,
+                  <Route
+                    component={[Function]}
+                    exact={true}
+                    path="/links"
+                  />,
+                  <Route
+                    component={[Function]}
+                    exact={true}
+                    path="/about"
+                  />,
+                  <Route
+                    component={[Function]}
+                    exact={true}
+                    path="/history"
+                  />,
+                  <Route
+                    component={[Function]}
+                    path="/not-found"
+                  />,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "component": [Function],
+                    "exact": true,
+                    "path": "/",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "component": [Function],
+                    "exact": true,
+                    "path": "/login",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "component": [Function],
+                    "exact": true,
+                    "path": "/register",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "component": [Function],
+                    "exact": true,
+                    "path": "/theory",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "component": [Function],
+                    "exact": true,
+                    "path": "/links",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "component": [Function],
+                    "exact": true,
+                    "path": "/about",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "component": [Function],
+                    "exact": true,
+                    "path": "/history",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "component": [Function],
+                    "path": "/not-found",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <Connect(PrivateRoute)
+                  component={[Function]}
+                  exact={true}
+                  path="/members"
+                />,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "component": [Function],
+                  "exact": true,
+                  "path": "/members",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <Connect(PrivateRoute)
+                  component={[Function]}
+                  exact={true}
+                  path="/mindmap"
+                />,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "component": [Function],
+                  "exact": true,
+                  "path": "/mindmap",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <Connect(PrivateRoute)
+                  component={[Function]}
+                  exact={true}
+                  path="/memberphoto"
+                />,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "component": [Function],
+                  "exact": true,
+                  "path": "/memberphoto",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <div
+          className="app-wrapper"
+        >
+          <div
+            className="app-container"
+          >
+            <Connect(Menu) />
+            <Switch>
+              <Route
+                component={[Function]}
+                exact={true}
+                path="/"
+              />
+              <Route
+                component={[Function]}
+                exact={true}
+                path="/login"
+              />
+              <Route
+                component={[Function]}
+                exact={true}
+                path="/register"
+              />
+              <Route
+                component={[Function]}
+                exact={true}
+                path="/theory"
+              />
+              <Route
+                component={[Function]}
+                exact={true}
+                path="/links"
+              />
+              <Route
+                component={[Function]}
+                exact={true}
+                path="/about"
+              />
+              <Route
+                component={[Function]}
+                exact={true}
+                path="/history"
+              />
+              <Route
+                component={[Function]}
+                path="/not-found"
+              />
+            </Switch>
+            <Switch>
+              <Connect(PrivateRoute)
+                component={[Function]}
+                exact={true}
+                path="/members"
+              />
+            </Switch>
+            <Switch>
+              <Connect(PrivateRoute)
+                component={[Function]}
+                exact={true}
+                path="/mindmap"
+              />
+            </Switch>
+            <Switch>
+              <Connect(PrivateRoute)
+                component={[Function]}
+                exact={true}
+                path="/memberphoto"
+              />
+            </Switch>
+          </div>
+          <Footer />
+        </div>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="app-container"
+            >
+              <Connect(Menu) />
+              <Switch>
+                <Route
+                  component={[Function]}
+                  exact={true}
+                  path="/"
+                />
+                <Route
+                  component={[Function]}
+                  exact={true}
+                  path="/login"
+                />
+                <Route
+                  component={[Function]}
+                  exact={true}
+                  path="/register"
+                />
+                <Route
+                  component={[Function]}
+                  exact={true}
+                  path="/theory"
+                />
+                <Route
+                  component={[Function]}
+                  exact={true}
+                  path="/links"
+                />
+                <Route
+                  component={[Function]}
+                  exact={true}
+                  path="/about"
+                />
+                <Route
+                  component={[Function]}
+                  exact={true}
+                  path="/history"
+                />
+                <Route
+                  component={[Function]}
+                  path="/not-found"
+                />
+              </Switch>
+              <Switch>
+                <Connect(PrivateRoute)
+                  component={[Function]}
+                  exact={true}
+                  path="/members"
+                />
+              </Switch>
+              <Switch>
+                <Connect(PrivateRoute)
+                  component={[Function]}
+                  exact={true}
+                  path="/mindmap"
+                />
+              </Switch>
+              <Switch>
+                <Connect(PrivateRoute)
+                  component={[Function]}
+                  exact={true}
+                  path="/memberphoto"
+                />
+              </Switch>
+            </div>,
             <Footer />,
           ],
-          "className": "app-container",
+          "className": "app-wrapper",
         },
         "ref": null,
         "rendered": Array [
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
-            "props": Object {},
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
+            "nodeType": "host",
             "props": Object {
               "children": Array [
-                <Route
-                  component={[Function]}
-                  exact={true}
-                  path="/"
-                />,
-                <Route
-                  component={[Function]}
-                  exact={true}
-                  path="/login"
-                />,
-                <Route
-                  component={[Function]}
-                  exact={true}
-                  path="/register"
-                />,
-                <Route
-                  component={[Function]}
-                  exact={true}
-                  path="/theory"
-                />,
-                <Route
-                  component={[Function]}
-                  exact={true}
-                  path="/links"
-                />,
-                <Route
-                  component={[Function]}
-                  exact={true}
-                  path="/about"
-                />,
-                <Route
-                  component={[Function]}
-                  exact={true}
-                  path="/history"
-                />,
-                <Route
-                  component={[Function]}
-                  path="/not-found"
-                />,
+                <Connect(Menu) />,
+                <Switch>
+                  <Route
+                    component={[Function]}
+                    exact={true}
+                    path="/"
+                  />
+                  <Route
+                    component={[Function]}
+                    exact={true}
+                    path="/login"
+                  />
+                  <Route
+                    component={[Function]}
+                    exact={true}
+                    path="/register"
+                  />
+                  <Route
+                    component={[Function]}
+                    exact={true}
+                    path="/theory"
+                  />
+                  <Route
+                    component={[Function]}
+                    exact={true}
+                    path="/links"
+                  />
+                  <Route
+                    component={[Function]}
+                    exact={true}
+                    path="/about"
+                  />
+                  <Route
+                    component={[Function]}
+                    exact={true}
+                    path="/history"
+                  />
+                  <Route
+                    component={[Function]}
+                    path="/not-found"
+                  />
+                </Switch>,
+                <Switch>
+                  <Connect(PrivateRoute)
+                    component={[Function]}
+                    exact={true}
+                    path="/members"
+                  />
+                </Switch>,
+                <Switch>
+                  <Connect(PrivateRoute)
+                    component={[Function]}
+                    exact={true}
+                    path="/mindmap"
+                  />
+                </Switch>,
+                <Switch>
+                  <Connect(PrivateRoute)
+                    component={[Function]}
+                    exact={true}
+                    path="/memberphoto"
+                  />
+                </Switch>,
               ],
+              "className": "app-container",
             },
             "ref": null,
             "rendered": Array [
@@ -634,11 +743,7 @@ ShallowWrapper {
                 "instance": null,
                 "key": undefined,
                 "nodeType": "class",
-                "props": Object {
-                  "component": [Function],
-                  "exact": true,
-                  "path": "/",
-                },
+                "props": Object {},
                 "ref": null,
                 "rendered": null,
                 "type": [Function],
@@ -648,12 +753,154 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "class",
                 "props": Object {
-                  "component": [Function],
-                  "exact": true,
-                  "path": "/login",
+                  "children": Array [
+                    <Route
+                      component={[Function]}
+                      exact={true}
+                      path="/"
+                    />,
+                    <Route
+                      component={[Function]}
+                      exact={true}
+                      path="/login"
+                    />,
+                    <Route
+                      component={[Function]}
+                      exact={true}
+                      path="/register"
+                    />,
+                    <Route
+                      component={[Function]}
+                      exact={true}
+                      path="/theory"
+                    />,
+                    <Route
+                      component={[Function]}
+                      exact={true}
+                      path="/links"
+                    />,
+                    <Route
+                      component={[Function]}
+                      exact={true}
+                      path="/about"
+                    />,
+                    <Route
+                      component={[Function]}
+                      exact={true}
+                      path="/history"
+                    />,
+                    <Route
+                      component={[Function]}
+                      path="/not-found"
+                    />,
+                  ],
                 },
                 "ref": null,
-                "rendered": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "component": [Function],
+                      "exact": true,
+                      "path": "/",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "component": [Function],
+                      "exact": true,
+                      "path": "/login",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "component": [Function],
+                      "exact": true,
+                      "path": "/register",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "component": [Function],
+                      "exact": true,
+                      "path": "/theory",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "component": [Function],
+                      "exact": true,
+                      "path": "/links",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "component": [Function],
+                      "exact": true,
+                      "path": "/about",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "component": [Function],
+                      "exact": true,
+                      "path": "/history",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "component": [Function],
+                      "path": "/not-found",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                ],
                 "type": [Function],
               },
               Object {
@@ -661,12 +908,26 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "class",
                 "props": Object {
-                  "component": [Function],
-                  "exact": true,
-                  "path": "/register",
+                  "children": <Connect(PrivateRoute)
+                    component={[Function]}
+                    exact={true}
+                    path="/members"
+                  />,
                 },
                 "ref": null,
-                "rendered": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "component": [Function],
+                    "exact": true,
+                    "path": "/members",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
                 "type": [Function],
               },
               Object {
@@ -674,12 +935,26 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "class",
                 "props": Object {
-                  "component": [Function],
-                  "exact": true,
-                  "path": "/theory",
+                  "children": <Connect(PrivateRoute)
+                    component={[Function]}
+                    exact={true}
+                    path="/mindmap"
+                  />,
                 },
                 "ref": null,
-                "rendered": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "component": [Function],
+                    "exact": true,
+                    "path": "/mindmap",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
                 "type": [Function],
               },
               Object {
@@ -687,135 +962,30 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "class",
                 "props": Object {
-                  "component": [Function],
-                  "exact": true,
-                  "path": "/links",
+                  "children": <Connect(PrivateRoute)
+                    component={[Function]}
+                    exact={true}
+                    path="/memberphoto"
+                  />,
                 },
                 "ref": null,
-                "rendered": null,
-                "type": [Function],
-              },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "class",
-                "props": Object {
-                  "component": [Function],
-                  "exact": true,
-                  "path": "/about",
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "component": [Function],
+                    "exact": true,
+                    "path": "/memberphoto",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
                 },
-                "ref": null,
-                "rendered": null,
-                "type": [Function],
-              },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "class",
-                "props": Object {
-                  "component": [Function],
-                  "exact": true,
-                  "path": "/history",
-                },
-                "ref": null,
-                "rendered": null,
-                "type": [Function],
-              },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "class",
-                "props": Object {
-                  "component": [Function],
-                  "path": "/not-found",
-                },
-                "ref": null,
-                "rendered": null,
                 "type": [Function],
               },
             ],
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "children": <Connect(PrivateRoute)
-                component={[Function]}
-                exact={true}
-                path="/members"
-              />,
-            },
-            "ref": null,
-            "rendered": Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "component": [Function],
-                "exact": true,
-                "path": "/members",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "children": <Connect(PrivateRoute)
-                component={[Function]}
-                exact={true}
-                path="/mindmap"
-              />,
-            },
-            "ref": null,
-            "rendered": Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "component": [Function],
-                "exact": true,
-                "path": "/mindmap",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "children": <Connect(PrivateRoute)
-                component={[Function]}
-                exact={true}
-                path="/memberphoto"
-              />,
-            },
-            "ref": null,
-            "rendered": Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "component": [Function],
-                "exact": true,
-                "path": "/memberphoto",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            "type": [Function],
+            "type": "div",
           },
           Object {
             "instance": null,
