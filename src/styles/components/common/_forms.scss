@@ -64,8 +64,11 @@
 }
 
 .spinner-container {
-    background-color: white;
-    height: 90vh;
+    background-color: $off-white;
+    height: 100%;
+    width: 100%;
+    z-index: 999;
+    overflow: hidden;
 }
 
 .spinner {

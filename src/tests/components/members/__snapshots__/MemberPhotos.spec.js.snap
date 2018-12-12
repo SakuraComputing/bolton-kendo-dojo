@@ -63,7 +63,7 @@ ShallowWrapper {
         <h1
           className="image-title"
         >
-          Member Photograph Upload
+          Member Photographs
         </h1>
         <div
           className="wrap-collapsible"
@@ -175,7 +175,7 @@ ShallowWrapper {
           <h1
             className="image-title"
           >
-            Member Photograph Upload
+            Member Photographs
           </h1>,
           <div
             className="wrap-collapsible"
@@ -285,11 +285,11 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "Member Photograph Upload",
+            "children": "Member Photographs",
             "className": "image-title",
           },
           "ref": null,
-          "rendered": "Member Photograph Upload",
+          "rendered": "Member Photographs",
           "type": "h1",
         },
         Object {
@@ -878,7 +878,7 @@ ShallowWrapper {
           <h1
             className="image-title"
           >
-            Member Photograph Upload
+            Member Photographs
           </h1>
           <div
             className="wrap-collapsible"
@@ -990,7 +990,7 @@ ShallowWrapper {
             <h1
               className="image-title"
             >
-              Member Photograph Upload
+              Member Photographs
             </h1>,
             <div
               className="wrap-collapsible"
@@ -1100,11 +1100,11 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": "Member Photograph Upload",
+              "children": "Member Photographs",
               "className": "image-title",
             },
             "ref": null,
-            "rendered": "Member Photograph Upload",
+            "rendered": "Member Photographs",
             "type": "h1",
           },
           Object {

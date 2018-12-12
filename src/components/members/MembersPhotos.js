@@ -71,7 +71,7 @@ export class MemberPhoto extends React.Component {
         return (
             <div>
                 <div className="images-uploads content-container">
-                    <h1 className="image-title">Member Photograph Upload</h1>
+                    <h1 className="image-title">Member Photographs</h1>
                         <div className="wrap-collapsible">
                             <input id="collapsible" className="toggle" type="checkbox"/>
                             <label htmlFor="collapsible" class="lbl-toggle">Uploads</label>
