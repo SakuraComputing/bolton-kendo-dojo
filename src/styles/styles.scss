@@ -2,11 +2,12 @@
 @import './base/base';
 @import './components/menu';
 @import './components/content_container';
+@import './components/common/forms';
+@import './components/common/pin.scss';
+@import './components/common/collapsible';
 @import './components/landing';
 @import './components/auth/login';
 @import './components/auth/register';
-@import './components/common/forms';
-@import './components/common/pin.scss';
 @import './components/about';
 @import './components/members/members.scss';
 @import './components/members/photos.scss'
