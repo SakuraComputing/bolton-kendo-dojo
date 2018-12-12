@@ -74,7 +74,7 @@ ShallowWrapper {
             type="checkbox"
           />
           <label
-            class="lbl-toggle"
+            className="lbl-toggle"
             htmlFor="collapsible"
           >
             Uploads
@@ -186,7 +186,7 @@ ShallowWrapper {
               type="checkbox"
             />
             <label
-              class="lbl-toggle"
+              className="lbl-toggle"
               htmlFor="collapsible"
             >
               Uploads
@@ -304,7 +304,7 @@ ShallowWrapper {
                 type="checkbox"
               />,
               <label
-                class="lbl-toggle"
+                className="lbl-toggle"
                 htmlFor="collapsible"
               >
                 Uploads
@@ -416,7 +416,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": "Uploads",
-                "class": "lbl-toggle",
+                "className": "lbl-toggle",
                 "htmlFor": "collapsible",
               },
               "ref": null,
@@ -889,7 +889,7 @@ ShallowWrapper {
               type="checkbox"
             />
             <label
-              class="lbl-toggle"
+              className="lbl-toggle"
               htmlFor="collapsible"
             >
               Uploads
@@ -1001,7 +1001,7 @@ ShallowWrapper {
                 type="checkbox"
               />
               <label
-                class="lbl-toggle"
+                className="lbl-toggle"
                 htmlFor="collapsible"
               >
                 Uploads
@@ -1119,7 +1119,7 @@ ShallowWrapper {
                   type="checkbox"
                 />,
                 <label
-                  class="lbl-toggle"
+                  className="lbl-toggle"
                   htmlFor="collapsible"
                 >
                   Uploads
@@ -1231,7 +1231,7 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "children": "Uploads",
-                  "class": "lbl-toggle",
+                  "className": "lbl-toggle",
                   "htmlFor": "collapsible",
                 },
                 "ref": null,

@@ -65,10 +65,11 @@
 
 .spinner-container {
     background-color: $off-white;
-    height: 100%;
-    width: 100%;
+    height: 75%;
+    width: 80%;
     z-index: 999;
     overflow: hidden;
+    position: absolute;
 }
 
 .spinner {
@@ -78,8 +79,6 @@
     left: 0;
     right: 0;
     margin: auto;
-    width: 200px;
-    height: 200px;
 }
 
 

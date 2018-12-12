@@ -74,7 +74,7 @@ export class MemberPhoto extends React.Component {
                     <h1 className="image-title">Member Photographs</h1>
                         <div className="wrap-collapsible">
                             <input id="collapsible" className="toggle" type="checkbox"/>
-                            <label htmlFor="collapsible" class="lbl-toggle">Uploads</label>
+                            <label htmlFor="collapsible" className="lbl-toggle">Uploads</label>
                             <div className="collapsible-content">
                                 <div className="content-inner">
                                     <form onSubmit={this.onFormSubmit} className="image-header">
