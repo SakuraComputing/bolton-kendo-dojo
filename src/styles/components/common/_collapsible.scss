@@ -6,31 +6,55 @@
     display: none;
   }
   
-  .lbl-toggle {
+  .lbl-toggle-search {
     display: block;
-  
     font-weight: bold;
-    // font-family: monospace;
     font-size: 100%;
-    // text-transform: uppercase;
     text-align: center;
-  
     padding: 1rem;
-  
     color: $dark-orange;
     background: $light-orange;
-  
     cursor: pointer;
-  
     border-radius: 7px;
     transition: all 0.25s ease-out;
   }
   
-  .lbl-toggle:hover {
+  .lbl-toggle-upload {
+    display: block;
+    font-weight: bold;
+    font-size: 100%;
+    text-align: center;
+    padding: 1rem;
+    color: $dark-orange;
+    background: $light-orange;
+    cursor: pointer;
+    border-radius: 7px;
+    transition: all 0.25s ease-out;
+  }
+  
+  .lbl-toggle-search:hover {
     color: $dark-orange;
   }
   
-  .lbl-toggle::before {
+  .lbl-toggle-upload:hover {
+    color: $dark-orange;
+  }
+  
+  .lbl-toggle-search::before {
+    content: ' ';
+    display: inline-block;
+  
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid currentColor;
+    vertical-align: middle;
+    margin-right: .7rem;
+    transform: translateY(-2px);
+  
+    transition: transform .2s ease-out;
+  }
+
+  .lbl-toggle-upload::before {
     content: ' ';
     display: inline-block;
   
@@ -44,21 +68,40 @@
     transition: transform .2s ease-out;
   }
   
-  .toggle:checked + .lbl-toggle::before {
+  .toggle-search:checked + .lbl-toggle-search::before {
     transform: rotate(90deg) translateX(-3px);
   }
   
-  .collapsible-content {
+  .toggle-upload:checked + .lbl-toggle-upload::before {
+    transform: rotate(90deg) translateX(-3px);
+  }
+  
+  .collapsible-content-search {
     max-height: 0px;
     overflow: hidden;
     transition: max-height .25s ease-in-out;
   }
   
-  .toggle:checked + .lbl-toggle + .collapsible-content {
+  .collapsible-content-upload {
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height .25s ease-in-out;
+  }
+  
+  .toggle-search:checked + .lbl-toggle-search + .collapsible-content-search {
     max-height: 350px;
   }
   
-  .toggle:checked + .lbl-toggle {
+  .toggle-upload:checked + .lbl-toggle-upload + .collapsible-content-upload {
+    max-height: 350px;
+  }
+  
+  .toggle-search:checked + .lbl-toggle-search {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  .toggle-upload:checked + .lbl-toggle-upload {
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
   }

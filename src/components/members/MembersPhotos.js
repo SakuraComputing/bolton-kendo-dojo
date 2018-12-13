@@ -93,28 +93,28 @@ export class MemberPhoto extends React.Component {
             <div>
                 <div className="images-uploads content-container">
                     <h1 className="image-title">Member Photographs</h1>
-                        <MemberPhotoFilter />
-                        <div className="wrap-collapsible">
-                            <input id="collapsible" className="toggle" type="checkbox"/>
-                            <label htmlFor="collapsible" className="lbl-toggle">Uploads</label>
-                            <div className="collapsible-content">
-                                <div className="content-inner">
-                                    <form onSubmit={this.onFormSubmit} className="image-header">
-                                        <div className="image-header-container">
-                                            <label htmlFor="upload-file" className="upload-file button-small">Get Photo</label>
-                                            <input type="file" accept=".jpg,.jpeg,.png,.bmp,.gif" name="image" id="upload-file" onChange={this.onChange} />
-                                        </div>
-                                        <div className="image-header-container">
-                                            <textarea rows="2" col="3" value={this.state.description} className="upload-text input-box" type="text" name="description" onChange={this.onDescriptionChange}/>
-                                            <label className="upload-label" htmlFor="description" >Add Photo Description</label>
-                                        </div>
-                                        <div className="image-header-container">
-                                            <label className="upload-label" htmlFor="submit">Upload Photo</label>
-                                            <input type="submit" value="Submit" name="submit" className="button-small"/>
-                                        </div>
-                                    </form>
-                                </div>
+                    <MemberPhotoFilter />
+                    <div className="wrap-collapsible">
+                        <input id="collapsible-upload" className="toggle-upload" type="checkbox"/>
+                        <label htmlFor="collapsible-upload" className="lbl-toggle-upload">Uploads</label>
+                        <div className="collapsible-content-upload">
+                            <div className="content-inner">
+                                <form onSubmit={this.onFormSubmit} className="image-header">
+                                    <div className="image-header-container">
+                                        <label htmlFor="upload-file" className="upload-file button-small">Get Photo</label>
+                                        <input type="file" accept=".jpg,.jpeg,.png,.bmp,.gif" name="image" id="upload-file" onChange={this.onChange} />
+                                    </div>
+                                    <div className="image-header-container">
+                                        <textarea rows="2" col="3" value={this.state.description} className="upload-text input-box" type="text" name="description" onChange={this.onDescriptionChange}/>
+                                        <label className="upload-label" htmlFor="description" >Add Photo Description</label>
+                                    </div>
+                                    <div className="image-header-container">
+                                        <label className="upload-label" htmlFor="submit">Upload Photo</label>
+                                        <input type="submit" value="Submit" name="submit" className="button-small"/>
+                                    </div>
+                                </form>
                             </div>
+                        </div>
                         <div className="image-container">
                             {album}
                         </div>
