@@ -36,6 +36,11 @@ export class MemberPhoto extends React.Component {
         formData.append('image', file);
         formData.set('description', description);
         this.props.postMemberUploads(formData);
+        this.setState({
+            file: null,
+            description: '',
+            errors: {}
+        })
     }
 
     onUploadDelete = (index, e) => {
@@ -83,7 +88,7 @@ export class MemberPhoto extends React.Component {
                                             <input type="file" accept=".jpg,.jpeg,.png" name="image" id="upload-file" onChange={this.onChange} />
                                         </div>
                                         <div className="image-header-container">
-                                            <textarea rows="2" col="3" className="upload-text input-box" type="text" name="description" onChange={this.onDescriptionChange}/>
+                                            <textarea rows="2" col="3" value={this.state.description} className="upload-text input-box" type="text" name="description" onChange={this.onDescriptionChange}/>
                                             <label className="upload-label" htmlFor="description" >Add Photo Description</label>
                                         </div>
                                         <div className="image-header-container">
