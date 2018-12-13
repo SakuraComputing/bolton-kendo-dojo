@@ -65,6 +65,7 @@ ShallowWrapper {
         >
           Member Photographs
         </h1>
+        <Connect(MembersPhotoFilter) />
         <div
           className="wrap-collapsible"
         >
@@ -178,6 +179,7 @@ ShallowWrapper {
           >
             Member Photographs
           </h1>,
+          <Connect(MembersPhotoFilter) />,
           <div
             className="wrap-collapsible"
           >
@@ -293,6 +295,15 @@ ShallowWrapper {
           "ref": null,
           "rendered": "Member Photographs",
           "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
         },
         Object {
           "instance": null,
@@ -888,6 +899,7 @@ ShallowWrapper {
           >
             Member Photographs
           </h1>
+          <Connect(MembersPhotoFilter) />
           <div
             className="wrap-collapsible"
           >
@@ -1001,6 +1013,7 @@ ShallowWrapper {
             >
               Member Photographs
             </h1>,
+            <Connect(MembersPhotoFilter) />,
             <div
               className="wrap-collapsible"
             >
@@ -1116,6 +1129,15 @@ ShallowWrapper {
             "ref": null,
             "rendered": "Member Photographs",
             "type": "h1",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
           },
           Object {
             "instance": null,

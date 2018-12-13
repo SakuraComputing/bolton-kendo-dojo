@@ -22,7 +22,7 @@ describe('Member Photos', () => {
         expect(photo.state()).toEqual({
             file: null,
             description: '',
-            errors: {},
+            errors: {}
         });
     });
     

@@ -8,6 +8,9 @@ describe('photo selector', () => {
             photoSortyBy: 'date'
         }
         const result = selectorPhotos(uploads, filters);
-        expect(result).toEqual([uploads[0]]);
+        expect(result).toEqual({
+            loading: false,
+            uploads: [uploads[0]]
+        });
     });
 });

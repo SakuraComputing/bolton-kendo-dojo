@@ -4,6 +4,8 @@ import Spinner from '../../common/Spinner';
 import { getMemberUploads, postMemberUploads, deleteMemberUploads } from '../../actions/uploadActions';
 import MemberPhotoItem from '../../components/members/MemberPhotoItem';
 import { confirmAlert } from 'react-confirm-alert'; 
+import MemberPhotoFilter from './MembersPhotoFilter';
+import selectPhotos from '../../selectors/photos';
 
 export class MemberPhoto extends React.Component {
 
@@ -12,7 +14,8 @@ export class MemberPhoto extends React.Component {
         this.state = {
             file: null,
             description: '',
-            errors: {}
+            errors: {},
+            uploads: []
         };
     };
 
@@ -91,6 +94,7 @@ export class MemberPhoto extends React.Component {
             <div>
                 <div className="images-uploads content-container">
                     <h1 className="image-title">Member Photographs</h1>
+                        <MemberPhotoFilter />
                         <div className="wrap-collapsible">
                             <input id="collapsible" className="toggle" type="checkbox"/>
                             <label htmlFor="collapsible" className="lbl-toggle">Uploads</label>
@@ -121,8 +125,9 @@ export class MemberPhoto extends React.Component {
         )
     }
 }
-const mapStateToProps = (state) => ({
-    errors: state.errors,
-    uploads: state.uploads
-})
+const mapStateToProps = (state) => {
+    return {
+        uploads: selectPhotos(state.uploads.uploads, state.filters)
+    }
+};
 export default connect(mapStateToProps, { getMemberUploads , postMemberUploads, deleteMemberUploads })(MemberPhoto);
