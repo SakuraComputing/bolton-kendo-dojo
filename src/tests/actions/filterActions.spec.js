@@ -6,7 +6,7 @@ describe('Filter Actions Object', () => {
         const action = setPhotoTextFilter('test');
         expect(action).toEqual({
             type: SET_PHOTO_TEXT_FILTER,
-            text: 'test'
+            photoText: 'test'
         })
     });
     it('should set the date sort order object', () => {

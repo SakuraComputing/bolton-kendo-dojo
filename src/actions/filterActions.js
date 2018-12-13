@@ -1,8 +1,8 @@
 import { SET_PHOTO_TEXT_FILTER, SORT_PHOTO_BY_DATE } from './types';
 
-export const setPhotoTextFilter = (text = '') => ({
+export const setPhotoTextFilter = (photoText = '') => ({
     type: SET_PHOTO_TEXT_FILTER,
-    text
+    photoText
 });
 
 export const setPhotoDateSortOrder = () => ({
