@@ -70,18 +70,18 @@ ShallowWrapper {
           className="wrap-collapsible"
         >
           <input
-            className="toggle"
-            id="collapsible"
+            className="toggle-upload"
+            id="collapsible-upload"
             type="checkbox"
           />
           <label
-            className="lbl-toggle"
-            htmlFor="collapsible"
+            className="lbl-toggle-upload"
+            htmlFor="collapsible-upload"
           >
             Uploads
           </label>
           <div
-            className="collapsible-content"
+            className="collapsible-content-upload"
           >
             <div
               className="content-inner"
@@ -152,16 +152,19 @@ ShallowWrapper {
               description="Kendo Photo Details"
               filename="image-1543168184113.png"
               onUploadDelete={[Function]}
+              viewPhoto={[Function]}
             />
             <MemberPhotoItem
               description="More Details"
               filename="image-0000000000.png"
               onUploadDelete={[Function]}
+              viewPhoto={[Function]}
             />
             <MemberPhotoItem
               description="Extra Details"
               filename="image-3333333333.png"
               onUploadDelete={[Function]}
+              viewPhoto={[Function]}
             />
           </div>
         </div>
@@ -184,18 +187,18 @@ ShallowWrapper {
             className="wrap-collapsible"
           >
             <input
-              className="toggle"
-              id="collapsible"
+              className="toggle-upload"
+              id="collapsible-upload"
               type="checkbox"
             />
             <label
-              className="lbl-toggle"
-              htmlFor="collapsible"
+              className="lbl-toggle-upload"
+              htmlFor="collapsible-upload"
             >
               Uploads
             </label>
             <div
-              className="collapsible-content"
+              className="collapsible-content-upload"
             >
               <div
                 className="content-inner"
@@ -266,16 +269,19 @@ ShallowWrapper {
                 description="Kendo Photo Details"
                 filename="image-1543168184113.png"
                 onUploadDelete={[Function]}
+                viewPhoto={[Function]}
               />
               <MemberPhotoItem
                 description="More Details"
                 filename="image-0000000000.png"
                 onUploadDelete={[Function]}
+                viewPhoto={[Function]}
               />
               <MemberPhotoItem
                 description="Extra Details"
                 filename="image-3333333333.png"
                 onUploadDelete={[Function]}
+                viewPhoto={[Function]}
               />
             </div>
           </div>,
@@ -312,18 +318,18 @@ ShallowWrapper {
           "props": Object {
             "children": Array [
               <input
-                className="toggle"
-                id="collapsible"
+                className="toggle-upload"
+                id="collapsible-upload"
                 type="checkbox"
               />,
               <label
-                className="lbl-toggle"
-                htmlFor="collapsible"
+                className="lbl-toggle-upload"
+                htmlFor="collapsible-upload"
               >
                 Uploads
               </label>,
               <div
-                className="collapsible-content"
+                className="collapsible-content-upload"
               >
                 <div
                   className="content-inner"
@@ -394,16 +400,19 @@ ShallowWrapper {
                   description="Kendo Photo Details"
                   filename="image-1543168184113.png"
                   onUploadDelete={[Function]}
+                  viewPhoto={[Function]}
                 />
                 <MemberPhotoItem
                   description="More Details"
                   filename="image-0000000000.png"
                   onUploadDelete={[Function]}
+                  viewPhoto={[Function]}
                 />
                 <MemberPhotoItem
                   description="Extra Details"
                   filename="image-3333333333.png"
                   onUploadDelete={[Function]}
+                  viewPhoto={[Function]}
                 />
               </div>,
             ],
@@ -416,8 +425,8 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "className": "toggle",
-                "id": "collapsible",
+                "className": "toggle-upload",
+                "id": "collapsible-upload",
                 "type": "checkbox",
               },
               "ref": null,
@@ -430,8 +439,8 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": "Uploads",
-                "className": "lbl-toggle",
-                "htmlFor": "collapsible",
+                "className": "lbl-toggle-upload",
+                "htmlFor": "collapsible-upload",
               },
               "ref": null,
               "rendered": "Uploads",
@@ -503,7 +512,7 @@ ShallowWrapper {
                     </div>
                   </form>
                 </div>,
-                "className": "collapsible-content",
+                "className": "collapsible-content-upload",
               },
               "ref": null,
               "rendered": Object {
@@ -819,16 +828,19 @@ ShallowWrapper {
                     description="Kendo Photo Details"
                     filename="image-1543168184113.png"
                     onUploadDelete={[Function]}
+                    viewPhoto={[Function]}
                   />,
                   <MemberPhotoItem
                     description="More Details"
                     filename="image-0000000000.png"
                     onUploadDelete={[Function]}
+                    viewPhoto={[Function]}
                   />,
                   <MemberPhotoItem
                     description="Extra Details"
                     filename="image-3333333333.png"
                     onUploadDelete={[Function]}
+                    viewPhoto={[Function]}
                   />,
                 ],
                 "className": "image-container",
@@ -843,6 +855,7 @@ ShallowWrapper {
                     "description": "Kendo Photo Details",
                     "filename": "image-1543168184113.png",
                     "onUploadDelete": [Function],
+                    "viewPhoto": [Function],
                   },
                   "ref": null,
                   "rendered": null,
@@ -856,6 +869,7 @@ ShallowWrapper {
                     "description": "More Details",
                     "filename": "image-0000000000.png",
                     "onUploadDelete": [Function],
+                    "viewPhoto": [Function],
                   },
                   "ref": null,
                   "rendered": null,
@@ -869,6 +883,7 @@ ShallowWrapper {
                     "description": "Extra Details",
                     "filename": "image-3333333333.png",
                     "onUploadDelete": [Function],
+                    "viewPhoto": [Function],
                   },
                   "ref": null,
                   "rendered": null,
@@ -904,18 +919,18 @@ ShallowWrapper {
             className="wrap-collapsible"
           >
             <input
-              className="toggle"
-              id="collapsible"
+              className="toggle-upload"
+              id="collapsible-upload"
               type="checkbox"
             />
             <label
-              className="lbl-toggle"
-              htmlFor="collapsible"
+              className="lbl-toggle-upload"
+              htmlFor="collapsible-upload"
             >
               Uploads
             </label>
             <div
-              className="collapsible-content"
+              className="collapsible-content-upload"
             >
               <div
                 className="content-inner"
@@ -986,16 +1001,19 @@ ShallowWrapper {
                 description="Kendo Photo Details"
                 filename="image-1543168184113.png"
                 onUploadDelete={[Function]}
+                viewPhoto={[Function]}
               />
               <MemberPhotoItem
                 description="More Details"
                 filename="image-0000000000.png"
                 onUploadDelete={[Function]}
+                viewPhoto={[Function]}
               />
               <MemberPhotoItem
                 description="Extra Details"
                 filename="image-3333333333.png"
                 onUploadDelete={[Function]}
+                viewPhoto={[Function]}
               />
             </div>
           </div>
@@ -1018,18 +1036,18 @@ ShallowWrapper {
               className="wrap-collapsible"
             >
               <input
-                className="toggle"
-                id="collapsible"
+                className="toggle-upload"
+                id="collapsible-upload"
                 type="checkbox"
               />
               <label
-                className="lbl-toggle"
-                htmlFor="collapsible"
+                className="lbl-toggle-upload"
+                htmlFor="collapsible-upload"
               >
                 Uploads
               </label>
               <div
-                className="collapsible-content"
+                className="collapsible-content-upload"
               >
                 <div
                   className="content-inner"
@@ -1100,16 +1118,19 @@ ShallowWrapper {
                   description="Kendo Photo Details"
                   filename="image-1543168184113.png"
                   onUploadDelete={[Function]}
+                  viewPhoto={[Function]}
                 />
                 <MemberPhotoItem
                   description="More Details"
                   filename="image-0000000000.png"
                   onUploadDelete={[Function]}
+                  viewPhoto={[Function]}
                 />
                 <MemberPhotoItem
                   description="Extra Details"
                   filename="image-3333333333.png"
                   onUploadDelete={[Function]}
+                  viewPhoto={[Function]}
                 />
               </div>
             </div>,
@@ -1146,18 +1167,18 @@ ShallowWrapper {
             "props": Object {
               "children": Array [
                 <input
-                  className="toggle"
-                  id="collapsible"
+                  className="toggle-upload"
+                  id="collapsible-upload"
                   type="checkbox"
                 />,
                 <label
-                  className="lbl-toggle"
-                  htmlFor="collapsible"
+                  className="lbl-toggle-upload"
+                  htmlFor="collapsible-upload"
                 >
                   Uploads
                 </label>,
                 <div
-                  className="collapsible-content"
+                  className="collapsible-content-upload"
                 >
                   <div
                     className="content-inner"
@@ -1228,16 +1249,19 @@ ShallowWrapper {
                     description="Kendo Photo Details"
                     filename="image-1543168184113.png"
                     onUploadDelete={[Function]}
+                    viewPhoto={[Function]}
                   />
                   <MemberPhotoItem
                     description="More Details"
                     filename="image-0000000000.png"
                     onUploadDelete={[Function]}
+                    viewPhoto={[Function]}
                   />
                   <MemberPhotoItem
                     description="Extra Details"
                     filename="image-3333333333.png"
                     onUploadDelete={[Function]}
+                    viewPhoto={[Function]}
                   />
                 </div>,
               ],
@@ -1250,8 +1274,8 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "className": "toggle",
-                  "id": "collapsible",
+                  "className": "toggle-upload",
+                  "id": "collapsible-upload",
                   "type": "checkbox",
                 },
                 "ref": null,
@@ -1264,8 +1288,8 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "children": "Uploads",
-                  "className": "lbl-toggle",
-                  "htmlFor": "collapsible",
+                  "className": "lbl-toggle-upload",
+                  "htmlFor": "collapsible-upload",
                 },
                 "ref": null,
                 "rendered": "Uploads",
@@ -1337,7 +1361,7 @@ ShallowWrapper {
                       </div>
                     </form>
                   </div>,
-                  "className": "collapsible-content",
+                  "className": "collapsible-content-upload",
                 },
                 "ref": null,
                 "rendered": Object {
@@ -1653,16 +1677,19 @@ ShallowWrapper {
                       description="Kendo Photo Details"
                       filename="image-1543168184113.png"
                       onUploadDelete={[Function]}
+                      viewPhoto={[Function]}
                     />,
                     <MemberPhotoItem
                       description="More Details"
                       filename="image-0000000000.png"
                       onUploadDelete={[Function]}
+                      viewPhoto={[Function]}
                     />,
                     <MemberPhotoItem
                       description="Extra Details"
                       filename="image-3333333333.png"
                       onUploadDelete={[Function]}
+                      viewPhoto={[Function]}
                     />,
                   ],
                   "className": "image-container",
@@ -1677,6 +1704,7 @@ ShallowWrapper {
                       "description": "Kendo Photo Details",
                       "filename": "image-1543168184113.png",
                       "onUploadDelete": [Function],
+                      "viewPhoto": [Function],
                     },
                     "ref": null,
                     "rendered": null,
@@ -1690,6 +1718,7 @@ ShallowWrapper {
                       "description": "More Details",
                       "filename": "image-0000000000.png",
                       "onUploadDelete": [Function],
+                      "viewPhoto": [Function],
                     },
                     "ref": null,
                     "rendered": null,
@@ -1703,6 +1732,7 @@ ShallowWrapper {
                       "description": "Extra Details",
                       "filename": "image-3333333333.png",
                       "onUploadDelete": [Function],
+                      "viewPhoto": [Function],
                     },
                     "ref": null,
                     "rendered": null,

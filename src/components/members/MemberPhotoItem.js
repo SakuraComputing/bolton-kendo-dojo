@@ -7,7 +7,8 @@ const MemberPhotoItem = (props) => {
             <div>
                 {props.description}
             </div>
-            <button onClick={props.onUploadDelete} className="button-small">Delete Photo</button>
+            <button onClick={props.viewPhoto} className="button-small photo-button">View Photo</button>
+            <button onClick={props.onUploadDelete} className="button-small photo-button">Delete Photo</button>
         </div>
     );
 }

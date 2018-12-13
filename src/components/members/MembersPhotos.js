@@ -66,6 +66,10 @@ export class MemberPhoto extends React.Component {
         })
     }
 
+    viewPhoto = (id) => {
+        console.log("Lets see the photo", this.props.uploads.uploads[id]._id);
+    }
+
     render() {
 
         let album;
@@ -82,6 +86,7 @@ export class MemberPhoto extends React.Component {
                             filename={image.filename}
                             description={image.description}
                             onUploadDelete={this.onUploadDelete.bind(this, key)}
+                            viewPhoto={this.viewPhoto.bind(this, key)}
                         />
                 }))
             } else {

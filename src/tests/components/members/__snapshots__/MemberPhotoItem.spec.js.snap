@@ -27,7 +27,12 @@ ShallowWrapper {
         />,
         <div />,
         <button
-          className="button-small"
+          className="button-small photo-button"
+        >
+          View Photo
+        </button>,
+        <button
+          className="button-small photo-button"
           onClick={[MockFunction]}
         >
           Delete Photo
@@ -66,8 +71,21 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
+          "children": "View Photo",
+          "className": "button-small photo-button",
+          "onClick": undefined,
+        },
+        "ref": null,
+        "rendered": "View Photo",
+        "type": "button",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
           "children": "Delete Photo",
-          "className": "button-small",
+          "className": "button-small photo-button",
           "onClick": [MockFunction],
         },
         "ref": null,
@@ -91,7 +109,12 @@ ShallowWrapper {
           />,
           <div />,
           <button
-            className="button-small"
+            className="button-small photo-button"
+          >
+            View Photo
+          </button>,
+          <button
+            className="button-small photo-button"
             onClick={[MockFunction]}
           >
             Delete Photo
@@ -130,8 +153,21 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
+            "children": "View Photo",
+            "className": "button-small photo-button",
+            "onClick": undefined,
+          },
+          "ref": null,
+          "rendered": "View Photo",
+          "type": "button",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
             "children": "Delete Photo",
-            "className": "button-small",
+            "className": "button-small photo-button",
             "onClick": [MockFunction],
           },
           "ref": null,
