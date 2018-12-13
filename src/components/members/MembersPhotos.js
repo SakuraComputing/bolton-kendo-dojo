@@ -14,8 +14,7 @@ export class MemberPhoto extends React.Component {
         this.state = {
             file: null,
             description: '',
-            errors: {},
-            uploads: []
+            errors: {}
         };
     };
 

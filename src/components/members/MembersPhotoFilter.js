@@ -15,7 +15,7 @@ export class MembersPhotoFilter extends Component {
                     type="text"
                     className="filter-text"
                     placeholder="Search By Description"
-                    // value={this.props.filters.photoText}
+                    value={this.props.filters.photoText}
                     onChange={this.onTextChange}
                 />
             </div>
