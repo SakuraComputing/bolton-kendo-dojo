@@ -99,7 +99,7 @@ ShallowWrapper {
                     Get Photo
                   </label>
                   <input
-                    accept=".jpg,.jpeg,.png"
+                    accept=".jpg,.jpeg,.png,.bmp,.gif"
                     id="upload-file"
                     name="image"
                     onChange={[Function]}
@@ -116,6 +116,7 @@ ShallowWrapper {
                     onChange={[Function]}
                     rows="2"
                     type="text"
+                    value=""
                   />
                   <label
                     className="upload-label"
@@ -211,7 +212,7 @@ ShallowWrapper {
                       Get Photo
                     </label>
                     <input
-                      accept=".jpg,.jpeg,.png"
+                      accept=".jpg,.jpeg,.png,.bmp,.gif"
                       id="upload-file"
                       name="image"
                       onChange={[Function]}
@@ -228,6 +229,7 @@ ShallowWrapper {
                       onChange={[Function]}
                       rows="2"
                       type="text"
+                      value=""
                     />
                     <label
                       className="upload-label"
@@ -329,7 +331,7 @@ ShallowWrapper {
                         Get Photo
                       </label>
                       <input
-                        accept=".jpg,.jpeg,.png"
+                        accept=".jpg,.jpeg,.png,.bmp,.gif"
                         id="upload-file"
                         name="image"
                         onChange={[Function]}
@@ -346,6 +348,7 @@ ShallowWrapper {
                         onChange={[Function]}
                         rows="2"
                         type="text"
+                        value=""
                       />
                       <label
                         className="upload-label"
@@ -445,7 +448,7 @@ ShallowWrapper {
                         Get Photo
                       </label>
                       <input
-                        accept=".jpg,.jpeg,.png"
+                        accept=".jpg,.jpeg,.png,.bmp,.gif"
                         id="upload-file"
                         name="image"
                         onChange={[Function]}
@@ -462,6 +465,7 @@ ShallowWrapper {
                         onChange={[Function]}
                         rows="2"
                         type="text"
+                        value=""
                       />
                       <label
                         className="upload-label"
@@ -510,7 +514,7 @@ ShallowWrapper {
                         Get Photo
                       </label>
                       <input
-                        accept=".jpg,.jpeg,.png"
+                        accept=".jpg,.jpeg,.png,.bmp,.gif"
                         id="upload-file"
                         name="image"
                         onChange={[Function]}
@@ -527,6 +531,7 @@ ShallowWrapper {
                         onChange={[Function]}
                         rows="2"
                         type="text"
+                        value=""
                       />
                       <label
                         className="upload-label"
@@ -571,7 +576,7 @@ ShallowWrapper {
                           Get Photo
                         </label>
                         <input
-                          accept=".jpg,.jpeg,.png"
+                          accept=".jpg,.jpeg,.png,.bmp,.gif"
                           id="upload-file"
                           name="image"
                           onChange={[Function]}
@@ -588,6 +593,7 @@ ShallowWrapper {
                           onChange={[Function]}
                           rows="2"
                           type="text"
+                          value=""
                         />
                         <label
                           className="upload-label"
@@ -631,7 +637,7 @@ ShallowWrapper {
                             Get Photo
                           </label>,
                           <input
-                            accept=".jpg,.jpeg,.png"
+                            accept=".jpg,.jpeg,.png,.bmp,.gif"
                             id="upload-file"
                             name="image"
                             onChange={[Function]}
@@ -660,7 +666,7 @@ ShallowWrapper {
                           "key": undefined,
                           "nodeType": "host",
                           "props": Object {
-                            "accept": ".jpg,.jpeg,.png",
+                            "accept": ".jpg,.jpeg,.png,.bmp,.gif",
                             "id": "upload-file",
                             "name": "image",
                             "onChange": [Function],
@@ -686,6 +692,7 @@ ShallowWrapper {
                             onChange={[Function]}
                             rows="2"
                             type="text"
+                            value=""
                           />,
                           <label
                             className="upload-label"
@@ -709,6 +716,7 @@ ShallowWrapper {
                             "onChange": [Function],
                             "rows": "2",
                             "type": "text",
+                            "value": "",
                           },
                           "ref": null,
                           "rendered": null,
@@ -914,7 +922,7 @@ ShallowWrapper {
                       Get Photo
                     </label>
                     <input
-                      accept=".jpg,.jpeg,.png"
+                      accept=".jpg,.jpeg,.png,.bmp,.gif"
                       id="upload-file"
                       name="image"
                       onChange={[Function]}
@@ -931,6 +939,7 @@ ShallowWrapper {
                       onChange={[Function]}
                       rows="2"
                       type="text"
+                      value=""
                     />
                     <label
                       className="upload-label"
@@ -1026,7 +1035,7 @@ ShallowWrapper {
                         Get Photo
                       </label>
                       <input
-                        accept=".jpg,.jpeg,.png"
+                        accept=".jpg,.jpeg,.png,.bmp,.gif"
                         id="upload-file"
                         name="image"
                         onChange={[Function]}
@@ -1043,6 +1052,7 @@ ShallowWrapper {
                         onChange={[Function]}
                         rows="2"
                         type="text"
+                        value=""
                       />
                       <label
                         className="upload-label"
@@ -1144,7 +1154,7 @@ ShallowWrapper {
                           Get Photo
                         </label>
                         <input
-                          accept=".jpg,.jpeg,.png"
+                          accept=".jpg,.jpeg,.png,.bmp,.gif"
                           id="upload-file"
                           name="image"
                           onChange={[Function]}
@@ -1161,6 +1171,7 @@ ShallowWrapper {
                           onChange={[Function]}
                           rows="2"
                           type="text"
+                          value=""
                         />
                         <label
                           className="upload-label"
@@ -1260,7 +1271,7 @@ ShallowWrapper {
                           Get Photo
                         </label>
                         <input
-                          accept=".jpg,.jpeg,.png"
+                          accept=".jpg,.jpeg,.png,.bmp,.gif"
                           id="upload-file"
                           name="image"
                           onChange={[Function]}
@@ -1277,6 +1288,7 @@ ShallowWrapper {
                           onChange={[Function]}
                           rows="2"
                           type="text"
+                          value=""
                         />
                         <label
                           className="upload-label"
@@ -1325,7 +1337,7 @@ ShallowWrapper {
                           Get Photo
                         </label>
                         <input
-                          accept=".jpg,.jpeg,.png"
+                          accept=".jpg,.jpeg,.png,.bmp,.gif"
                           id="upload-file"
                           name="image"
                           onChange={[Function]}
@@ -1342,6 +1354,7 @@ ShallowWrapper {
                           onChange={[Function]}
                           rows="2"
                           type="text"
+                          value=""
                         />
                         <label
                           className="upload-label"
@@ -1386,7 +1399,7 @@ ShallowWrapper {
                             Get Photo
                           </label>
                           <input
-                            accept=".jpg,.jpeg,.png"
+                            accept=".jpg,.jpeg,.png,.bmp,.gif"
                             id="upload-file"
                             name="image"
                             onChange={[Function]}
@@ -1403,6 +1416,7 @@ ShallowWrapper {
                             onChange={[Function]}
                             rows="2"
                             type="text"
+                            value=""
                           />
                           <label
                             className="upload-label"
@@ -1446,7 +1460,7 @@ ShallowWrapper {
                               Get Photo
                             </label>,
                             <input
-                              accept=".jpg,.jpeg,.png"
+                              accept=".jpg,.jpeg,.png,.bmp,.gif"
                               id="upload-file"
                               name="image"
                               onChange={[Function]}
@@ -1475,7 +1489,7 @@ ShallowWrapper {
                             "key": undefined,
                             "nodeType": "host",
                             "props": Object {
-                              "accept": ".jpg,.jpeg,.png",
+                              "accept": ".jpg,.jpeg,.png,.bmp,.gif",
                               "id": "upload-file",
                               "name": "image",
                               "onChange": [Function],
@@ -1501,6 +1515,7 @@ ShallowWrapper {
                               onChange={[Function]}
                               rows="2"
                               type="text"
+                              value=""
                             />,
                             <label
                               className="upload-label"
@@ -1524,6 +1539,7 @@ ShallowWrapper {
                               "onChange": [Function],
                               "rows": "2",
                               "type": "text",
+                              "value": "",
                             },
                             "ref": null,
                             "rendered": null,

@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import Spinner from '../../common/Spinner';
 import { getMemberUploads, postMemberUploads, deleteMemberUploads } from '../../actions/uploadActions';
 import MemberPhotoItem from '../../components/members/MemberPhotoItem';
+import { confirmAlert } from 'react-confirm-alert'; 
 
 export class MemberPhoto extends React.Component {
 
@@ -44,10 +45,23 @@ export class MemberPhoto extends React.Component {
     }
 
     onUploadDelete = (index, e) => {
-        if(window.confirm('Are you sure you wish to delete this item?')) {
-            const photoId = this.props.uploads.uploads[index]._id;
-            this.props.deleteMemberUploads(photoId);
-        }
+        confirmAlert({
+            title: "Confirm Delete",
+            message:"Are you sure you want to delete this?",
+            buttons: [
+                {
+                    label: 'Confirm',
+                    onClick: () => {
+                        const photoId = this.props.uploads.uploads[index]._id;
+                        this.props.deleteMemberUploads(photoId);    
+                    }
+                },
+                {
+                    label: 'Cancel',
+                    onClick: () => {}
+                }
+            ]
+        })
     }
 
     render() {
@@ -85,7 +99,7 @@ export class MemberPhoto extends React.Component {
                                     <form onSubmit={this.onFormSubmit} className="image-header">
                                         <div className="image-header-container">
                                             <label htmlFor="upload-file" className="upload-file button-small">Get Photo</label>
-                                            <input type="file" accept=".jpg,.jpeg,.png" name="image" id="upload-file" onChange={this.onChange} />
+                                            <input type="file" accept=".jpg,.jpeg,.png,.bmp,.gif" name="image" id="upload-file" onChange={this.onChange} />
                                         </div>
                                         <div className="image-header-container">
                                             <textarea rows="2" col="3" value={this.state.description} className="upload-text input-box" type="text" name="description" onChange={this.onDescriptionChange}/>
