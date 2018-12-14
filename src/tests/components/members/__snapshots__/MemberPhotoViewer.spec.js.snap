@@ -17,9 +17,22 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": <h1>
-        Photo Viewer
-      </h1>,
+      "children": <section
+        className="photo-viewer-main"
+      >
+        <h1
+          className="photo-title"
+        >
+          Photo Viewer
+        </h1>
+        <div />
+        <button
+          className="button-small"
+        >
+          close
+        </button>
+      </section>,
+      "className": "photo-viewer display-none",
     },
     "ref": null,
     "rendered": Object {
@@ -27,11 +40,61 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": "Photo Viewer",
+        "children": Array [
+          <h1
+            className="photo-title"
+          >
+            Photo Viewer
+          </h1>,
+          <div />,
+          <button
+            className="button-small"
+          >
+            close
+          </button>,
+        ],
+        "className": "photo-viewer-main",
       },
       "ref": null,
-      "rendered": "Photo Viewer",
-      "type": "h1",
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Photo Viewer",
+            "className": "photo-title",
+          },
+          "ref": null,
+          "rendered": "Photo Viewer",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "close",
+            "className": "button-small",
+            "onClick": undefined,
+          },
+          "ref": null,
+          "rendered": "close",
+          "type": "button",
+        },
+      ],
+      "type": "section",
     },
     "type": "div",
   },
@@ -41,9 +104,22 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": <h1>
-          Photo Viewer
-        </h1>,
+        "children": <section
+          className="photo-viewer-main"
+        >
+          <h1
+            className="photo-title"
+          >
+            Photo Viewer
+          </h1>
+          <div />
+          <button
+            className="button-small"
+          >
+            close
+          </button>
+        </section>,
+        "className": "photo-viewer display-none",
       },
       "ref": null,
       "rendered": Object {
@@ -51,11 +127,61 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "Photo Viewer",
+          "children": Array [
+            <h1
+              className="photo-title"
+            >
+              Photo Viewer
+            </h1>,
+            <div />,
+            <button
+              className="button-small"
+            >
+              close
+            </button>,
+          ],
+          "className": "photo-viewer-main",
         },
         "ref": null,
-        "rendered": "Photo Viewer",
-        "type": "h1",
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Photo Viewer",
+              "className": "photo-title",
+            },
+            "ref": null,
+            "rendered": "Photo Viewer",
+            "type": "h1",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "close",
+              "className": "button-small",
+              "onClick": undefined,
+            },
+            "ref": null,
+            "rendered": "close",
+            "type": "button",
+          },
+        ],
+        "type": "section",
       },
       "type": "div",
     },

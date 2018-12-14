@@ -80,11 +80,12 @@ export class MemberPhoto extends React.Component {
             album = <Spinner />
         } else {
             if(uploads.length > 0) {
-                album = uploads.map(((image, key) => {
+                album = uploads.map(((upload, key) => {
                     return <MemberPhotoItem 
-                            key={image._id}
-                            filename={image.filename}
-                            description={image.description}
+                            key={upload._id}
+                            filename={upload.filename}
+                            date={upload.date}
+                            description={upload.description}
                             onUploadDelete={this.onUploadDelete.bind(this, key)}
                             viewPhoto={this.viewPhoto.bind(this, key)}
                         />
