@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
+import ReactPlayer from 'react-player';
 import { connect } from 'react-redux';
 import Spinner from '../common/Spinner';
-// import ReactPlayer from 'react-player';
 
 export class VideoPage extends Component {
 
@@ -13,15 +13,26 @@ export class VideoPage extends Component {
         
         if(club !== null && !loading) {
             video = club[0].videos.map(((video, key) => 
-                <div key={key}>{video.videoId}</div>
+                <div className="player-wrapper">
+                    <ReactPlayer
+                        key={key}
+                        className="react-player"
+                        width="100%"
+                        height="100%"
+                        url={`https://www.youtube.com/watch?v=${video.videoId}`}
+                        controls={true}
+                    />
+                </div>
             ))
         } else {
             video = <Spinner />
         }
 
         return (
-            <div className="content-container">
-                {video}
+            <div className="video-page">
+                <div className="">
+                    {video}
+                </div>
             </div>
         )
     }
