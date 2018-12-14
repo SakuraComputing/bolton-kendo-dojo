@@ -65,7 +65,7 @@ ShallowWrapper {
         <li>
           <Link
             replace={false}
-            to="/photos"
+            to="/media"
           >
             Kendo Media
           </Link>
@@ -130,7 +130,7 @@ ShallowWrapper {
           <li>
             <Link
               replace={false}
-              to="/photos"
+              to="/media"
             >
               Kendo Media
             </Link>
@@ -295,7 +295,7 @@ ShallowWrapper {
           "props": Object {
             "children": <Link
               replace={false}
-              to="/photos"
+              to="/media"
             >
               Kendo Media
             </Link>,
@@ -308,7 +308,7 @@ ShallowWrapper {
             "props": Object {
               "children": "Kendo Media",
               "replace": false,
-              "to": "/photos",
+              "to": "/media",
             },
             "ref": null,
             "rendered": "Kendo Media",
@@ -401,7 +401,7 @@ ShallowWrapper {
           <li>
             <Link
               replace={false}
-              to="/photos"
+              to="/media"
             >
               Kendo Media
             </Link>
@@ -466,7 +466,7 @@ ShallowWrapper {
             <li>
               <Link
                 replace={false}
-                to="/photos"
+                to="/media"
               >
                 Kendo Media
               </Link>
@@ -631,7 +631,7 @@ ShallowWrapper {
             "props": Object {
               "children": <Link
                 replace={false}
-                to="/photos"
+                to="/media"
               >
                 Kendo Media
               </Link>,
@@ -644,7 +644,7 @@ ShallowWrapper {
               "props": Object {
                 "children": "Kendo Media",
                 "replace": false,
-                "to": "/photos",
+                "to": "/media",
               },
               "ref": null,
               "rendered": "Kendo Media",
@@ -771,7 +771,7 @@ ShallowWrapper {
         <li>
           <Link
             replace={false}
-            to="/photos"
+            to="/media"
           >
             Kendo Media
           </Link>
@@ -836,7 +836,7 @@ ShallowWrapper {
           <li>
             <Link
               replace={false}
-              to="/photos"
+              to="/media"
             >
               Kendo Media
             </Link>
@@ -1001,7 +1001,7 @@ ShallowWrapper {
           "props": Object {
             "children": <Link
               replace={false}
-              to="/photos"
+              to="/media"
             >
               Kendo Media
             </Link>,
@@ -1014,7 +1014,7 @@ ShallowWrapper {
             "props": Object {
               "children": "Kendo Media",
               "replace": false,
-              "to": "/photos",
+              "to": "/media",
             },
             "ref": null,
             "rendered": "Kendo Media",
@@ -1107,7 +1107,7 @@ ShallowWrapper {
           <li>
             <Link
               replace={false}
-              to="/photos"
+              to="/media"
             >
               Kendo Media
             </Link>
@@ -1172,7 +1172,7 @@ ShallowWrapper {
             <li>
               <Link
                 replace={false}
-                to="/photos"
+                to="/media"
               >
                 Kendo Media
               </Link>
@@ -1337,7 +1337,7 @@ ShallowWrapper {
             "props": Object {
               "children": <Link
                 replace={false}
-                to="/photos"
+                to="/media"
               >
                 Kendo Media
               </Link>,
@@ -1350,7 +1350,7 @@ ShallowWrapper {
               "props": Object {
                 "children": "Kendo Media",
                 "replace": false,
-                "to": "/photos",
+                "to": "/media",
               },
               "ref": null,
               "rendered": "Kendo Media",

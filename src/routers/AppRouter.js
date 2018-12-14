@@ -14,6 +14,7 @@ import About from '../components/static/About';
 import ClubHistory from '../components/ClubHistory';
 import KendoMindMap from '../components/members/KendoMindMap';
 import MemberPhotos from '../components/members/MembersPhotos';
+import VideoPage from '../components/VideoPage';
 
 import '../styles/styles.scss';
 import PrivateRoute from '../common/PrivateRoute';
@@ -34,6 +35,7 @@ class AppRouter extends Component {
                             <Route exact path="/links" component={KendoLinks}></Route>
                             <Route exact path="/about" component={About}></Route>
                             <Route exact path="/history" component={ClubHistory}></Route>
+                            <Route exact path="/media" component={VideoPage}></Route>
                             <Route path="/not-found" component={NotFound}/>
                         </Switch>
                         <Switch>
