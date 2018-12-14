@@ -3,7 +3,58 @@
 exports[`Video Page Component should render correctly 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <VideoPage />,
+  Symbol(enzyme.__unrendered__): <VideoPage
+    club={
+      Object {
+        "club": Array [
+          Object {
+            "__v": 9,
+            "_id": "5b96fdds7463ea1d37be8751b7",
+            "about": "Some History",
+            "addresses": Array [
+              Object {
+                "_id": "5b9egfd516aa75c12041f5c6b",
+                "address1": "School",
+                "address2": "Church Street",
+                "address3": "Anywhere",
+                "address4": "Trumpton",
+                "postcode": "TR35YG",
+              },
+            ],
+            "clubHistory": "History of the club 
+",
+            "clubName": "Test Club",
+            "contacts": Array [
+              Object {
+                "_id": "5b9eb4ca222bdb0dfcec0a72",
+                "email": "tbobe@dr.com",
+                "name": "T Bone Walker",
+                "telephoneNumber": "764554 453457",
+              },
+            ],
+            "practices": Array [
+              Object {
+                "_id": "5b9ebf390e03gfgfdg0fe4db8544",
+                "time": "Sunday 10:00am - 12:00pm (2 Hours)",
+                "venue": "Room",
+              },
+            ],
+            "videos": Array [
+              Object {
+                "videoId": "8Ea2ih7uNW4",
+              },
+              Object {
+                "videoId": "oZ3M3mbWZ9A",
+              },
+              Object {
+                "videoId": "Q4SHWXQBVL4",
+              },
+            ],
+          },
+        ],
+      }
+    }
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -16,9 +67,56 @@ ShallowWrapper {
     "instance": null,
     "key": undefined,
     "nodeType": "host",
-    "props": Object {},
+    "props": Object {
+      "children": Array [
+        <div>
+          8Ea2ih7uNW4
+        </div>,
+        <div>
+          oZ3M3mbWZ9A
+        </div>,
+        <div>
+          Q4SHWXQBVL4
+        </div>,
+      ],
+      "className": "content-container",
+    },
     "ref": null,
-    "rendered": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "0",
+        "nodeType": "host",
+        "props": Object {
+          "children": "8Ea2ih7uNW4",
+        },
+        "ref": null,
+        "rendered": "8Ea2ih7uNW4",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": "1",
+        "nodeType": "host",
+        "props": Object {
+          "children": "oZ3M3mbWZ9A",
+        },
+        "ref": null,
+        "rendered": "oZ3M3mbWZ9A",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": "2",
+        "nodeType": "host",
+        "props": Object {
+          "children": "Q4SHWXQBVL4",
+        },
+        "ref": null,
+        "rendered": "Q4SHWXQBVL4",
+        "type": "div",
+      },
+    ],
     "type": "div",
   },
   Symbol(enzyme.__nodes__): Array [
@@ -26,9 +124,56 @@ ShallowWrapper {
       "instance": null,
       "key": undefined,
       "nodeType": "host",
-      "props": Object {},
+      "props": Object {
+        "children": Array [
+          <div>
+            8Ea2ih7uNW4
+          </div>,
+          <div>
+            oZ3M3mbWZ9A
+          </div>,
+          <div>
+            Q4SHWXQBVL4
+          </div>,
+        ],
+        "className": "content-container",
+      },
       "ref": null,
-      "rendered": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "0",
+          "nodeType": "host",
+          "props": Object {
+            "children": "8Ea2ih7uNW4",
+          },
+          "ref": null,
+          "rendered": "8Ea2ih7uNW4",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": "1",
+          "nodeType": "host",
+          "props": Object {
+            "children": "oZ3M3mbWZ9A",
+          },
+          "ref": null,
+          "rendered": "oZ3M3mbWZ9A",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": "2",
+          "nodeType": "host",
+          "props": Object {
+            "children": "Q4SHWXQBVL4",
+          },
+          "ref": null,
+          "rendered": "Q4SHWXQBVL4",
+          "type": "div",
+        },
+      ],
       "type": "div",
     },
   ],

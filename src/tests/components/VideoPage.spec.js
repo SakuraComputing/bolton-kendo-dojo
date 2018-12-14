@@ -21,8 +21,20 @@ describe('Video Page Component', () => {
                 club
             },
         }
-        videoPage = shallow(<videoPage {...props} />)
+        videoPage = shallow(<VideoPage {...props} />)
         expect(videoPage.find('Spinner').length).toEqual(0);
     });
+
+    it('should display a spinner when state loading is true', () => {
+        const props = {
+            club: {
+                loading: true,
+                club: {}
+            },
+        }
+        videoPage = shallow(<VideoPage {...props} />)
+        expect(videoPage.find('Spinner').length).toEqual(1);
+    });
+
 
 });
