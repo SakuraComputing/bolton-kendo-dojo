@@ -68,75 +68,585 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": Array [
+      "children": <div
+        className=""
+      >
         <div>
-          8Ea2ih7uNW4
-        </div>,
+          <h1
+            className="video-title"
+          />
+          <div
+            className="player-wrapper"
+          >
+            <ReactPlayer
+              className="react-player"
+              config={
+                Object {
+                  "dailymotion": Object {
+                    "params": Object {
+                      "api": 1,
+                      "endscreen-enable": false,
+                    },
+                    "preload": false,
+                  },
+                  "facebook": Object {
+                    "appId": "1309697205772819",
+                  },
+                  "file": Object {
+                    "attributes": Object {},
+                    "forceAudio": false,
+                    "forceDASH": false,
+                    "forceHLS": false,
+                    "hlsOptions": Object {},
+                    "tracks": Array [],
+                  },
+                  "soundcloud": Object {
+                    "options": Object {
+                      "buying": false,
+                      "download": false,
+                      "liking": false,
+                      "sharing": false,
+                      "show_comments": false,
+                      "show_playcount": false,
+                      "visual": true,
+                    },
+                  },
+                  "vimeo": Object {
+                    "playerOptions": Object {
+                      "autopause": false,
+                      "autoplay": false,
+                      "byline": false,
+                      "portrait": false,
+                      "title": false,
+                    },
+                    "preload": false,
+                  },
+                  "wistia": Object {
+                    "options": Object {},
+                  },
+                  "youtube": Object {
+                    "playerVars": Object {
+                      "autoplay": 0,
+                      "iv_load_policy": 3,
+                      "modestbranding": 1,
+                      "playsinline": 1,
+                      "rel": 0,
+                      "showinfo": 0,
+                    },
+                    "preload": false,
+                  },
+                }
+              }
+              controls={true}
+              height="100%"
+              loop={false}
+              muted={false}
+              onBuffer={[Function]}
+              onDuration={[Function]}
+              onEnded={[Function]}
+              onError={[Function]}
+              onPause={[Function]}
+              onPlay={[Function]}
+              onProgress={[Function]}
+              onReady={[Function]}
+              onSeek={[Function]}
+              onStart={[Function]}
+              playbackRate={1}
+              playing={false}
+              playsinline={false}
+              progressInterval={1000}
+              style={Object {}}
+              url="https://www.youtube.com/watch?v=8Ea2ih7uNW4"
+              volume={0.8}
+              width="100%"
+            />
+          </div>
+          <div
+            className="video-summary"
+          />
+        </div>
         <div>
-          oZ3M3mbWZ9A
-        </div>,
+          <h1
+            className="video-title"
+          />
+          <div
+            className="player-wrapper"
+          >
+            <ReactPlayer
+              className="react-player"
+              config={
+                Object {
+                  "dailymotion": Object {
+                    "params": Object {
+                      "api": 1,
+                      "endscreen-enable": false,
+                    },
+                    "preload": false,
+                  },
+                  "facebook": Object {
+                    "appId": "1309697205772819",
+                  },
+                  "file": Object {
+                    "attributes": Object {},
+                    "forceAudio": false,
+                    "forceDASH": false,
+                    "forceHLS": false,
+                    "hlsOptions": Object {},
+                    "tracks": Array [],
+                  },
+                  "soundcloud": Object {
+                    "options": Object {
+                      "buying": false,
+                      "download": false,
+                      "liking": false,
+                      "sharing": false,
+                      "show_comments": false,
+                      "show_playcount": false,
+                      "visual": true,
+                    },
+                  },
+                  "vimeo": Object {
+                    "playerOptions": Object {
+                      "autopause": false,
+                      "autoplay": false,
+                      "byline": false,
+                      "portrait": false,
+                      "title": false,
+                    },
+                    "preload": false,
+                  },
+                  "wistia": Object {
+                    "options": Object {},
+                  },
+                  "youtube": Object {
+                    "playerVars": Object {
+                      "autoplay": 0,
+                      "iv_load_policy": 3,
+                      "modestbranding": 1,
+                      "playsinline": 1,
+                      "rel": 0,
+                      "showinfo": 0,
+                    },
+                    "preload": false,
+                  },
+                }
+              }
+              controls={true}
+              height="100%"
+              loop={false}
+              muted={false}
+              onBuffer={[Function]}
+              onDuration={[Function]}
+              onEnded={[Function]}
+              onError={[Function]}
+              onPause={[Function]}
+              onPlay={[Function]}
+              onProgress={[Function]}
+              onReady={[Function]}
+              onSeek={[Function]}
+              onStart={[Function]}
+              playbackRate={1}
+              playing={false}
+              playsinline={false}
+              progressInterval={1000}
+              style={Object {}}
+              url="https://www.youtube.com/watch?v=oZ3M3mbWZ9A"
+              volume={0.8}
+              width="100%"
+            />
+          </div>
+          <div
+            className="video-summary"
+          />
+        </div>
         <div>
-          Q4SHWXQBVL4
-        </div>,
-      ],
-      "className": "content-container",
+          <h1
+            className="video-title"
+          />
+          <div
+            className="player-wrapper"
+          >
+            <ReactPlayer
+              className="react-player"
+              config={
+                Object {
+                  "dailymotion": Object {
+                    "params": Object {
+                      "api": 1,
+                      "endscreen-enable": false,
+                    },
+                    "preload": false,
+                  },
+                  "facebook": Object {
+                    "appId": "1309697205772819",
+                  },
+                  "file": Object {
+                    "attributes": Object {},
+                    "forceAudio": false,
+                    "forceDASH": false,
+                    "forceHLS": false,
+                    "hlsOptions": Object {},
+                    "tracks": Array [],
+                  },
+                  "soundcloud": Object {
+                    "options": Object {
+                      "buying": false,
+                      "download": false,
+                      "liking": false,
+                      "sharing": false,
+                      "show_comments": false,
+                      "show_playcount": false,
+                      "visual": true,
+                    },
+                  },
+                  "vimeo": Object {
+                    "playerOptions": Object {
+                      "autopause": false,
+                      "autoplay": false,
+                      "byline": false,
+                      "portrait": false,
+                      "title": false,
+                    },
+                    "preload": false,
+                  },
+                  "wistia": Object {
+                    "options": Object {},
+                  },
+                  "youtube": Object {
+                    "playerVars": Object {
+                      "autoplay": 0,
+                      "iv_load_policy": 3,
+                      "modestbranding": 1,
+                      "playsinline": 1,
+                      "rel": 0,
+                      "showinfo": 0,
+                    },
+                    "preload": false,
+                  },
+                }
+              }
+              controls={true}
+              height="100%"
+              loop={false}
+              muted={false}
+              onBuffer={[Function]}
+              onDuration={[Function]}
+              onEnded={[Function]}
+              onError={[Function]}
+              onPause={[Function]}
+              onPlay={[Function]}
+              onProgress={[Function]}
+              onReady={[Function]}
+              onSeek={[Function]}
+              onStart={[Function]}
+              playbackRate={1}
+              playing={false}
+              playsinline={false}
+              progressInterval={1000}
+              style={Object {}}
+              url="https://www.youtube.com/watch?v=Q4SHWXQBVL4"
+              volume={0.8}
+              width="100%"
+            />
+          </div>
+          <div
+            className="video-summary"
+          />
+        </div>
+      </div>,
+      "className": "video-page",
     },
     "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": "0",
-        "nodeType": "host",
-        "props": Object {
-          "children": "8Ea2ih7uNW4",
-        },
-        "ref": null,
-        "rendered": "8Ea2ih7uNW4",
-        "type": "div",
-      },
-      Object {
-        "instance": null,
-        "key": "1",
-        "nodeType": "host",
-        "props": Object {
-          "children": "oZ3M3mbWZ9A",
-        },
-        "ref": null,
-        "rendered": "oZ3M3mbWZ9A",
-        "type": "div",
-      },
-      Object {
-        "instance": null,
-        "key": "2",
-        "nodeType": "host",
-        "props": Object {
-          "children": "Q4SHWXQBVL4",
-        },
-        "ref": null,
-        "rendered": "Q4SHWXQBVL4",
-        "type": "div",
-      },
-    ],
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
+    "rendered": Object {
       "instance": null,
       "key": undefined,
       "nodeType": "host",
       "props": Object {
         "children": Array [
           <div>
-            8Ea2ih7uNW4
+            <h1
+              className="video-title"
+            />
+            <div
+              className="player-wrapper"
+            >
+              <ReactPlayer
+                className="react-player"
+                config={
+                  Object {
+                    "dailymotion": Object {
+                      "params": Object {
+                        "api": 1,
+                        "endscreen-enable": false,
+                      },
+                      "preload": false,
+                    },
+                    "facebook": Object {
+                      "appId": "1309697205772819",
+                    },
+                    "file": Object {
+                      "attributes": Object {},
+                      "forceAudio": false,
+                      "forceDASH": false,
+                      "forceHLS": false,
+                      "hlsOptions": Object {},
+                      "tracks": Array [],
+                    },
+                    "soundcloud": Object {
+                      "options": Object {
+                        "buying": false,
+                        "download": false,
+                        "liking": false,
+                        "sharing": false,
+                        "show_comments": false,
+                        "show_playcount": false,
+                        "visual": true,
+                      },
+                    },
+                    "vimeo": Object {
+                      "playerOptions": Object {
+                        "autopause": false,
+                        "autoplay": false,
+                        "byline": false,
+                        "portrait": false,
+                        "title": false,
+                      },
+                      "preload": false,
+                    },
+                    "wistia": Object {
+                      "options": Object {},
+                    },
+                    "youtube": Object {
+                      "playerVars": Object {
+                        "autoplay": 0,
+                        "iv_load_policy": 3,
+                        "modestbranding": 1,
+                        "playsinline": 1,
+                        "rel": 0,
+                        "showinfo": 0,
+                      },
+                      "preload": false,
+                    },
+                  }
+                }
+                controls={true}
+                height="100%"
+                loop={false}
+                muted={false}
+                onBuffer={[Function]}
+                onDuration={[Function]}
+                onEnded={[Function]}
+                onError={[Function]}
+                onPause={[Function]}
+                onPlay={[Function]}
+                onProgress={[Function]}
+                onReady={[Function]}
+                onSeek={[Function]}
+                onStart={[Function]}
+                playbackRate={1}
+                playing={false}
+                playsinline={false}
+                progressInterval={1000}
+                style={Object {}}
+                url="https://www.youtube.com/watch?v=8Ea2ih7uNW4"
+                volume={0.8}
+                width="100%"
+              />
+            </div>
+            <div
+              className="video-summary"
+            />
           </div>,
           <div>
-            oZ3M3mbWZ9A
+            <h1
+              className="video-title"
+            />
+            <div
+              className="player-wrapper"
+            >
+              <ReactPlayer
+                className="react-player"
+                config={
+                  Object {
+                    "dailymotion": Object {
+                      "params": Object {
+                        "api": 1,
+                        "endscreen-enable": false,
+                      },
+                      "preload": false,
+                    },
+                    "facebook": Object {
+                      "appId": "1309697205772819",
+                    },
+                    "file": Object {
+                      "attributes": Object {},
+                      "forceAudio": false,
+                      "forceDASH": false,
+                      "forceHLS": false,
+                      "hlsOptions": Object {},
+                      "tracks": Array [],
+                    },
+                    "soundcloud": Object {
+                      "options": Object {
+                        "buying": false,
+                        "download": false,
+                        "liking": false,
+                        "sharing": false,
+                        "show_comments": false,
+                        "show_playcount": false,
+                        "visual": true,
+                      },
+                    },
+                    "vimeo": Object {
+                      "playerOptions": Object {
+                        "autopause": false,
+                        "autoplay": false,
+                        "byline": false,
+                        "portrait": false,
+                        "title": false,
+                      },
+                      "preload": false,
+                    },
+                    "wistia": Object {
+                      "options": Object {},
+                    },
+                    "youtube": Object {
+                      "playerVars": Object {
+                        "autoplay": 0,
+                        "iv_load_policy": 3,
+                        "modestbranding": 1,
+                        "playsinline": 1,
+                        "rel": 0,
+                        "showinfo": 0,
+                      },
+                      "preload": false,
+                    },
+                  }
+                }
+                controls={true}
+                height="100%"
+                loop={false}
+                muted={false}
+                onBuffer={[Function]}
+                onDuration={[Function]}
+                onEnded={[Function]}
+                onError={[Function]}
+                onPause={[Function]}
+                onPlay={[Function]}
+                onProgress={[Function]}
+                onReady={[Function]}
+                onSeek={[Function]}
+                onStart={[Function]}
+                playbackRate={1}
+                playing={false}
+                playsinline={false}
+                progressInterval={1000}
+                style={Object {}}
+                url="https://www.youtube.com/watch?v=oZ3M3mbWZ9A"
+                volume={0.8}
+                width="100%"
+              />
+            </div>
+            <div
+              className="video-summary"
+            />
           </div>,
           <div>
-            Q4SHWXQBVL4
+            <h1
+              className="video-title"
+            />
+            <div
+              className="player-wrapper"
+            >
+              <ReactPlayer
+                className="react-player"
+                config={
+                  Object {
+                    "dailymotion": Object {
+                      "params": Object {
+                        "api": 1,
+                        "endscreen-enable": false,
+                      },
+                      "preload": false,
+                    },
+                    "facebook": Object {
+                      "appId": "1309697205772819",
+                    },
+                    "file": Object {
+                      "attributes": Object {},
+                      "forceAudio": false,
+                      "forceDASH": false,
+                      "forceHLS": false,
+                      "hlsOptions": Object {},
+                      "tracks": Array [],
+                    },
+                    "soundcloud": Object {
+                      "options": Object {
+                        "buying": false,
+                        "download": false,
+                        "liking": false,
+                        "sharing": false,
+                        "show_comments": false,
+                        "show_playcount": false,
+                        "visual": true,
+                      },
+                    },
+                    "vimeo": Object {
+                      "playerOptions": Object {
+                        "autopause": false,
+                        "autoplay": false,
+                        "byline": false,
+                        "portrait": false,
+                        "title": false,
+                      },
+                      "preload": false,
+                    },
+                    "wistia": Object {
+                      "options": Object {},
+                    },
+                    "youtube": Object {
+                      "playerVars": Object {
+                        "autoplay": 0,
+                        "iv_load_policy": 3,
+                        "modestbranding": 1,
+                        "playsinline": 1,
+                        "rel": 0,
+                        "showinfo": 0,
+                      },
+                      "preload": false,
+                    },
+                  }
+                }
+                controls={true}
+                height="100%"
+                loop={false}
+                muted={false}
+                onBuffer={[Function]}
+                onDuration={[Function]}
+                onEnded={[Function]}
+                onError={[Function]}
+                onPause={[Function]}
+                onPlay={[Function]}
+                onProgress={[Function]}
+                onReady={[Function]}
+                onSeek={[Function]}
+                onStart={[Function]}
+                playbackRate={1}
+                playing={false}
+                playsinline={false}
+                progressInterval={1000}
+                style={Object {}}
+                url="https://www.youtube.com/watch?v=Q4SHWXQBVL4"
+                volume={0.8}
+                width="100%"
+              />
+            </div>
+            <div
+              className="video-summary"
+            />
           </div>,
         ],
-        "className": "content-container",
+        "className": "",
       },
       "ref": null,
       "rendered": Array [
@@ -145,10 +655,308 @@ ShallowWrapper {
           "key": "0",
           "nodeType": "host",
           "props": Object {
-            "children": "8Ea2ih7uNW4",
+            "children": Array [
+              <h1
+                className="video-title"
+              />,
+              <div
+                className="player-wrapper"
+              >
+                <ReactPlayer
+                  className="react-player"
+                  config={
+                    Object {
+                      "dailymotion": Object {
+                        "params": Object {
+                          "api": 1,
+                          "endscreen-enable": false,
+                        },
+                        "preload": false,
+                      },
+                      "facebook": Object {
+                        "appId": "1309697205772819",
+                      },
+                      "file": Object {
+                        "attributes": Object {},
+                        "forceAudio": false,
+                        "forceDASH": false,
+                        "forceHLS": false,
+                        "hlsOptions": Object {},
+                        "tracks": Array [],
+                      },
+                      "soundcloud": Object {
+                        "options": Object {
+                          "buying": false,
+                          "download": false,
+                          "liking": false,
+                          "sharing": false,
+                          "show_comments": false,
+                          "show_playcount": false,
+                          "visual": true,
+                        },
+                      },
+                      "vimeo": Object {
+                        "playerOptions": Object {
+                          "autopause": false,
+                          "autoplay": false,
+                          "byline": false,
+                          "portrait": false,
+                          "title": false,
+                        },
+                        "preload": false,
+                      },
+                      "wistia": Object {
+                        "options": Object {},
+                      },
+                      "youtube": Object {
+                        "playerVars": Object {
+                          "autoplay": 0,
+                          "iv_load_policy": 3,
+                          "modestbranding": 1,
+                          "playsinline": 1,
+                          "rel": 0,
+                          "showinfo": 0,
+                        },
+                        "preload": false,
+                      },
+                    }
+                  }
+                  controls={true}
+                  height="100%"
+                  loop={false}
+                  muted={false}
+                  onBuffer={[Function]}
+                  onDuration={[Function]}
+                  onEnded={[Function]}
+                  onError={[Function]}
+                  onPause={[Function]}
+                  onPlay={[Function]}
+                  onProgress={[Function]}
+                  onReady={[Function]}
+                  onSeek={[Function]}
+                  onStart={[Function]}
+                  playbackRate={1}
+                  playing={false}
+                  playsinline={false}
+                  progressInterval={1000}
+                  style={Object {}}
+                  url="https://www.youtube.com/watch?v=8Ea2ih7uNW4"
+                  volume={0.8}
+                  width="100%"
+                />
+              </div>,
+              <div
+                className="video-summary"
+              />,
+            ],
           },
           "ref": null,
-          "rendered": "8Ea2ih7uNW4",
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": undefined,
+                "className": "video-title",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "h1",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <ReactPlayer
+                  className="react-player"
+                  config={
+                    Object {
+                      "dailymotion": Object {
+                        "params": Object {
+                          "api": 1,
+                          "endscreen-enable": false,
+                        },
+                        "preload": false,
+                      },
+                      "facebook": Object {
+                        "appId": "1309697205772819",
+                      },
+                      "file": Object {
+                        "attributes": Object {},
+                        "forceAudio": false,
+                        "forceDASH": false,
+                        "forceHLS": false,
+                        "hlsOptions": Object {},
+                        "tracks": Array [],
+                      },
+                      "soundcloud": Object {
+                        "options": Object {
+                          "buying": false,
+                          "download": false,
+                          "liking": false,
+                          "sharing": false,
+                          "show_comments": false,
+                          "show_playcount": false,
+                          "visual": true,
+                        },
+                      },
+                      "vimeo": Object {
+                        "playerOptions": Object {
+                          "autopause": false,
+                          "autoplay": false,
+                          "byline": false,
+                          "portrait": false,
+                          "title": false,
+                        },
+                        "preload": false,
+                      },
+                      "wistia": Object {
+                        "options": Object {},
+                      },
+                      "youtube": Object {
+                        "playerVars": Object {
+                          "autoplay": 0,
+                          "iv_load_policy": 3,
+                          "modestbranding": 1,
+                          "playsinline": 1,
+                          "rel": 0,
+                          "showinfo": 0,
+                        },
+                        "preload": false,
+                      },
+                    }
+                  }
+                  controls={true}
+                  height="100%"
+                  loop={false}
+                  muted={false}
+                  onBuffer={[Function]}
+                  onDuration={[Function]}
+                  onEnded={[Function]}
+                  onError={[Function]}
+                  onPause={[Function]}
+                  onPlay={[Function]}
+                  onProgress={[Function]}
+                  onReady={[Function]}
+                  onSeek={[Function]}
+                  onStart={[Function]}
+                  playbackRate={1}
+                  playing={false}
+                  playsinline={false}
+                  progressInterval={1000}
+                  style={Object {}}
+                  url="https://www.youtube.com/watch?v=8Ea2ih7uNW4"
+                  volume={0.8}
+                  width="100%"
+                />,
+                "className": "player-wrapper",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "className": "react-player",
+                  "config": Object {
+                    "dailymotion": Object {
+                      "params": Object {
+                        "api": 1,
+                        "endscreen-enable": false,
+                      },
+                      "preload": false,
+                    },
+                    "facebook": Object {
+                      "appId": "1309697205772819",
+                    },
+                    "file": Object {
+                      "attributes": Object {},
+                      "forceAudio": false,
+                      "forceDASH": false,
+                      "forceHLS": false,
+                      "hlsOptions": Object {},
+                      "tracks": Array [],
+                    },
+                    "soundcloud": Object {
+                      "options": Object {
+                        "buying": false,
+                        "download": false,
+                        "liking": false,
+                        "sharing": false,
+                        "show_comments": false,
+                        "show_playcount": false,
+                        "visual": true,
+                      },
+                    },
+                    "vimeo": Object {
+                      "playerOptions": Object {
+                        "autopause": false,
+                        "autoplay": false,
+                        "byline": false,
+                        "portrait": false,
+                        "title": false,
+                      },
+                      "preload": false,
+                    },
+                    "wistia": Object {
+                      "options": Object {},
+                    },
+                    "youtube": Object {
+                      "playerVars": Object {
+                        "autoplay": 0,
+                        "iv_load_policy": 3,
+                        "modestbranding": 1,
+                        "playsinline": 1,
+                        "rel": 0,
+                        "showinfo": 0,
+                      },
+                      "preload": false,
+                    },
+                  },
+                  "controls": true,
+                  "height": "100%",
+                  "loop": false,
+                  "muted": false,
+                  "onBuffer": [Function],
+                  "onDuration": [Function],
+                  "onEnded": [Function],
+                  "onError": [Function],
+                  "onPause": [Function],
+                  "onPlay": [Function],
+                  "onProgress": [Function],
+                  "onReady": [Function],
+                  "onSeek": [Function],
+                  "onStart": [Function],
+                  "playbackRate": 1,
+                  "playing": false,
+                  "playsinline": false,
+                  "progressInterval": 1000,
+                  "style": Object {},
+                  "url": "https://www.youtube.com/watch?v=8Ea2ih7uNW4",
+                  "volume": 0.8,
+                  "width": "100%",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": undefined,
+                "className": "video-summary",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+          ],
           "type": "div",
         },
         Object {
@@ -156,10 +964,308 @@ ShallowWrapper {
           "key": "1",
           "nodeType": "host",
           "props": Object {
-            "children": "oZ3M3mbWZ9A",
+            "children": Array [
+              <h1
+                className="video-title"
+              />,
+              <div
+                className="player-wrapper"
+              >
+                <ReactPlayer
+                  className="react-player"
+                  config={
+                    Object {
+                      "dailymotion": Object {
+                        "params": Object {
+                          "api": 1,
+                          "endscreen-enable": false,
+                        },
+                        "preload": false,
+                      },
+                      "facebook": Object {
+                        "appId": "1309697205772819",
+                      },
+                      "file": Object {
+                        "attributes": Object {},
+                        "forceAudio": false,
+                        "forceDASH": false,
+                        "forceHLS": false,
+                        "hlsOptions": Object {},
+                        "tracks": Array [],
+                      },
+                      "soundcloud": Object {
+                        "options": Object {
+                          "buying": false,
+                          "download": false,
+                          "liking": false,
+                          "sharing": false,
+                          "show_comments": false,
+                          "show_playcount": false,
+                          "visual": true,
+                        },
+                      },
+                      "vimeo": Object {
+                        "playerOptions": Object {
+                          "autopause": false,
+                          "autoplay": false,
+                          "byline": false,
+                          "portrait": false,
+                          "title": false,
+                        },
+                        "preload": false,
+                      },
+                      "wistia": Object {
+                        "options": Object {},
+                      },
+                      "youtube": Object {
+                        "playerVars": Object {
+                          "autoplay": 0,
+                          "iv_load_policy": 3,
+                          "modestbranding": 1,
+                          "playsinline": 1,
+                          "rel": 0,
+                          "showinfo": 0,
+                        },
+                        "preload": false,
+                      },
+                    }
+                  }
+                  controls={true}
+                  height="100%"
+                  loop={false}
+                  muted={false}
+                  onBuffer={[Function]}
+                  onDuration={[Function]}
+                  onEnded={[Function]}
+                  onError={[Function]}
+                  onPause={[Function]}
+                  onPlay={[Function]}
+                  onProgress={[Function]}
+                  onReady={[Function]}
+                  onSeek={[Function]}
+                  onStart={[Function]}
+                  playbackRate={1}
+                  playing={false}
+                  playsinline={false}
+                  progressInterval={1000}
+                  style={Object {}}
+                  url="https://www.youtube.com/watch?v=oZ3M3mbWZ9A"
+                  volume={0.8}
+                  width="100%"
+                />
+              </div>,
+              <div
+                className="video-summary"
+              />,
+            ],
           },
           "ref": null,
-          "rendered": "oZ3M3mbWZ9A",
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": undefined,
+                "className": "video-title",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "h1",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <ReactPlayer
+                  className="react-player"
+                  config={
+                    Object {
+                      "dailymotion": Object {
+                        "params": Object {
+                          "api": 1,
+                          "endscreen-enable": false,
+                        },
+                        "preload": false,
+                      },
+                      "facebook": Object {
+                        "appId": "1309697205772819",
+                      },
+                      "file": Object {
+                        "attributes": Object {},
+                        "forceAudio": false,
+                        "forceDASH": false,
+                        "forceHLS": false,
+                        "hlsOptions": Object {},
+                        "tracks": Array [],
+                      },
+                      "soundcloud": Object {
+                        "options": Object {
+                          "buying": false,
+                          "download": false,
+                          "liking": false,
+                          "sharing": false,
+                          "show_comments": false,
+                          "show_playcount": false,
+                          "visual": true,
+                        },
+                      },
+                      "vimeo": Object {
+                        "playerOptions": Object {
+                          "autopause": false,
+                          "autoplay": false,
+                          "byline": false,
+                          "portrait": false,
+                          "title": false,
+                        },
+                        "preload": false,
+                      },
+                      "wistia": Object {
+                        "options": Object {},
+                      },
+                      "youtube": Object {
+                        "playerVars": Object {
+                          "autoplay": 0,
+                          "iv_load_policy": 3,
+                          "modestbranding": 1,
+                          "playsinline": 1,
+                          "rel": 0,
+                          "showinfo": 0,
+                        },
+                        "preload": false,
+                      },
+                    }
+                  }
+                  controls={true}
+                  height="100%"
+                  loop={false}
+                  muted={false}
+                  onBuffer={[Function]}
+                  onDuration={[Function]}
+                  onEnded={[Function]}
+                  onError={[Function]}
+                  onPause={[Function]}
+                  onPlay={[Function]}
+                  onProgress={[Function]}
+                  onReady={[Function]}
+                  onSeek={[Function]}
+                  onStart={[Function]}
+                  playbackRate={1}
+                  playing={false}
+                  playsinline={false}
+                  progressInterval={1000}
+                  style={Object {}}
+                  url="https://www.youtube.com/watch?v=oZ3M3mbWZ9A"
+                  volume={0.8}
+                  width="100%"
+                />,
+                "className": "player-wrapper",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "className": "react-player",
+                  "config": Object {
+                    "dailymotion": Object {
+                      "params": Object {
+                        "api": 1,
+                        "endscreen-enable": false,
+                      },
+                      "preload": false,
+                    },
+                    "facebook": Object {
+                      "appId": "1309697205772819",
+                    },
+                    "file": Object {
+                      "attributes": Object {},
+                      "forceAudio": false,
+                      "forceDASH": false,
+                      "forceHLS": false,
+                      "hlsOptions": Object {},
+                      "tracks": Array [],
+                    },
+                    "soundcloud": Object {
+                      "options": Object {
+                        "buying": false,
+                        "download": false,
+                        "liking": false,
+                        "sharing": false,
+                        "show_comments": false,
+                        "show_playcount": false,
+                        "visual": true,
+                      },
+                    },
+                    "vimeo": Object {
+                      "playerOptions": Object {
+                        "autopause": false,
+                        "autoplay": false,
+                        "byline": false,
+                        "portrait": false,
+                        "title": false,
+                      },
+                      "preload": false,
+                    },
+                    "wistia": Object {
+                      "options": Object {},
+                    },
+                    "youtube": Object {
+                      "playerVars": Object {
+                        "autoplay": 0,
+                        "iv_load_policy": 3,
+                        "modestbranding": 1,
+                        "playsinline": 1,
+                        "rel": 0,
+                        "showinfo": 0,
+                      },
+                      "preload": false,
+                    },
+                  },
+                  "controls": true,
+                  "height": "100%",
+                  "loop": false,
+                  "muted": false,
+                  "onBuffer": [Function],
+                  "onDuration": [Function],
+                  "onEnded": [Function],
+                  "onError": [Function],
+                  "onPause": [Function],
+                  "onPlay": [Function],
+                  "onProgress": [Function],
+                  "onReady": [Function],
+                  "onSeek": [Function],
+                  "onStart": [Function],
+                  "playbackRate": 1,
+                  "playing": false,
+                  "playsinline": false,
+                  "progressInterval": 1000,
+                  "style": Object {},
+                  "url": "https://www.youtube.com/watch?v=oZ3M3mbWZ9A",
+                  "volume": 0.8,
+                  "width": "100%",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": undefined,
+                "className": "video-summary",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+          ],
           "type": "div",
         },
         Object {
@@ -167,13 +1273,1833 @@ ShallowWrapper {
           "key": "2",
           "nodeType": "host",
           "props": Object {
-            "children": "Q4SHWXQBVL4",
+            "children": Array [
+              <h1
+                className="video-title"
+              />,
+              <div
+                className="player-wrapper"
+              >
+                <ReactPlayer
+                  className="react-player"
+                  config={
+                    Object {
+                      "dailymotion": Object {
+                        "params": Object {
+                          "api": 1,
+                          "endscreen-enable": false,
+                        },
+                        "preload": false,
+                      },
+                      "facebook": Object {
+                        "appId": "1309697205772819",
+                      },
+                      "file": Object {
+                        "attributes": Object {},
+                        "forceAudio": false,
+                        "forceDASH": false,
+                        "forceHLS": false,
+                        "hlsOptions": Object {},
+                        "tracks": Array [],
+                      },
+                      "soundcloud": Object {
+                        "options": Object {
+                          "buying": false,
+                          "download": false,
+                          "liking": false,
+                          "sharing": false,
+                          "show_comments": false,
+                          "show_playcount": false,
+                          "visual": true,
+                        },
+                      },
+                      "vimeo": Object {
+                        "playerOptions": Object {
+                          "autopause": false,
+                          "autoplay": false,
+                          "byline": false,
+                          "portrait": false,
+                          "title": false,
+                        },
+                        "preload": false,
+                      },
+                      "wistia": Object {
+                        "options": Object {},
+                      },
+                      "youtube": Object {
+                        "playerVars": Object {
+                          "autoplay": 0,
+                          "iv_load_policy": 3,
+                          "modestbranding": 1,
+                          "playsinline": 1,
+                          "rel": 0,
+                          "showinfo": 0,
+                        },
+                        "preload": false,
+                      },
+                    }
+                  }
+                  controls={true}
+                  height="100%"
+                  loop={false}
+                  muted={false}
+                  onBuffer={[Function]}
+                  onDuration={[Function]}
+                  onEnded={[Function]}
+                  onError={[Function]}
+                  onPause={[Function]}
+                  onPlay={[Function]}
+                  onProgress={[Function]}
+                  onReady={[Function]}
+                  onSeek={[Function]}
+                  onStart={[Function]}
+                  playbackRate={1}
+                  playing={false}
+                  playsinline={false}
+                  progressInterval={1000}
+                  style={Object {}}
+                  url="https://www.youtube.com/watch?v=Q4SHWXQBVL4"
+                  volume={0.8}
+                  width="100%"
+                />
+              </div>,
+              <div
+                className="video-summary"
+              />,
+            ],
           },
           "ref": null,
-          "rendered": "Q4SHWXQBVL4",
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": undefined,
+                "className": "video-title",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "h1",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <ReactPlayer
+                  className="react-player"
+                  config={
+                    Object {
+                      "dailymotion": Object {
+                        "params": Object {
+                          "api": 1,
+                          "endscreen-enable": false,
+                        },
+                        "preload": false,
+                      },
+                      "facebook": Object {
+                        "appId": "1309697205772819",
+                      },
+                      "file": Object {
+                        "attributes": Object {},
+                        "forceAudio": false,
+                        "forceDASH": false,
+                        "forceHLS": false,
+                        "hlsOptions": Object {},
+                        "tracks": Array [],
+                      },
+                      "soundcloud": Object {
+                        "options": Object {
+                          "buying": false,
+                          "download": false,
+                          "liking": false,
+                          "sharing": false,
+                          "show_comments": false,
+                          "show_playcount": false,
+                          "visual": true,
+                        },
+                      },
+                      "vimeo": Object {
+                        "playerOptions": Object {
+                          "autopause": false,
+                          "autoplay": false,
+                          "byline": false,
+                          "portrait": false,
+                          "title": false,
+                        },
+                        "preload": false,
+                      },
+                      "wistia": Object {
+                        "options": Object {},
+                      },
+                      "youtube": Object {
+                        "playerVars": Object {
+                          "autoplay": 0,
+                          "iv_load_policy": 3,
+                          "modestbranding": 1,
+                          "playsinline": 1,
+                          "rel": 0,
+                          "showinfo": 0,
+                        },
+                        "preload": false,
+                      },
+                    }
+                  }
+                  controls={true}
+                  height="100%"
+                  loop={false}
+                  muted={false}
+                  onBuffer={[Function]}
+                  onDuration={[Function]}
+                  onEnded={[Function]}
+                  onError={[Function]}
+                  onPause={[Function]}
+                  onPlay={[Function]}
+                  onProgress={[Function]}
+                  onReady={[Function]}
+                  onSeek={[Function]}
+                  onStart={[Function]}
+                  playbackRate={1}
+                  playing={false}
+                  playsinline={false}
+                  progressInterval={1000}
+                  style={Object {}}
+                  url="https://www.youtube.com/watch?v=Q4SHWXQBVL4"
+                  volume={0.8}
+                  width="100%"
+                />,
+                "className": "player-wrapper",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "className": "react-player",
+                  "config": Object {
+                    "dailymotion": Object {
+                      "params": Object {
+                        "api": 1,
+                        "endscreen-enable": false,
+                      },
+                      "preload": false,
+                    },
+                    "facebook": Object {
+                      "appId": "1309697205772819",
+                    },
+                    "file": Object {
+                      "attributes": Object {},
+                      "forceAudio": false,
+                      "forceDASH": false,
+                      "forceHLS": false,
+                      "hlsOptions": Object {},
+                      "tracks": Array [],
+                    },
+                    "soundcloud": Object {
+                      "options": Object {
+                        "buying": false,
+                        "download": false,
+                        "liking": false,
+                        "sharing": false,
+                        "show_comments": false,
+                        "show_playcount": false,
+                        "visual": true,
+                      },
+                    },
+                    "vimeo": Object {
+                      "playerOptions": Object {
+                        "autopause": false,
+                        "autoplay": false,
+                        "byline": false,
+                        "portrait": false,
+                        "title": false,
+                      },
+                      "preload": false,
+                    },
+                    "wistia": Object {
+                      "options": Object {},
+                    },
+                    "youtube": Object {
+                      "playerVars": Object {
+                        "autoplay": 0,
+                        "iv_load_policy": 3,
+                        "modestbranding": 1,
+                        "playsinline": 1,
+                        "rel": 0,
+                        "showinfo": 0,
+                      },
+                      "preload": false,
+                    },
+                  },
+                  "controls": true,
+                  "height": "100%",
+                  "loop": false,
+                  "muted": false,
+                  "onBuffer": [Function],
+                  "onDuration": [Function],
+                  "onEnded": [Function],
+                  "onError": [Function],
+                  "onPause": [Function],
+                  "onPlay": [Function],
+                  "onProgress": [Function],
+                  "onReady": [Function],
+                  "onSeek": [Function],
+                  "onStart": [Function],
+                  "playbackRate": 1,
+                  "playing": false,
+                  "playsinline": false,
+                  "progressInterval": 1000,
+                  "style": Object {},
+                  "url": "https://www.youtube.com/watch?v=Q4SHWXQBVL4",
+                  "volume": 0.8,
+                  "width": "100%",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": undefined,
+                "className": "video-summary",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+          ],
           "type": "div",
         },
       ],
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className=""
+        >
+          <div>
+            <h1
+              className="video-title"
+            />
+            <div
+              className="player-wrapper"
+            >
+              <ReactPlayer
+                className="react-player"
+                config={
+                  Object {
+                    "dailymotion": Object {
+                      "params": Object {
+                        "api": 1,
+                        "endscreen-enable": false,
+                      },
+                      "preload": false,
+                    },
+                    "facebook": Object {
+                      "appId": "1309697205772819",
+                    },
+                    "file": Object {
+                      "attributes": Object {},
+                      "forceAudio": false,
+                      "forceDASH": false,
+                      "forceHLS": false,
+                      "hlsOptions": Object {},
+                      "tracks": Array [],
+                    },
+                    "soundcloud": Object {
+                      "options": Object {
+                        "buying": false,
+                        "download": false,
+                        "liking": false,
+                        "sharing": false,
+                        "show_comments": false,
+                        "show_playcount": false,
+                        "visual": true,
+                      },
+                    },
+                    "vimeo": Object {
+                      "playerOptions": Object {
+                        "autopause": false,
+                        "autoplay": false,
+                        "byline": false,
+                        "portrait": false,
+                        "title": false,
+                      },
+                      "preload": false,
+                    },
+                    "wistia": Object {
+                      "options": Object {},
+                    },
+                    "youtube": Object {
+                      "playerVars": Object {
+                        "autoplay": 0,
+                        "iv_load_policy": 3,
+                        "modestbranding": 1,
+                        "playsinline": 1,
+                        "rel": 0,
+                        "showinfo": 0,
+                      },
+                      "preload": false,
+                    },
+                  }
+                }
+                controls={true}
+                height="100%"
+                loop={false}
+                muted={false}
+                onBuffer={[Function]}
+                onDuration={[Function]}
+                onEnded={[Function]}
+                onError={[Function]}
+                onPause={[Function]}
+                onPlay={[Function]}
+                onProgress={[Function]}
+                onReady={[Function]}
+                onSeek={[Function]}
+                onStart={[Function]}
+                playbackRate={1}
+                playing={false}
+                playsinline={false}
+                progressInterval={1000}
+                style={Object {}}
+                url="https://www.youtube.com/watch?v=8Ea2ih7uNW4"
+                volume={0.8}
+                width="100%"
+              />
+            </div>
+            <div
+              className="video-summary"
+            />
+          </div>
+          <div>
+            <h1
+              className="video-title"
+            />
+            <div
+              className="player-wrapper"
+            >
+              <ReactPlayer
+                className="react-player"
+                config={
+                  Object {
+                    "dailymotion": Object {
+                      "params": Object {
+                        "api": 1,
+                        "endscreen-enable": false,
+                      },
+                      "preload": false,
+                    },
+                    "facebook": Object {
+                      "appId": "1309697205772819",
+                    },
+                    "file": Object {
+                      "attributes": Object {},
+                      "forceAudio": false,
+                      "forceDASH": false,
+                      "forceHLS": false,
+                      "hlsOptions": Object {},
+                      "tracks": Array [],
+                    },
+                    "soundcloud": Object {
+                      "options": Object {
+                        "buying": false,
+                        "download": false,
+                        "liking": false,
+                        "sharing": false,
+                        "show_comments": false,
+                        "show_playcount": false,
+                        "visual": true,
+                      },
+                    },
+                    "vimeo": Object {
+                      "playerOptions": Object {
+                        "autopause": false,
+                        "autoplay": false,
+                        "byline": false,
+                        "portrait": false,
+                        "title": false,
+                      },
+                      "preload": false,
+                    },
+                    "wistia": Object {
+                      "options": Object {},
+                    },
+                    "youtube": Object {
+                      "playerVars": Object {
+                        "autoplay": 0,
+                        "iv_load_policy": 3,
+                        "modestbranding": 1,
+                        "playsinline": 1,
+                        "rel": 0,
+                        "showinfo": 0,
+                      },
+                      "preload": false,
+                    },
+                  }
+                }
+                controls={true}
+                height="100%"
+                loop={false}
+                muted={false}
+                onBuffer={[Function]}
+                onDuration={[Function]}
+                onEnded={[Function]}
+                onError={[Function]}
+                onPause={[Function]}
+                onPlay={[Function]}
+                onProgress={[Function]}
+                onReady={[Function]}
+                onSeek={[Function]}
+                onStart={[Function]}
+                playbackRate={1}
+                playing={false}
+                playsinline={false}
+                progressInterval={1000}
+                style={Object {}}
+                url="https://www.youtube.com/watch?v=oZ3M3mbWZ9A"
+                volume={0.8}
+                width="100%"
+              />
+            </div>
+            <div
+              className="video-summary"
+            />
+          </div>
+          <div>
+            <h1
+              className="video-title"
+            />
+            <div
+              className="player-wrapper"
+            >
+              <ReactPlayer
+                className="react-player"
+                config={
+                  Object {
+                    "dailymotion": Object {
+                      "params": Object {
+                        "api": 1,
+                        "endscreen-enable": false,
+                      },
+                      "preload": false,
+                    },
+                    "facebook": Object {
+                      "appId": "1309697205772819",
+                    },
+                    "file": Object {
+                      "attributes": Object {},
+                      "forceAudio": false,
+                      "forceDASH": false,
+                      "forceHLS": false,
+                      "hlsOptions": Object {},
+                      "tracks": Array [],
+                    },
+                    "soundcloud": Object {
+                      "options": Object {
+                        "buying": false,
+                        "download": false,
+                        "liking": false,
+                        "sharing": false,
+                        "show_comments": false,
+                        "show_playcount": false,
+                        "visual": true,
+                      },
+                    },
+                    "vimeo": Object {
+                      "playerOptions": Object {
+                        "autopause": false,
+                        "autoplay": false,
+                        "byline": false,
+                        "portrait": false,
+                        "title": false,
+                      },
+                      "preload": false,
+                    },
+                    "wistia": Object {
+                      "options": Object {},
+                    },
+                    "youtube": Object {
+                      "playerVars": Object {
+                        "autoplay": 0,
+                        "iv_load_policy": 3,
+                        "modestbranding": 1,
+                        "playsinline": 1,
+                        "rel": 0,
+                        "showinfo": 0,
+                      },
+                      "preload": false,
+                    },
+                  }
+                }
+                controls={true}
+                height="100%"
+                loop={false}
+                muted={false}
+                onBuffer={[Function]}
+                onDuration={[Function]}
+                onEnded={[Function]}
+                onError={[Function]}
+                onPause={[Function]}
+                onPlay={[Function]}
+                onProgress={[Function]}
+                onReady={[Function]}
+                onSeek={[Function]}
+                onStart={[Function]}
+                playbackRate={1}
+                playing={false}
+                playsinline={false}
+                progressInterval={1000}
+                style={Object {}}
+                url="https://www.youtube.com/watch?v=Q4SHWXQBVL4"
+                volume={0.8}
+                width="100%"
+              />
+            </div>
+            <div
+              className="video-summary"
+            />
+          </div>
+        </div>,
+        "className": "video-page",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div>
+              <h1
+                className="video-title"
+              />
+              <div
+                className="player-wrapper"
+              >
+                <ReactPlayer
+                  className="react-player"
+                  config={
+                    Object {
+                      "dailymotion": Object {
+                        "params": Object {
+                          "api": 1,
+                          "endscreen-enable": false,
+                        },
+                        "preload": false,
+                      },
+                      "facebook": Object {
+                        "appId": "1309697205772819",
+                      },
+                      "file": Object {
+                        "attributes": Object {},
+                        "forceAudio": false,
+                        "forceDASH": false,
+                        "forceHLS": false,
+                        "hlsOptions": Object {},
+                        "tracks": Array [],
+                      },
+                      "soundcloud": Object {
+                        "options": Object {
+                          "buying": false,
+                          "download": false,
+                          "liking": false,
+                          "sharing": false,
+                          "show_comments": false,
+                          "show_playcount": false,
+                          "visual": true,
+                        },
+                      },
+                      "vimeo": Object {
+                        "playerOptions": Object {
+                          "autopause": false,
+                          "autoplay": false,
+                          "byline": false,
+                          "portrait": false,
+                          "title": false,
+                        },
+                        "preload": false,
+                      },
+                      "wistia": Object {
+                        "options": Object {},
+                      },
+                      "youtube": Object {
+                        "playerVars": Object {
+                          "autoplay": 0,
+                          "iv_load_policy": 3,
+                          "modestbranding": 1,
+                          "playsinline": 1,
+                          "rel": 0,
+                          "showinfo": 0,
+                        },
+                        "preload": false,
+                      },
+                    }
+                  }
+                  controls={true}
+                  height="100%"
+                  loop={false}
+                  muted={false}
+                  onBuffer={[Function]}
+                  onDuration={[Function]}
+                  onEnded={[Function]}
+                  onError={[Function]}
+                  onPause={[Function]}
+                  onPlay={[Function]}
+                  onProgress={[Function]}
+                  onReady={[Function]}
+                  onSeek={[Function]}
+                  onStart={[Function]}
+                  playbackRate={1}
+                  playing={false}
+                  playsinline={false}
+                  progressInterval={1000}
+                  style={Object {}}
+                  url="https://www.youtube.com/watch?v=8Ea2ih7uNW4"
+                  volume={0.8}
+                  width="100%"
+                />
+              </div>
+              <div
+                className="video-summary"
+              />
+            </div>,
+            <div>
+              <h1
+                className="video-title"
+              />
+              <div
+                className="player-wrapper"
+              >
+                <ReactPlayer
+                  className="react-player"
+                  config={
+                    Object {
+                      "dailymotion": Object {
+                        "params": Object {
+                          "api": 1,
+                          "endscreen-enable": false,
+                        },
+                        "preload": false,
+                      },
+                      "facebook": Object {
+                        "appId": "1309697205772819",
+                      },
+                      "file": Object {
+                        "attributes": Object {},
+                        "forceAudio": false,
+                        "forceDASH": false,
+                        "forceHLS": false,
+                        "hlsOptions": Object {},
+                        "tracks": Array [],
+                      },
+                      "soundcloud": Object {
+                        "options": Object {
+                          "buying": false,
+                          "download": false,
+                          "liking": false,
+                          "sharing": false,
+                          "show_comments": false,
+                          "show_playcount": false,
+                          "visual": true,
+                        },
+                      },
+                      "vimeo": Object {
+                        "playerOptions": Object {
+                          "autopause": false,
+                          "autoplay": false,
+                          "byline": false,
+                          "portrait": false,
+                          "title": false,
+                        },
+                        "preload": false,
+                      },
+                      "wistia": Object {
+                        "options": Object {},
+                      },
+                      "youtube": Object {
+                        "playerVars": Object {
+                          "autoplay": 0,
+                          "iv_load_policy": 3,
+                          "modestbranding": 1,
+                          "playsinline": 1,
+                          "rel": 0,
+                          "showinfo": 0,
+                        },
+                        "preload": false,
+                      },
+                    }
+                  }
+                  controls={true}
+                  height="100%"
+                  loop={false}
+                  muted={false}
+                  onBuffer={[Function]}
+                  onDuration={[Function]}
+                  onEnded={[Function]}
+                  onError={[Function]}
+                  onPause={[Function]}
+                  onPlay={[Function]}
+                  onProgress={[Function]}
+                  onReady={[Function]}
+                  onSeek={[Function]}
+                  onStart={[Function]}
+                  playbackRate={1}
+                  playing={false}
+                  playsinline={false}
+                  progressInterval={1000}
+                  style={Object {}}
+                  url="https://www.youtube.com/watch?v=oZ3M3mbWZ9A"
+                  volume={0.8}
+                  width="100%"
+                />
+              </div>
+              <div
+                className="video-summary"
+              />
+            </div>,
+            <div>
+              <h1
+                className="video-title"
+              />
+              <div
+                className="player-wrapper"
+              >
+                <ReactPlayer
+                  className="react-player"
+                  config={
+                    Object {
+                      "dailymotion": Object {
+                        "params": Object {
+                          "api": 1,
+                          "endscreen-enable": false,
+                        },
+                        "preload": false,
+                      },
+                      "facebook": Object {
+                        "appId": "1309697205772819",
+                      },
+                      "file": Object {
+                        "attributes": Object {},
+                        "forceAudio": false,
+                        "forceDASH": false,
+                        "forceHLS": false,
+                        "hlsOptions": Object {},
+                        "tracks": Array [],
+                      },
+                      "soundcloud": Object {
+                        "options": Object {
+                          "buying": false,
+                          "download": false,
+                          "liking": false,
+                          "sharing": false,
+                          "show_comments": false,
+                          "show_playcount": false,
+                          "visual": true,
+                        },
+                      },
+                      "vimeo": Object {
+                        "playerOptions": Object {
+                          "autopause": false,
+                          "autoplay": false,
+                          "byline": false,
+                          "portrait": false,
+                          "title": false,
+                        },
+                        "preload": false,
+                      },
+                      "wistia": Object {
+                        "options": Object {},
+                      },
+                      "youtube": Object {
+                        "playerVars": Object {
+                          "autoplay": 0,
+                          "iv_load_policy": 3,
+                          "modestbranding": 1,
+                          "playsinline": 1,
+                          "rel": 0,
+                          "showinfo": 0,
+                        },
+                        "preload": false,
+                      },
+                    }
+                  }
+                  controls={true}
+                  height="100%"
+                  loop={false}
+                  muted={false}
+                  onBuffer={[Function]}
+                  onDuration={[Function]}
+                  onEnded={[Function]}
+                  onError={[Function]}
+                  onPause={[Function]}
+                  onPlay={[Function]}
+                  onProgress={[Function]}
+                  onReady={[Function]}
+                  onSeek={[Function]}
+                  onStart={[Function]}
+                  playbackRate={1}
+                  playing={false}
+                  playsinline={false}
+                  progressInterval={1000}
+                  style={Object {}}
+                  url="https://www.youtube.com/watch?v=Q4SHWXQBVL4"
+                  volume={0.8}
+                  width="100%"
+                />
+              </div>
+              <div
+                className="video-summary"
+              />
+            </div>,
+          ],
+          "className": "",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "0",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h1
+                  className="video-title"
+                />,
+                <div
+                  className="player-wrapper"
+                >
+                  <ReactPlayer
+                    className="react-player"
+                    config={
+                      Object {
+                        "dailymotion": Object {
+                          "params": Object {
+                            "api": 1,
+                            "endscreen-enable": false,
+                          },
+                          "preload": false,
+                        },
+                        "facebook": Object {
+                          "appId": "1309697205772819",
+                        },
+                        "file": Object {
+                          "attributes": Object {},
+                          "forceAudio": false,
+                          "forceDASH": false,
+                          "forceHLS": false,
+                          "hlsOptions": Object {},
+                          "tracks": Array [],
+                        },
+                        "soundcloud": Object {
+                          "options": Object {
+                            "buying": false,
+                            "download": false,
+                            "liking": false,
+                            "sharing": false,
+                            "show_comments": false,
+                            "show_playcount": false,
+                            "visual": true,
+                          },
+                        },
+                        "vimeo": Object {
+                          "playerOptions": Object {
+                            "autopause": false,
+                            "autoplay": false,
+                            "byline": false,
+                            "portrait": false,
+                            "title": false,
+                          },
+                          "preload": false,
+                        },
+                        "wistia": Object {
+                          "options": Object {},
+                        },
+                        "youtube": Object {
+                          "playerVars": Object {
+                            "autoplay": 0,
+                            "iv_load_policy": 3,
+                            "modestbranding": 1,
+                            "playsinline": 1,
+                            "rel": 0,
+                            "showinfo": 0,
+                          },
+                          "preload": false,
+                        },
+                      }
+                    }
+                    controls={true}
+                    height="100%"
+                    loop={false}
+                    muted={false}
+                    onBuffer={[Function]}
+                    onDuration={[Function]}
+                    onEnded={[Function]}
+                    onError={[Function]}
+                    onPause={[Function]}
+                    onPlay={[Function]}
+                    onProgress={[Function]}
+                    onReady={[Function]}
+                    onSeek={[Function]}
+                    onStart={[Function]}
+                    playbackRate={1}
+                    playing={false}
+                    playsinline={false}
+                    progressInterval={1000}
+                    style={Object {}}
+                    url="https://www.youtube.com/watch?v=8Ea2ih7uNW4"
+                    volume={0.8}
+                    width="100%"
+                  />
+                </div>,
+                <div
+                  className="video-summary"
+                />,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": undefined,
+                  "className": "video-title",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "h1",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <ReactPlayer
+                    className="react-player"
+                    config={
+                      Object {
+                        "dailymotion": Object {
+                          "params": Object {
+                            "api": 1,
+                            "endscreen-enable": false,
+                          },
+                          "preload": false,
+                        },
+                        "facebook": Object {
+                          "appId": "1309697205772819",
+                        },
+                        "file": Object {
+                          "attributes": Object {},
+                          "forceAudio": false,
+                          "forceDASH": false,
+                          "forceHLS": false,
+                          "hlsOptions": Object {},
+                          "tracks": Array [],
+                        },
+                        "soundcloud": Object {
+                          "options": Object {
+                            "buying": false,
+                            "download": false,
+                            "liking": false,
+                            "sharing": false,
+                            "show_comments": false,
+                            "show_playcount": false,
+                            "visual": true,
+                          },
+                        },
+                        "vimeo": Object {
+                          "playerOptions": Object {
+                            "autopause": false,
+                            "autoplay": false,
+                            "byline": false,
+                            "portrait": false,
+                            "title": false,
+                          },
+                          "preload": false,
+                        },
+                        "wistia": Object {
+                          "options": Object {},
+                        },
+                        "youtube": Object {
+                          "playerVars": Object {
+                            "autoplay": 0,
+                            "iv_load_policy": 3,
+                            "modestbranding": 1,
+                            "playsinline": 1,
+                            "rel": 0,
+                            "showinfo": 0,
+                          },
+                          "preload": false,
+                        },
+                      }
+                    }
+                    controls={true}
+                    height="100%"
+                    loop={false}
+                    muted={false}
+                    onBuffer={[Function]}
+                    onDuration={[Function]}
+                    onEnded={[Function]}
+                    onError={[Function]}
+                    onPause={[Function]}
+                    onPlay={[Function]}
+                    onProgress={[Function]}
+                    onReady={[Function]}
+                    onSeek={[Function]}
+                    onStart={[Function]}
+                    playbackRate={1}
+                    playing={false}
+                    playsinline={false}
+                    progressInterval={1000}
+                    style={Object {}}
+                    url="https://www.youtube.com/watch?v=8Ea2ih7uNW4"
+                    volume={0.8}
+                    width="100%"
+                  />,
+                  "className": "player-wrapper",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "className": "react-player",
+                    "config": Object {
+                      "dailymotion": Object {
+                        "params": Object {
+                          "api": 1,
+                          "endscreen-enable": false,
+                        },
+                        "preload": false,
+                      },
+                      "facebook": Object {
+                        "appId": "1309697205772819",
+                      },
+                      "file": Object {
+                        "attributes": Object {},
+                        "forceAudio": false,
+                        "forceDASH": false,
+                        "forceHLS": false,
+                        "hlsOptions": Object {},
+                        "tracks": Array [],
+                      },
+                      "soundcloud": Object {
+                        "options": Object {
+                          "buying": false,
+                          "download": false,
+                          "liking": false,
+                          "sharing": false,
+                          "show_comments": false,
+                          "show_playcount": false,
+                          "visual": true,
+                        },
+                      },
+                      "vimeo": Object {
+                        "playerOptions": Object {
+                          "autopause": false,
+                          "autoplay": false,
+                          "byline": false,
+                          "portrait": false,
+                          "title": false,
+                        },
+                        "preload": false,
+                      },
+                      "wistia": Object {
+                        "options": Object {},
+                      },
+                      "youtube": Object {
+                        "playerVars": Object {
+                          "autoplay": 0,
+                          "iv_load_policy": 3,
+                          "modestbranding": 1,
+                          "playsinline": 1,
+                          "rel": 0,
+                          "showinfo": 0,
+                        },
+                        "preload": false,
+                      },
+                    },
+                    "controls": true,
+                    "height": "100%",
+                    "loop": false,
+                    "muted": false,
+                    "onBuffer": [Function],
+                    "onDuration": [Function],
+                    "onEnded": [Function],
+                    "onError": [Function],
+                    "onPause": [Function],
+                    "onPlay": [Function],
+                    "onProgress": [Function],
+                    "onReady": [Function],
+                    "onSeek": [Function],
+                    "onStart": [Function],
+                    "playbackRate": 1,
+                    "playing": false,
+                    "playsinline": false,
+                    "progressInterval": 1000,
+                    "style": Object {},
+                    "url": "https://www.youtube.com/watch?v=8Ea2ih7uNW4",
+                    "volume": 0.8,
+                    "width": "100%",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": undefined,
+                  "className": "video-summary",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h1
+                  className="video-title"
+                />,
+                <div
+                  className="player-wrapper"
+                >
+                  <ReactPlayer
+                    className="react-player"
+                    config={
+                      Object {
+                        "dailymotion": Object {
+                          "params": Object {
+                            "api": 1,
+                            "endscreen-enable": false,
+                          },
+                          "preload": false,
+                        },
+                        "facebook": Object {
+                          "appId": "1309697205772819",
+                        },
+                        "file": Object {
+                          "attributes": Object {},
+                          "forceAudio": false,
+                          "forceDASH": false,
+                          "forceHLS": false,
+                          "hlsOptions": Object {},
+                          "tracks": Array [],
+                        },
+                        "soundcloud": Object {
+                          "options": Object {
+                            "buying": false,
+                            "download": false,
+                            "liking": false,
+                            "sharing": false,
+                            "show_comments": false,
+                            "show_playcount": false,
+                            "visual": true,
+                          },
+                        },
+                        "vimeo": Object {
+                          "playerOptions": Object {
+                            "autopause": false,
+                            "autoplay": false,
+                            "byline": false,
+                            "portrait": false,
+                            "title": false,
+                          },
+                          "preload": false,
+                        },
+                        "wistia": Object {
+                          "options": Object {},
+                        },
+                        "youtube": Object {
+                          "playerVars": Object {
+                            "autoplay": 0,
+                            "iv_load_policy": 3,
+                            "modestbranding": 1,
+                            "playsinline": 1,
+                            "rel": 0,
+                            "showinfo": 0,
+                          },
+                          "preload": false,
+                        },
+                      }
+                    }
+                    controls={true}
+                    height="100%"
+                    loop={false}
+                    muted={false}
+                    onBuffer={[Function]}
+                    onDuration={[Function]}
+                    onEnded={[Function]}
+                    onError={[Function]}
+                    onPause={[Function]}
+                    onPlay={[Function]}
+                    onProgress={[Function]}
+                    onReady={[Function]}
+                    onSeek={[Function]}
+                    onStart={[Function]}
+                    playbackRate={1}
+                    playing={false}
+                    playsinline={false}
+                    progressInterval={1000}
+                    style={Object {}}
+                    url="https://www.youtube.com/watch?v=oZ3M3mbWZ9A"
+                    volume={0.8}
+                    width="100%"
+                  />
+                </div>,
+                <div
+                  className="video-summary"
+                />,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": undefined,
+                  "className": "video-title",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "h1",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <ReactPlayer
+                    className="react-player"
+                    config={
+                      Object {
+                        "dailymotion": Object {
+                          "params": Object {
+                            "api": 1,
+                            "endscreen-enable": false,
+                          },
+                          "preload": false,
+                        },
+                        "facebook": Object {
+                          "appId": "1309697205772819",
+                        },
+                        "file": Object {
+                          "attributes": Object {},
+                          "forceAudio": false,
+                          "forceDASH": false,
+                          "forceHLS": false,
+                          "hlsOptions": Object {},
+                          "tracks": Array [],
+                        },
+                        "soundcloud": Object {
+                          "options": Object {
+                            "buying": false,
+                            "download": false,
+                            "liking": false,
+                            "sharing": false,
+                            "show_comments": false,
+                            "show_playcount": false,
+                            "visual": true,
+                          },
+                        },
+                        "vimeo": Object {
+                          "playerOptions": Object {
+                            "autopause": false,
+                            "autoplay": false,
+                            "byline": false,
+                            "portrait": false,
+                            "title": false,
+                          },
+                          "preload": false,
+                        },
+                        "wistia": Object {
+                          "options": Object {},
+                        },
+                        "youtube": Object {
+                          "playerVars": Object {
+                            "autoplay": 0,
+                            "iv_load_policy": 3,
+                            "modestbranding": 1,
+                            "playsinline": 1,
+                            "rel": 0,
+                            "showinfo": 0,
+                          },
+                          "preload": false,
+                        },
+                      }
+                    }
+                    controls={true}
+                    height="100%"
+                    loop={false}
+                    muted={false}
+                    onBuffer={[Function]}
+                    onDuration={[Function]}
+                    onEnded={[Function]}
+                    onError={[Function]}
+                    onPause={[Function]}
+                    onPlay={[Function]}
+                    onProgress={[Function]}
+                    onReady={[Function]}
+                    onSeek={[Function]}
+                    onStart={[Function]}
+                    playbackRate={1}
+                    playing={false}
+                    playsinline={false}
+                    progressInterval={1000}
+                    style={Object {}}
+                    url="https://www.youtube.com/watch?v=oZ3M3mbWZ9A"
+                    volume={0.8}
+                    width="100%"
+                  />,
+                  "className": "player-wrapper",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "className": "react-player",
+                    "config": Object {
+                      "dailymotion": Object {
+                        "params": Object {
+                          "api": 1,
+                          "endscreen-enable": false,
+                        },
+                        "preload": false,
+                      },
+                      "facebook": Object {
+                        "appId": "1309697205772819",
+                      },
+                      "file": Object {
+                        "attributes": Object {},
+                        "forceAudio": false,
+                        "forceDASH": false,
+                        "forceHLS": false,
+                        "hlsOptions": Object {},
+                        "tracks": Array [],
+                      },
+                      "soundcloud": Object {
+                        "options": Object {
+                          "buying": false,
+                          "download": false,
+                          "liking": false,
+                          "sharing": false,
+                          "show_comments": false,
+                          "show_playcount": false,
+                          "visual": true,
+                        },
+                      },
+                      "vimeo": Object {
+                        "playerOptions": Object {
+                          "autopause": false,
+                          "autoplay": false,
+                          "byline": false,
+                          "portrait": false,
+                          "title": false,
+                        },
+                        "preload": false,
+                      },
+                      "wistia": Object {
+                        "options": Object {},
+                      },
+                      "youtube": Object {
+                        "playerVars": Object {
+                          "autoplay": 0,
+                          "iv_load_policy": 3,
+                          "modestbranding": 1,
+                          "playsinline": 1,
+                          "rel": 0,
+                          "showinfo": 0,
+                        },
+                        "preload": false,
+                      },
+                    },
+                    "controls": true,
+                    "height": "100%",
+                    "loop": false,
+                    "muted": false,
+                    "onBuffer": [Function],
+                    "onDuration": [Function],
+                    "onEnded": [Function],
+                    "onError": [Function],
+                    "onPause": [Function],
+                    "onPlay": [Function],
+                    "onProgress": [Function],
+                    "onReady": [Function],
+                    "onSeek": [Function],
+                    "onStart": [Function],
+                    "playbackRate": 1,
+                    "playing": false,
+                    "playsinline": false,
+                    "progressInterval": 1000,
+                    "style": Object {},
+                    "url": "https://www.youtube.com/watch?v=oZ3M3mbWZ9A",
+                    "volume": 0.8,
+                    "width": "100%",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": undefined,
+                  "className": "video-summary",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": "2",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h1
+                  className="video-title"
+                />,
+                <div
+                  className="player-wrapper"
+                >
+                  <ReactPlayer
+                    className="react-player"
+                    config={
+                      Object {
+                        "dailymotion": Object {
+                          "params": Object {
+                            "api": 1,
+                            "endscreen-enable": false,
+                          },
+                          "preload": false,
+                        },
+                        "facebook": Object {
+                          "appId": "1309697205772819",
+                        },
+                        "file": Object {
+                          "attributes": Object {},
+                          "forceAudio": false,
+                          "forceDASH": false,
+                          "forceHLS": false,
+                          "hlsOptions": Object {},
+                          "tracks": Array [],
+                        },
+                        "soundcloud": Object {
+                          "options": Object {
+                            "buying": false,
+                            "download": false,
+                            "liking": false,
+                            "sharing": false,
+                            "show_comments": false,
+                            "show_playcount": false,
+                            "visual": true,
+                          },
+                        },
+                        "vimeo": Object {
+                          "playerOptions": Object {
+                            "autopause": false,
+                            "autoplay": false,
+                            "byline": false,
+                            "portrait": false,
+                            "title": false,
+                          },
+                          "preload": false,
+                        },
+                        "wistia": Object {
+                          "options": Object {},
+                        },
+                        "youtube": Object {
+                          "playerVars": Object {
+                            "autoplay": 0,
+                            "iv_load_policy": 3,
+                            "modestbranding": 1,
+                            "playsinline": 1,
+                            "rel": 0,
+                            "showinfo": 0,
+                          },
+                          "preload": false,
+                        },
+                      }
+                    }
+                    controls={true}
+                    height="100%"
+                    loop={false}
+                    muted={false}
+                    onBuffer={[Function]}
+                    onDuration={[Function]}
+                    onEnded={[Function]}
+                    onError={[Function]}
+                    onPause={[Function]}
+                    onPlay={[Function]}
+                    onProgress={[Function]}
+                    onReady={[Function]}
+                    onSeek={[Function]}
+                    onStart={[Function]}
+                    playbackRate={1}
+                    playing={false}
+                    playsinline={false}
+                    progressInterval={1000}
+                    style={Object {}}
+                    url="https://www.youtube.com/watch?v=Q4SHWXQBVL4"
+                    volume={0.8}
+                    width="100%"
+                  />
+                </div>,
+                <div
+                  className="video-summary"
+                />,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": undefined,
+                  "className": "video-title",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "h1",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <ReactPlayer
+                    className="react-player"
+                    config={
+                      Object {
+                        "dailymotion": Object {
+                          "params": Object {
+                            "api": 1,
+                            "endscreen-enable": false,
+                          },
+                          "preload": false,
+                        },
+                        "facebook": Object {
+                          "appId": "1309697205772819",
+                        },
+                        "file": Object {
+                          "attributes": Object {},
+                          "forceAudio": false,
+                          "forceDASH": false,
+                          "forceHLS": false,
+                          "hlsOptions": Object {},
+                          "tracks": Array [],
+                        },
+                        "soundcloud": Object {
+                          "options": Object {
+                            "buying": false,
+                            "download": false,
+                            "liking": false,
+                            "sharing": false,
+                            "show_comments": false,
+                            "show_playcount": false,
+                            "visual": true,
+                          },
+                        },
+                        "vimeo": Object {
+                          "playerOptions": Object {
+                            "autopause": false,
+                            "autoplay": false,
+                            "byline": false,
+                            "portrait": false,
+                            "title": false,
+                          },
+                          "preload": false,
+                        },
+                        "wistia": Object {
+                          "options": Object {},
+                        },
+                        "youtube": Object {
+                          "playerVars": Object {
+                            "autoplay": 0,
+                            "iv_load_policy": 3,
+                            "modestbranding": 1,
+                            "playsinline": 1,
+                            "rel": 0,
+                            "showinfo": 0,
+                          },
+                          "preload": false,
+                        },
+                      }
+                    }
+                    controls={true}
+                    height="100%"
+                    loop={false}
+                    muted={false}
+                    onBuffer={[Function]}
+                    onDuration={[Function]}
+                    onEnded={[Function]}
+                    onError={[Function]}
+                    onPause={[Function]}
+                    onPlay={[Function]}
+                    onProgress={[Function]}
+                    onReady={[Function]}
+                    onSeek={[Function]}
+                    onStart={[Function]}
+                    playbackRate={1}
+                    playing={false}
+                    playsinline={false}
+                    progressInterval={1000}
+                    style={Object {}}
+                    url="https://www.youtube.com/watch?v=Q4SHWXQBVL4"
+                    volume={0.8}
+                    width="100%"
+                  />,
+                  "className": "player-wrapper",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "className": "react-player",
+                    "config": Object {
+                      "dailymotion": Object {
+                        "params": Object {
+                          "api": 1,
+                          "endscreen-enable": false,
+                        },
+                        "preload": false,
+                      },
+                      "facebook": Object {
+                        "appId": "1309697205772819",
+                      },
+                      "file": Object {
+                        "attributes": Object {},
+                        "forceAudio": false,
+                        "forceDASH": false,
+                        "forceHLS": false,
+                        "hlsOptions": Object {},
+                        "tracks": Array [],
+                      },
+                      "soundcloud": Object {
+                        "options": Object {
+                          "buying": false,
+                          "download": false,
+                          "liking": false,
+                          "sharing": false,
+                          "show_comments": false,
+                          "show_playcount": false,
+                          "visual": true,
+                        },
+                      },
+                      "vimeo": Object {
+                        "playerOptions": Object {
+                          "autopause": false,
+                          "autoplay": false,
+                          "byline": false,
+                          "portrait": false,
+                          "title": false,
+                        },
+                        "preload": false,
+                      },
+                      "wistia": Object {
+                        "options": Object {},
+                      },
+                      "youtube": Object {
+                        "playerVars": Object {
+                          "autoplay": 0,
+                          "iv_load_policy": 3,
+                          "modestbranding": 1,
+                          "playsinline": 1,
+                          "rel": 0,
+                          "showinfo": 0,
+                        },
+                        "preload": false,
+                      },
+                    },
+                    "controls": true,
+                    "height": "100%",
+                    "loop": false,
+                    "muted": false,
+                    "onBuffer": [Function],
+                    "onDuration": [Function],
+                    "onEnded": [Function],
+                    "onError": [Function],
+                    "onPause": [Function],
+                    "onPlay": [Function],
+                    "onProgress": [Function],
+                    "onReady": [Function],
+                    "onSeek": [Function],
+                    "onStart": [Function],
+                    "playbackRate": 1,
+                    "playing": false,
+                    "playsinline": false,
+                    "progressInterval": 1000,
+                    "style": Object {},
+                    "url": "https://www.youtube.com/watch?v=Q4SHWXQBVL4",
+                    "volume": 0.8,
+                    "width": "100%",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": undefined,
+                  "className": "video-summary",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
       "type": "div",
     },
   ],

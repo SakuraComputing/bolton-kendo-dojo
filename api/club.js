@@ -130,10 +130,31 @@ router.post('/practice', passport.authenticate('jwt', { session: false }), (req,
                 venue: req.body.venue,
                 time: req.body.time,
             };
-
-            // Add to experience array
-            console.log(newPractice);
             club.practices.unshift(newPractice);
+            club.save().then(club => res.json(club));
+        })
+        
+});
+// @route POST api/club/video
+// @desc Add Video
+// @access Private
+router.post('/videos', passport.authenticate('jwt', { session: false }), (req,res) => {
+    // const { errors, isValid } = validateExperienceInput(req.body);
+
+    // Check validation
+    // if(!isValid) {
+    //     return res.status(400).json(errors);
+    // }
+
+    Club.findOne({ clubName: req.body.clubName })
+        .then(club => {
+            const newVideo = {
+                videoId: req.body.videoId,
+                title: req.body.title,
+                summary: req.body.summary,
+            };
+            console.log(newVideo);
+            club.videos.unshift(newVideo);
 
             club.save().then(club => res.json(club));
         })

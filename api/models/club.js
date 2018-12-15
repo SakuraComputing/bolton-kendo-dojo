@@ -62,10 +62,17 @@ const ClubSchema = new Schema ({
     ],
     videos: [
         {
-            etag: {
+            videoId: {
                 type: String,
-                rewuired: true
-            } 
+                required: true
+            },
+            title: {
+                type: String,
+                required: true
+            },
+            summary: {
+                type: String
+            }
         }
     ]
 });

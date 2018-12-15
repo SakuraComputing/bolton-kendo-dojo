@@ -13,15 +13,19 @@ export class VideoPage extends Component {
         
         if(club !== null && !loading) {
             video = club[0].videos.map(((video, key) => 
-                <div className="player-wrapper">
-                    <ReactPlayer
-                        key={key}
-                        className="react-player"
-                        width="100%"
-                        height="100%"
-                        url={`https://www.youtube.com/watch?v=${video.videoId}`}
-                        controls={true}
-                    />
+                <div key={key} >
+                    
+                    <h1 className="video-title">{video.title}</h1>
+                    <div className="player-wrapper">
+                        <ReactPlayer
+                            className="react-player"
+                            width="100%"
+                            height="100%"
+                            url={`https://www.youtube.com/watch?v=${video.videoId}`}
+                            controls={true}
+                        />
+                    </div>
+                    <div className="video-summary">{video.summary}</div>
                 </div>
             ))
         } else {
