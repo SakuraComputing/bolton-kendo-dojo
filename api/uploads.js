@@ -2,6 +2,7 @@ const express = require("express");
 const route = express.Router();
 // we need the file system to delete the images.
 const fs = require("fs"); 
+const passport = require('passport');
 
 //multer config
 const upload = require("./multer/storage");
@@ -9,7 +10,7 @@ const upload = require("./multer/storage");
 //Model
 const Image = require("./models/images");
 
-route.delete("/:id", (req,res) => {
+route.delete("/:id", passport.authenticate('jwt', { session: false }), (req,res) => {
     //get the id from the ajax response
     //in this case the id is the name of the image
     //we need it in order to delete the image from the uploads directory
@@ -44,7 +45,7 @@ route.get("/all", (req, res)=>{
 
 
 //-----Manage the post requests.
-route.post("/", (req, res, next)=>{
+route.post("/", passport.authenticate('jwt', { session: false }), (req, res, next)=>{
     upload(req, res, function (err) {
         if(err) {
            console.log('An error has occured', err); 
