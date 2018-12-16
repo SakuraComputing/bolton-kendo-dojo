@@ -170,6 +170,30 @@ ShallowWrapper {
               viewPhoto={[Function]}
             />
           </div>
+          <PaginationBoxView
+            activeClassName="active"
+            breakLabel={
+              <span
+                className="gap"
+              >
+                ...
+              </span>
+            }
+            containerClassName="pagination"
+            disableInitialCallback={false}
+            disabledClassName="disabled"
+            forcePage={0}
+            marginPagesDisplayed={3}
+            nextClassName="next"
+            nextLabel="Next →"
+            nextLinkClassName="next_page"
+            onPageChange={[Function]}
+            pageCount={10}
+            pageRangeDisplayed={2}
+            previousClassName="previous"
+            previousLabel="← Previous"
+            previousLinkClassName="previous_page"
+          />
         </div>
       </div>,
     },
@@ -290,6 +314,30 @@ ShallowWrapper {
                 viewPhoto={[Function]}
               />
             </div>
+            <PaginationBoxView
+              activeClassName="active"
+              breakLabel={
+                <span
+                  className="gap"
+                >
+                  ...
+                </span>
+              }
+              containerClassName="pagination"
+              disableInitialCallback={false}
+              disabledClassName="disabled"
+              forcePage={0}
+              marginPagesDisplayed={3}
+              nextClassName="next"
+              nextLabel="Next →"
+              nextLinkClassName="next_page"
+              onPageChange={[Function]}
+              pageCount={10}
+              pageRangeDisplayed={2}
+              previousClassName="previous"
+              previousLabel="← Previous"
+              previousLinkClassName="previous_page"
+            />
           </div>,
         ],
         "className": "images-uploads content-container",
@@ -424,6 +472,30 @@ ShallowWrapper {
                   viewPhoto={[Function]}
                 />
               </div>,
+              <PaginationBoxView
+                activeClassName="active"
+                breakLabel={
+                  <span
+                    className="gap"
+                  >
+                    ...
+                  </span>
+                }
+                containerClassName="pagination"
+                disableInitialCallback={false}
+                disabledClassName="disabled"
+                forcePage={0}
+                marginPagesDisplayed={3}
+                nextClassName="next"
+                nextLabel="Next →"
+                nextLinkClassName="next_page"
+                onPageChange={[Function]}
+                pageCount={10}
+                pageRangeDisplayed={2}
+                previousClassName="previous"
+                previousLabel="← Previous"
+                previousLinkClassName="previous_page"
+              />,
             ],
             "className": "wrap-collapsible",
           },
@@ -907,6 +979,36 @@ ShallowWrapper {
               ],
               "type": "div",
             },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "activeClassName": "active",
+                "breakLabel": <span
+                  className="gap"
+                >
+                  ...
+                </span>,
+                "containerClassName": "pagination",
+                "disableInitialCallback": false,
+                "disabledClassName": "disabled",
+                "forcePage": 0,
+                "marginPagesDisplayed": 3,
+                "nextClassName": "next",
+                "nextLabel": "Next →",
+                "nextLinkClassName": "next_page",
+                "onPageChange": [Function],
+                "pageCount": 10,
+                "pageRangeDisplayed": 2,
+                "previousClassName": "previous",
+                "previousLabel": "← Previous",
+                "previousLinkClassName": "previous_page",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
           ],
           "type": "div",
         },
@@ -1034,6 +1136,30 @@ ShallowWrapper {
                 viewPhoto={[Function]}
               />
             </div>
+            <PaginationBoxView
+              activeClassName="active"
+              breakLabel={
+                <span
+                  className="gap"
+                >
+                  ...
+                </span>
+              }
+              containerClassName="pagination"
+              disableInitialCallback={false}
+              disabledClassName="disabled"
+              forcePage={0}
+              marginPagesDisplayed={3}
+              nextClassName="next"
+              nextLabel="Next →"
+              nextLinkClassName="next_page"
+              onPageChange={[Function]}
+              pageCount={10}
+              pageRangeDisplayed={2}
+              previousClassName="previous"
+              previousLabel="← Previous"
+              previousLinkClassName="previous_page"
+            />
           </div>
         </div>,
       },
@@ -1154,6 +1280,30 @@ ShallowWrapper {
                   viewPhoto={[Function]}
                 />
               </div>
+              <PaginationBoxView
+                activeClassName="active"
+                breakLabel={
+                  <span
+                    className="gap"
+                  >
+                    ...
+                  </span>
+                }
+                containerClassName="pagination"
+                disableInitialCallback={false}
+                disabledClassName="disabled"
+                forcePage={0}
+                marginPagesDisplayed={3}
+                nextClassName="next"
+                nextLabel="Next →"
+                nextLinkClassName="next_page"
+                onPageChange={[Function]}
+                pageCount={10}
+                pageRangeDisplayed={2}
+                previousClassName="previous"
+                previousLabel="← Previous"
+                previousLinkClassName="previous_page"
+              />
             </div>,
           ],
           "className": "images-uploads content-container",
@@ -1288,6 +1438,30 @@ ShallowWrapper {
                     viewPhoto={[Function]}
                   />
                 </div>,
+                <PaginationBoxView
+                  activeClassName="active"
+                  breakLabel={
+                    <span
+                      className="gap"
+                    >
+                      ...
+                    </span>
+                  }
+                  containerClassName="pagination"
+                  disableInitialCallback={false}
+                  disabledClassName="disabled"
+                  forcePage={0}
+                  marginPagesDisplayed={3}
+                  nextClassName="next"
+                  nextLabel="Next →"
+                  nextLinkClassName="next_page"
+                  onPageChange={[Function]}
+                  pageCount={10}
+                  pageRangeDisplayed={2}
+                  previousClassName="previous"
+                  previousLabel="← Previous"
+                  previousLinkClassName="previous_page"
+                />,
               ],
               "className": "wrap-collapsible",
             },
@@ -1770,6 +1944,36 @@ ShallowWrapper {
                   },
                 ],
                 "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "activeClassName": "active",
+                  "breakLabel": <span
+                    className="gap"
+                  >
+                    ...
+                  </span>,
+                  "containerClassName": "pagination",
+                  "disableInitialCallback": false,
+                  "disabledClassName": "disabled",
+                  "forcePage": 0,
+                  "marginPagesDisplayed": 3,
+                  "nextClassName": "next",
+                  "nextLabel": "Next →",
+                  "nextLinkClassName": "next_page",
+                  "onPageChange": [Function],
+                  "pageCount": 10,
+                  "pageRangeDisplayed": 2,
+                  "previousClassName": "previous",
+                  "previousLabel": "← Previous",
+                  "previousLinkClassName": "previous_page",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
               },
             ],
             "type": "div",

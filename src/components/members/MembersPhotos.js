@@ -1,5 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
+import ReactPaginate from 'react-paginate';
 import Spinner from '../../common/Spinner';
 import { getMemberUploads, postMemberUploads, deleteMemberUploads } from '../../actions/uploadActions';
 import MemberPhotoItem from '../../components/members/MemberPhotoItem';
@@ -14,14 +15,18 @@ export class MemberPhoto extends React.Component {
         this.state = {
             file: null,
             description: '',
-            errors: {}
+            errors: {},
+            offset: 0,
+            data: [],
+            perPage: 16,
+            currentPage: 0
         };
     };
 
     componentDidMount() {
         this.props.getMemberUploads();
     }
-
+    
     onChange = (e) => {
         this.setState({ file: e.target.files[0] })  
     };
@@ -70,9 +75,34 @@ export class MemberPhoto extends React.Component {
         console.log("Lets see the photo", this.props.uploads.uploads[id]._id);
     }
 
+    handlePageClick = (data) => {
+        let selectedPage = data.selected
+        let offset = Math.ceil(selectedPage * this.state.perPage);
+        console.log('Selected Page', selectedPage, 'Offset', offset);
+        this.setState({ currentPage: selectedPage, offset: offset},
+            () => { this.setElementsForCurrentPage();
+        });
+    }
+
+    setElementsForCurrentPage = () => {
+
+
+
+        return this.props.uploads.uploads.slice(this.state.offset, this.state.offset + this.state.perPage).map(((upload, key) => {
+            return <MemberPhotoItem 
+                    key={upload._id}
+                    filename={upload.filename}
+                    date={upload.date}
+                    description={upload.description}
+                    onUploadDelete={this.onUploadDelete.bind(this, key)}
+                    viewPhoto={this.viewPhoto.bind(this, key)}
+                />
+        }))
+    }
+
     render() {
 
-        let album;
+        let album, pageCount, paginationElement;
 
         const { uploads, loading } = this.props.uploads;
 
@@ -80,18 +110,28 @@ export class MemberPhoto extends React.Component {
             album = <Spinner />
         } else {
             if(uploads.length > 0) {
-                album = uploads.map(((upload, key) => {
-                    return <MemberPhotoItem 
-                            key={upload._id}
-                            filename={upload.filename}
-                            date={upload.date}
-                            description={upload.description}
-                            onUploadDelete={this.onUploadDelete.bind(this, key)}
-                            viewPhoto={this.viewPhoto.bind(this, key)}
-                        />
-                }))
+                pageCount = Math.ceil(uploads.length / this.state.perPage);
+                album = this.setElementsForCurrentPage();
+                // console.log("Album results", album);
             } else {
                 album = <h4>No uploads found....</h4>
+            }
+            if(pageCount > 0) {
+                paginationElement = (
+                    <ReactPaginate
+                        previousLabel={"← Previous"}
+                        nextLabel={"Next →"}
+                        breakLabel={<span className="gap">...</span>}
+                        pageCount={this.state.pageCount}
+                        onPageChange={this.handlePageClick}
+                        forcePage={this.state.currentPage}
+                        containerClassName={"pagination"}
+                        previousLinkClassName={"previous_page"}
+                        nextLinkClassName={"next_page"}
+                        disabledClassName={"disabled"}
+                        activeClassName={"active"}
+                    />
+                )
             }
         }
         
@@ -124,6 +164,7 @@ export class MemberPhoto extends React.Component {
                         <div className="image-container">
                             {album}
                         </div>
+                        {paginationElement}
                     </div>
                 </div>
             </div>

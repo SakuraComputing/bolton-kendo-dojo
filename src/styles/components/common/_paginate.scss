@@ -1,0 +1,41 @@
+.pagination {
+    width: 100%;
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    li {
+        list-style: none;
+        display: inline-block;
+        padding: 10px 20px;
+        justify-content: center;
+        align-items: center;
+        border: solid 1px $blue_black;
+        color: $blue-black;
+        background-color: $light-orange;
+        transition: 0.2s;
+    }
+
+    li:active {
+        background-color: $color__primary;
+    }
+
+    li:hover {
+        background-color: $dark-orange;
+    }
+
+    .previous_page, .next_page {
+        outline: none;
+    }
+}
+
+.active {
+    background-color: $color__primary;
+}
+
+
+
+  

@@ -22,7 +22,11 @@ describe('Member Photos', () => {
         expect(photo.state()).toEqual({
             file: null,
             description: '',
-            errors: {}
+            errors: {},
+            offset: 0,
+            data: [],
+            perPage: 16,
+            currentPage: 0
         });
     });
     
