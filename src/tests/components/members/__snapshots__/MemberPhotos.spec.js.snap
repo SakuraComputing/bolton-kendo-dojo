@@ -110,6 +110,23 @@ ShallowWrapper {
                 <div
                   className="image-header-container"
                 >
+                  <input
+                    className="upload-title input-box"
+                    name="title"
+                    onChange={[Function]}
+                    type="text"
+                    value=""
+                  />
+                  <label
+                    className="upload-label"
+                    htmlFor="title"
+                  >
+                    Title
+                  </label>
+                </div>
+                <div
+                  className="image-header-container"
+                >
                   <textarea
                     className="upload-text input-box"
                     col="3"
@@ -124,22 +141,6 @@ ShallowWrapper {
                     htmlFor="description"
                   >
                     Add Photo Description
-                  </label>
-                </div>
-                <div
-                  className="image-header-container"
-                >
-                  <input
-                    className="input-box"
-                    name="title"
-                    type="text"
-                    value=""
-                  />
-                  <label
-                    className="upload-label"
-                    htmlFor="title"
-                  >
-                    Title
                   </label>
                 </div>
                 <div
@@ -268,6 +269,23 @@ ShallowWrapper {
                   <div
                     className="image-header-container"
                   >
+                    <input
+                      className="upload-title input-box"
+                      name="title"
+                      onChange={[Function]}
+                      type="text"
+                      value=""
+                    />
+                    <label
+                      className="upload-label"
+                      htmlFor="title"
+                    >
+                      Title
+                    </label>
+                  </div>
+                  <div
+                    className="image-header-container"
+                  >
                     <textarea
                       className="upload-text input-box"
                       col="3"
@@ -282,22 +300,6 @@ ShallowWrapper {
                       htmlFor="description"
                     >
                       Add Photo Description
-                    </label>
-                  </div>
-                  <div
-                    className="image-header-container"
-                  >
-                    <input
-                      className="input-box"
-                      name="title"
-                      type="text"
-                      value=""
-                    />
-                    <label
-                      className="upload-label"
-                      htmlFor="title"
-                    >
-                      Title
                     </label>
                   </div>
                   <div
@@ -440,6 +442,23 @@ ShallowWrapper {
                     <div
                       className="image-header-container"
                     >
+                      <input
+                        className="upload-title input-box"
+                        name="title"
+                        onChange={[Function]}
+                        type="text"
+                        value=""
+                      />
+                      <label
+                        className="upload-label"
+                        htmlFor="title"
+                      >
+                        Title
+                      </label>
+                    </div>
+                    <div
+                      className="image-header-container"
+                    >
                       <textarea
                         className="upload-text input-box"
                         col="3"
@@ -454,22 +473,6 @@ ShallowWrapper {
                         htmlFor="description"
                       >
                         Add Photo Description
-                      </label>
-                    </div>
-                    <div
-                      className="image-header-container"
-                    >
-                      <input
-                        className="input-box"
-                        name="title"
-                        type="text"
-                        value=""
-                      />
-                      <label
-                        className="upload-label"
-                        htmlFor="title"
-                      >
-                        Title
                       </label>
                     </div>
                     <div
@@ -601,6 +604,23 @@ ShallowWrapper {
                     <div
                       className="image-header-container"
                     >
+                      <input
+                        className="upload-title input-box"
+                        name="title"
+                        onChange={[Function]}
+                        type="text"
+                        value=""
+                      />
+                      <label
+                        className="upload-label"
+                        htmlFor="title"
+                      >
+                        Title
+                      </label>
+                    </div>
+                    <div
+                      className="image-header-container"
+                    >
                       <textarea
                         className="upload-text input-box"
                         col="3"
@@ -615,22 +635,6 @@ ShallowWrapper {
                         htmlFor="description"
                       >
                         Add Photo Description
-                      </label>
-                    </div>
-                    <div
-                      className="image-header-container"
-                    >
-                      <input
-                        className="input-box"
-                        name="title"
-                        type="text"
-                        value=""
-                      />
-                      <label
-                        className="upload-label"
-                        htmlFor="title"
-                      >
-                        Title
                       </label>
                     </div>
                     <div
@@ -683,6 +687,23 @@ ShallowWrapper {
                     <div
                       className="image-header-container"
                     >
+                      <input
+                        className="upload-title input-box"
+                        name="title"
+                        onChange={[Function]}
+                        type="text"
+                        value=""
+                      />
+                      <label
+                        className="upload-label"
+                        htmlFor="title"
+                      >
+                        Title
+                      </label>
+                    </div>
+                    <div
+                      className="image-header-container"
+                    >
                       <textarea
                         className="upload-text input-box"
                         col="3"
@@ -697,22 +718,6 @@ ShallowWrapper {
                         htmlFor="description"
                       >
                         Add Photo Description
-                      </label>
-                    </div>
-                    <div
-                      className="image-header-container"
-                    >
-                      <input
-                        className="input-box"
-                        name="title"
-                        type="text"
-                        value=""
-                      />
-                      <label
-                        className="upload-label"
-                        htmlFor="title"
-                      >
-                        Title
                       </label>
                     </div>
                     <div
@@ -761,6 +766,23 @@ ShallowWrapper {
                       <div
                         className="image-header-container"
                       >
+                        <input
+                          className="upload-title input-box"
+                          name="title"
+                          onChange={[Function]}
+                          type="text"
+                          value=""
+                        />
+                        <label
+                          className="upload-label"
+                          htmlFor="title"
+                        >
+                          Title
+                        </label>
+                      </div>,
+                      <div
+                        className="image-header-container"
+                      >
                         <textarea
                           className="upload-text input-box"
                           col="3"
@@ -775,22 +797,6 @@ ShallowWrapper {
                           htmlFor="description"
                         >
                           Add Photo Description
-                        </label>
-                      </div>,
-                      <div
-                        className="image-header-container"
-                      >
-                        <input
-                          className="input-box"
-                          name="title"
-                          type="text"
-                          value=""
-                        />
-                        <label
-                          className="upload-label"
-                          htmlFor="title"
-                        >
-                          Title
                         </label>
                       </div>,
                       <div
@@ -876,6 +882,61 @@ ShallowWrapper {
                       "nodeType": "host",
                       "props": Object {
                         "children": Array [
+                          <input
+                            className="upload-title input-box"
+                            name="title"
+                            onChange={[Function]}
+                            type="text"
+                            value=""
+                          />,
+                          <label
+                            className="upload-label"
+                            htmlFor="title"
+                          >
+                            Title
+                          </label>,
+                        ],
+                        "className": "image-header-container",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "className": "upload-title input-box",
+                            "name": "title",
+                            "onChange": [Function],
+                            "type": "text",
+                            "value": "",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "input",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Title",
+                            "className": "upload-label",
+                            "htmlFor": "title",
+                          },
+                          "ref": null,
+                          "rendered": "Title",
+                          "type": "label",
+                        },
+                      ],
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
                           <textarea
                             className="upload-text input-box"
                             col="3"
@@ -924,60 +985,6 @@ ShallowWrapper {
                           },
                           "ref": null,
                           "rendered": "Add Photo Description",
-                          "type": "label",
-                        },
-                      ],
-                      "type": "div",
-                    },
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": Array [
-                          <input
-                            className="input-box"
-                            name="title"
-                            type="text"
-                            value=""
-                          />,
-                          <label
-                            className="upload-label"
-                            htmlFor="title"
-                          >
-                            Title
-                          </label>,
-                        ],
-                        "className": "image-header-container",
-                      },
-                      "ref": null,
-                      "rendered": Array [
-                        Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "host",
-                          "props": Object {
-                            "className": "input-box",
-                            "name": "title",
-                            "onChange": undefined,
-                            "type": "text",
-                            "value": "",
-                          },
-                          "ref": null,
-                          "rendered": null,
-                          "type": "input",
-                        },
-                        Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "host",
-                          "props": Object {
-                            "children": "Title",
-                            "className": "upload-label",
-                            "htmlFor": "title",
-                          },
-                          "ref": null,
-                          "rendered": "Title",
                           "type": "label",
                         },
                       ],
@@ -1215,6 +1222,23 @@ ShallowWrapper {
                   <div
                     className="image-header-container"
                   >
+                    <input
+                      className="upload-title input-box"
+                      name="title"
+                      onChange={[Function]}
+                      type="text"
+                      value=""
+                    />
+                    <label
+                      className="upload-label"
+                      htmlFor="title"
+                    >
+                      Title
+                    </label>
+                  </div>
+                  <div
+                    className="image-header-container"
+                  >
                     <textarea
                       className="upload-text input-box"
                       col="3"
@@ -1229,22 +1253,6 @@ ShallowWrapper {
                       htmlFor="description"
                     >
                       Add Photo Description
-                    </label>
-                  </div>
-                  <div
-                    className="image-header-container"
-                  >
-                    <input
-                      className="input-box"
-                      name="title"
-                      type="text"
-                      value=""
-                    />
-                    <label
-                      className="upload-label"
-                      htmlFor="title"
-                    >
-                      Title
                     </label>
                   </div>
                   <div
@@ -1373,6 +1381,23 @@ ShallowWrapper {
                     <div
                       className="image-header-container"
                     >
+                      <input
+                        className="upload-title input-box"
+                        name="title"
+                        onChange={[Function]}
+                        type="text"
+                        value=""
+                      />
+                      <label
+                        className="upload-label"
+                        htmlFor="title"
+                      >
+                        Title
+                      </label>
+                    </div>
+                    <div
+                      className="image-header-container"
+                    >
                       <textarea
                         className="upload-text input-box"
                         col="3"
@@ -1387,22 +1412,6 @@ ShallowWrapper {
                         htmlFor="description"
                       >
                         Add Photo Description
-                      </label>
-                    </div>
-                    <div
-                      className="image-header-container"
-                    >
-                      <input
-                        className="input-box"
-                        name="title"
-                        type="text"
-                        value=""
-                      />
-                      <label
-                        className="upload-label"
-                        htmlFor="title"
-                      >
-                        Title
                       </label>
                     </div>
                     <div
@@ -1545,6 +1554,23 @@ ShallowWrapper {
                       <div
                         className="image-header-container"
                       >
+                        <input
+                          className="upload-title input-box"
+                          name="title"
+                          onChange={[Function]}
+                          type="text"
+                          value=""
+                        />
+                        <label
+                          className="upload-label"
+                          htmlFor="title"
+                        >
+                          Title
+                        </label>
+                      </div>
+                      <div
+                        className="image-header-container"
+                      >
                         <textarea
                           className="upload-text input-box"
                           col="3"
@@ -1559,22 +1585,6 @@ ShallowWrapper {
                           htmlFor="description"
                         >
                           Add Photo Description
-                        </label>
-                      </div>
-                      <div
-                        className="image-header-container"
-                      >
-                        <input
-                          className="input-box"
-                          name="title"
-                          type="text"
-                          value=""
-                        />
-                        <label
-                          className="upload-label"
-                          htmlFor="title"
-                        >
-                          Title
                         </label>
                       </div>
                       <div
@@ -1706,6 +1716,23 @@ ShallowWrapper {
                       <div
                         className="image-header-container"
                       >
+                        <input
+                          className="upload-title input-box"
+                          name="title"
+                          onChange={[Function]}
+                          type="text"
+                          value=""
+                        />
+                        <label
+                          className="upload-label"
+                          htmlFor="title"
+                        >
+                          Title
+                        </label>
+                      </div>
+                      <div
+                        className="image-header-container"
+                      >
                         <textarea
                           className="upload-text input-box"
                           col="3"
@@ -1720,22 +1747,6 @@ ShallowWrapper {
                           htmlFor="description"
                         >
                           Add Photo Description
-                        </label>
-                      </div>
-                      <div
-                        className="image-header-container"
-                      >
-                        <input
-                          className="input-box"
-                          name="title"
-                          type="text"
-                          value=""
-                        />
-                        <label
-                          className="upload-label"
-                          htmlFor="title"
-                        >
-                          Title
                         </label>
                       </div>
                       <div
@@ -1788,6 +1799,23 @@ ShallowWrapper {
                       <div
                         className="image-header-container"
                       >
+                        <input
+                          className="upload-title input-box"
+                          name="title"
+                          onChange={[Function]}
+                          type="text"
+                          value=""
+                        />
+                        <label
+                          className="upload-label"
+                          htmlFor="title"
+                        >
+                          Title
+                        </label>
+                      </div>
+                      <div
+                        className="image-header-container"
+                      >
                         <textarea
                           className="upload-text input-box"
                           col="3"
@@ -1802,22 +1830,6 @@ ShallowWrapper {
                           htmlFor="description"
                         >
                           Add Photo Description
-                        </label>
-                      </div>
-                      <div
-                        className="image-header-container"
-                      >
-                        <input
-                          className="input-box"
-                          name="title"
-                          type="text"
-                          value=""
-                        />
-                        <label
-                          className="upload-label"
-                          htmlFor="title"
-                        >
-                          Title
                         </label>
                       </div>
                       <div
@@ -1866,6 +1878,23 @@ ShallowWrapper {
                         <div
                           className="image-header-container"
                         >
+                          <input
+                            className="upload-title input-box"
+                            name="title"
+                            onChange={[Function]}
+                            type="text"
+                            value=""
+                          />
+                          <label
+                            className="upload-label"
+                            htmlFor="title"
+                          >
+                            Title
+                          </label>
+                        </div>,
+                        <div
+                          className="image-header-container"
+                        >
                           <textarea
                             className="upload-text input-box"
                             col="3"
@@ -1880,22 +1909,6 @@ ShallowWrapper {
                             htmlFor="description"
                           >
                             Add Photo Description
-                          </label>
-                        </div>,
-                        <div
-                          className="image-header-container"
-                        >
-                          <input
-                            className="input-box"
-                            name="title"
-                            type="text"
-                            value=""
-                          />
-                          <label
-                            className="upload-label"
-                            htmlFor="title"
-                          >
-                            Title
                           </label>
                         </div>,
                         <div
@@ -1981,6 +1994,61 @@ ShallowWrapper {
                         "nodeType": "host",
                         "props": Object {
                           "children": Array [
+                            <input
+                              className="upload-title input-box"
+                              name="title"
+                              onChange={[Function]}
+                              type="text"
+                              value=""
+                            />,
+                            <label
+                              className="upload-label"
+                              htmlFor="title"
+                            >
+                              Title
+                            </label>,
+                          ],
+                          "className": "image-header-container",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "className": "upload-title input-box",
+                              "name": "title",
+                              "onChange": [Function],
+                              "type": "text",
+                              "value": "",
+                            },
+                            "ref": null,
+                            "rendered": null,
+                            "type": "input",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Title",
+                              "className": "upload-label",
+                              "htmlFor": "title",
+                            },
+                            "ref": null,
+                            "rendered": "Title",
+                            "type": "label",
+                          },
+                        ],
+                        "type": "div",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
                             <textarea
                               className="upload-text input-box"
                               col="3"
@@ -2029,60 +2097,6 @@ ShallowWrapper {
                             },
                             "ref": null,
                             "rendered": "Add Photo Description",
-                            "type": "label",
-                          },
-                        ],
-                        "type": "div",
-                      },
-                      Object {
-                        "instance": null,
-                        "key": undefined,
-                        "nodeType": "host",
-                        "props": Object {
-                          "children": Array [
-                            <input
-                              className="input-box"
-                              name="title"
-                              type="text"
-                              value=""
-                            />,
-                            <label
-                              className="upload-label"
-                              htmlFor="title"
-                            >
-                              Title
-                            </label>,
-                          ],
-                          "className": "image-header-container",
-                        },
-                        "ref": null,
-                        "rendered": Array [
-                          Object {
-                            "instance": null,
-                            "key": undefined,
-                            "nodeType": "host",
-                            "props": Object {
-                              "className": "input-box",
-                              "name": "title",
-                              "onChange": undefined,
-                              "type": "text",
-                              "value": "",
-                            },
-                            "ref": null,
-                            "rendered": null,
-                            "type": "input",
-                          },
-                          Object {
-                            "instance": null,
-                            "key": undefined,
-                            "nodeType": "host",
-                            "props": Object {
-                              "children": "Title",
-                              "className": "upload-label",
-                              "htmlFor": "title",
-                            },
-                            "ref": null,
-                            "rendered": "Title",
                             "type": "label",
                           },
                         ],

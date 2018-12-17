@@ -33,6 +33,10 @@ export class MemberPhoto extends React.Component {
         this.setState({ file: e.target.files[0] })  
     };
 
+    onTitleChange = (e) => {
+        this.setState({ title: e.target.value })
+    }
+
     onDescriptionChange = (e) => {
         this.setState({ description: e.target.value })
     }
@@ -144,13 +148,12 @@ export class MemberPhoto extends React.Component {
                                         <input type="file" accept=".jpg,.jpeg,.png,.bmp,.gif" name="image" id="upload-file" onChange={this.onChange} />
                                     </div>
                                     <div className="image-header-container">
-                                        <textarea rows="2" col="3" value={this.state.description} className="upload-text input-box" type="text" name="description" onChange={this.onDescriptionChange}/>
-                                        <label className="upload-label" htmlFor="description" >Add Photo Description</label>
+                                        <input value={this.state.title} className="upload-title input-box" type="text" name="title" onChange={this.onTitleChange}/>
+                                        <label className="upload-label" htmlFor="title" >Title</label>
                                     </div>
                                     <div className="image-header-container">
-                                        <input value={this.state.title} className="input-box" type="text" name="title" onChange={this.onTitleChange}/>
-                                        <label className="upload-label" htmlFor="title" >Title</label>
-
+                                        <textarea rows="2" col="3" value={this.state.description} className="upload-text input-box" type="text" name="description" onChange={this.onDescriptionChange}/>
+                                        <label className="upload-label" htmlFor="description" >Add Photo Description</label>
                                     </div>
                                     <div className="image-header-container">
                                         <label className="upload-label" htmlFor="submit">Upload Photo</label>

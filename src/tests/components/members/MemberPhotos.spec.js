@@ -37,14 +37,14 @@ describe('Member Photos', () => {
             const title = 'New Title';
 
             beforeEach(() => {
-                photo.find('.upload-title'.simulate('change', { target: { value: title }}))
+                photo.find('.upload-title').simulate('change', { target: { value: title }})
             })
             it('should accept an input on the title', () => {
                 expect(photo.state().title).toEqual(title);
             });
         });
         describe('When typing in the description field', () => { 
-            const description = 'New Phtoto';
+            const description = 'New Photo';
     
             beforeEach(() => {
                 photo.find('.upload-text').simulate('change', { target: { value: description }});
