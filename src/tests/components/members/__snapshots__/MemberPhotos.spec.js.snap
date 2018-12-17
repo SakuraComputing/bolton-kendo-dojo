@@ -153,21 +153,18 @@ ShallowWrapper {
               description="Kendo Photo Details"
               filename="image-1543168184113.png"
               onUploadDelete={[Function]}
-              viewPhoto={[Function]}
             />
             <MemberPhotoItem
               date="2018-11-21T17:58:42.652Z"
               description="More Details"
               filename="image-0000000000.png"
               onUploadDelete={[Function]}
-              viewPhoto={[Function]}
             />
             <MemberPhotoItem
               date="2018-11-11T17:58:42.652Z"
               description="Extra Details"
               filename="image-3333333333.png"
               onUploadDelete={[Function]}
-              viewPhoto={[Function]}
             />
           </div>
           <PaginationBoxView
@@ -188,7 +185,7 @@ ShallowWrapper {
             nextLabel="Next →"
             nextLinkClassName="next_page"
             onPageChange={[Function]}
-            pageCount={10}
+            pageCount={1}
             pageRangeDisplayed={2}
             previousClassName="previous"
             previousLabel="← Previous"
@@ -297,21 +294,18 @@ ShallowWrapper {
                 description="Kendo Photo Details"
                 filename="image-1543168184113.png"
                 onUploadDelete={[Function]}
-                viewPhoto={[Function]}
               />
               <MemberPhotoItem
                 date="2018-11-21T17:58:42.652Z"
                 description="More Details"
                 filename="image-0000000000.png"
                 onUploadDelete={[Function]}
-                viewPhoto={[Function]}
               />
               <MemberPhotoItem
                 date="2018-11-11T17:58:42.652Z"
                 description="Extra Details"
                 filename="image-3333333333.png"
                 onUploadDelete={[Function]}
-                viewPhoto={[Function]}
               />
             </div>
             <PaginationBoxView
@@ -332,7 +326,7 @@ ShallowWrapper {
               nextLabel="Next →"
               nextLinkClassName="next_page"
               onPageChange={[Function]}
-              pageCount={10}
+              pageCount={1}
               pageRangeDisplayed={2}
               previousClassName="previous"
               previousLabel="← Previous"
@@ -455,21 +449,18 @@ ShallowWrapper {
                   description="Kendo Photo Details"
                   filename="image-1543168184113.png"
                   onUploadDelete={[Function]}
-                  viewPhoto={[Function]}
                 />
                 <MemberPhotoItem
                   date="2018-11-21T17:58:42.652Z"
                   description="More Details"
                   filename="image-0000000000.png"
                   onUploadDelete={[Function]}
-                  viewPhoto={[Function]}
                 />
                 <MemberPhotoItem
                   date="2018-11-11T17:58:42.652Z"
                   description="Extra Details"
                   filename="image-3333333333.png"
                   onUploadDelete={[Function]}
-                  viewPhoto={[Function]}
                 />
               </div>,
               <PaginationBoxView
@@ -490,7 +481,7 @@ ShallowWrapper {
                 nextLabel="Next →"
                 nextLinkClassName="next_page"
                 onPageChange={[Function]}
-                pageCount={10}
+                pageCount={1}
                 pageRangeDisplayed={2}
                 previousClassName="previous"
                 previousLabel="← Previous"
@@ -910,21 +901,18 @@ ShallowWrapper {
                     description="Kendo Photo Details"
                     filename="image-1543168184113.png"
                     onUploadDelete={[Function]}
-                    viewPhoto={[Function]}
                   />,
                   <MemberPhotoItem
                     date="2018-11-21T17:58:42.652Z"
                     description="More Details"
                     filename="image-0000000000.png"
                     onUploadDelete={[Function]}
-                    viewPhoto={[Function]}
                   />,
                   <MemberPhotoItem
                     date="2018-11-11T17:58:42.652Z"
                     description="Extra Details"
                     filename="image-3333333333.png"
                     onUploadDelete={[Function]}
-                    viewPhoto={[Function]}
                   />,
                 ],
                 "className": "image-container",
@@ -940,7 +928,6 @@ ShallowWrapper {
                     "description": "Kendo Photo Details",
                     "filename": "image-1543168184113.png",
                     "onUploadDelete": [Function],
-                    "viewPhoto": [Function],
                   },
                   "ref": null,
                   "rendered": null,
@@ -955,7 +942,6 @@ ShallowWrapper {
                     "description": "More Details",
                     "filename": "image-0000000000.png",
                     "onUploadDelete": [Function],
-                    "viewPhoto": [Function],
                   },
                   "ref": null,
                   "rendered": null,
@@ -970,7 +956,6 @@ ShallowWrapper {
                     "description": "Extra Details",
                     "filename": "image-3333333333.png",
                     "onUploadDelete": [Function],
-                    "viewPhoto": [Function],
                   },
                   "ref": null,
                   "rendered": null,
@@ -999,7 +984,7 @@ ShallowWrapper {
                 "nextLabel": "Next →",
                 "nextLinkClassName": "next_page",
                 "onPageChange": [Function],
-                "pageCount": 10,
+                "pageCount": 1,
                 "pageRangeDisplayed": 2,
                 "previousClassName": "previous",
                 "previousLabel": "← Previous",
@@ -1119,21 +1104,18 @@ ShallowWrapper {
                 description="Kendo Photo Details"
                 filename="image-1543168184113.png"
                 onUploadDelete={[Function]}
-                viewPhoto={[Function]}
               />
               <MemberPhotoItem
                 date="2018-11-21T17:58:42.652Z"
                 description="More Details"
                 filename="image-0000000000.png"
                 onUploadDelete={[Function]}
-                viewPhoto={[Function]}
               />
               <MemberPhotoItem
                 date="2018-11-11T17:58:42.652Z"
                 description="Extra Details"
                 filename="image-3333333333.png"
                 onUploadDelete={[Function]}
-                viewPhoto={[Function]}
               />
             </div>
             <PaginationBoxView
@@ -1154,7 +1136,7 @@ ShallowWrapper {
               nextLabel="Next →"
               nextLinkClassName="next_page"
               onPageChange={[Function]}
-              pageCount={10}
+              pageCount={1}
               pageRangeDisplayed={2}
               previousClassName="previous"
               previousLabel="← Previous"
@@ -1263,21 +1245,18 @@ ShallowWrapper {
                   description="Kendo Photo Details"
                   filename="image-1543168184113.png"
                   onUploadDelete={[Function]}
-                  viewPhoto={[Function]}
                 />
                 <MemberPhotoItem
                   date="2018-11-21T17:58:42.652Z"
                   description="More Details"
                   filename="image-0000000000.png"
                   onUploadDelete={[Function]}
-                  viewPhoto={[Function]}
                 />
                 <MemberPhotoItem
                   date="2018-11-11T17:58:42.652Z"
                   description="Extra Details"
                   filename="image-3333333333.png"
                   onUploadDelete={[Function]}
-                  viewPhoto={[Function]}
                 />
               </div>
               <PaginationBoxView
@@ -1298,7 +1277,7 @@ ShallowWrapper {
                 nextLabel="Next →"
                 nextLinkClassName="next_page"
                 onPageChange={[Function]}
-                pageCount={10}
+                pageCount={1}
                 pageRangeDisplayed={2}
                 previousClassName="previous"
                 previousLabel="← Previous"
@@ -1421,21 +1400,18 @@ ShallowWrapper {
                     description="Kendo Photo Details"
                     filename="image-1543168184113.png"
                     onUploadDelete={[Function]}
-                    viewPhoto={[Function]}
                   />
                   <MemberPhotoItem
                     date="2018-11-21T17:58:42.652Z"
                     description="More Details"
                     filename="image-0000000000.png"
                     onUploadDelete={[Function]}
-                    viewPhoto={[Function]}
                   />
                   <MemberPhotoItem
                     date="2018-11-11T17:58:42.652Z"
                     description="Extra Details"
                     filename="image-3333333333.png"
                     onUploadDelete={[Function]}
-                    viewPhoto={[Function]}
                   />
                 </div>,
                 <PaginationBoxView
@@ -1456,7 +1432,7 @@ ShallowWrapper {
                   nextLabel="Next →"
                   nextLinkClassName="next_page"
                   onPageChange={[Function]}
-                  pageCount={10}
+                  pageCount={1}
                   pageRangeDisplayed={2}
                   previousClassName="previous"
                   previousLabel="← Previous"
@@ -1876,21 +1852,18 @@ ShallowWrapper {
                       description="Kendo Photo Details"
                       filename="image-1543168184113.png"
                       onUploadDelete={[Function]}
-                      viewPhoto={[Function]}
                     />,
                     <MemberPhotoItem
                       date="2018-11-21T17:58:42.652Z"
                       description="More Details"
                       filename="image-0000000000.png"
                       onUploadDelete={[Function]}
-                      viewPhoto={[Function]}
                     />,
                     <MemberPhotoItem
                       date="2018-11-11T17:58:42.652Z"
                       description="Extra Details"
                       filename="image-3333333333.png"
                       onUploadDelete={[Function]}
-                      viewPhoto={[Function]}
                     />,
                   ],
                   "className": "image-container",
@@ -1906,7 +1879,6 @@ ShallowWrapper {
                       "description": "Kendo Photo Details",
                       "filename": "image-1543168184113.png",
                       "onUploadDelete": [Function],
-                      "viewPhoto": [Function],
                     },
                     "ref": null,
                     "rendered": null,
@@ -1921,7 +1893,6 @@ ShallowWrapper {
                       "description": "More Details",
                       "filename": "image-0000000000.png",
                       "onUploadDelete": [Function],
-                      "viewPhoto": [Function],
                     },
                     "ref": null,
                     "rendered": null,
@@ -1936,7 +1907,6 @@ ShallowWrapper {
                       "description": "Extra Details",
                       "filename": "image-3333333333.png",
                       "onUploadDelete": [Function],
-                      "viewPhoto": [Function],
                     },
                     "ref": null,
                     "rendered": null,
@@ -1965,7 +1935,7 @@ ShallowWrapper {
                   "nextLabel": "Next →",
                   "nextLinkClassName": "next_page",
                   "onPageChange": [Function],
-                  "pageCount": 10,
+                  "pageCount": 1,
                   "pageRangeDisplayed": 2,
                   "previousClassName": "previous",
                   "previousLabel": "← Previous",

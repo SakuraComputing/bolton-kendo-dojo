@@ -71,23 +71,15 @@ export class MemberPhoto extends React.Component {
         })
     }
 
-    viewPhoto = (id) => {
-        console.log("Lets see the photo", this.props.uploads.uploads[id]._id);
-    }
-
     handlePageClick = (data) => {
         let selectedPage = data.selected
         let offset = Math.ceil(selectedPage * this.state.perPage);
-        console.log('Selected Page', selectedPage, 'Offset', offset);
         this.setState({ currentPage: selectedPage, offset: offset},
             () => { this.setElementsForCurrentPage();
         });
     }
 
     setElementsForCurrentPage = () => {
-
-
-
         return this.props.uploads.uploads.slice(this.state.offset, this.state.offset + this.state.perPage).map(((upload, key) => {
             return <MemberPhotoItem 
                     key={upload._id}
@@ -95,7 +87,6 @@ export class MemberPhoto extends React.Component {
                     date={upload.date}
                     description={upload.description}
                     onUploadDelete={this.onUploadDelete.bind(this, key)}
-                    viewPhoto={this.viewPhoto.bind(this, key)}
                 />
         }))
     }
@@ -112,7 +103,6 @@ export class MemberPhoto extends React.Component {
             if(uploads.length > 0) {
                 pageCount = Math.ceil(uploads.length / this.state.perPage);
                 album = this.setElementsForCurrentPage();
-                // console.log("Album results", album);
             } else {
                 album = <h4>No uploads found....</h4>
             }
@@ -122,7 +112,7 @@ export class MemberPhoto extends React.Component {
                         previousLabel={"← Previous"}
                         nextLabel={"Next →"}
                         breakLabel={<span className="gap">...</span>}
-                        pageCount={this.state.pageCount}
+                        pageCount={pageCount}
                         onPageChange={this.handlePageClick}
                         forcePage={this.state.currentPage}
                         containerClassName={"pagination"}
