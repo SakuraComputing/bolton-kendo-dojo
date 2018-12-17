@@ -180,6 +180,7 @@ ShallowWrapper {
             disableInitialCallback={false}
             disabledClassName="disabled"
             forcePage={0}
+            initialPage={0}
             marginPagesDisplayed={3}
             nextClassName="next"
             nextLabel="Next →"
@@ -188,7 +189,7 @@ ShallowWrapper {
             pageCount={1}
             pageRangeDisplayed={2}
             previousClassName="previous"
-            previousLabel="← Previous"
+            previousLabel="← Prev"
             previousLinkClassName="previous_page"
           />
         </div>
@@ -321,6 +322,7 @@ ShallowWrapper {
               disableInitialCallback={false}
               disabledClassName="disabled"
               forcePage={0}
+              initialPage={0}
               marginPagesDisplayed={3}
               nextClassName="next"
               nextLabel="Next →"
@@ -329,7 +331,7 @@ ShallowWrapper {
               pageCount={1}
               pageRangeDisplayed={2}
               previousClassName="previous"
-              previousLabel="← Previous"
+              previousLabel="← Prev"
               previousLinkClassName="previous_page"
             />
           </div>,
@@ -476,6 +478,7 @@ ShallowWrapper {
                 disableInitialCallback={false}
                 disabledClassName="disabled"
                 forcePage={0}
+                initialPage={0}
                 marginPagesDisplayed={3}
                 nextClassName="next"
                 nextLabel="Next →"
@@ -484,7 +487,7 @@ ShallowWrapper {
                 pageCount={1}
                 pageRangeDisplayed={2}
                 previousClassName="previous"
-                previousLabel="← Previous"
+                previousLabel="← Prev"
                 previousLinkClassName="previous_page"
               />,
             ],
@@ -979,6 +982,7 @@ ShallowWrapper {
                 "disableInitialCallback": false,
                 "disabledClassName": "disabled",
                 "forcePage": 0,
+                "initialPage": 0,
                 "marginPagesDisplayed": 3,
                 "nextClassName": "next",
                 "nextLabel": "Next →",
@@ -987,7 +991,7 @@ ShallowWrapper {
                 "pageCount": 1,
                 "pageRangeDisplayed": 2,
                 "previousClassName": "previous",
-                "previousLabel": "← Previous",
+                "previousLabel": "← Prev",
                 "previousLinkClassName": "previous_page",
               },
               "ref": null,
@@ -1131,6 +1135,7 @@ ShallowWrapper {
               disableInitialCallback={false}
               disabledClassName="disabled"
               forcePage={0}
+              initialPage={0}
               marginPagesDisplayed={3}
               nextClassName="next"
               nextLabel="Next →"
@@ -1139,7 +1144,7 @@ ShallowWrapper {
               pageCount={1}
               pageRangeDisplayed={2}
               previousClassName="previous"
-              previousLabel="← Previous"
+              previousLabel="← Prev"
               previousLinkClassName="previous_page"
             />
           </div>
@@ -1272,6 +1277,7 @@ ShallowWrapper {
                 disableInitialCallback={false}
                 disabledClassName="disabled"
                 forcePage={0}
+                initialPage={0}
                 marginPagesDisplayed={3}
                 nextClassName="next"
                 nextLabel="Next →"
@@ -1280,7 +1286,7 @@ ShallowWrapper {
                 pageCount={1}
                 pageRangeDisplayed={2}
                 previousClassName="previous"
-                previousLabel="← Previous"
+                previousLabel="← Prev"
                 previousLinkClassName="previous_page"
               />
             </div>,
@@ -1427,6 +1433,7 @@ ShallowWrapper {
                   disableInitialCallback={false}
                   disabledClassName="disabled"
                   forcePage={0}
+                  initialPage={0}
                   marginPagesDisplayed={3}
                   nextClassName="next"
                   nextLabel="Next →"
@@ -1435,7 +1442,7 @@ ShallowWrapper {
                   pageCount={1}
                   pageRangeDisplayed={2}
                   previousClassName="previous"
-                  previousLabel="← Previous"
+                  previousLabel="← Prev"
                   previousLinkClassName="previous_page"
                 />,
               ],
@@ -1930,6 +1937,7 @@ ShallowWrapper {
                   "disableInitialCallback": false,
                   "disabledClassName": "disabled",
                   "forcePage": 0,
+                  "initialPage": 0,
                   "marginPagesDisplayed": 3,
                   "nextClassName": "next",
                   "nextLabel": "Next →",
@@ -1938,7 +1946,7 @@ ShallowWrapper {
                   "pageCount": 1,
                   "pageRangeDisplayed": 2,
                   "previousClassName": "previous",
-                  "previousLabel": "← Previous",
+                  "previousLabel": "← Prev",
                   "previousLinkClassName": "previous_page",
                 },
                 "ref": null,

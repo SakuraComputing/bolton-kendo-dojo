@@ -29,7 +29,7 @@ class MemberPhotoItem extends Component {
             <div className="image-frame">
                 <img className="image-item" src={`uploads/${this.props.filename}`} alt="photoU" />
                 <div>
-                    {this.props.description}
+                    {this.props.title}
                 </div>
 
                 <MemberPhotoViewer 
@@ -39,6 +39,7 @@ class MemberPhotoItem extends Component {
                     <div>
                         <img className="image-item" src={`uploads/${this.props.filename}`} alt="photoU" />
                     </div>
+                    <p>{this.props.title}</p>
                     <p>Date Added: {Moment(this.props.date).format('Do MMMM YYYY')}</p>
                     <p>{this.props.description}</p>
                 </MemberPhotoViewer>

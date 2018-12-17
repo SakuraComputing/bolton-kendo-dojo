@@ -109,7 +109,8 @@ export class MemberPhoto extends React.Component {
             if(pageCount > 0) {
                 paginationElement = (
                     <ReactPaginate
-                        previousLabel={"← Previous"}
+                        initialPage={0}
+                        previousLabel={"← Prev"}
                         nextLabel={"Next →"}
                         breakLabel={<span className="gap">...</span>}
                         pageCount={pageCount}

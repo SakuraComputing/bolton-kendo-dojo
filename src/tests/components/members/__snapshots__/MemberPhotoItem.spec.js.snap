@@ -37,9 +37,10 @@ ShallowWrapper {
               src="uploads/undefined"
             />
           </div>
+          <p />
           <p>
             Date Added: 
-            14th December 2018
+            17th December 2018
           </p>
           <p />
         </MemberPhotoViewer>,
@@ -97,9 +98,10 @@ ShallowWrapper {
                 src="uploads/undefined"
               />
             </div>,
+            <p />,
             <p>
               Date Added: 
-              14th December 2018
+              17th December 2018
             </p>,
             <p />,
           ],
@@ -140,15 +142,26 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
+              "children": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
               "children": Array [
                 "Date Added: ",
-                "14th December 2018",
+                "17th December 2018",
               ],
             },
             "ref": null,
             "rendered": Array [
               "Date Added: ",
-              "14th December 2018",
+              "17th December 2018",
             ],
             "type": "p",
           },
@@ -219,9 +232,10 @@ ShallowWrapper {
                 src="uploads/undefined"
               />
             </div>
+            <p />
             <p>
               Date Added: 
-              14th December 2018
+              17th December 2018
             </p>
             <p />
           </MemberPhotoViewer>,
@@ -279,9 +293,10 @@ ShallowWrapper {
                   src="uploads/undefined"
                 />
               </div>,
+              <p />,
               <p>
                 Date Added: 
-                14th December 2018
+                17th December 2018
               </p>,
               <p />,
             ],
@@ -322,15 +337,26 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
+                "children": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
                 "children": Array [
                   "Date Added: ",
-                  "14th December 2018",
+                  "17th December 2018",
                 ],
               },
               "ref": null,
               "rendered": Array [
                 "Date Added: ",
-                "14th December 2018",
+                "17th December 2018",
               ],
               "type": "p",
             },
