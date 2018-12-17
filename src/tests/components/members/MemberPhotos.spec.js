@@ -21,7 +21,9 @@ describe('Member Photos', () => {
     it('should initialise present in `state`', () => {
         expect(photo.state()).toEqual({
             file: null,
+            title: '',
             description: '',
+            dateTaken: '',
             errors: {},
             offset: 0,
             data: [],
@@ -31,6 +33,16 @@ describe('Member Photos', () => {
     });
     
     describe('Form Handling', () => {
+        describe('When typing into the title field', () => {
+            const title = 'New Title';
+
+            beforeEach(() => {
+                photo.find('.upload-title'.simulate('change', { target: { value: title }}))
+            })
+            it('should accept an input on the title', () => {
+                expect(photo.state().title).toEqual(title);
+            });
+        });
         describe('When typing in the description field', () => { 
             const description = 'New Phtoto';
     

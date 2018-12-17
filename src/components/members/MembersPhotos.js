@@ -14,7 +14,9 @@ export class MemberPhoto extends React.Component {
         super(props);
         this.state = {
             file: null,
+            title: '',
             description: '',
+            dateTaken: '',
             errors: {},
             offset: 0,
             data: [],
@@ -144,6 +146,11 @@ export class MemberPhoto extends React.Component {
                                     <div className="image-header-container">
                                         <textarea rows="2" col="3" value={this.state.description} className="upload-text input-box" type="text" name="description" onChange={this.onDescriptionChange}/>
                                         <label className="upload-label" htmlFor="description" >Add Photo Description</label>
+                                    </div>
+                                    <div className="image-header-container">
+                                        <input value={this.state.title} className="input-box" type="text" name="title" onChange={this.onTitleChange}/>
+                                        <label className="upload-label" htmlFor="title" >Title</label>
+
                                     </div>
                                     <div className="image-header-container">
                                         <label className="upload-label" htmlFor="submit">Upload Photo</label>
