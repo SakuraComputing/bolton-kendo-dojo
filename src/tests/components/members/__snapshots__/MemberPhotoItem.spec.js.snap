@@ -44,18 +44,22 @@ ShallowWrapper {
           </p>
           <p />
         </MemberPhotoViewer>,
-        <button
-          className="button-small photo-button"
-          onClick={[Function]}
+        <div
+          className="photo-container"
         >
-          View Photo
-        </button>,
-        <button
-          className="button-small photo-button"
-          onClick={[MockFunction]}
-        >
-          Delete Photo
-        </button>,
+          <button
+            className="button-small photo-button"
+            onClick={[Function]}
+          >
+            View Photo
+          </button>
+          <button
+            className="button-small photo-button"
+            onClick={[MockFunction]}
+          >
+            Delete Photo
+          </button>
+        </div>,
       ],
       "className": "image-frame",
     },
@@ -184,26 +188,52 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "View Photo",
-          "className": "button-small photo-button",
-          "onClick": [Function],
+          "children": Array [
+            <button
+              className="button-small photo-button"
+              onClick={[Function]}
+            >
+              View Photo
+            </button>,
+            <button
+              className="button-small photo-button"
+              onClick={[MockFunction]}
+            >
+              Delete Photo
+            </button>,
+          ],
+          "className": "photo-container",
         },
         "ref": null,
-        "rendered": "View Photo",
-        "type": "button",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "Delete Photo",
-          "className": "button-small photo-button",
-          "onClick": [MockFunction],
-        },
-        "ref": null,
-        "rendered": "Delete Photo",
-        "type": "button",
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "View Photo",
+              "className": "button-small photo-button",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "View Photo",
+            "type": "button",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Delete Photo",
+              "className": "button-small photo-button",
+              "onClick": [MockFunction],
+            },
+            "ref": null,
+            "rendered": "Delete Photo",
+            "type": "button",
+          },
+        ],
+        "type": "div",
       },
     ],
     "type": "div",
@@ -239,18 +269,22 @@ ShallowWrapper {
             </p>
             <p />
           </MemberPhotoViewer>,
-          <button
-            className="button-small photo-button"
-            onClick={[Function]}
+          <div
+            className="photo-container"
           >
-            View Photo
-          </button>,
-          <button
-            className="button-small photo-button"
-            onClick={[MockFunction]}
-          >
-            Delete Photo
-          </button>,
+            <button
+              className="button-small photo-button"
+              onClick={[Function]}
+            >
+              View Photo
+            </button>
+            <button
+              className="button-small photo-button"
+              onClick={[MockFunction]}
+            >
+              Delete Photo
+            </button>
+          </div>,
         ],
         "className": "image-frame",
       },
@@ -379,26 +413,52 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "View Photo",
-            "className": "button-small photo-button",
-            "onClick": [Function],
+            "children": Array [
+              <button
+                className="button-small photo-button"
+                onClick={[Function]}
+              >
+                View Photo
+              </button>,
+              <button
+                className="button-small photo-button"
+                onClick={[MockFunction]}
+              >
+                Delete Photo
+              </button>,
+            ],
+            "className": "photo-container",
           },
           "ref": null,
-          "rendered": "View Photo",
-          "type": "button",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "Delete Photo",
-            "className": "button-small photo-button",
-            "onClick": [MockFunction],
-          },
-          "ref": null,
-          "rendered": "Delete Photo",
-          "type": "button",
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "View Photo",
+                "className": "button-small photo-button",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "View Photo",
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Delete Photo",
+                "className": "button-small photo-button",
+                "onClick": [MockFunction],
+              },
+              "ref": null,
+              "rendered": "Delete Photo",
+              "type": "button",
+            },
+          ],
+          "type": "div",
         },
       ],
       "type": "div",

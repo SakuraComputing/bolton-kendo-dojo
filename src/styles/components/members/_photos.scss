@@ -19,9 +19,19 @@
     flex-grow: 1;
 }
 
+// CSS Grid section for all the thumbnails
 .image-container {
     display: grid;
     grid-template-columns: auto auto auto auto;
+}
+
+.image-frame {
+    border: solid 1px $blue-black;
+    margin: 15px;
+    padding-bottom: 5px;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
 }
 
 .image-item {
@@ -30,12 +40,6 @@
     text-align: center;
 }
 
-.image-frame {
-    border: solid 1px $blue-black;
-    margin: 15px;
-    padding-bottom: 5px;
-    border-radius: 3px;
-}
 
 .image-frame:hover {
     background-color: $light-blue;
@@ -61,6 +65,13 @@ input[type="file"] {
     display: inline-block;
 }
 
+.photo-container {
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+    margin-left: 4px;
+}
+
 .photo-button {
-    margin-left: 5px;
+    margin-left: 3px;
 }

@@ -43,8 +43,10 @@ class MemberPhotoItem extends Component {
                     <p>Date Added: {Moment(this.props.date).format('Do MMMM YYYY')}</p>
                     <p>{this.props.description}</p>
                 </MemberPhotoViewer>
-                <button onClick={this.showModal} className="button-small photo-button">View Photo</button>
-                <button onClick={this.props.onUploadDelete} className="button-small photo-button">Delete Photo</button>
+                <div className="photo-container">
+                    <button onClick={this.showModal} className="button-small photo-button">View Photo</button>
+                    <button onClick={this.props.onUploadDelete} className="button-small photo-button">Delete Photo</button>
+                </div>
             </div>
         );
     }
