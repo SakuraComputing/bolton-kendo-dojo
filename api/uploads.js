@@ -63,6 +63,8 @@ route.post("/", passport.authenticate('jwt', { session: false }), (req, res, nex
                     let image = new Image();
                     image.filename = req.file.filename;
                     image.description = req.body.description
+                    image.title = req.body.title
+                    image.eventDate = req.body.eventDate
             
                     //save the image to the database
                     image.save()

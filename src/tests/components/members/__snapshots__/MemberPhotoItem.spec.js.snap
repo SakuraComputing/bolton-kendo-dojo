@@ -25,7 +25,9 @@ ShallowWrapper {
           className="image-item"
           src="uploads/undefined"
         />,
-        <div />,
+        <div>
+          Title: 
+        </div>,
         <MemberPhotoViewer
           handleClose={[Function]}
           show={false}
@@ -37,12 +39,20 @@ ShallowWrapper {
               src="uploads/undefined"
             />
           </div>
-          <p />
+          <p>
+            Title: 
+          </p>
           <p>
             Date Added: 
             1st January 1970
           </p>
-          <p />
+          <p>
+            Description: 
+          </p>
+          <p>
+            Date Photo From: 
+            1st January 1970
+          </p>
         </MemberPhotoViewer>,
         <div
           className="button-end-container"
@@ -83,10 +93,16 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": undefined,
+          "children": Array [
+            "Title: ",
+            undefined,
+          ],
         },
         "ref": null,
-        "rendered": null,
+        "rendered": Array [
+          "Title: ",
+          undefined,
+        ],
         "type": "div",
       },
       Object {
@@ -102,12 +118,20 @@ ShallowWrapper {
                 src="uploads/undefined"
               />
             </div>,
-            <p />,
+            <p>
+              Title: 
+            </p>,
             <p>
               Date Added: 
               1st January 1970
             </p>,
-            <p />,
+            <p>
+              Description: 
+            </p>,
+            <p>
+              Date Photo From: 
+              1st January 1970
+            </p>,
           ],
           "handleClose": [Function],
           "show": false,
@@ -146,10 +170,16 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": undefined,
+              "children": Array [
+                "Title: ",
+                undefined,
+              ],
             },
             "ref": null,
-            "rendered": null,
+            "rendered": Array [
+              "Title: ",
+              undefined,
+            ],
             "type": "p",
           },
           Object {
@@ -174,10 +204,33 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": undefined,
+              "children": Array [
+                "Description: ",
+                undefined,
+              ],
             },
             "ref": null,
-            "rendered": null,
+            "rendered": Array [
+              "Description: ",
+              undefined,
+            ],
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Date Photo From: ",
+                "1st January 1970",
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              "Date Photo From: ",
+              "1st January 1970",
+            ],
             "type": "p",
           },
         ],
@@ -250,7 +303,9 @@ ShallowWrapper {
             className="image-item"
             src="uploads/undefined"
           />,
-          <div />,
+          <div>
+            Title: 
+          </div>,
           <MemberPhotoViewer
             handleClose={[Function]}
             show={false}
@@ -262,12 +317,20 @@ ShallowWrapper {
                 src="uploads/undefined"
               />
             </div>
-            <p />
+            <p>
+              Title: 
+            </p>
             <p>
               Date Added: 
               1st January 1970
             </p>
-            <p />
+            <p>
+              Description: 
+            </p>
+            <p>
+              Date Photo From: 
+              1st January 1970
+            </p>
           </MemberPhotoViewer>,
           <div
             className="button-end-container"
@@ -308,10 +371,16 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": undefined,
+            "children": Array [
+              "Title: ",
+              undefined,
+            ],
           },
           "ref": null,
-          "rendered": null,
+          "rendered": Array [
+            "Title: ",
+            undefined,
+          ],
           "type": "div",
         },
         Object {
@@ -327,12 +396,20 @@ ShallowWrapper {
                   src="uploads/undefined"
                 />
               </div>,
-              <p />,
+              <p>
+                Title: 
+              </p>,
               <p>
                 Date Added: 
                 1st January 1970
               </p>,
-              <p />,
+              <p>
+                Description: 
+              </p>,
+              <p>
+                Date Photo From: 
+                1st January 1970
+              </p>,
             ],
             "handleClose": [Function],
             "show": false,
@@ -371,10 +448,16 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": undefined,
+                "children": Array [
+                  "Title: ",
+                  undefined,
+                ],
               },
               "ref": null,
-              "rendered": null,
+              "rendered": Array [
+                "Title: ",
+                undefined,
+              ],
               "type": "p",
             },
             Object {
@@ -399,10 +482,33 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": undefined,
+                "children": Array [
+                  "Description: ",
+                  undefined,
+                ],
               },
               "ref": null,
-              "rendered": null,
+              "rendered": Array [
+                "Description: ",
+                undefined,
+              ],
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Date Photo From: ",
+                  "1st January 1970",
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                "Date Photo From: ",
+                "1st January 1970",
+              ],
               "type": "p",
             },
           ],

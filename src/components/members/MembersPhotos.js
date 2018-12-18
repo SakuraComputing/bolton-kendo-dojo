@@ -7,7 +7,6 @@ import MemberPhotoItem from '../../components/members/MemberPhotoItem';
 import { confirmAlert } from 'react-confirm-alert'; 
 import MemberPhotoFilter from './MembersPhotoFilter';
 import selectPhotos from '../../selectors/photos';
-import moment from 'moment';
 import { SingleDatePicker } from 'react-dates';
 
 export class MemberPhoto extends React.Component {
@@ -18,7 +17,7 @@ export class MemberPhoto extends React.Component {
             file: null,
             title: '',
             description: '',
-            dateTaken: '',
+            eventData: null,
             errors: {},
             offset: 0,
             data: [],
@@ -40,9 +39,9 @@ export class MemberPhoto extends React.Component {
         this.setState({ title: e.target.value })
     }
 
-    onDateChange = (dateTaken) => {
-        if(dateTaken) {
-            this.setState(() => ({ dateTaken }))
+    onDateChange = (eventDate) => {
+        if(eventDate) {
+            this.setState(() => ({ eventDate }))
         }
     };
     onFocusChange = ( {focused} ) => {
@@ -56,16 +55,20 @@ export class MemberPhoto extends React.Component {
     onFormSubmit = (e) => {
         e.preventDefault();
 
-        const { file, description } = this.state; 
+        const { file, description, title, eventDate } = this.state; 
 
         let formData = new FormData();
         formData.append('image', file);
         formData.set('description', description);
+        formData.set('title', title);
+        formData.set('eventDate', eventDate);
         this.props.postMemberUploads(formData);
         this.setState({
             file: null,
             description: '',
-            errors: {}
+            errors: {},
+            title: '',
+            eventDate: null
         })
     }
 
@@ -102,6 +105,8 @@ export class MemberPhoto extends React.Component {
             return <MemberPhotoItem 
                     key={upload._id}
                     filename={upload.filename}
+                    title={upload.title}
+                    eventDate={upload.eventDate}
                     date={upload.date}
                     description={upload.description}
                     onUploadDelete={this.onUploadDelete.bind(this, key)}
@@ -114,6 +119,8 @@ export class MemberPhoto extends React.Component {
         let album, pageCount, paginationElement;
 
         const { uploads, loading } = this.props.uploads;
+
+        // console.log('State render', this.state.eventData);
 
         if(uploads === null || uploads === undefined || loading) {
             album = <Spinner />
@@ -170,7 +177,7 @@ export class MemberPhoto extends React.Component {
                                         />
                                     </div>
                                     <SingleDatePicker 
-                                        date={moment()}
+                                        date={this.state.eventData}
                                         onDateChange={this.onDateChange}
                                         focused={this.state.calendarFocused}
                                         onFocusChange={this.onFocusChange}

@@ -6,6 +6,12 @@ let imagesSchema = mongoose.Schema({
         type : String,
         required: true
     },
+    title: {
+        type: String
+    },
+    eventDate: {
+        type: Date
+    },
     description: {
         type: String
     },

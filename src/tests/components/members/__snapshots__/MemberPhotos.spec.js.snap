@@ -126,7 +126,7 @@ ShallowWrapper {
                   calendarInfoPosition="bottom"
                   customCloseIcon={null}
                   customInputIcon={null}
-                  date={"1970-01-01T00:00:00.000Z"}
+                  date={null}
                   daySize={39}
                   disableScroll={false}
                   disabled={false}
@@ -362,7 +362,7 @@ ShallowWrapper {
                     calendarInfoPosition="bottom"
                     customCloseIcon={null}
                     customInputIcon={null}
-                    date={"1970-01-01T00:00:00.000Z"}
+                    date={null}
                     daySize={39}
                     disableScroll={false}
                     disabled={false}
@@ -612,7 +612,7 @@ ShallowWrapper {
                       calendarInfoPosition="bottom"
                       customCloseIcon={null}
                       customInputIcon={null}
-                      date={"1970-01-01T00:00:00.000Z"}
+                      date={null}
                       daySize={39}
                       disableScroll={false}
                       disabled={false}
@@ -851,7 +851,7 @@ ShallowWrapper {
                       calendarInfoPosition="bottom"
                       customCloseIcon={null}
                       customInputIcon={null}
-                      date={"1970-01-01T00:00:00.000Z"}
+                      date={null}
                       daySize={39}
                       disableScroll={false}
                       disabled={false}
@@ -1011,7 +1011,7 @@ ShallowWrapper {
                       calendarInfoPosition="bottom"
                       customCloseIcon={null}
                       customInputIcon={null}
-                      date={"1970-01-01T00:00:00.000Z"}
+                      date={null}
                       daySize={39}
                       disableScroll={false}
                       disabled={false}
@@ -1167,7 +1167,7 @@ ShallowWrapper {
                         calendarInfoPosition="bottom"
                         customCloseIcon={null}
                         customInputIcon={null}
-                        date={"1970-01-01T00:00:00.000Z"}
+                        date={null}
                         daySize={39}
                         disableScroll={false}
                         disabled={false}
@@ -1383,7 +1383,7 @@ ShallowWrapper {
                         "calendarInfoPosition": "bottom",
                         "customCloseIcon": null,
                         "customInputIcon": null,
-                        "date": "1970-01-01T00:00:00.000Z",
+                        "date": null,
                         "dayAriaLabelFormat": undefined,
                         "daySize": 39,
                         "disableScroll": false,
@@ -1601,8 +1601,10 @@ ShallowWrapper {
                   "props": Object {
                     "date": "2018-11-28T17:58:42.652Z",
                     "description": "Kendo Photo Details",
+                    "eventDate": undefined,
                     "filename": "image-1543168184113.png",
                     "onUploadDelete": [Function],
+                    "title": undefined,
                   },
                   "ref": null,
                   "rendered": null,
@@ -1615,8 +1617,10 @@ ShallowWrapper {
                   "props": Object {
                     "date": "2018-11-21T17:58:42.652Z",
                     "description": "More Details",
+                    "eventDate": undefined,
                     "filename": "image-0000000000.png",
                     "onUploadDelete": [Function],
+                    "title": undefined,
                   },
                   "ref": null,
                   "rendered": null,
@@ -1629,8 +1633,10 @@ ShallowWrapper {
                   "props": Object {
                     "date": "2018-11-11T17:58:42.652Z",
                     "description": "Extra Details",
+                    "eventDate": undefined,
                     "filename": "image-3333333333.png",
                     "onUploadDelete": [Function],
+                    "title": undefined,
                   },
                   "ref": null,
                   "rendered": null,
@@ -1753,7 +1759,7 @@ ShallowWrapper {
                     calendarInfoPosition="bottom"
                     customCloseIcon={null}
                     customInputIcon={null}
-                    date={"1970-01-01T00:00:00.000Z"}
+                    date={null}
                     daySize={39}
                     disableScroll={false}
                     disabled={false}
@@ -1989,7 +1995,7 @@ ShallowWrapper {
                       calendarInfoPosition="bottom"
                       customCloseIcon={null}
                       customInputIcon={null}
-                      date={"1970-01-01T00:00:00.000Z"}
+                      date={null}
                       daySize={39}
                       disableScroll={false}
                       disabled={false}
@@ -2239,7 +2245,7 @@ ShallowWrapper {
                         calendarInfoPosition="bottom"
                         customCloseIcon={null}
                         customInputIcon={null}
-                        date={"1970-01-01T00:00:00.000Z"}
+                        date={null}
                         daySize={39}
                         disableScroll={false}
                         disabled={false}
@@ -2478,7 +2484,7 @@ ShallowWrapper {
                         calendarInfoPosition="bottom"
                         customCloseIcon={null}
                         customInputIcon={null}
-                        date={"1970-01-01T00:00:00.000Z"}
+                        date={null}
                         daySize={39}
                         disableScroll={false}
                         disabled={false}
@@ -2638,7 +2644,7 @@ ShallowWrapper {
                         calendarInfoPosition="bottom"
                         customCloseIcon={null}
                         customInputIcon={null}
-                        date={"1970-01-01T00:00:00.000Z"}
+                        date={null}
                         daySize={39}
                         disableScroll={false}
                         disabled={false}
@@ -2794,7 +2800,7 @@ ShallowWrapper {
                           calendarInfoPosition="bottom"
                           customCloseIcon={null}
                           customInputIcon={null}
-                          date={"1970-01-01T00:00:00.000Z"}
+                          date={null}
                           daySize={39}
                           disableScroll={false}
                           disabled={false}
@@ -3010,7 +3016,7 @@ ShallowWrapper {
                           "calendarInfoPosition": "bottom",
                           "customCloseIcon": null,
                           "customInputIcon": null,
-                          "date": "1970-01-01T00:00:00.000Z",
+                          "date": null,
                           "dayAriaLabelFormat": undefined,
                           "daySize": 39,
                           "disableScroll": false,
@@ -3228,8 +3234,10 @@ ShallowWrapper {
                     "props": Object {
                       "date": "2018-11-28T17:58:42.652Z",
                       "description": "Kendo Photo Details",
+                      "eventDate": undefined,
                       "filename": "image-1543168184113.png",
                       "onUploadDelete": [Function],
+                      "title": undefined,
                     },
                     "ref": null,
                     "rendered": null,
@@ -3242,8 +3250,10 @@ ShallowWrapper {
                     "props": Object {
                       "date": "2018-11-21T17:58:42.652Z",
                       "description": "More Details",
+                      "eventDate": undefined,
                       "filename": "image-0000000000.png",
                       "onUploadDelete": [Function],
+                      "title": undefined,
                     },
                     "ref": null,
                     "rendered": null,
@@ -3256,8 +3266,10 @@ ShallowWrapper {
                     "props": Object {
                       "date": "2018-11-11T17:58:42.652Z",
                       "description": "Extra Details",
+                      "eventDate": undefined,
                       "filename": "image-3333333333.png",
                       "onUploadDelete": [Function],
+                      "title": undefined,
                     },
                     "ref": null,
                     "rendered": null,
