@@ -2,16 +2,17 @@ import React from 'react'
 import { shallow } from 'enzyme';
 import { MemberPhoto } from '../../../components/members/MembersPhotos';
 import uploads from '../../fixtures/uploads';
+import moment from 'moment';
 
 describe('Member Photos', () => {
     
-    let photo, getMemberUploads, onUploadDelete,props;
+    let photo, getMemberUploads, onUploadDelete,props, onDateChange;
 
     beforeEach(() => {
         getMemberUploads = jest.fn();
         onUploadDelete = jest.fn();
         props = { loading: false, uploads: uploads } ;
-        photo = shallow(<MemberPhoto getMemberUploads={getMemberUploads} onUploadDelete={onUploadDelete} uploads={props} />)
+        photo = shallow(<MemberPhoto getMemberUploads={getMemberUploads} onUploadDelete={onUploadDelete} uploads={props}/>)
     });
 
     it('should render correctly', () => {
@@ -28,7 +29,8 @@ describe('Member Photos', () => {
             offset: 0,
             data: [],
             perPage: 16,
-            currentPage: 0
+            currentPage: 0,
+            calendarFocused: false
         });
     });
     
@@ -41,6 +43,18 @@ describe('Member Photos', () => {
             })
             it('should accept an input on the title', () => {
                 expect(photo.state().title).toEqual(title);
+            });
+        });
+        describe('When selecting a date from the date picker', () => {
+
+            let now;
+
+            beforeEach(() => {
+                now = moment();
+                photo.find('SingleDatePicker').prop('onDateChange')(now)
+            });
+            it('should set the new date on date change', () => {
+                expect(photo.state('dateTaken')).toEqual(now);
             });
         });
         describe('When typing in the description field', () => { 

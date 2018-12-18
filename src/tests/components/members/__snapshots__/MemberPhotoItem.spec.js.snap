@@ -40,7 +40,7 @@ ShallowWrapper {
           <p />
           <p>
             Date Added: 
-            17th December 2018
+            1st January 1970
           </p>
           <p />
         </MemberPhotoViewer>,
@@ -105,7 +105,7 @@ ShallowWrapper {
             <p />,
             <p>
               Date Added: 
-              17th December 2018
+              1st January 1970
             </p>,
             <p />,
           ],
@@ -159,13 +159,13 @@ ShallowWrapper {
             "props": Object {
               "children": Array [
                 "Date Added: ",
-                "17th December 2018",
+                "1st January 1970",
               ],
             },
             "ref": null,
             "rendered": Array [
               "Date Added: ",
-              "17th December 2018",
+              "1st January 1970",
             ],
             "type": "p",
           },
@@ -265,7 +265,7 @@ ShallowWrapper {
             <p />
             <p>
               Date Added: 
-              17th December 2018
+              1st January 1970
             </p>
             <p />
           </MemberPhotoViewer>,
@@ -330,7 +330,7 @@ ShallowWrapper {
               <p />,
               <p>
                 Date Added: 
-                17th December 2018
+                1st January 1970
               </p>,
               <p />,
             ],
@@ -384,13 +384,13 @@ ShallowWrapper {
               "props": Object {
                 "children": Array [
                   "Date Added: ",
-                  "17th December 2018",
+                  "1st January 1970",
                 ],
               },
               "ref": null,
               "rendered": Array [
                 "Date Added: ",
-                "17th December 2018",
+                "1st January 1970",
               ],
               "type": "p",
             },

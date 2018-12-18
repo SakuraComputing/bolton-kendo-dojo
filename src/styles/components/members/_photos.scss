@@ -1,9 +1,6 @@
-.images-uploads {
-    // height: 100vh;
-}
-
 .image-title {
     text-align: center;
+    margin-bottom: 0;
 }
 
 .image-header {
@@ -11,12 +8,12 @@
     border-radius: 5px;
     padding: .5em 1em;
     display: flex;
-    align-items: baseline;
     justify-content: flex-start;
 }
 
 .image-header-container {
     flex-grow: 1;
+    // align-items: flex-end;
 }
 
 // CSS Grid section for all the thumbnails
@@ -53,7 +50,7 @@
 
 .upload-text {
     width: 90%;
-    margin-left: 1%;
+    // margin-left: 5%;
 }
 
 
@@ -62,10 +59,15 @@ input[type="file"] {
 }
 
 .upload-file {
+    margin-top: 0;
     display: inline-block;
 }
 
-.photo-container {
+.upload-title {
+    width: 25rem;
+}
+
+.button-end-container {
     display: flex;
     align-items: flex-end;
     height: 100%;

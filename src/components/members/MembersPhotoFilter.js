@@ -17,8 +17,7 @@ export class MembersPhotoFilter extends Component {
                         <div className="collapsible-content-search">
                             <div className="content-inner">
                                 <form onSubmit={this.onFormSubmit} className="image-header">
-                                    <div className="image-header-container">
-                                        <label className="upload-label" htmlFor="filterText" >Search photo description</label>
+                                    <div className="image-search-container">
                                         <input
                                             type="text"
                                             className="filter-text input-box"

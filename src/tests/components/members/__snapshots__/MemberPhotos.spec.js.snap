@@ -114,50 +114,127 @@ ShallowWrapper {
                     className="upload-title input-box"
                     name="title"
                     onChange={[Function]}
+                    placeholder="Title"
                     type="text"
                     value=""
                   />
-                  <label
-                    className="upload-label"
-                    htmlFor="title"
-                  >
-                    Title
-                  </label>
                 </div>
+                <withStyles(SingleDatePicker)
+                  anchorDirection="left"
+                  appendToBody={false}
+                  block={false}
+                  calendarInfoPosition="bottom"
+                  customCloseIcon={null}
+                  customInputIcon={null}
+                  date={"1970-01-01T00:00:00.000Z"}
+                  daySize={39}
+                  disableScroll={false}
+                  disabled={false}
+                  displayFormat={[Function]}
+                  enableOutsideDays={false}
+                  firstDayOfWeek={null}
+                  focused={false}
+                  hideKeyboardShortcutsPanel={false}
+                  horizontalMargin={0}
+                  horizontalMonthPadding={13}
+                  id="date"
+                  initialVisibleMonth={null}
+                  inputIconPosition="before"
+                  isDayBlocked={[Function]}
+                  isDayHighlighted={[Function]}
+                  isOutsideRange={[Function]}
+                  isRTL={false}
+                  keepFocusOnInput={false}
+                  keepOpenOnDateSelect={false}
+                  monthFormat="MMMM YYYY"
+                  navNext={null}
+                  navPrev={null}
+                  noBorder={false}
+                  numberOfMonths={1}
+                  onClose={[Function]}
+                  onDateChange={[Function]}
+                  onFocusChange={[Function]}
+                  onNextMonthClick={[Function]}
+                  onPrevMonthClick={[Function]}
+                  openDirection="down"
+                  orientation="horizontal"
+                  phrases={
+                    Object {
+                      "calendarLabel": "Calendar",
+                      "chooseAvailableDate": [Function],
+                      "clearDate": "Clear Date",
+                      "closeDatePicker": "Close",
+                      "dateIsSelected": [Function],
+                      "dateIsUnavailable": [Function],
+                      "enterKey": "Enter key",
+                      "escape": "Escape key",
+                      "hideKeyboardShortcutsPanel": "Close the shortcuts panel.",
+                      "homeEnd": "Home and end keys",
+                      "jumpToNextMonth": "Move forward to switch to the next month.",
+                      "jumpToPrevMonth": "Move backward to switch to the previous month.",
+                      "keyboardNavigationInstructions": "Press the down arrow key to interact with the calendar and
+  select a date. Press the question mark key to get the keyboard shortcuts for changing dates.",
+                      "keyboardShortcuts": "Keyboard Shortcuts",
+                      "leftArrowRightArrow": "Right and left arrow keys",
+                      "moveFocusByOneDay": "Move backward (left) and forward (right) by one day.",
+                      "moveFocusByOneMonth": "Switch months.",
+                      "moveFocusByOneWeek": "Move backward (up) and forward (down) by one week.",
+                      "moveFocustoStartAndEndOfWeek": "Go to the first or last day of a week.",
+                      "openThisPanel": "Open this panel.",
+                      "pageUpPageDown": "page up and page down keys",
+                      "questionMark": "Question mark",
+                      "returnFocusToInput": "Return to the date input field.",
+                      "selectFocusedDate": "Select the date in focus.",
+                      "showKeyboardShortcutsPanel": "Open the keyboard shortcuts panel.",
+                      "upArrowDownArrow": "up and down arrow keys",
+                    }
+                  }
+                  placeholder="Event Date"
+                  readOnly={false}
+                  regular={false}
+                  renderCalendarInfo={null}
+                  renderDayContents={null}
+                  renderMonthElement={null}
+                  renderMonthText={null}
+                  reopenPickerOnClearDate={false}
+                  required={false}
+                  screenReaderInputMessage=""
+                  showClearDate={false}
+                  showDefaultInputIcon={false}
+                  small={false}
+                  verticalHeight={null}
+                  verticalSpacing={22}
+                  weekDayFormat="dd"
+                  withFullScreenPortal={false}
+                  withPortal={false}
+                />
                 <div
                   className="image-header-container"
                 >
                   <textarea
                     className="upload-text input-box"
-                    col="3"
+                    col="2"
                     name="description"
                     onChange={[Function]}
-                    rows="2"
+                    placeholder="Enter Description"
+                    rows="21"
                     type="text"
                     value=""
                   />
-                  <label
-                    className="upload-label"
-                    htmlFor="description"
-                  >
-                    Add Photo Description
-                  </label>
                 </div>
                 <div
-                  className="image-header-container"
+                  className="button-end-container"
                 >
-                  <label
-                    className="upload-label"
-                    htmlFor="submit"
+                  <div
+                    className="image-header-container"
                   >
-                    Upload Photo
-                  </label>
-                  <input
-                    className="button-small"
-                    name="submit"
-                    type="submit"
-                    value="Submit"
-                  />
+                    <input
+                      className="button-small"
+                      name="submit"
+                      type="submit"
+                      value="Upload Photo"
+                    />
+                  </div>
                 </div>
               </form>
             </div>
@@ -273,50 +350,127 @@ ShallowWrapper {
                       className="upload-title input-box"
                       name="title"
                       onChange={[Function]}
+                      placeholder="Title"
                       type="text"
                       value=""
                     />
-                    <label
-                      className="upload-label"
-                      htmlFor="title"
-                    >
-                      Title
-                    </label>
                   </div>
+                  <withStyles(SingleDatePicker)
+                    anchorDirection="left"
+                    appendToBody={false}
+                    block={false}
+                    calendarInfoPosition="bottom"
+                    customCloseIcon={null}
+                    customInputIcon={null}
+                    date={"1970-01-01T00:00:00.000Z"}
+                    daySize={39}
+                    disableScroll={false}
+                    disabled={false}
+                    displayFormat={[Function]}
+                    enableOutsideDays={false}
+                    firstDayOfWeek={null}
+                    focused={false}
+                    hideKeyboardShortcutsPanel={false}
+                    horizontalMargin={0}
+                    horizontalMonthPadding={13}
+                    id="date"
+                    initialVisibleMonth={null}
+                    inputIconPosition="before"
+                    isDayBlocked={[Function]}
+                    isDayHighlighted={[Function]}
+                    isOutsideRange={[Function]}
+                    isRTL={false}
+                    keepFocusOnInput={false}
+                    keepOpenOnDateSelect={false}
+                    monthFormat="MMMM YYYY"
+                    navNext={null}
+                    navPrev={null}
+                    noBorder={false}
+                    numberOfMonths={1}
+                    onClose={[Function]}
+                    onDateChange={[Function]}
+                    onFocusChange={[Function]}
+                    onNextMonthClick={[Function]}
+                    onPrevMonthClick={[Function]}
+                    openDirection="down"
+                    orientation="horizontal"
+                    phrases={
+                      Object {
+                        "calendarLabel": "Calendar",
+                        "chooseAvailableDate": [Function],
+                        "clearDate": "Clear Date",
+                        "closeDatePicker": "Close",
+                        "dateIsSelected": [Function],
+                        "dateIsUnavailable": [Function],
+                        "enterKey": "Enter key",
+                        "escape": "Escape key",
+                        "hideKeyboardShortcutsPanel": "Close the shortcuts panel.",
+                        "homeEnd": "Home and end keys",
+                        "jumpToNextMonth": "Move forward to switch to the next month.",
+                        "jumpToPrevMonth": "Move backward to switch to the previous month.",
+                        "keyboardNavigationInstructions": "Press the down arrow key to interact with the calendar and
+  select a date. Press the question mark key to get the keyboard shortcuts for changing dates.",
+                        "keyboardShortcuts": "Keyboard Shortcuts",
+                        "leftArrowRightArrow": "Right and left arrow keys",
+                        "moveFocusByOneDay": "Move backward (left) and forward (right) by one day.",
+                        "moveFocusByOneMonth": "Switch months.",
+                        "moveFocusByOneWeek": "Move backward (up) and forward (down) by one week.",
+                        "moveFocustoStartAndEndOfWeek": "Go to the first or last day of a week.",
+                        "openThisPanel": "Open this panel.",
+                        "pageUpPageDown": "page up and page down keys",
+                        "questionMark": "Question mark",
+                        "returnFocusToInput": "Return to the date input field.",
+                        "selectFocusedDate": "Select the date in focus.",
+                        "showKeyboardShortcutsPanel": "Open the keyboard shortcuts panel.",
+                        "upArrowDownArrow": "up and down arrow keys",
+                      }
+                    }
+                    placeholder="Event Date"
+                    readOnly={false}
+                    regular={false}
+                    renderCalendarInfo={null}
+                    renderDayContents={null}
+                    renderMonthElement={null}
+                    renderMonthText={null}
+                    reopenPickerOnClearDate={false}
+                    required={false}
+                    screenReaderInputMessage=""
+                    showClearDate={false}
+                    showDefaultInputIcon={false}
+                    small={false}
+                    verticalHeight={null}
+                    verticalSpacing={22}
+                    weekDayFormat="dd"
+                    withFullScreenPortal={false}
+                    withPortal={false}
+                  />
                   <div
                     className="image-header-container"
                   >
                     <textarea
                       className="upload-text input-box"
-                      col="3"
+                      col="2"
                       name="description"
                       onChange={[Function]}
-                      rows="2"
+                      placeholder="Enter Description"
+                      rows="21"
                       type="text"
                       value=""
                     />
-                    <label
-                      className="upload-label"
-                      htmlFor="description"
-                    >
-                      Add Photo Description
-                    </label>
                   </div>
                   <div
-                    className="image-header-container"
+                    className="button-end-container"
                   >
-                    <label
-                      className="upload-label"
-                      htmlFor="submit"
+                    <div
+                      className="image-header-container"
                     >
-                      Upload Photo
-                    </label>
-                    <input
-                      className="button-small"
-                      name="submit"
-                      type="submit"
-                      value="Submit"
-                    />
+                      <input
+                        className="button-small"
+                        name="submit"
+                        type="submit"
+                        value="Upload Photo"
+                      />
+                    </div>
                   </div>
                 </form>
               </div>
@@ -446,50 +600,127 @@ ShallowWrapper {
                         className="upload-title input-box"
                         name="title"
                         onChange={[Function]}
+                        placeholder="Title"
                         type="text"
                         value=""
                       />
-                      <label
-                        className="upload-label"
-                        htmlFor="title"
-                      >
-                        Title
-                      </label>
                     </div>
+                    <withStyles(SingleDatePicker)
+                      anchorDirection="left"
+                      appendToBody={false}
+                      block={false}
+                      calendarInfoPosition="bottom"
+                      customCloseIcon={null}
+                      customInputIcon={null}
+                      date={"1970-01-01T00:00:00.000Z"}
+                      daySize={39}
+                      disableScroll={false}
+                      disabled={false}
+                      displayFormat={[Function]}
+                      enableOutsideDays={false}
+                      firstDayOfWeek={null}
+                      focused={false}
+                      hideKeyboardShortcutsPanel={false}
+                      horizontalMargin={0}
+                      horizontalMonthPadding={13}
+                      id="date"
+                      initialVisibleMonth={null}
+                      inputIconPosition="before"
+                      isDayBlocked={[Function]}
+                      isDayHighlighted={[Function]}
+                      isOutsideRange={[Function]}
+                      isRTL={false}
+                      keepFocusOnInput={false}
+                      keepOpenOnDateSelect={false}
+                      monthFormat="MMMM YYYY"
+                      navNext={null}
+                      navPrev={null}
+                      noBorder={false}
+                      numberOfMonths={1}
+                      onClose={[Function]}
+                      onDateChange={[Function]}
+                      onFocusChange={[Function]}
+                      onNextMonthClick={[Function]}
+                      onPrevMonthClick={[Function]}
+                      openDirection="down"
+                      orientation="horizontal"
+                      phrases={
+                        Object {
+                          "calendarLabel": "Calendar",
+                          "chooseAvailableDate": [Function],
+                          "clearDate": "Clear Date",
+                          "closeDatePicker": "Close",
+                          "dateIsSelected": [Function],
+                          "dateIsUnavailable": [Function],
+                          "enterKey": "Enter key",
+                          "escape": "Escape key",
+                          "hideKeyboardShortcutsPanel": "Close the shortcuts panel.",
+                          "homeEnd": "Home and end keys",
+                          "jumpToNextMonth": "Move forward to switch to the next month.",
+                          "jumpToPrevMonth": "Move backward to switch to the previous month.",
+                          "keyboardNavigationInstructions": "Press the down arrow key to interact with the calendar and
+  select a date. Press the question mark key to get the keyboard shortcuts for changing dates.",
+                          "keyboardShortcuts": "Keyboard Shortcuts",
+                          "leftArrowRightArrow": "Right and left arrow keys",
+                          "moveFocusByOneDay": "Move backward (left) and forward (right) by one day.",
+                          "moveFocusByOneMonth": "Switch months.",
+                          "moveFocusByOneWeek": "Move backward (up) and forward (down) by one week.",
+                          "moveFocustoStartAndEndOfWeek": "Go to the first or last day of a week.",
+                          "openThisPanel": "Open this panel.",
+                          "pageUpPageDown": "page up and page down keys",
+                          "questionMark": "Question mark",
+                          "returnFocusToInput": "Return to the date input field.",
+                          "selectFocusedDate": "Select the date in focus.",
+                          "showKeyboardShortcutsPanel": "Open the keyboard shortcuts panel.",
+                          "upArrowDownArrow": "up and down arrow keys",
+                        }
+                      }
+                      placeholder="Event Date"
+                      readOnly={false}
+                      regular={false}
+                      renderCalendarInfo={null}
+                      renderDayContents={null}
+                      renderMonthElement={null}
+                      renderMonthText={null}
+                      reopenPickerOnClearDate={false}
+                      required={false}
+                      screenReaderInputMessage=""
+                      showClearDate={false}
+                      showDefaultInputIcon={false}
+                      small={false}
+                      verticalHeight={null}
+                      verticalSpacing={22}
+                      weekDayFormat="dd"
+                      withFullScreenPortal={false}
+                      withPortal={false}
+                    />
                     <div
                       className="image-header-container"
                     >
                       <textarea
                         className="upload-text input-box"
-                        col="3"
+                        col="2"
                         name="description"
                         onChange={[Function]}
-                        rows="2"
+                        placeholder="Enter Description"
+                        rows="21"
                         type="text"
                         value=""
                       />
-                      <label
-                        className="upload-label"
-                        htmlFor="description"
-                      >
-                        Add Photo Description
-                      </label>
                     </div>
                     <div
-                      className="image-header-container"
+                      className="button-end-container"
                     >
-                      <label
-                        className="upload-label"
-                        htmlFor="submit"
+                      <div
+                        className="image-header-container"
                       >
-                        Upload Photo
-                      </label>
-                      <input
-                        className="button-small"
-                        name="submit"
-                        type="submit"
-                        value="Submit"
-                      />
+                        <input
+                          className="button-small"
+                          name="submit"
+                          type="submit"
+                          value="Upload Photo"
+                        />
+                      </div>
                     </div>
                   </form>
                 </div>
@@ -608,50 +839,127 @@ ShallowWrapper {
                         className="upload-title input-box"
                         name="title"
                         onChange={[Function]}
+                        placeholder="Title"
                         type="text"
                         value=""
                       />
-                      <label
-                        className="upload-label"
-                        htmlFor="title"
-                      >
-                        Title
-                      </label>
                     </div>
+                    <withStyles(SingleDatePicker)
+                      anchorDirection="left"
+                      appendToBody={false}
+                      block={false}
+                      calendarInfoPosition="bottom"
+                      customCloseIcon={null}
+                      customInputIcon={null}
+                      date={"1970-01-01T00:00:00.000Z"}
+                      daySize={39}
+                      disableScroll={false}
+                      disabled={false}
+                      displayFormat={[Function]}
+                      enableOutsideDays={false}
+                      firstDayOfWeek={null}
+                      focused={false}
+                      hideKeyboardShortcutsPanel={false}
+                      horizontalMargin={0}
+                      horizontalMonthPadding={13}
+                      id="date"
+                      initialVisibleMonth={null}
+                      inputIconPosition="before"
+                      isDayBlocked={[Function]}
+                      isDayHighlighted={[Function]}
+                      isOutsideRange={[Function]}
+                      isRTL={false}
+                      keepFocusOnInput={false}
+                      keepOpenOnDateSelect={false}
+                      monthFormat="MMMM YYYY"
+                      navNext={null}
+                      navPrev={null}
+                      noBorder={false}
+                      numberOfMonths={1}
+                      onClose={[Function]}
+                      onDateChange={[Function]}
+                      onFocusChange={[Function]}
+                      onNextMonthClick={[Function]}
+                      onPrevMonthClick={[Function]}
+                      openDirection="down"
+                      orientation="horizontal"
+                      phrases={
+                        Object {
+                          "calendarLabel": "Calendar",
+                          "chooseAvailableDate": [Function],
+                          "clearDate": "Clear Date",
+                          "closeDatePicker": "Close",
+                          "dateIsSelected": [Function],
+                          "dateIsUnavailable": [Function],
+                          "enterKey": "Enter key",
+                          "escape": "Escape key",
+                          "hideKeyboardShortcutsPanel": "Close the shortcuts panel.",
+                          "homeEnd": "Home and end keys",
+                          "jumpToNextMonth": "Move forward to switch to the next month.",
+                          "jumpToPrevMonth": "Move backward to switch to the previous month.",
+                          "keyboardNavigationInstructions": "Press the down arrow key to interact with the calendar and
+  select a date. Press the question mark key to get the keyboard shortcuts for changing dates.",
+                          "keyboardShortcuts": "Keyboard Shortcuts",
+                          "leftArrowRightArrow": "Right and left arrow keys",
+                          "moveFocusByOneDay": "Move backward (left) and forward (right) by one day.",
+                          "moveFocusByOneMonth": "Switch months.",
+                          "moveFocusByOneWeek": "Move backward (up) and forward (down) by one week.",
+                          "moveFocustoStartAndEndOfWeek": "Go to the first or last day of a week.",
+                          "openThisPanel": "Open this panel.",
+                          "pageUpPageDown": "page up and page down keys",
+                          "questionMark": "Question mark",
+                          "returnFocusToInput": "Return to the date input field.",
+                          "selectFocusedDate": "Select the date in focus.",
+                          "showKeyboardShortcutsPanel": "Open the keyboard shortcuts panel.",
+                          "upArrowDownArrow": "up and down arrow keys",
+                        }
+                      }
+                      placeholder="Event Date"
+                      readOnly={false}
+                      regular={false}
+                      renderCalendarInfo={null}
+                      renderDayContents={null}
+                      renderMonthElement={null}
+                      renderMonthText={null}
+                      reopenPickerOnClearDate={false}
+                      required={false}
+                      screenReaderInputMessage=""
+                      showClearDate={false}
+                      showDefaultInputIcon={false}
+                      small={false}
+                      verticalHeight={null}
+                      verticalSpacing={22}
+                      weekDayFormat="dd"
+                      withFullScreenPortal={false}
+                      withPortal={false}
+                    />
                     <div
                       className="image-header-container"
                     >
                       <textarea
                         className="upload-text input-box"
-                        col="3"
+                        col="2"
                         name="description"
                         onChange={[Function]}
-                        rows="2"
+                        placeholder="Enter Description"
+                        rows="21"
                         type="text"
                         value=""
                       />
-                      <label
-                        className="upload-label"
-                        htmlFor="description"
-                      >
-                        Add Photo Description
-                      </label>
                     </div>
                     <div
-                      className="image-header-container"
+                      className="button-end-container"
                     >
-                      <label
-                        className="upload-label"
-                        htmlFor="submit"
+                      <div
+                        className="image-header-container"
                       >
-                        Upload Photo
-                      </label>
-                      <input
-                        className="button-small"
-                        name="submit"
-                        type="submit"
-                        value="Submit"
-                      />
+                        <input
+                          className="button-small"
+                          name="submit"
+                          type="submit"
+                          value="Upload Photo"
+                        />
+                      </div>
                     </div>
                   </form>
                 </div>,
@@ -691,50 +999,127 @@ ShallowWrapper {
                         className="upload-title input-box"
                         name="title"
                         onChange={[Function]}
+                        placeholder="Title"
                         type="text"
                         value=""
                       />
-                      <label
-                        className="upload-label"
-                        htmlFor="title"
-                      >
-                        Title
-                      </label>
                     </div>
+                    <withStyles(SingleDatePicker)
+                      anchorDirection="left"
+                      appendToBody={false}
+                      block={false}
+                      calendarInfoPosition="bottom"
+                      customCloseIcon={null}
+                      customInputIcon={null}
+                      date={"1970-01-01T00:00:00.000Z"}
+                      daySize={39}
+                      disableScroll={false}
+                      disabled={false}
+                      displayFormat={[Function]}
+                      enableOutsideDays={false}
+                      firstDayOfWeek={null}
+                      focused={false}
+                      hideKeyboardShortcutsPanel={false}
+                      horizontalMargin={0}
+                      horizontalMonthPadding={13}
+                      id="date"
+                      initialVisibleMonth={null}
+                      inputIconPosition="before"
+                      isDayBlocked={[Function]}
+                      isDayHighlighted={[Function]}
+                      isOutsideRange={[Function]}
+                      isRTL={false}
+                      keepFocusOnInput={false}
+                      keepOpenOnDateSelect={false}
+                      monthFormat="MMMM YYYY"
+                      navNext={null}
+                      navPrev={null}
+                      noBorder={false}
+                      numberOfMonths={1}
+                      onClose={[Function]}
+                      onDateChange={[Function]}
+                      onFocusChange={[Function]}
+                      onNextMonthClick={[Function]}
+                      onPrevMonthClick={[Function]}
+                      openDirection="down"
+                      orientation="horizontal"
+                      phrases={
+                        Object {
+                          "calendarLabel": "Calendar",
+                          "chooseAvailableDate": [Function],
+                          "clearDate": "Clear Date",
+                          "closeDatePicker": "Close",
+                          "dateIsSelected": [Function],
+                          "dateIsUnavailable": [Function],
+                          "enterKey": "Enter key",
+                          "escape": "Escape key",
+                          "hideKeyboardShortcutsPanel": "Close the shortcuts panel.",
+                          "homeEnd": "Home and end keys",
+                          "jumpToNextMonth": "Move forward to switch to the next month.",
+                          "jumpToPrevMonth": "Move backward to switch to the previous month.",
+                          "keyboardNavigationInstructions": "Press the down arrow key to interact with the calendar and
+  select a date. Press the question mark key to get the keyboard shortcuts for changing dates.",
+                          "keyboardShortcuts": "Keyboard Shortcuts",
+                          "leftArrowRightArrow": "Right and left arrow keys",
+                          "moveFocusByOneDay": "Move backward (left) and forward (right) by one day.",
+                          "moveFocusByOneMonth": "Switch months.",
+                          "moveFocusByOneWeek": "Move backward (up) and forward (down) by one week.",
+                          "moveFocustoStartAndEndOfWeek": "Go to the first or last day of a week.",
+                          "openThisPanel": "Open this panel.",
+                          "pageUpPageDown": "page up and page down keys",
+                          "questionMark": "Question mark",
+                          "returnFocusToInput": "Return to the date input field.",
+                          "selectFocusedDate": "Select the date in focus.",
+                          "showKeyboardShortcutsPanel": "Open the keyboard shortcuts panel.",
+                          "upArrowDownArrow": "up and down arrow keys",
+                        }
+                      }
+                      placeholder="Event Date"
+                      readOnly={false}
+                      regular={false}
+                      renderCalendarInfo={null}
+                      renderDayContents={null}
+                      renderMonthElement={null}
+                      renderMonthText={null}
+                      reopenPickerOnClearDate={false}
+                      required={false}
+                      screenReaderInputMessage=""
+                      showClearDate={false}
+                      showDefaultInputIcon={false}
+                      small={false}
+                      verticalHeight={null}
+                      verticalSpacing={22}
+                      weekDayFormat="dd"
+                      withFullScreenPortal={false}
+                      withPortal={false}
+                    />
                     <div
                       className="image-header-container"
                     >
                       <textarea
                         className="upload-text input-box"
-                        col="3"
+                        col="2"
                         name="description"
                         onChange={[Function]}
-                        rows="2"
+                        placeholder="Enter Description"
+                        rows="21"
                         type="text"
                         value=""
                       />
-                      <label
-                        className="upload-label"
-                        htmlFor="description"
-                      >
-                        Add Photo Description
-                      </label>
                     </div>
                     <div
-                      className="image-header-container"
+                      className="button-end-container"
                     >
-                      <label
-                        className="upload-label"
-                        htmlFor="submit"
+                      <div
+                        className="image-header-container"
                       >
-                        Upload Photo
-                      </label>
-                      <input
-                        className="button-small"
-                        name="submit"
-                        type="submit"
-                        value="Submit"
-                      />
+                        <input
+                          className="button-small"
+                          name="submit"
+                          type="submit"
+                          value="Upload Photo"
+                        />
+                      </div>
                     </div>
                   </form>,
                   "className": "content-inner",
@@ -770,50 +1155,127 @@ ShallowWrapper {
                           className="upload-title input-box"
                           name="title"
                           onChange={[Function]}
+                          placeholder="Title"
                           type="text"
                           value=""
                         />
-                        <label
-                          className="upload-label"
-                          htmlFor="title"
-                        >
-                          Title
-                        </label>
                       </div>,
+                      <withStyles(SingleDatePicker)
+                        anchorDirection="left"
+                        appendToBody={false}
+                        block={false}
+                        calendarInfoPosition="bottom"
+                        customCloseIcon={null}
+                        customInputIcon={null}
+                        date={"1970-01-01T00:00:00.000Z"}
+                        daySize={39}
+                        disableScroll={false}
+                        disabled={false}
+                        displayFormat={[Function]}
+                        enableOutsideDays={false}
+                        firstDayOfWeek={null}
+                        focused={false}
+                        hideKeyboardShortcutsPanel={false}
+                        horizontalMargin={0}
+                        horizontalMonthPadding={13}
+                        id="date"
+                        initialVisibleMonth={null}
+                        inputIconPosition="before"
+                        isDayBlocked={[Function]}
+                        isDayHighlighted={[Function]}
+                        isOutsideRange={[Function]}
+                        isRTL={false}
+                        keepFocusOnInput={false}
+                        keepOpenOnDateSelect={false}
+                        monthFormat="MMMM YYYY"
+                        navNext={null}
+                        navPrev={null}
+                        noBorder={false}
+                        numberOfMonths={1}
+                        onClose={[Function]}
+                        onDateChange={[Function]}
+                        onFocusChange={[Function]}
+                        onNextMonthClick={[Function]}
+                        onPrevMonthClick={[Function]}
+                        openDirection="down"
+                        orientation="horizontal"
+                        phrases={
+                          Object {
+                            "calendarLabel": "Calendar",
+                            "chooseAvailableDate": [Function],
+                            "clearDate": "Clear Date",
+                            "closeDatePicker": "Close",
+                            "dateIsSelected": [Function],
+                            "dateIsUnavailable": [Function],
+                            "enterKey": "Enter key",
+                            "escape": "Escape key",
+                            "hideKeyboardShortcutsPanel": "Close the shortcuts panel.",
+                            "homeEnd": "Home and end keys",
+                            "jumpToNextMonth": "Move forward to switch to the next month.",
+                            "jumpToPrevMonth": "Move backward to switch to the previous month.",
+                            "keyboardNavigationInstructions": "Press the down arrow key to interact with the calendar and
+  select a date. Press the question mark key to get the keyboard shortcuts for changing dates.",
+                            "keyboardShortcuts": "Keyboard Shortcuts",
+                            "leftArrowRightArrow": "Right and left arrow keys",
+                            "moveFocusByOneDay": "Move backward (left) and forward (right) by one day.",
+                            "moveFocusByOneMonth": "Switch months.",
+                            "moveFocusByOneWeek": "Move backward (up) and forward (down) by one week.",
+                            "moveFocustoStartAndEndOfWeek": "Go to the first or last day of a week.",
+                            "openThisPanel": "Open this panel.",
+                            "pageUpPageDown": "page up and page down keys",
+                            "questionMark": "Question mark",
+                            "returnFocusToInput": "Return to the date input field.",
+                            "selectFocusedDate": "Select the date in focus.",
+                            "showKeyboardShortcutsPanel": "Open the keyboard shortcuts panel.",
+                            "upArrowDownArrow": "up and down arrow keys",
+                          }
+                        }
+                        placeholder="Event Date"
+                        readOnly={false}
+                        regular={false}
+                        renderCalendarInfo={null}
+                        renderDayContents={null}
+                        renderMonthElement={null}
+                        renderMonthText={null}
+                        reopenPickerOnClearDate={false}
+                        required={false}
+                        screenReaderInputMessage=""
+                        showClearDate={false}
+                        showDefaultInputIcon={false}
+                        small={false}
+                        verticalHeight={null}
+                        verticalSpacing={22}
+                        weekDayFormat="dd"
+                        withFullScreenPortal={false}
+                        withPortal={false}
+                      />,
                       <div
                         className="image-header-container"
                       >
                         <textarea
                           className="upload-text input-box"
-                          col="3"
+                          col="2"
                           name="description"
                           onChange={[Function]}
-                          rows="2"
+                          placeholder="Enter Description"
+                          rows="21"
                           type="text"
                           value=""
                         />
-                        <label
-                          className="upload-label"
-                          htmlFor="description"
-                        >
-                          Add Photo Description
-                        </label>
                       </div>,
                       <div
-                        className="image-header-container"
+                        className="button-end-container"
                       >
-                        <label
-                          className="upload-label"
-                          htmlFor="submit"
+                        <div
+                          className="image-header-container"
                         >
-                          Upload Photo
-                        </label>
-                        <input
-                          className="button-small"
-                          name="submit"
-                          type="submit"
-                          value="Submit"
-                        />
+                          <input
+                            className="button-small"
+                            name="submit"
+                            type="submit"
+                            value="Upload Photo"
+                          />
+                        </div>
                       </div>,
                     ],
                     "className": "image-header",
@@ -881,54 +1343,169 @@ ShallowWrapper {
                       "key": undefined,
                       "nodeType": "host",
                       "props": Object {
-                        "children": Array [
-                          <input
-                            className="upload-title input-box"
-                            name="title"
-                            onChange={[Function]}
-                            type="text"
-                            value=""
-                          />,
-                          <label
-                            className="upload-label"
-                            htmlFor="title"
-                          >
-                            Title
-                          </label>,
-                        ],
+                        "children": <input
+                          className="upload-title input-box"
+                          name="title"
+                          onChange={[Function]}
+                          placeholder="Title"
+                          type="text"
+                          value=""
+                        />,
                         "className": "image-header-container",
                       },
                       "ref": null,
-                      "rendered": Array [
-                        Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "host",
-                          "props": Object {
-                            "className": "upload-title input-box",
-                            "name": "title",
-                            "onChange": [Function],
-                            "type": "text",
-                            "value": "",
-                          },
-                          "ref": null,
-                          "rendered": null,
-                          "type": "input",
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "className": "upload-title input-box",
+                          "name": "title",
+                          "onChange": [Function],
+                          "placeholder": "Title",
+                          "type": "text",
+                          "value": "",
                         },
-                        Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "host",
-                          "props": Object {
-                            "children": "Title",
-                            "className": "upload-label",
-                            "htmlFor": "title",
-                          },
-                          "ref": null,
-                          "rendered": "Title",
-                          "type": "label",
+                        "ref": null,
+                        "rendered": null,
+                        "type": "input",
+                      },
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "anchorDirection": "left",
+                        "appendToBody": false,
+                        "block": false,
+                        "calendarInfoPosition": "bottom",
+                        "customCloseIcon": null,
+                        "customInputIcon": null,
+                        "date": "1970-01-01T00:00:00.000Z",
+                        "dayAriaLabelFormat": undefined,
+                        "daySize": 39,
+                        "disableScroll": false,
+                        "disabled": false,
+                        "displayFormat": [Function],
+                        "enableOutsideDays": false,
+                        "firstDayOfWeek": null,
+                        "focused": false,
+                        "hideKeyboardShortcutsPanel": false,
+                        "horizontalMargin": 0,
+                        "horizontalMonthPadding": 13,
+                        "id": "date",
+                        "initialVisibleMonth": null,
+                        "inputIconPosition": "before",
+                        "isDayBlocked": [Function],
+                        "isDayHighlighted": [Function],
+                        "isOutsideRange": [Function],
+                        "isRTL": false,
+                        "keepFocusOnInput": false,
+                        "keepOpenOnDateSelect": false,
+                        "monthFormat": "MMMM YYYY",
+                        "navNext": null,
+                        "navPrev": null,
+                        "noBorder": false,
+                        "numberOfMonths": 1,
+                        "onClose": [Function],
+                        "onDateChange": [Function],
+                        "onFocusChange": [Function],
+                        "onNextMonthClick": [Function],
+                        "onPrevMonthClick": [Function],
+                        "openDirection": "down",
+                        "orientation": "horizontal",
+                        "phrases": Object {
+                          "calendarLabel": "Calendar",
+                          "chooseAvailableDate": [Function],
+                          "clearDate": "Clear Date",
+                          "closeDatePicker": "Close",
+                          "dateIsSelected": [Function],
+                          "dateIsUnavailable": [Function],
+                          "enterKey": "Enter key",
+                          "escape": "Escape key",
+                          "hideKeyboardShortcutsPanel": "Close the shortcuts panel.",
+                          "homeEnd": "Home and end keys",
+                          "jumpToNextMonth": "Move forward to switch to the next month.",
+                          "jumpToPrevMonth": "Move backward to switch to the previous month.",
+                          "keyboardNavigationInstructions": "Press the down arrow key to interact with the calendar and
+  select a date. Press the question mark key to get the keyboard shortcuts for changing dates.",
+                          "keyboardShortcuts": "Keyboard Shortcuts",
+                          "leftArrowRightArrow": "Right and left arrow keys",
+                          "moveFocusByOneDay": "Move backward (left) and forward (right) by one day.",
+                          "moveFocusByOneMonth": "Switch months.",
+                          "moveFocusByOneWeek": "Move backward (up) and forward (down) by one week.",
+                          "moveFocustoStartAndEndOfWeek": "Go to the first or last day of a week.",
+                          "openThisPanel": "Open this panel.",
+                          "pageUpPageDown": "page up and page down keys",
+                          "questionMark": "Question mark",
+                          "returnFocusToInput": "Return to the date input field.",
+                          "selectFocusedDate": "Select the date in focus.",
+                          "showKeyboardShortcutsPanel": "Open the keyboard shortcuts panel.",
+                          "upArrowDownArrow": "up and down arrow keys",
                         },
-                      ],
+                        "placeholder": "Event Date",
+                        "readOnly": false,
+                        "regular": false,
+                        "renderCalendarDay": undefined,
+                        "renderCalendarInfo": null,
+                        "renderDayContents": null,
+                        "renderMonthElement": null,
+                        "renderMonthText": null,
+                        "reopenPickerOnClearDate": false,
+                        "required": false,
+                        "screenReaderInputMessage": "",
+                        "showClearDate": false,
+                        "showDefaultInputIcon": false,
+                        "small": false,
+                        "transitionDuration": undefined,
+                        "verticalHeight": null,
+                        "verticalSpacing": 22,
+                        "weekDayFormat": "dd",
+                        "withFullScreenPortal": false,
+                        "withPortal": false,
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <textarea
+                          className="upload-text input-box"
+                          col="2"
+                          name="description"
+                          onChange={[Function]}
+                          placeholder="Enter Description"
+                          rows="21"
+                          type="text"
+                          value=""
+                        />,
+                        "className": "image-header-container",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "className": "upload-text input-box",
+                          "col": "2",
+                          "name": "description",
+                          "onChange": [Function],
+                          "placeholder": "Enter Description",
+                          "rows": "21",
+                          "type": "text",
+                          "value": "",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "textarea",
+                      },
                       "type": "div",
                     },
                     Object {
@@ -936,97 +1513,34 @@ ShallowWrapper {
                       "key": undefined,
                       "nodeType": "host",
                       "props": Object {
-                        "children": Array [
-                          <textarea
-                            className="upload-text input-box"
-                            col="3"
-                            name="description"
-                            onChange={[Function]}
-                            rows="2"
-                            type="text"
-                            value=""
-                          />,
-                          <label
-                            className="upload-label"
-                            htmlFor="description"
-                          >
-                            Add Photo Description
-                          </label>,
-                        ],
-                        "className": "image-header-container",
-                      },
-                      "ref": null,
-                      "rendered": Array [
-                        Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "host",
-                          "props": Object {
-                            "className": "upload-text input-box",
-                            "col": "3",
-                            "name": "description",
-                            "onChange": [Function],
-                            "rows": "2",
-                            "type": "text",
-                            "value": "",
-                          },
-                          "ref": null,
-                          "rendered": null,
-                          "type": "textarea",
-                        },
-                        Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "host",
-                          "props": Object {
-                            "children": "Add Photo Description",
-                            "className": "upload-label",
-                            "htmlFor": "description",
-                          },
-                          "ref": null,
-                          "rendered": "Add Photo Description",
-                          "type": "label",
-                        },
-                      ],
-                      "type": "div",
-                    },
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": Array [
-                          <label
-                            className="upload-label"
-                            htmlFor="submit"
-                          >
-                            Upload Photo
-                          </label>,
+                        "children": <div
+                          className="image-header-container"
+                        >
                           <input
                             className="button-small"
                             name="submit"
                             type="submit"
-                            value="Submit"
-                          />,
-                        ],
-                        "className": "image-header-container",
+                            value="Upload Photo"
+                          />
+                        </div>,
+                        "className": "button-end-container",
                       },
                       "ref": null,
-                      "rendered": Array [
-                        Object {
-                          "instance": null,
-                          "key": undefined,
-                          "nodeType": "host",
-                          "props": Object {
-                            "children": "Upload Photo",
-                            "className": "upload-label",
-                            "htmlFor": "submit",
-                          },
-                          "ref": null,
-                          "rendered": "Upload Photo",
-                          "type": "label",
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <input
+                            className="button-small"
+                            name="submit"
+                            type="submit"
+                            value="Upload Photo"
+                          />,
+                          "className": "image-header-container",
                         },
-                        Object {
+                        "ref": null,
+                        "rendered": Object {
                           "instance": null,
                           "key": undefined,
                           "nodeType": "host",
@@ -1034,13 +1548,14 @@ ShallowWrapper {
                             "className": "button-small",
                             "name": "submit",
                             "type": "submit",
-                            "value": "Submit",
+                            "value": "Upload Photo",
                           },
                           "ref": null,
                           "rendered": null,
                           "type": "input",
                         },
-                      ],
+                        "type": "div",
+                      },
                       "type": "div",
                     },
                   ],
@@ -1226,50 +1741,127 @@ ShallowWrapper {
                       className="upload-title input-box"
                       name="title"
                       onChange={[Function]}
+                      placeholder="Title"
                       type="text"
                       value=""
                     />
-                    <label
-                      className="upload-label"
-                      htmlFor="title"
-                    >
-                      Title
-                    </label>
                   </div>
+                  <withStyles(SingleDatePicker)
+                    anchorDirection="left"
+                    appendToBody={false}
+                    block={false}
+                    calendarInfoPosition="bottom"
+                    customCloseIcon={null}
+                    customInputIcon={null}
+                    date={"1970-01-01T00:00:00.000Z"}
+                    daySize={39}
+                    disableScroll={false}
+                    disabled={false}
+                    displayFormat={[Function]}
+                    enableOutsideDays={false}
+                    firstDayOfWeek={null}
+                    focused={false}
+                    hideKeyboardShortcutsPanel={false}
+                    horizontalMargin={0}
+                    horizontalMonthPadding={13}
+                    id="date"
+                    initialVisibleMonth={null}
+                    inputIconPosition="before"
+                    isDayBlocked={[Function]}
+                    isDayHighlighted={[Function]}
+                    isOutsideRange={[Function]}
+                    isRTL={false}
+                    keepFocusOnInput={false}
+                    keepOpenOnDateSelect={false}
+                    monthFormat="MMMM YYYY"
+                    navNext={null}
+                    navPrev={null}
+                    noBorder={false}
+                    numberOfMonths={1}
+                    onClose={[Function]}
+                    onDateChange={[Function]}
+                    onFocusChange={[Function]}
+                    onNextMonthClick={[Function]}
+                    onPrevMonthClick={[Function]}
+                    openDirection="down"
+                    orientation="horizontal"
+                    phrases={
+                      Object {
+                        "calendarLabel": "Calendar",
+                        "chooseAvailableDate": [Function],
+                        "clearDate": "Clear Date",
+                        "closeDatePicker": "Close",
+                        "dateIsSelected": [Function],
+                        "dateIsUnavailable": [Function],
+                        "enterKey": "Enter key",
+                        "escape": "Escape key",
+                        "hideKeyboardShortcutsPanel": "Close the shortcuts panel.",
+                        "homeEnd": "Home and end keys",
+                        "jumpToNextMonth": "Move forward to switch to the next month.",
+                        "jumpToPrevMonth": "Move backward to switch to the previous month.",
+                        "keyboardNavigationInstructions": "Press the down arrow key to interact with the calendar and
+  select a date. Press the question mark key to get the keyboard shortcuts for changing dates.",
+                        "keyboardShortcuts": "Keyboard Shortcuts",
+                        "leftArrowRightArrow": "Right and left arrow keys",
+                        "moveFocusByOneDay": "Move backward (left) and forward (right) by one day.",
+                        "moveFocusByOneMonth": "Switch months.",
+                        "moveFocusByOneWeek": "Move backward (up) and forward (down) by one week.",
+                        "moveFocustoStartAndEndOfWeek": "Go to the first or last day of a week.",
+                        "openThisPanel": "Open this panel.",
+                        "pageUpPageDown": "page up and page down keys",
+                        "questionMark": "Question mark",
+                        "returnFocusToInput": "Return to the date input field.",
+                        "selectFocusedDate": "Select the date in focus.",
+                        "showKeyboardShortcutsPanel": "Open the keyboard shortcuts panel.",
+                        "upArrowDownArrow": "up and down arrow keys",
+                      }
+                    }
+                    placeholder="Event Date"
+                    readOnly={false}
+                    regular={false}
+                    renderCalendarInfo={null}
+                    renderDayContents={null}
+                    renderMonthElement={null}
+                    renderMonthText={null}
+                    reopenPickerOnClearDate={false}
+                    required={false}
+                    screenReaderInputMessage=""
+                    showClearDate={false}
+                    showDefaultInputIcon={false}
+                    small={false}
+                    verticalHeight={null}
+                    verticalSpacing={22}
+                    weekDayFormat="dd"
+                    withFullScreenPortal={false}
+                    withPortal={false}
+                  />
                   <div
                     className="image-header-container"
                   >
                     <textarea
                       className="upload-text input-box"
-                      col="3"
+                      col="2"
                       name="description"
                       onChange={[Function]}
-                      rows="2"
+                      placeholder="Enter Description"
+                      rows="21"
                       type="text"
                       value=""
                     />
-                    <label
-                      className="upload-label"
-                      htmlFor="description"
-                    >
-                      Add Photo Description
-                    </label>
                   </div>
                   <div
-                    className="image-header-container"
+                    className="button-end-container"
                   >
-                    <label
-                      className="upload-label"
-                      htmlFor="submit"
+                    <div
+                      className="image-header-container"
                     >
-                      Upload Photo
-                    </label>
-                    <input
-                      className="button-small"
-                      name="submit"
-                      type="submit"
-                      value="Submit"
-                    />
+                      <input
+                        className="button-small"
+                        name="submit"
+                        type="submit"
+                        value="Upload Photo"
+                      />
+                    </div>
                   </div>
                 </form>
               </div>
@@ -1385,50 +1977,127 @@ ShallowWrapper {
                         className="upload-title input-box"
                         name="title"
                         onChange={[Function]}
+                        placeholder="Title"
                         type="text"
                         value=""
                       />
-                      <label
-                        className="upload-label"
-                        htmlFor="title"
-                      >
-                        Title
-                      </label>
                     </div>
+                    <withStyles(SingleDatePicker)
+                      anchorDirection="left"
+                      appendToBody={false}
+                      block={false}
+                      calendarInfoPosition="bottom"
+                      customCloseIcon={null}
+                      customInputIcon={null}
+                      date={"1970-01-01T00:00:00.000Z"}
+                      daySize={39}
+                      disableScroll={false}
+                      disabled={false}
+                      displayFormat={[Function]}
+                      enableOutsideDays={false}
+                      firstDayOfWeek={null}
+                      focused={false}
+                      hideKeyboardShortcutsPanel={false}
+                      horizontalMargin={0}
+                      horizontalMonthPadding={13}
+                      id="date"
+                      initialVisibleMonth={null}
+                      inputIconPosition="before"
+                      isDayBlocked={[Function]}
+                      isDayHighlighted={[Function]}
+                      isOutsideRange={[Function]}
+                      isRTL={false}
+                      keepFocusOnInput={false}
+                      keepOpenOnDateSelect={false}
+                      monthFormat="MMMM YYYY"
+                      navNext={null}
+                      navPrev={null}
+                      noBorder={false}
+                      numberOfMonths={1}
+                      onClose={[Function]}
+                      onDateChange={[Function]}
+                      onFocusChange={[Function]}
+                      onNextMonthClick={[Function]}
+                      onPrevMonthClick={[Function]}
+                      openDirection="down"
+                      orientation="horizontal"
+                      phrases={
+                        Object {
+                          "calendarLabel": "Calendar",
+                          "chooseAvailableDate": [Function],
+                          "clearDate": "Clear Date",
+                          "closeDatePicker": "Close",
+                          "dateIsSelected": [Function],
+                          "dateIsUnavailable": [Function],
+                          "enterKey": "Enter key",
+                          "escape": "Escape key",
+                          "hideKeyboardShortcutsPanel": "Close the shortcuts panel.",
+                          "homeEnd": "Home and end keys",
+                          "jumpToNextMonth": "Move forward to switch to the next month.",
+                          "jumpToPrevMonth": "Move backward to switch to the previous month.",
+                          "keyboardNavigationInstructions": "Press the down arrow key to interact with the calendar and
+  select a date. Press the question mark key to get the keyboard shortcuts for changing dates.",
+                          "keyboardShortcuts": "Keyboard Shortcuts",
+                          "leftArrowRightArrow": "Right and left arrow keys",
+                          "moveFocusByOneDay": "Move backward (left) and forward (right) by one day.",
+                          "moveFocusByOneMonth": "Switch months.",
+                          "moveFocusByOneWeek": "Move backward (up) and forward (down) by one week.",
+                          "moveFocustoStartAndEndOfWeek": "Go to the first or last day of a week.",
+                          "openThisPanel": "Open this panel.",
+                          "pageUpPageDown": "page up and page down keys",
+                          "questionMark": "Question mark",
+                          "returnFocusToInput": "Return to the date input field.",
+                          "selectFocusedDate": "Select the date in focus.",
+                          "showKeyboardShortcutsPanel": "Open the keyboard shortcuts panel.",
+                          "upArrowDownArrow": "up and down arrow keys",
+                        }
+                      }
+                      placeholder="Event Date"
+                      readOnly={false}
+                      regular={false}
+                      renderCalendarInfo={null}
+                      renderDayContents={null}
+                      renderMonthElement={null}
+                      renderMonthText={null}
+                      reopenPickerOnClearDate={false}
+                      required={false}
+                      screenReaderInputMessage=""
+                      showClearDate={false}
+                      showDefaultInputIcon={false}
+                      small={false}
+                      verticalHeight={null}
+                      verticalSpacing={22}
+                      weekDayFormat="dd"
+                      withFullScreenPortal={false}
+                      withPortal={false}
+                    />
                     <div
                       className="image-header-container"
                     >
                       <textarea
                         className="upload-text input-box"
-                        col="3"
+                        col="2"
                         name="description"
                         onChange={[Function]}
-                        rows="2"
+                        placeholder="Enter Description"
+                        rows="21"
                         type="text"
                         value=""
                       />
-                      <label
-                        className="upload-label"
-                        htmlFor="description"
-                      >
-                        Add Photo Description
-                      </label>
                     </div>
                     <div
-                      className="image-header-container"
+                      className="button-end-container"
                     >
-                      <label
-                        className="upload-label"
-                        htmlFor="submit"
+                      <div
+                        className="image-header-container"
                       >
-                        Upload Photo
-                      </label>
-                      <input
-                        className="button-small"
-                        name="submit"
-                        type="submit"
-                        value="Submit"
-                      />
+                        <input
+                          className="button-small"
+                          name="submit"
+                          type="submit"
+                          value="Upload Photo"
+                        />
+                      </div>
                     </div>
                   </form>
                 </div>
@@ -1558,50 +2227,127 @@ ShallowWrapper {
                           className="upload-title input-box"
                           name="title"
                           onChange={[Function]}
+                          placeholder="Title"
                           type="text"
                           value=""
                         />
-                        <label
-                          className="upload-label"
-                          htmlFor="title"
-                        >
-                          Title
-                        </label>
                       </div>
+                      <withStyles(SingleDatePicker)
+                        anchorDirection="left"
+                        appendToBody={false}
+                        block={false}
+                        calendarInfoPosition="bottom"
+                        customCloseIcon={null}
+                        customInputIcon={null}
+                        date={"1970-01-01T00:00:00.000Z"}
+                        daySize={39}
+                        disableScroll={false}
+                        disabled={false}
+                        displayFormat={[Function]}
+                        enableOutsideDays={false}
+                        firstDayOfWeek={null}
+                        focused={false}
+                        hideKeyboardShortcutsPanel={false}
+                        horizontalMargin={0}
+                        horizontalMonthPadding={13}
+                        id="date"
+                        initialVisibleMonth={null}
+                        inputIconPosition="before"
+                        isDayBlocked={[Function]}
+                        isDayHighlighted={[Function]}
+                        isOutsideRange={[Function]}
+                        isRTL={false}
+                        keepFocusOnInput={false}
+                        keepOpenOnDateSelect={false}
+                        monthFormat="MMMM YYYY"
+                        navNext={null}
+                        navPrev={null}
+                        noBorder={false}
+                        numberOfMonths={1}
+                        onClose={[Function]}
+                        onDateChange={[Function]}
+                        onFocusChange={[Function]}
+                        onNextMonthClick={[Function]}
+                        onPrevMonthClick={[Function]}
+                        openDirection="down"
+                        orientation="horizontal"
+                        phrases={
+                          Object {
+                            "calendarLabel": "Calendar",
+                            "chooseAvailableDate": [Function],
+                            "clearDate": "Clear Date",
+                            "closeDatePicker": "Close",
+                            "dateIsSelected": [Function],
+                            "dateIsUnavailable": [Function],
+                            "enterKey": "Enter key",
+                            "escape": "Escape key",
+                            "hideKeyboardShortcutsPanel": "Close the shortcuts panel.",
+                            "homeEnd": "Home and end keys",
+                            "jumpToNextMonth": "Move forward to switch to the next month.",
+                            "jumpToPrevMonth": "Move backward to switch to the previous month.",
+                            "keyboardNavigationInstructions": "Press the down arrow key to interact with the calendar and
+  select a date. Press the question mark key to get the keyboard shortcuts for changing dates.",
+                            "keyboardShortcuts": "Keyboard Shortcuts",
+                            "leftArrowRightArrow": "Right and left arrow keys",
+                            "moveFocusByOneDay": "Move backward (left) and forward (right) by one day.",
+                            "moveFocusByOneMonth": "Switch months.",
+                            "moveFocusByOneWeek": "Move backward (up) and forward (down) by one week.",
+                            "moveFocustoStartAndEndOfWeek": "Go to the first or last day of a week.",
+                            "openThisPanel": "Open this panel.",
+                            "pageUpPageDown": "page up and page down keys",
+                            "questionMark": "Question mark",
+                            "returnFocusToInput": "Return to the date input field.",
+                            "selectFocusedDate": "Select the date in focus.",
+                            "showKeyboardShortcutsPanel": "Open the keyboard shortcuts panel.",
+                            "upArrowDownArrow": "up and down arrow keys",
+                          }
+                        }
+                        placeholder="Event Date"
+                        readOnly={false}
+                        regular={false}
+                        renderCalendarInfo={null}
+                        renderDayContents={null}
+                        renderMonthElement={null}
+                        renderMonthText={null}
+                        reopenPickerOnClearDate={false}
+                        required={false}
+                        screenReaderInputMessage=""
+                        showClearDate={false}
+                        showDefaultInputIcon={false}
+                        small={false}
+                        verticalHeight={null}
+                        verticalSpacing={22}
+                        weekDayFormat="dd"
+                        withFullScreenPortal={false}
+                        withPortal={false}
+                      />
                       <div
                         className="image-header-container"
                       >
                         <textarea
                           className="upload-text input-box"
-                          col="3"
+                          col="2"
                           name="description"
                           onChange={[Function]}
-                          rows="2"
+                          placeholder="Enter Description"
+                          rows="21"
                           type="text"
                           value=""
                         />
-                        <label
-                          className="upload-label"
-                          htmlFor="description"
-                        >
-                          Add Photo Description
-                        </label>
                       </div>
                       <div
-                        className="image-header-container"
+                        className="button-end-container"
                       >
-                        <label
-                          className="upload-label"
-                          htmlFor="submit"
+                        <div
+                          className="image-header-container"
                         >
-                          Upload Photo
-                        </label>
-                        <input
-                          className="button-small"
-                          name="submit"
-                          type="submit"
-                          value="Submit"
-                        />
+                          <input
+                            className="button-small"
+                            name="submit"
+                            type="submit"
+                            value="Upload Photo"
+                          />
+                        </div>
                       </div>
                     </form>
                   </div>
@@ -1720,50 +2466,127 @@ ShallowWrapper {
                           className="upload-title input-box"
                           name="title"
                           onChange={[Function]}
+                          placeholder="Title"
                           type="text"
                           value=""
                         />
-                        <label
-                          className="upload-label"
-                          htmlFor="title"
-                        >
-                          Title
-                        </label>
                       </div>
+                      <withStyles(SingleDatePicker)
+                        anchorDirection="left"
+                        appendToBody={false}
+                        block={false}
+                        calendarInfoPosition="bottom"
+                        customCloseIcon={null}
+                        customInputIcon={null}
+                        date={"1970-01-01T00:00:00.000Z"}
+                        daySize={39}
+                        disableScroll={false}
+                        disabled={false}
+                        displayFormat={[Function]}
+                        enableOutsideDays={false}
+                        firstDayOfWeek={null}
+                        focused={false}
+                        hideKeyboardShortcutsPanel={false}
+                        horizontalMargin={0}
+                        horizontalMonthPadding={13}
+                        id="date"
+                        initialVisibleMonth={null}
+                        inputIconPosition="before"
+                        isDayBlocked={[Function]}
+                        isDayHighlighted={[Function]}
+                        isOutsideRange={[Function]}
+                        isRTL={false}
+                        keepFocusOnInput={false}
+                        keepOpenOnDateSelect={false}
+                        monthFormat="MMMM YYYY"
+                        navNext={null}
+                        navPrev={null}
+                        noBorder={false}
+                        numberOfMonths={1}
+                        onClose={[Function]}
+                        onDateChange={[Function]}
+                        onFocusChange={[Function]}
+                        onNextMonthClick={[Function]}
+                        onPrevMonthClick={[Function]}
+                        openDirection="down"
+                        orientation="horizontal"
+                        phrases={
+                          Object {
+                            "calendarLabel": "Calendar",
+                            "chooseAvailableDate": [Function],
+                            "clearDate": "Clear Date",
+                            "closeDatePicker": "Close",
+                            "dateIsSelected": [Function],
+                            "dateIsUnavailable": [Function],
+                            "enterKey": "Enter key",
+                            "escape": "Escape key",
+                            "hideKeyboardShortcutsPanel": "Close the shortcuts panel.",
+                            "homeEnd": "Home and end keys",
+                            "jumpToNextMonth": "Move forward to switch to the next month.",
+                            "jumpToPrevMonth": "Move backward to switch to the previous month.",
+                            "keyboardNavigationInstructions": "Press the down arrow key to interact with the calendar and
+  select a date. Press the question mark key to get the keyboard shortcuts for changing dates.",
+                            "keyboardShortcuts": "Keyboard Shortcuts",
+                            "leftArrowRightArrow": "Right and left arrow keys",
+                            "moveFocusByOneDay": "Move backward (left) and forward (right) by one day.",
+                            "moveFocusByOneMonth": "Switch months.",
+                            "moveFocusByOneWeek": "Move backward (up) and forward (down) by one week.",
+                            "moveFocustoStartAndEndOfWeek": "Go to the first or last day of a week.",
+                            "openThisPanel": "Open this panel.",
+                            "pageUpPageDown": "page up and page down keys",
+                            "questionMark": "Question mark",
+                            "returnFocusToInput": "Return to the date input field.",
+                            "selectFocusedDate": "Select the date in focus.",
+                            "showKeyboardShortcutsPanel": "Open the keyboard shortcuts panel.",
+                            "upArrowDownArrow": "up and down arrow keys",
+                          }
+                        }
+                        placeholder="Event Date"
+                        readOnly={false}
+                        regular={false}
+                        renderCalendarInfo={null}
+                        renderDayContents={null}
+                        renderMonthElement={null}
+                        renderMonthText={null}
+                        reopenPickerOnClearDate={false}
+                        required={false}
+                        screenReaderInputMessage=""
+                        showClearDate={false}
+                        showDefaultInputIcon={false}
+                        small={false}
+                        verticalHeight={null}
+                        verticalSpacing={22}
+                        weekDayFormat="dd"
+                        withFullScreenPortal={false}
+                        withPortal={false}
+                      />
                       <div
                         className="image-header-container"
                       >
                         <textarea
                           className="upload-text input-box"
-                          col="3"
+                          col="2"
                           name="description"
                           onChange={[Function]}
-                          rows="2"
+                          placeholder="Enter Description"
+                          rows="21"
                           type="text"
                           value=""
                         />
-                        <label
-                          className="upload-label"
-                          htmlFor="description"
-                        >
-                          Add Photo Description
-                        </label>
                       </div>
                       <div
-                        className="image-header-container"
+                        className="button-end-container"
                       >
-                        <label
-                          className="upload-label"
-                          htmlFor="submit"
+                        <div
+                          className="image-header-container"
                         >
-                          Upload Photo
-                        </label>
-                        <input
-                          className="button-small"
-                          name="submit"
-                          type="submit"
-                          value="Submit"
-                        />
+                          <input
+                            className="button-small"
+                            name="submit"
+                            type="submit"
+                            value="Upload Photo"
+                          />
+                        </div>
                       </div>
                     </form>
                   </div>,
@@ -1803,50 +2626,127 @@ ShallowWrapper {
                           className="upload-title input-box"
                           name="title"
                           onChange={[Function]}
+                          placeholder="Title"
                           type="text"
                           value=""
                         />
-                        <label
-                          className="upload-label"
-                          htmlFor="title"
-                        >
-                          Title
-                        </label>
                       </div>
+                      <withStyles(SingleDatePicker)
+                        anchorDirection="left"
+                        appendToBody={false}
+                        block={false}
+                        calendarInfoPosition="bottom"
+                        customCloseIcon={null}
+                        customInputIcon={null}
+                        date={"1970-01-01T00:00:00.000Z"}
+                        daySize={39}
+                        disableScroll={false}
+                        disabled={false}
+                        displayFormat={[Function]}
+                        enableOutsideDays={false}
+                        firstDayOfWeek={null}
+                        focused={false}
+                        hideKeyboardShortcutsPanel={false}
+                        horizontalMargin={0}
+                        horizontalMonthPadding={13}
+                        id="date"
+                        initialVisibleMonth={null}
+                        inputIconPosition="before"
+                        isDayBlocked={[Function]}
+                        isDayHighlighted={[Function]}
+                        isOutsideRange={[Function]}
+                        isRTL={false}
+                        keepFocusOnInput={false}
+                        keepOpenOnDateSelect={false}
+                        monthFormat="MMMM YYYY"
+                        navNext={null}
+                        navPrev={null}
+                        noBorder={false}
+                        numberOfMonths={1}
+                        onClose={[Function]}
+                        onDateChange={[Function]}
+                        onFocusChange={[Function]}
+                        onNextMonthClick={[Function]}
+                        onPrevMonthClick={[Function]}
+                        openDirection="down"
+                        orientation="horizontal"
+                        phrases={
+                          Object {
+                            "calendarLabel": "Calendar",
+                            "chooseAvailableDate": [Function],
+                            "clearDate": "Clear Date",
+                            "closeDatePicker": "Close",
+                            "dateIsSelected": [Function],
+                            "dateIsUnavailable": [Function],
+                            "enterKey": "Enter key",
+                            "escape": "Escape key",
+                            "hideKeyboardShortcutsPanel": "Close the shortcuts panel.",
+                            "homeEnd": "Home and end keys",
+                            "jumpToNextMonth": "Move forward to switch to the next month.",
+                            "jumpToPrevMonth": "Move backward to switch to the previous month.",
+                            "keyboardNavigationInstructions": "Press the down arrow key to interact with the calendar and
+  select a date. Press the question mark key to get the keyboard shortcuts for changing dates.",
+                            "keyboardShortcuts": "Keyboard Shortcuts",
+                            "leftArrowRightArrow": "Right and left arrow keys",
+                            "moveFocusByOneDay": "Move backward (left) and forward (right) by one day.",
+                            "moveFocusByOneMonth": "Switch months.",
+                            "moveFocusByOneWeek": "Move backward (up) and forward (down) by one week.",
+                            "moveFocustoStartAndEndOfWeek": "Go to the first or last day of a week.",
+                            "openThisPanel": "Open this panel.",
+                            "pageUpPageDown": "page up and page down keys",
+                            "questionMark": "Question mark",
+                            "returnFocusToInput": "Return to the date input field.",
+                            "selectFocusedDate": "Select the date in focus.",
+                            "showKeyboardShortcutsPanel": "Open the keyboard shortcuts panel.",
+                            "upArrowDownArrow": "up and down arrow keys",
+                          }
+                        }
+                        placeholder="Event Date"
+                        readOnly={false}
+                        regular={false}
+                        renderCalendarInfo={null}
+                        renderDayContents={null}
+                        renderMonthElement={null}
+                        renderMonthText={null}
+                        reopenPickerOnClearDate={false}
+                        required={false}
+                        screenReaderInputMessage=""
+                        showClearDate={false}
+                        showDefaultInputIcon={false}
+                        small={false}
+                        verticalHeight={null}
+                        verticalSpacing={22}
+                        weekDayFormat="dd"
+                        withFullScreenPortal={false}
+                        withPortal={false}
+                      />
                       <div
                         className="image-header-container"
                       >
                         <textarea
                           className="upload-text input-box"
-                          col="3"
+                          col="2"
                           name="description"
                           onChange={[Function]}
-                          rows="2"
+                          placeholder="Enter Description"
+                          rows="21"
                           type="text"
                           value=""
                         />
-                        <label
-                          className="upload-label"
-                          htmlFor="description"
-                        >
-                          Add Photo Description
-                        </label>
                       </div>
                       <div
-                        className="image-header-container"
+                        className="button-end-container"
                       >
-                        <label
-                          className="upload-label"
-                          htmlFor="submit"
+                        <div
+                          className="image-header-container"
                         >
-                          Upload Photo
-                        </label>
-                        <input
-                          className="button-small"
-                          name="submit"
-                          type="submit"
-                          value="Submit"
-                        />
+                          <input
+                            className="button-small"
+                            name="submit"
+                            type="submit"
+                            value="Upload Photo"
+                          />
+                        </div>
                       </div>
                     </form>,
                     "className": "content-inner",
@@ -1882,50 +2782,127 @@ ShallowWrapper {
                             className="upload-title input-box"
                             name="title"
                             onChange={[Function]}
+                            placeholder="Title"
                             type="text"
                             value=""
                           />
-                          <label
-                            className="upload-label"
-                            htmlFor="title"
-                          >
-                            Title
-                          </label>
                         </div>,
+                        <withStyles(SingleDatePicker)
+                          anchorDirection="left"
+                          appendToBody={false}
+                          block={false}
+                          calendarInfoPosition="bottom"
+                          customCloseIcon={null}
+                          customInputIcon={null}
+                          date={"1970-01-01T00:00:00.000Z"}
+                          daySize={39}
+                          disableScroll={false}
+                          disabled={false}
+                          displayFormat={[Function]}
+                          enableOutsideDays={false}
+                          firstDayOfWeek={null}
+                          focused={false}
+                          hideKeyboardShortcutsPanel={false}
+                          horizontalMargin={0}
+                          horizontalMonthPadding={13}
+                          id="date"
+                          initialVisibleMonth={null}
+                          inputIconPosition="before"
+                          isDayBlocked={[Function]}
+                          isDayHighlighted={[Function]}
+                          isOutsideRange={[Function]}
+                          isRTL={false}
+                          keepFocusOnInput={false}
+                          keepOpenOnDateSelect={false}
+                          monthFormat="MMMM YYYY"
+                          navNext={null}
+                          navPrev={null}
+                          noBorder={false}
+                          numberOfMonths={1}
+                          onClose={[Function]}
+                          onDateChange={[Function]}
+                          onFocusChange={[Function]}
+                          onNextMonthClick={[Function]}
+                          onPrevMonthClick={[Function]}
+                          openDirection="down"
+                          orientation="horizontal"
+                          phrases={
+                            Object {
+                              "calendarLabel": "Calendar",
+                              "chooseAvailableDate": [Function],
+                              "clearDate": "Clear Date",
+                              "closeDatePicker": "Close",
+                              "dateIsSelected": [Function],
+                              "dateIsUnavailable": [Function],
+                              "enterKey": "Enter key",
+                              "escape": "Escape key",
+                              "hideKeyboardShortcutsPanel": "Close the shortcuts panel.",
+                              "homeEnd": "Home and end keys",
+                              "jumpToNextMonth": "Move forward to switch to the next month.",
+                              "jumpToPrevMonth": "Move backward to switch to the previous month.",
+                              "keyboardNavigationInstructions": "Press the down arrow key to interact with the calendar and
+  select a date. Press the question mark key to get the keyboard shortcuts for changing dates.",
+                              "keyboardShortcuts": "Keyboard Shortcuts",
+                              "leftArrowRightArrow": "Right and left arrow keys",
+                              "moveFocusByOneDay": "Move backward (left) and forward (right) by one day.",
+                              "moveFocusByOneMonth": "Switch months.",
+                              "moveFocusByOneWeek": "Move backward (up) and forward (down) by one week.",
+                              "moveFocustoStartAndEndOfWeek": "Go to the first or last day of a week.",
+                              "openThisPanel": "Open this panel.",
+                              "pageUpPageDown": "page up and page down keys",
+                              "questionMark": "Question mark",
+                              "returnFocusToInput": "Return to the date input field.",
+                              "selectFocusedDate": "Select the date in focus.",
+                              "showKeyboardShortcutsPanel": "Open the keyboard shortcuts panel.",
+                              "upArrowDownArrow": "up and down arrow keys",
+                            }
+                          }
+                          placeholder="Event Date"
+                          readOnly={false}
+                          regular={false}
+                          renderCalendarInfo={null}
+                          renderDayContents={null}
+                          renderMonthElement={null}
+                          renderMonthText={null}
+                          reopenPickerOnClearDate={false}
+                          required={false}
+                          screenReaderInputMessage=""
+                          showClearDate={false}
+                          showDefaultInputIcon={false}
+                          small={false}
+                          verticalHeight={null}
+                          verticalSpacing={22}
+                          weekDayFormat="dd"
+                          withFullScreenPortal={false}
+                          withPortal={false}
+                        />,
                         <div
                           className="image-header-container"
                         >
                           <textarea
                             className="upload-text input-box"
-                            col="3"
+                            col="2"
                             name="description"
                             onChange={[Function]}
-                            rows="2"
+                            placeholder="Enter Description"
+                            rows="21"
                             type="text"
                             value=""
                           />
-                          <label
-                            className="upload-label"
-                            htmlFor="description"
-                          >
-                            Add Photo Description
-                          </label>
                         </div>,
                         <div
-                          className="image-header-container"
+                          className="button-end-container"
                         >
-                          <label
-                            className="upload-label"
-                            htmlFor="submit"
+                          <div
+                            className="image-header-container"
                           >
-                            Upload Photo
-                          </label>
-                          <input
-                            className="button-small"
-                            name="submit"
-                            type="submit"
-                            value="Submit"
-                          />
+                            <input
+                              className="button-small"
+                              name="submit"
+                              type="submit"
+                              value="Upload Photo"
+                            />
+                          </div>
                         </div>,
                       ],
                       "className": "image-header",
@@ -1993,54 +2970,169 @@ ShallowWrapper {
                         "key": undefined,
                         "nodeType": "host",
                         "props": Object {
-                          "children": Array [
-                            <input
-                              className="upload-title input-box"
-                              name="title"
-                              onChange={[Function]}
-                              type="text"
-                              value=""
-                            />,
-                            <label
-                              className="upload-label"
-                              htmlFor="title"
-                            >
-                              Title
-                            </label>,
-                          ],
+                          "children": <input
+                            className="upload-title input-box"
+                            name="title"
+                            onChange={[Function]}
+                            placeholder="Title"
+                            type="text"
+                            value=""
+                          />,
                           "className": "image-header-container",
                         },
                         "ref": null,
-                        "rendered": Array [
-                          Object {
-                            "instance": null,
-                            "key": undefined,
-                            "nodeType": "host",
-                            "props": Object {
-                              "className": "upload-title input-box",
-                              "name": "title",
-                              "onChange": [Function],
-                              "type": "text",
-                              "value": "",
-                            },
-                            "ref": null,
-                            "rendered": null,
-                            "type": "input",
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "className": "upload-title input-box",
+                            "name": "title",
+                            "onChange": [Function],
+                            "placeholder": "Title",
+                            "type": "text",
+                            "value": "",
                           },
-                          Object {
-                            "instance": null,
-                            "key": undefined,
-                            "nodeType": "host",
-                            "props": Object {
-                              "children": "Title",
-                              "className": "upload-label",
-                              "htmlFor": "title",
-                            },
-                            "ref": null,
-                            "rendered": "Title",
-                            "type": "label",
+                          "ref": null,
+                          "rendered": null,
+                          "type": "input",
+                        },
+                        "type": "div",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "anchorDirection": "left",
+                          "appendToBody": false,
+                          "block": false,
+                          "calendarInfoPosition": "bottom",
+                          "customCloseIcon": null,
+                          "customInputIcon": null,
+                          "date": "1970-01-01T00:00:00.000Z",
+                          "dayAriaLabelFormat": undefined,
+                          "daySize": 39,
+                          "disableScroll": false,
+                          "disabled": false,
+                          "displayFormat": [Function],
+                          "enableOutsideDays": false,
+                          "firstDayOfWeek": null,
+                          "focused": false,
+                          "hideKeyboardShortcutsPanel": false,
+                          "horizontalMargin": 0,
+                          "horizontalMonthPadding": 13,
+                          "id": "date",
+                          "initialVisibleMonth": null,
+                          "inputIconPosition": "before",
+                          "isDayBlocked": [Function],
+                          "isDayHighlighted": [Function],
+                          "isOutsideRange": [Function],
+                          "isRTL": false,
+                          "keepFocusOnInput": false,
+                          "keepOpenOnDateSelect": false,
+                          "monthFormat": "MMMM YYYY",
+                          "navNext": null,
+                          "navPrev": null,
+                          "noBorder": false,
+                          "numberOfMonths": 1,
+                          "onClose": [Function],
+                          "onDateChange": [Function],
+                          "onFocusChange": [Function],
+                          "onNextMonthClick": [Function],
+                          "onPrevMonthClick": [Function],
+                          "openDirection": "down",
+                          "orientation": "horizontal",
+                          "phrases": Object {
+                            "calendarLabel": "Calendar",
+                            "chooseAvailableDate": [Function],
+                            "clearDate": "Clear Date",
+                            "closeDatePicker": "Close",
+                            "dateIsSelected": [Function],
+                            "dateIsUnavailable": [Function],
+                            "enterKey": "Enter key",
+                            "escape": "Escape key",
+                            "hideKeyboardShortcutsPanel": "Close the shortcuts panel.",
+                            "homeEnd": "Home and end keys",
+                            "jumpToNextMonth": "Move forward to switch to the next month.",
+                            "jumpToPrevMonth": "Move backward to switch to the previous month.",
+                            "keyboardNavigationInstructions": "Press the down arrow key to interact with the calendar and
+  select a date. Press the question mark key to get the keyboard shortcuts for changing dates.",
+                            "keyboardShortcuts": "Keyboard Shortcuts",
+                            "leftArrowRightArrow": "Right and left arrow keys",
+                            "moveFocusByOneDay": "Move backward (left) and forward (right) by one day.",
+                            "moveFocusByOneMonth": "Switch months.",
+                            "moveFocusByOneWeek": "Move backward (up) and forward (down) by one week.",
+                            "moveFocustoStartAndEndOfWeek": "Go to the first or last day of a week.",
+                            "openThisPanel": "Open this panel.",
+                            "pageUpPageDown": "page up and page down keys",
+                            "questionMark": "Question mark",
+                            "returnFocusToInput": "Return to the date input field.",
+                            "selectFocusedDate": "Select the date in focus.",
+                            "showKeyboardShortcutsPanel": "Open the keyboard shortcuts panel.",
+                            "upArrowDownArrow": "up and down arrow keys",
                           },
-                        ],
+                          "placeholder": "Event Date",
+                          "readOnly": false,
+                          "regular": false,
+                          "renderCalendarDay": undefined,
+                          "renderCalendarInfo": null,
+                          "renderDayContents": null,
+                          "renderMonthElement": null,
+                          "renderMonthText": null,
+                          "reopenPickerOnClearDate": false,
+                          "required": false,
+                          "screenReaderInputMessage": "",
+                          "showClearDate": false,
+                          "showDefaultInputIcon": false,
+                          "small": false,
+                          "transitionDuration": undefined,
+                          "verticalHeight": null,
+                          "verticalSpacing": 22,
+                          "weekDayFormat": "dd",
+                          "withFullScreenPortal": false,
+                          "withPortal": false,
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <textarea
+                            className="upload-text input-box"
+                            col="2"
+                            name="description"
+                            onChange={[Function]}
+                            placeholder="Enter Description"
+                            rows="21"
+                            type="text"
+                            value=""
+                          />,
+                          "className": "image-header-container",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "className": "upload-text input-box",
+                            "col": "2",
+                            "name": "description",
+                            "onChange": [Function],
+                            "placeholder": "Enter Description",
+                            "rows": "21",
+                            "type": "text",
+                            "value": "",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "textarea",
+                        },
                         "type": "div",
                       },
                       Object {
@@ -2048,97 +3140,34 @@ ShallowWrapper {
                         "key": undefined,
                         "nodeType": "host",
                         "props": Object {
-                          "children": Array [
-                            <textarea
-                              className="upload-text input-box"
-                              col="3"
-                              name="description"
-                              onChange={[Function]}
-                              rows="2"
-                              type="text"
-                              value=""
-                            />,
-                            <label
-                              className="upload-label"
-                              htmlFor="description"
-                            >
-                              Add Photo Description
-                            </label>,
-                          ],
-                          "className": "image-header-container",
-                        },
-                        "ref": null,
-                        "rendered": Array [
-                          Object {
-                            "instance": null,
-                            "key": undefined,
-                            "nodeType": "host",
-                            "props": Object {
-                              "className": "upload-text input-box",
-                              "col": "3",
-                              "name": "description",
-                              "onChange": [Function],
-                              "rows": "2",
-                              "type": "text",
-                              "value": "",
-                            },
-                            "ref": null,
-                            "rendered": null,
-                            "type": "textarea",
-                          },
-                          Object {
-                            "instance": null,
-                            "key": undefined,
-                            "nodeType": "host",
-                            "props": Object {
-                              "children": "Add Photo Description",
-                              "className": "upload-label",
-                              "htmlFor": "description",
-                            },
-                            "ref": null,
-                            "rendered": "Add Photo Description",
-                            "type": "label",
-                          },
-                        ],
-                        "type": "div",
-                      },
-                      Object {
-                        "instance": null,
-                        "key": undefined,
-                        "nodeType": "host",
-                        "props": Object {
-                          "children": Array [
-                            <label
-                              className="upload-label"
-                              htmlFor="submit"
-                            >
-                              Upload Photo
-                            </label>,
+                          "children": <div
+                            className="image-header-container"
+                          >
                             <input
                               className="button-small"
                               name="submit"
                               type="submit"
-                              value="Submit"
-                            />,
-                          ],
-                          "className": "image-header-container",
+                              value="Upload Photo"
+                            />
+                          </div>,
+                          "className": "button-end-container",
                         },
                         "ref": null,
-                        "rendered": Array [
-                          Object {
-                            "instance": null,
-                            "key": undefined,
-                            "nodeType": "host",
-                            "props": Object {
-                              "children": "Upload Photo",
-                              "className": "upload-label",
-                              "htmlFor": "submit",
-                            },
-                            "ref": null,
-                            "rendered": "Upload Photo",
-                            "type": "label",
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <input
+                              className="button-small"
+                              name="submit"
+                              type="submit"
+                              value="Upload Photo"
+                            />,
+                            "className": "image-header-container",
                           },
-                          Object {
+                          "ref": null,
+                          "rendered": Object {
                             "instance": null,
                             "key": undefined,
                             "nodeType": "host",
@@ -2146,13 +3175,14 @@ ShallowWrapper {
                               "className": "button-small",
                               "name": "submit",
                               "type": "submit",
-                              "value": "Submit",
+                              "value": "Upload Photo",
                             },
                             "ref": null,
                             "rendered": null,
                             "type": "input",
                           },
-                        ],
+                          "type": "div",
+                        },
                         "type": "div",
                       },
                     ],

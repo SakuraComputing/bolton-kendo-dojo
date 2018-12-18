@@ -76,6 +76,12 @@ ShallowWrapper {
           History of the club 
 
         </div>,
+        <h1>
+          K.N.M.S - Wilf Swindell's Sensei
+        </h1>,
+        <div>
+          Some History
+        </div>,
       ],
       "className": "content-container",
     },
@@ -105,6 +111,28 @@ ShallowWrapper {
 ",
         "type": "div",
       },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "K.N.M.S - Wilf Swindell's Sensei",
+        },
+        "ref": null,
+        "rendered": "K.N.M.S - Wilf Swindell's Sensei",
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Some History",
+        },
+        "ref": null,
+        "rendered": "Some History",
+        "type": "div",
+      },
     ],
     "type": "div",
   },
@@ -121,6 +149,12 @@ ShallowWrapper {
           <div>
             History of the club 
 
+          </div>,
+          <h1>
+            K.N.M.S - Wilf Swindell's Sensei
+          </h1>,
+          <div>
+            Some History
           </div>,
         ],
         "className": "content-container",
@@ -149,6 +183,28 @@ ShallowWrapper {
           "ref": null,
           "rendered": "History of the club 
 ",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "K.N.M.S - Wilf Swindell's Sensei",
+          },
+          "ref": null,
+          "rendered": "K.N.M.S - Wilf Swindell's Sensei",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Some History",
+          },
+          "ref": null,
+          "rendered": "Some History",
           "type": "div",
         },
       ],

@@ -13,11 +13,10 @@
 }
 
 .input-box {
-    padding: 10px;
+    padding: 8px;
     border: solid 1px $dark-grey;
     border-radius: 5px;
     font-size: 100%;
-    width: 20em;
     transition: 0.3s;
 }
 
@@ -51,7 +50,7 @@
 .button-small {
     border: solid 1px $blue-black;
     padding: .5em;
-    border-radius: 3px;
+    border-radius: 5px;
     font-size: 80%;
     font-weight: bold;
     width: 100px;

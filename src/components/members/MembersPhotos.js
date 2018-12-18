@@ -7,6 +7,8 @@ import MemberPhotoItem from '../../components/members/MemberPhotoItem';
 import { confirmAlert } from 'react-confirm-alert'; 
 import MemberPhotoFilter from './MembersPhotoFilter';
 import selectPhotos from '../../selectors/photos';
+import moment from 'moment';
+import { SingleDatePicker } from 'react-dates';
 
 export class MemberPhoto extends React.Component {
 
@@ -21,7 +23,8 @@ export class MemberPhoto extends React.Component {
             offset: 0,
             data: [],
             perPage: 16,
-            currentPage: 0
+            currentPage: 0,
+            calendarFocused: false,
         };
     };
 
@@ -36,6 +39,15 @@ export class MemberPhoto extends React.Component {
     onTitleChange = (e) => {
         this.setState({ title: e.target.value })
     }
+
+    onDateChange = (dateTaken) => {
+        if(dateTaken) {
+            this.setState(() => ({ dateTaken }))
+        }
+    };
+    onFocusChange = ( {focused} ) => {
+        this.setState(() => ({ calendarFocused: focused }))
+    };
 
     onDescriptionChange = (e) => {
         this.setState({ description: e.target.value })
@@ -148,16 +160,41 @@ export class MemberPhoto extends React.Component {
                                         <input type="file" accept=".jpg,.jpeg,.png,.bmp,.gif" name="image" id="upload-file" onChange={this.onChange} />
                                     </div>
                                     <div className="image-header-container">
-                                        <input value={this.state.title} className="upload-title input-box" type="text" name="title" onChange={this.onTitleChange}/>
-                                        <label className="upload-label" htmlFor="title" >Title</label>
+                                        <input 
+                                            value={this.state.title} 
+                                            className="upload-title input-box" 
+                                            type="text" 
+                                            name="title" 
+                                            onChange={this.onTitleChange}
+                                            placeholder="Title"
+                                        />
                                     </div>
+                                    <SingleDatePicker 
+                                        date={moment()}
+                                        onDateChange={this.onDateChange}
+                                        focused={this.state.calendarFocused}
+                                        onFocusChange={this.onFocusChange}
+                                        numberOfMonths={1}
+                                        isOutsideRange={(day) => false}  
+                                        openDirection="down"
+                                        placeholder="Event Date"
+                                    />
                                     <div className="image-header-container">
-                                        <textarea rows="2" col="3" value={this.state.description} className="upload-text input-box" type="text" name="description" onChange={this.onDescriptionChange}/>
-                                        <label className="upload-label" htmlFor="description" >Add Photo Description</label>
+                                        <textarea 
+                                            rows="21" 
+                                            col="2" 
+                                            value={this.state.description} 
+                                            className="upload-text input-box" 
+                                            type="text" 
+                                            name="description" 
+                                            onChange={this.onDescriptionChange}
+                                            placeholder="Enter Description"
+                                        />
                                     </div>
-                                    <div className="image-header-container">
-                                        <label className="upload-label" htmlFor="submit">Upload Photo</label>
-                                        <input type="submit" value="Submit" name="submit" className="button-small"/>
+                                    <div className="button-end-container">
+                                        <div className="image-header-container">
+                                            <input type="submit" value="Upload Photo" name="submit" className="button-small"/>
+                                        </div>
                                     </div>
                                 </form>
                             </div>
