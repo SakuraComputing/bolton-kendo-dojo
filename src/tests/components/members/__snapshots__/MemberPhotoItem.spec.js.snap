@@ -45,7 +45,7 @@ ShallowWrapper {
           <p />
         </MemberPhotoViewer>,
         <div
-          className="photo-container"
+          className="button-end-container"
         >
           <button
             className="button-small photo-button"
@@ -202,7 +202,7 @@ ShallowWrapper {
               Delete Photo
             </button>,
           ],
-          "className": "photo-container",
+          "className": "button-end-container",
         },
         "ref": null,
         "rendered": Array [
@@ -270,7 +270,7 @@ ShallowWrapper {
             <p />
           </MemberPhotoViewer>,
           <div
-            className="photo-container"
+            className="button-end-container"
           >
             <button
               className="button-small photo-button"
@@ -427,7 +427,7 @@ ShallowWrapper {
                 Delete Photo
               </button>,
             ],
-            "className": "photo-container",
+            "className": "button-end-container",
           },
           "ref": null,
           "rendered": Array [
