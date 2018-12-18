@@ -25,8 +25,6 @@ class MemberPhotoItem extends Component {
     
     render() {
 
-        console.log(this.props);
-
         return (
             <div className="image-frame">
                 <img className="image-item" src={`uploads/${this.props.filename}`} alt="photoU" />

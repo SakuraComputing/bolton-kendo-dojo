@@ -17,7 +17,7 @@ export class MemberPhoto extends React.Component {
             file: null,
             title: '',
             description: '',
-            eventData: null,
+            eventDate: null,
             errors: {},
             offset: 0,
             data: [],

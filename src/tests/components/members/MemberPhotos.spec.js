@@ -24,7 +24,7 @@ describe('Member Photos', () => {
             file: null,
             title: '',
             description: '',
-            eventData: null,
+            eventDate: null,
             errors: {},
             offset: 0,
             data: [],
@@ -54,7 +54,7 @@ describe('Member Photos', () => {
                 photo.find('SingleDatePicker').prop('onDateChange')(now)
             });
             it('should set the new date on date change', () => {
-                expect(photo.state('eventData')).toEqual(now);
+                expect(photo.state('eventDate')).toEqual(now);
             });
         });
         describe('When typing in the description field', () => { 
