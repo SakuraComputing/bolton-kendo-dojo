@@ -27,18 +27,21 @@ ShallowWrapper {
             "date": "2018-11-28T17:58:42.652Z",
             "description": "Kendo Photo Details",
             "filename": "image-1543168184113.png",
+            "title": "Title1",
           },
           Object {
             "_id": "5bfed7528036661512c0f933",
             "date": "2018-11-21T17:58:42.652Z",
             "description": "More Details",
             "filename": "image-0000000000.png",
+            "title": "Title2",
           },
           Object {
             "_id": "5bfed7528032901512c05rtd",
             "date": "2018-11-11T17:58:42.652Z",
             "description": "Extra Details",
             "filename": "image-3333333333.png",
+            "title": "Title3",
           },
         ],
       }
@@ -247,18 +250,21 @@ ShallowWrapper {
               description="Kendo Photo Details"
               filename="image-1543168184113.png"
               onUploadDelete={[Function]}
+              title="Title1"
             />
             <MemberPhotoItem
               date="2018-11-21T17:58:42.652Z"
               description="More Details"
               filename="image-0000000000.png"
               onUploadDelete={[Function]}
+              title="Title2"
             />
             <MemberPhotoItem
               date="2018-11-11T17:58:42.652Z"
               description="Extra Details"
               filename="image-3333333333.png"
               onUploadDelete={[Function]}
+              title="Title3"
             />
           </div>
           <PaginationBoxView
@@ -483,18 +489,21 @@ ShallowWrapper {
                 description="Kendo Photo Details"
                 filename="image-1543168184113.png"
                 onUploadDelete={[Function]}
+                title="Title1"
               />
               <MemberPhotoItem
                 date="2018-11-21T17:58:42.652Z"
                 description="More Details"
                 filename="image-0000000000.png"
                 onUploadDelete={[Function]}
+                title="Title2"
               />
               <MemberPhotoItem
                 date="2018-11-11T17:58:42.652Z"
                 description="Extra Details"
                 filename="image-3333333333.png"
                 onUploadDelete={[Function]}
+                title="Title3"
               />
             </div>
             <PaginationBoxView
@@ -733,18 +742,21 @@ ShallowWrapper {
                   description="Kendo Photo Details"
                   filename="image-1543168184113.png"
                   onUploadDelete={[Function]}
+                  title="Title1"
                 />
                 <MemberPhotoItem
                   date="2018-11-21T17:58:42.652Z"
                   description="More Details"
                   filename="image-0000000000.png"
                   onUploadDelete={[Function]}
+                  title="Title2"
                 />
                 <MemberPhotoItem
                   date="2018-11-11T17:58:42.652Z"
                   description="Extra Details"
                   filename="image-3333333333.png"
                   onUploadDelete={[Function]}
+                  title="Title3"
                 />
               </div>,
               <PaginationBoxView
@@ -1576,18 +1588,21 @@ ShallowWrapper {
                     description="Kendo Photo Details"
                     filename="image-1543168184113.png"
                     onUploadDelete={[Function]}
+                    title="Title1"
                   />,
                   <MemberPhotoItem
                     date="2018-11-21T17:58:42.652Z"
                     description="More Details"
                     filename="image-0000000000.png"
                     onUploadDelete={[Function]}
+                    title="Title2"
                   />,
                   <MemberPhotoItem
                     date="2018-11-11T17:58:42.652Z"
                     description="Extra Details"
                     filename="image-3333333333.png"
                     onUploadDelete={[Function]}
+                    title="Title3"
                   />,
                 ],
                 "className": "image-container",
@@ -1604,7 +1619,7 @@ ShallowWrapper {
                     "eventDate": undefined,
                     "filename": "image-1543168184113.png",
                     "onUploadDelete": [Function],
-                    "title": undefined,
+                    "title": "Title1",
                   },
                   "ref": null,
                   "rendered": null,
@@ -1620,7 +1635,7 @@ ShallowWrapper {
                     "eventDate": undefined,
                     "filename": "image-0000000000.png",
                     "onUploadDelete": [Function],
-                    "title": undefined,
+                    "title": "Title2",
                   },
                   "ref": null,
                   "rendered": null,
@@ -1636,7 +1651,7 @@ ShallowWrapper {
                     "eventDate": undefined,
                     "filename": "image-3333333333.png",
                     "onUploadDelete": [Function],
-                    "title": undefined,
+                    "title": "Title3",
                   },
                   "ref": null,
                   "rendered": null,
@@ -1880,18 +1895,21 @@ ShallowWrapper {
                 description="Kendo Photo Details"
                 filename="image-1543168184113.png"
                 onUploadDelete={[Function]}
+                title="Title1"
               />
               <MemberPhotoItem
                 date="2018-11-21T17:58:42.652Z"
                 description="More Details"
                 filename="image-0000000000.png"
                 onUploadDelete={[Function]}
+                title="Title2"
               />
               <MemberPhotoItem
                 date="2018-11-11T17:58:42.652Z"
                 description="Extra Details"
                 filename="image-3333333333.png"
                 onUploadDelete={[Function]}
+                title="Title3"
               />
             </div>
             <PaginationBoxView
@@ -2116,18 +2134,21 @@ ShallowWrapper {
                   description="Kendo Photo Details"
                   filename="image-1543168184113.png"
                   onUploadDelete={[Function]}
+                  title="Title1"
                 />
                 <MemberPhotoItem
                   date="2018-11-21T17:58:42.652Z"
                   description="More Details"
                   filename="image-0000000000.png"
                   onUploadDelete={[Function]}
+                  title="Title2"
                 />
                 <MemberPhotoItem
                   date="2018-11-11T17:58:42.652Z"
                   description="Extra Details"
                   filename="image-3333333333.png"
                   onUploadDelete={[Function]}
+                  title="Title3"
                 />
               </div>
               <PaginationBoxView
@@ -2366,18 +2387,21 @@ ShallowWrapper {
                     description="Kendo Photo Details"
                     filename="image-1543168184113.png"
                     onUploadDelete={[Function]}
+                    title="Title1"
                   />
                   <MemberPhotoItem
                     date="2018-11-21T17:58:42.652Z"
                     description="More Details"
                     filename="image-0000000000.png"
                     onUploadDelete={[Function]}
+                    title="Title2"
                   />
                   <MemberPhotoItem
                     date="2018-11-11T17:58:42.652Z"
                     description="Extra Details"
                     filename="image-3333333333.png"
                     onUploadDelete={[Function]}
+                    title="Title3"
                   />
                 </div>,
                 <PaginationBoxView
@@ -3209,18 +3233,21 @@ ShallowWrapper {
                       description="Kendo Photo Details"
                       filename="image-1543168184113.png"
                       onUploadDelete={[Function]}
+                      title="Title1"
                     />,
                     <MemberPhotoItem
                       date="2018-11-21T17:58:42.652Z"
                       description="More Details"
                       filename="image-0000000000.png"
                       onUploadDelete={[Function]}
+                      title="Title2"
                     />,
                     <MemberPhotoItem
                       date="2018-11-11T17:58:42.652Z"
                       description="Extra Details"
                       filename="image-3333333333.png"
                       onUploadDelete={[Function]}
+                      title="Title3"
                     />,
                   ],
                   "className": "image-container",
@@ -3237,7 +3264,7 @@ ShallowWrapper {
                       "eventDate": undefined,
                       "filename": "image-1543168184113.png",
                       "onUploadDelete": [Function],
-                      "title": undefined,
+                      "title": "Title1",
                     },
                     "ref": null,
                     "rendered": null,
@@ -3253,7 +3280,7 @@ ShallowWrapper {
                       "eventDate": undefined,
                       "filename": "image-0000000000.png",
                       "onUploadDelete": [Function],
-                      "title": undefined,
+                      "title": "Title2",
                     },
                     "ref": null,
                     "rendered": null,
@@ -3269,7 +3296,7 @@ ShallowWrapper {
                       "eventDate": undefined,
                       "filename": "image-3333333333.png",
                       "onUploadDelete": [Function],
-                      "title": undefined,
+                      "title": "Title3",
                     },
                     "ref": null,
                     "rendered": null,
