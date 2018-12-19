@@ -5,6 +5,7 @@ describe('photo selector', () => {
     it('should filter photo by text value', () => {
         const filters = {
             photoText: 'Photo',
+            photoTitle: '',
             photoSortyBy: 'date'
         }
         const result = selectorPhotos(uploads, filters);
