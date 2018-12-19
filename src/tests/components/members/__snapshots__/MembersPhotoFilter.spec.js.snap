@@ -5,6 +5,7 @@ ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <MembersPhotoFilter
     filters={[MockFunction]}
+    setPhotoFilterTitle={[MockFunction]}
     setPhotoTextFilter={[MockFunction]}
   />,
   Symbol(enzyme.__renderer__): Object {
@@ -53,6 +54,13 @@ ShallowWrapper {
                   placeholder="Search By Description"
                   type="text"
                 />
+                <input
+                  className="filter-title input-box"
+                  name="filterTitle"
+                  onChange={[Function]}
+                  placeholder="Search By Title"
+                  type="text"
+                />
               </div>
             </form>
           </div>
@@ -94,6 +102,13 @@ ShallowWrapper {
                     name="filterText"
                     onChange={[Function]}
                     placeholder="Search By Description"
+                    type="text"
+                  />
+                  <input
+                    className="filter-title input-box"
+                    name="filterTitle"
+                    onChange={[Function]}
+                    placeholder="Search By Title"
                     type="text"
                   />
                 </div>
@@ -152,6 +167,13 @@ ShallowWrapper {
                     placeholder="Search By Description"
                     type="text"
                   />
+                  <input
+                    className="filter-title input-box"
+                    name="filterTitle"
+                    onChange={[Function]}
+                    placeholder="Search By Title"
+                    type="text"
+                  />
                 </div>
               </form>
             </div>,
@@ -176,6 +198,13 @@ ShallowWrapper {
                     placeholder="Search By Description"
                     type="text"
                   />
+                  <input
+                    className="filter-title input-box"
+                    name="filterTitle"
+                    onChange={[Function]}
+                    placeholder="Search By Title"
+                    type="text"
+                  />
                 </div>
               </form>,
               "className": "content-inner",
@@ -196,6 +225,13 @@ ShallowWrapper {
                     placeholder="Search By Description"
                     type="text"
                   />
+                  <input
+                    className="filter-title input-box"
+                    name="filterTitle"
+                    onChange={[Function]}
+                    placeholder="Search By Title"
+                    type="text"
+                  />
                 </div>,
                 "className": "image-header",
                 "onSubmit": undefined,
@@ -206,32 +242,59 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": <input
-                    className="filter-text input-box"
-                    name="filterText"
-                    onChange={[Function]}
-                    placeholder="Search By Description"
-                    type="text"
-                  />,
+                  "children": Array [
+                    <input
+                      className="filter-text input-box"
+                      name="filterText"
+                      onChange={[Function]}
+                      placeholder="Search By Description"
+                      type="text"
+                    />,
+                    <input
+                      className="filter-title input-box"
+                      name="filterTitle"
+                      onChange={[Function]}
+                      placeholder="Search By Title"
+                      type="text"
+                    />,
+                  ],
                   "className": "image-search-container",
                 },
                 "ref": null,
-                "rendered": Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "className": "filter-text input-box",
-                    "name": "filterText",
-                    "onChange": [Function],
-                    "placeholder": "Search By Description",
-                    "type": "text",
-                    "value": undefined,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": "filter-text input-box",
+                      "name": "filterText",
+                      "onChange": [Function],
+                      "placeholder": "Search By Description",
+                      "type": "text",
+                      "value": undefined,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "input",
                   },
-                  "ref": null,
-                  "rendered": null,
-                  "type": "input",
-                },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": "filter-title input-box",
+                      "name": "filterTitle",
+                      "onChange": [Function],
+                      "placeholder": "Search By Title",
+                      "type": "text",
+                      "value": undefined,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "input",
+                  },
+                ],
                 "type": "div",
               },
               "type": "form",
@@ -284,6 +347,13 @@ ShallowWrapper {
                     placeholder="Search By Description"
                     type="text"
                   />
+                  <input
+                    className="filter-title input-box"
+                    name="filterTitle"
+                    onChange={[Function]}
+                    placeholder="Search By Title"
+                    type="text"
+                  />
                 </div>
               </form>
             </div>
@@ -325,6 +395,13 @@ ShallowWrapper {
                       name="filterText"
                       onChange={[Function]}
                       placeholder="Search By Description"
+                      type="text"
+                    />
+                    <input
+                      className="filter-title input-box"
+                      name="filterTitle"
+                      onChange={[Function]}
+                      placeholder="Search By Title"
                       type="text"
                     />
                   </div>
@@ -383,6 +460,13 @@ ShallowWrapper {
                       placeholder="Search By Description"
                       type="text"
                     />
+                    <input
+                      className="filter-title input-box"
+                      name="filterTitle"
+                      onChange={[Function]}
+                      placeholder="Search By Title"
+                      type="text"
+                    />
                   </div>
                 </form>
               </div>,
@@ -407,6 +491,13 @@ ShallowWrapper {
                       placeholder="Search By Description"
                       type="text"
                     />
+                    <input
+                      className="filter-title input-box"
+                      name="filterTitle"
+                      onChange={[Function]}
+                      placeholder="Search By Title"
+                      type="text"
+                    />
                   </div>
                 </form>,
                 "className": "content-inner",
@@ -427,6 +518,13 @@ ShallowWrapper {
                       placeholder="Search By Description"
                       type="text"
                     />
+                    <input
+                      className="filter-title input-box"
+                      name="filterTitle"
+                      onChange={[Function]}
+                      placeholder="Search By Title"
+                      type="text"
+                    />
                   </div>,
                   "className": "image-header",
                   "onSubmit": undefined,
@@ -437,32 +535,59 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": <input
-                      className="filter-text input-box"
-                      name="filterText"
-                      onChange={[Function]}
-                      placeholder="Search By Description"
-                      type="text"
-                    />,
+                    "children": Array [
+                      <input
+                        className="filter-text input-box"
+                        name="filterText"
+                        onChange={[Function]}
+                        placeholder="Search By Description"
+                        type="text"
+                      />,
+                      <input
+                        className="filter-title input-box"
+                        name="filterTitle"
+                        onChange={[Function]}
+                        placeholder="Search By Title"
+                        type="text"
+                      />,
+                    ],
                     "className": "image-search-container",
                   },
                   "ref": null,
-                  "rendered": Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "className": "filter-text input-box",
-                      "name": "filterText",
-                      "onChange": [Function],
-                      "placeholder": "Search By Description",
-                      "type": "text",
-                      "value": undefined,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "className": "filter-text input-box",
+                        "name": "filterText",
+                        "onChange": [Function],
+                        "placeholder": "Search By Description",
+                        "type": "text",
+                        "value": undefined,
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "input",
                     },
-                    "ref": null,
-                    "rendered": null,
-                    "type": "input",
-                  },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "className": "filter-title input-box",
+                        "name": "filterTitle",
+                        "onChange": [Function],
+                        "placeholder": "Search By Title",
+                        "type": "text",
+                        "value": undefined,
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "input",
+                    },
+                  ],
                   "type": "div",
                 },
                 "type": "form",

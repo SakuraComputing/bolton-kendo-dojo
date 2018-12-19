@@ -1,11 +1,15 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { setPhotoTextFilter, setPhotoDateSortOrder } from '../../actions/filterActions';
+import { setPhotoTextFilter, setPhotoFilterTitle, setPhotoDateSortOrder } from '../../actions/filterActions';
 
 export class MembersPhotoFilter extends Component {
 
     onTextChange = (e) => {
         this.props.setPhotoTextFilter(e.target.value);
+    }
+
+    onTitleChange = (e) => {
+        this.props.setPhotoFilterTitle(e.target.value);
     }
 
     render() {
@@ -26,6 +30,14 @@ export class MembersPhotoFilter extends Component {
                                             onChange={this.onTextChange}
                                             name="filterText"
                                         />                                        
+                                        <input
+                                            type="text"
+                                            className="filter-title input-box"
+                                            placeholder="Search By Title"
+                                            value={this.props.filters.photoTitle}
+                                            onChange={this.onTitleChange}
+                                            name="filterTitle"
+                                        />                                        
                                     </div>
                                 </form>
                             </div>
@@ -43,6 +55,7 @@ const mapStateToProps = state => ({
 
 const mapDispatchToProps = (dispatch) => ({
     setPhotoTextFilter: (photoText) => dispatch(setPhotoTextFilter(photoText)),
+    setPhotoFilterTitle: (photoTitle) => dispatch(setPhotoFilterTitle(photoTitle)),
     setPhotDateSortOrder: () => dispatch(setPhotoDateSortOrder())
 })
 export default connect(mapStateToProps, mapDispatchToProps)(MembersPhotoFilter);

@@ -1,16 +1,23 @@
 import React from 'react'
 import { shallow } from 'enzyme';
 import { MembersPhotoFilter } from '../../../components/members/MembersPhotoFilter';
+import { setPhotoFilterTitle } from '../../../actions/filterActions';
 // import filters from '../../fixtures/filters';
 
 describe('Members photo filter component', () => {
 
-    let memberFilter, setPhotoTextFilter, filters;
+    let memberFilter, setPhotoTextFilter, setPhotoFilterTitle, filters;
 
     beforeEach(() => {
         setPhotoTextFilter = jest.fn();
+        setPhotoFilterTitle = jest.fn();
         filters = jest.fn();
-        memberFilter = shallow(<MembersPhotoFilter setPhotoTextFilter={setPhotoTextFilter} filters={filters}/>)
+        memberFilter = shallow(
+            <MembersPhotoFilter 
+                setPhotoTextFilter={setPhotoTextFilter} 
+                setPhotoFilterTitle={setPhotoFilterTitle}
+                filters={filters}
+            />)
     })
     it('should render correctly', () => {
         expect(memberFilter).toMatchSnapshot();
@@ -36,7 +43,7 @@ describe('Members photo filter component', () => {
         })
 
         it('should set props to equal text photo input', () => {
-            expect(setPhotoTextFilter).toHaveBeenCalledWith(title);
+            expect(setPhotoFilterTitle).toHaveBeenCalledWith(title);
         });
     });
 });
