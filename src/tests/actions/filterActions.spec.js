@@ -55,7 +55,7 @@ describe('Filter Actions Object', () => {
             const result = setEndDate(moment(0));
             expect(result).toEqual({
                 type: SET_END_DATE,
-                startDate: moment(0)
+                endDate: moment(0)
             })
         });
     });
