@@ -37,9 +37,12 @@ describe('photo selector', () => {
                 endDate: undefined
             }
             const result = selectorPhotos(uploads, filters);
-            expect(result).toEqual([uploads[2], uploads[0]])
+            expect(result).toEqual({
+                loading: false,
+                uploads: [uploads[0], uploads[2]]
+            });
         });
-        it('should filter by start date', () => {
+        it('should filter by end date', () => {
             const filters = {
                 photoText: '',
                 photoTitle: '',
@@ -48,7 +51,10 @@ describe('photo selector', () => {
                 endDate: moment(0).add(2, 'years')
             }
             const result = selectorPhotos(uploads, filters);
-            expect(result).toEqual([uploads[0], uploads[1]])
+            expect(result).toEqual({
+                loading: false,
+                uploads: [uploads[0], uploads[1]]
+            });
         });
     });
 });
