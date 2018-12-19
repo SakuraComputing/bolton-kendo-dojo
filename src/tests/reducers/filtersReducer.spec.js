@@ -6,6 +6,7 @@ import {
     SET_START_DATE,
     SET_END_DATE 
 } from '../../actions/types';
+import moment from 'moment';
 
 describe('filter reducer', () => {
     it('should set up the default filter values', () => {
@@ -13,7 +14,9 @@ describe('filter reducer', () => {
         expect(state).toEqual({
             photoText: '',
             photoSortBy: 'date',
-            photoTitle: ''
+            photoTitle: '',
+            startDate: moment().endOf('month'),
+            endDate: moment().endOf('month')
         })
     });
 
@@ -54,7 +57,7 @@ describe('filter reducer', () => {
             expect(state.startDate).toBe(1000);
         });
         it('should set the end date', () => {
-            const state = filtersReducer( undefined, { type: SET_END_DATE, endtDate: 2000});
+            const state = filtersReducer( undefined, { type: SET_END_DATE, endDate: 2000});
             expect(state.endDate).toBe(2000);
         });
     });

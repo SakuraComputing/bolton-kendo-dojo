@@ -1,9 +1,18 @@
-import { SET_PHOTO_FILTER_TEXT, SET_PHOTO_FILTER_TITLE, SORT_PHOTO_BY_DATE } from '../actions/types';
+import { 
+    SET_PHOTO_FILTER_TEXT, 
+    SET_PHOTO_FILTER_TITLE, 
+    SORT_PHOTO_BY_DATE, 
+    SET_START_DATE,
+    SET_END_DATE
+} from '../actions/types';
+import moment from 'moment';
 
 const filterReducerDefaultState = {
     photoText: '',
     photoTitle: '',
-    photoSortBy: 'date'
+    photoSortBy: 'date',
+    startDate: moment().endOf('month'),
+    endDate: moment().endOf('month')
 };
 export default (state = filterReducerDefaultState, action) => {
     switch(action.type) {
@@ -21,6 +30,16 @@ export default (state = filterReducerDefaultState, action) => {
             return {
                 ...state,
                 photoSortBy: 'date'
+            }
+        case SET_START_DATE:
+            return {
+                ...state,
+                startDate: action.startDate
+            }
+        case SET_END_DATE:
+            return {
+                ...state,
+                endDate: action.endDate
             }
         default:
             return state;
