@@ -1,5 +1,18 @@
-import { setPhotoTextFilter, setPhotoFilterTitle, setPhotoDateSortOrder } from '../../actions/filterActions';
-import { SET_PHOTO_FILTER_TEXT, SET_PHOTO_FILTER_TITLE, SORT_PHOTO_BY_DATE } from '../../actions/types';
+import { 
+    setPhotoTextFilter, 
+    setPhotoFilterTitle, 
+    setPhotoDateSortOrder,
+    setStartDate,
+    setEndDate
+} from '../../actions/filterActions';
+import { 
+    SET_PHOTO_FILTER_TEXT, 
+    SET_PHOTO_FILTER_TITLE, 
+    SORT_PHOTO_BY_DATE,
+    SET_START_DATE,
+    SET_END_DATE
+} from '../../actions/types';
+import moment from 'moment';
 
 describe('Filter Actions Object', () => {
     it('should set the photo text filter object', () => {
@@ -30,5 +43,20 @@ describe('Filter Actions Object', () => {
             photoTitle: titleText
         })
     });
-
+    describe('Date Filters', () => {
+        it('should set start date action object', () => {
+            const result = setStartDate(moment(0));
+            expect(result).toEqual({
+                type: SET_START_DATE,
+                startDate: moment(0)
+            })
+        });
+        it('should set end date action object', () => {
+            const result = setEndDate(moment(0));
+            expect(result).toEqual({
+                type: SET_END_DATE,
+                startDate: moment(0)
+            })
+        });
+    });
 });
