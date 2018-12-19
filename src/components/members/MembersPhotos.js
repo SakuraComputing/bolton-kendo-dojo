@@ -8,6 +8,7 @@ import { confirmAlert } from 'react-confirm-alert';
 import MemberPhotoFilter from './MembersPhotoFilter';
 import selectPhotos from '../../selectors/photos';
 import { SingleDatePicker } from 'react-dates';
+import moment from 'moment';
 
 export class MemberPhoto extends React.Component {
 
@@ -17,7 +18,7 @@ export class MemberPhoto extends React.Component {
             file: null,
             title: '',
             description: '',
-            eventDate: null,
+            eventDate: moment(),
             errors: {},
             offset: 0,
             data: [],

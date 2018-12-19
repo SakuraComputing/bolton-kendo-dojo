@@ -1,14 +1,15 @@
 import React from 'react'
 import { shallow } from 'enzyme';
 import { MembersPhotoFilter } from '../../../components/members/MembersPhotoFilter';
-import filters from '../../fixtures/filters';
+// import filters from '../../fixtures/filters';
 
 describe('Members photo filter component', () => {
 
-    let memberFilter, setPhotoTextFilter;
+    let memberFilter, setPhotoTextFilter, filters;
 
     beforeEach(() => {
         setPhotoTextFilter = jest.fn();
+        filters = jest.fn();
         memberFilter = shallow(<MembersPhotoFilter setPhotoTextFilter={setPhotoTextFilter} filters={filters}/>)
     })
     it('should render correctly', () => {

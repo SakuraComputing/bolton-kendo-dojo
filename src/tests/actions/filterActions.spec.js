@@ -9,6 +9,13 @@ describe('Filter Actions Object', () => {
             photoText: 'test'
         })
     });
+    it('should set the photo text default to an empty string', () => {
+        const action = setPhotoTextFilter('');
+        expect(action).toEqual({
+            type: SET_PHOTO_FILTER_TEXT,
+            photoText: ''
+        })        
+    });
     it('should set the date sort order object', () => {
         const action = setPhotoDateSortOrder();
         expect(action).toEqual({
