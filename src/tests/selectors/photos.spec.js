@@ -1,5 +1,6 @@
 import selectorPhotos from '../../selectors/photos';
 import uploads from '../fixtures/uploads';
+import moment from 'moment';
 
 describe('photo selector', () => {
     it('should filter photo by text value', () => {
@@ -25,5 +26,29 @@ describe('photo selector', () => {
             loading: false,
             uploads: [uploads[2]]
         });        
+    });
+    describe('date filters', () => {
+        it('should filter by start date', () => {
+            const filters = {
+                photoText: '',
+                photoTitle: '',
+                photoSortyBy: 'date',
+                startDate: moment(0),    
+                endDate: undefined
+            }
+            const result = selectorPhotos(uploads, filters);
+            expect(result).toEqual([uploads[2], uploads[0]])
+        });
+        it('should filter by start date', () => {
+            const filters = {
+                photoText: '',
+                photoTitle: '',
+                photoSortyBy: 'date',
+                startDate: undefined,    
+                endDate: moment(0).add(2, 'years')
+            }
+            const result = selectorPhotos(uploads, filters);
+            expect(result).toEqual([uploads[0], uploads[1]])
+        });
     });
 });

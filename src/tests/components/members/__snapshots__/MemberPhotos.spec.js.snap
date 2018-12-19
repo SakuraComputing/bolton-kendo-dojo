@@ -24,21 +24,21 @@ ShallowWrapper {
         "uploads": Array [
           Object {
             "_id": "5bfed7528032901512c0f933",
-            "date": "2018-11-28T17:58:42.652Z",
+            "date": 0,
             "description": "Kendo Photo Details",
             "filename": "image-1543168184113.png",
             "title": "Title1",
           },
           Object {
             "_id": "5bfed7528036661512c0f933",
-            "date": "2018-11-21T17:58:42.652Z",
+            "date": -345600000,
             "description": "More Details",
             "filename": "image-0000000000.png",
             "title": "Title2",
           },
           Object {
             "_id": "5bfed7528032901512c05rtd",
-            "date": "2018-11-11T17:58:42.652Z",
+            "date": 126230400000,
             "description": "Extra Details",
             "filename": "image-3333333333.png",
             "title": "Title3",
@@ -246,21 +246,21 @@ ShallowWrapper {
             className="image-container"
           >
             <MemberPhotoItem
-              date="2018-11-28T17:58:42.652Z"
+              date={0}
               description="Kendo Photo Details"
               filename="image-1543168184113.png"
               onUploadDelete={[Function]}
               title="Title1"
             />
             <MemberPhotoItem
-              date="2018-11-21T17:58:42.652Z"
+              date={-345600000}
               description="More Details"
               filename="image-0000000000.png"
               onUploadDelete={[Function]}
               title="Title2"
             />
             <MemberPhotoItem
-              date="2018-11-11T17:58:42.652Z"
+              date={126230400000}
               description="Extra Details"
               filename="image-3333333333.png"
               onUploadDelete={[Function]}
@@ -485,21 +485,21 @@ ShallowWrapper {
               className="image-container"
             >
               <MemberPhotoItem
-                date="2018-11-28T17:58:42.652Z"
+                date={0}
                 description="Kendo Photo Details"
                 filename="image-1543168184113.png"
                 onUploadDelete={[Function]}
                 title="Title1"
               />
               <MemberPhotoItem
-                date="2018-11-21T17:58:42.652Z"
+                date={-345600000}
                 description="More Details"
                 filename="image-0000000000.png"
                 onUploadDelete={[Function]}
                 title="Title2"
               />
               <MemberPhotoItem
-                date="2018-11-11T17:58:42.652Z"
+                date={126230400000}
                 description="Extra Details"
                 filename="image-3333333333.png"
                 onUploadDelete={[Function]}
@@ -738,21 +738,21 @@ ShallowWrapper {
                 className="image-container"
               >
                 <MemberPhotoItem
-                  date="2018-11-28T17:58:42.652Z"
+                  date={0}
                   description="Kendo Photo Details"
                   filename="image-1543168184113.png"
                   onUploadDelete={[Function]}
                   title="Title1"
                 />
                 <MemberPhotoItem
-                  date="2018-11-21T17:58:42.652Z"
+                  date={-345600000}
                   description="More Details"
                   filename="image-0000000000.png"
                   onUploadDelete={[Function]}
                   title="Title2"
                 />
                 <MemberPhotoItem
-                  date="2018-11-11T17:58:42.652Z"
+                  date={126230400000}
                   description="Extra Details"
                   filename="image-3333333333.png"
                   onUploadDelete={[Function]}
@@ -1584,21 +1584,21 @@ ShallowWrapper {
               "props": Object {
                 "children": Array [
                   <MemberPhotoItem
-                    date="2018-11-28T17:58:42.652Z"
+                    date={0}
                     description="Kendo Photo Details"
                     filename="image-1543168184113.png"
                     onUploadDelete={[Function]}
                     title="Title1"
                   />,
                   <MemberPhotoItem
-                    date="2018-11-21T17:58:42.652Z"
+                    date={-345600000}
                     description="More Details"
                     filename="image-0000000000.png"
                     onUploadDelete={[Function]}
                     title="Title2"
                   />,
                   <MemberPhotoItem
-                    date="2018-11-11T17:58:42.652Z"
+                    date={126230400000}
                     description="Extra Details"
                     filename="image-3333333333.png"
                     onUploadDelete={[Function]}
@@ -1614,7 +1614,7 @@ ShallowWrapper {
                   "key": "5bfed7528032901512c0f933",
                   "nodeType": "class",
                   "props": Object {
-                    "date": "2018-11-28T17:58:42.652Z",
+                    "date": 0,
                     "description": "Kendo Photo Details",
                     "eventDate": undefined,
                     "filename": "image-1543168184113.png",
@@ -1630,7 +1630,7 @@ ShallowWrapper {
                   "key": "5bfed7528036661512c0f933",
                   "nodeType": "class",
                   "props": Object {
-                    "date": "2018-11-21T17:58:42.652Z",
+                    "date": -345600000,
                     "description": "More Details",
                     "eventDate": undefined,
                     "filename": "image-0000000000.png",
@@ -1646,7 +1646,7 @@ ShallowWrapper {
                   "key": "5bfed7528032901512c05rtd",
                   "nodeType": "class",
                   "props": Object {
-                    "date": "2018-11-11T17:58:42.652Z",
+                    "date": 126230400000,
                     "description": "Extra Details",
                     "eventDate": undefined,
                     "filename": "image-3333333333.png",
@@ -1891,21 +1891,21 @@ ShallowWrapper {
               className="image-container"
             >
               <MemberPhotoItem
-                date="2018-11-28T17:58:42.652Z"
+                date={0}
                 description="Kendo Photo Details"
                 filename="image-1543168184113.png"
                 onUploadDelete={[Function]}
                 title="Title1"
               />
               <MemberPhotoItem
-                date="2018-11-21T17:58:42.652Z"
+                date={-345600000}
                 description="More Details"
                 filename="image-0000000000.png"
                 onUploadDelete={[Function]}
                 title="Title2"
               />
               <MemberPhotoItem
-                date="2018-11-11T17:58:42.652Z"
+                date={126230400000}
                 description="Extra Details"
                 filename="image-3333333333.png"
                 onUploadDelete={[Function]}
@@ -2130,21 +2130,21 @@ ShallowWrapper {
                 className="image-container"
               >
                 <MemberPhotoItem
-                  date="2018-11-28T17:58:42.652Z"
+                  date={0}
                   description="Kendo Photo Details"
                   filename="image-1543168184113.png"
                   onUploadDelete={[Function]}
                   title="Title1"
                 />
                 <MemberPhotoItem
-                  date="2018-11-21T17:58:42.652Z"
+                  date={-345600000}
                   description="More Details"
                   filename="image-0000000000.png"
                   onUploadDelete={[Function]}
                   title="Title2"
                 />
                 <MemberPhotoItem
-                  date="2018-11-11T17:58:42.652Z"
+                  date={126230400000}
                   description="Extra Details"
                   filename="image-3333333333.png"
                   onUploadDelete={[Function]}
@@ -2383,21 +2383,21 @@ ShallowWrapper {
                   className="image-container"
                 >
                   <MemberPhotoItem
-                    date="2018-11-28T17:58:42.652Z"
+                    date={0}
                     description="Kendo Photo Details"
                     filename="image-1543168184113.png"
                     onUploadDelete={[Function]}
                     title="Title1"
                   />
                   <MemberPhotoItem
-                    date="2018-11-21T17:58:42.652Z"
+                    date={-345600000}
                     description="More Details"
                     filename="image-0000000000.png"
                     onUploadDelete={[Function]}
                     title="Title2"
                   />
                   <MemberPhotoItem
-                    date="2018-11-11T17:58:42.652Z"
+                    date={126230400000}
                     description="Extra Details"
                     filename="image-3333333333.png"
                     onUploadDelete={[Function]}
@@ -3229,21 +3229,21 @@ ShallowWrapper {
                 "props": Object {
                   "children": Array [
                     <MemberPhotoItem
-                      date="2018-11-28T17:58:42.652Z"
+                      date={0}
                       description="Kendo Photo Details"
                       filename="image-1543168184113.png"
                       onUploadDelete={[Function]}
                       title="Title1"
                     />,
                     <MemberPhotoItem
-                      date="2018-11-21T17:58:42.652Z"
+                      date={-345600000}
                       description="More Details"
                       filename="image-0000000000.png"
                       onUploadDelete={[Function]}
                       title="Title2"
                     />,
                     <MemberPhotoItem
-                      date="2018-11-11T17:58:42.652Z"
+                      date={126230400000}
                       description="Extra Details"
                       filename="image-3333333333.png"
                       onUploadDelete={[Function]}
@@ -3259,7 +3259,7 @@ ShallowWrapper {
                     "key": "5bfed7528032901512c0f933",
                     "nodeType": "class",
                     "props": Object {
-                      "date": "2018-11-28T17:58:42.652Z",
+                      "date": 0,
                       "description": "Kendo Photo Details",
                       "eventDate": undefined,
                       "filename": "image-1543168184113.png",
@@ -3275,7 +3275,7 @@ ShallowWrapper {
                     "key": "5bfed7528036661512c0f933",
                     "nodeType": "class",
                     "props": Object {
-                      "date": "2018-11-21T17:58:42.652Z",
+                      "date": -345600000,
                       "description": "More Details",
                       "eventDate": undefined,
                       "filename": "image-0000000000.png",
@@ -3291,7 +3291,7 @@ ShallowWrapper {
                     "key": "5bfed7528032901512c05rtd",
                     "nodeType": "class",
                     "props": Object {
-                      "date": "2018-11-11T17:58:42.652Z",
+                      "date": 126230400000,
                       "description": "Extra Details",
                       "eventDate": undefined,
                       "filename": "image-3333333333.png",
