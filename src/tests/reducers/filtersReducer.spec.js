@@ -43,14 +43,6 @@ describe('filter reducer', () => {
         const state = filtersReducer(currentState, action);
         expect(state.photoSortBy).toBe('date')
     });
-    // describe('Date Filter', () => {
-    //     it('should handle date change', () => {
-    //         const startDate = moment(0).add(4, 'years');
-    //         const endDate = moment(0).add(4, 'years');
-    //         expect(startDate).
-            
-    //     });
-    // });
     describe('Date Filter', () => {
         it('should set the start date', () => {
             const state = filtersReducer( undefined, { type: SET_START_DATE, startDate: 1000});

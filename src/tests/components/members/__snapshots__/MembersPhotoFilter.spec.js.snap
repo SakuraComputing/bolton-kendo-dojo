@@ -5,8 +5,10 @@ ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <MembersPhotoFilter
     filters={[MockFunction]}
+    setEndDate={[MockFunction]}
     setPhotoFilterTitle={[MockFunction]}
     setPhotoTextFilter={[MockFunction]}
+    setStartDate={[MockFunction]}
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
