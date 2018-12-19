@@ -15,16 +15,28 @@ describe('Members photo filter component', () => {
     it('should render correctly', () => {
         expect(memberFilter).toMatchSnapshot();
     });
-    // describe('when typring into the photo text filter field', () => {
+    describe('when typing into the photo text filter field', () => {
         
-    //     const description = 'New filter'
+        const description = 'More Details'
 
-    //     beforeEach(() => {
-    //         memberFilter.find('.filter-text').simulate('change', { target: { value: description }});
-    //     })
+        beforeEach(() => {
+            memberFilter.find('.filter-text').simulate('change', { target: { value: description }});
+        })
 
-    //     it('should set props to equal text photo input', () => {
-    //         expect(memberFilter.props().photoText).toEqual(description);
-    //     });
-    // });
+        it('should set props to equal text photo input', () => {
+            expect(setPhotoTextFilter).toHaveBeenCalledWith(description);
+        });
+    });
+    describe('when typing into the photo title filter field', () => {
+        
+        const title = 'Title1'
+
+        beforeEach(() => {
+            memberFilter.find('.filter-title').simulate('change', { target: { value: title }});
+        })
+
+        it('should set props to equal text photo input', () => {
+            expect(setPhotoTextFilter).toHaveBeenCalledWith(title);
+        });
+    });
 });
