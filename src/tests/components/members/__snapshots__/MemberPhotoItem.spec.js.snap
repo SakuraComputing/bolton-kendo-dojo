@@ -28,6 +28,10 @@ ShallowWrapper {
         <div>
           Title: 
         </div>,
+        <div>
+          Date Added: 
+          1st Jan 1970
+        </div>,
         <MemberPhotoViewer
           handleClose={[Function]}
           show={false}
@@ -102,6 +106,23 @@ ShallowWrapper {
         "rendered": Array [
           "Title: ",
           undefined,
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "Date Added: ",
+            "1st Jan 1970",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "Date Added: ",
+          "1st Jan 1970",
         ],
         "type": "div",
       },
@@ -306,6 +327,10 @@ ShallowWrapper {
           <div>
             Title: 
           </div>,
+          <div>
+            Date Added: 
+            1st Jan 1970
+          </div>,
           <MemberPhotoViewer
             handleClose={[Function]}
             show={false}
@@ -380,6 +405,23 @@ ShallowWrapper {
           "rendered": Array [
             "Title: ",
             undefined,
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Date Added: ",
+              "1st Jan 1970",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "Date Added: ",
+            "1st Jan 1970",
           ],
           "type": "div",
         },

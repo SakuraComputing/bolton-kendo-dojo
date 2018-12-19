@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import MemberPhotoViewer from './MemberPhotoViewer';
-import Moment from 'moment';
+import moment from 'moment';
 
 class MemberPhotoItem extends Component {
 
@@ -31,6 +31,10 @@ class MemberPhotoItem extends Component {
                 <div>
                     Title: {this.props.title}
                 </div>
+                <div>
+                    Date Added: {moment(this.props.date).format('Do MMM YYYY')}
+                </div>
+
 
                 <MemberPhotoViewer 
                     show={this.state.show} 
@@ -40,9 +44,9 @@ class MemberPhotoItem extends Component {
                         <img className="image-item" src={`uploads/${this.props.filename}`} alt="photoU" />
                     </div>
                     <p>Title: {this.props.title}</p>
-                    <p>Date Added: {Moment(this.props.date).format('Do MMMM YYYY')}</p>
+                    <p>Date Added: {moment(this.props.date).format('Do MMMM YYYY')}</p>
                     <p>Description: {this.props.description}</p>
-                    <p>Date Photo From: {Moment(this.props.eventDate).format('Do MMMM YYYY')}</p>
+                    <p>Date Photo From: {moment(this.props.eventDate).format('Do MMMM YYYY')}</p>
                 </MemberPhotoViewer>
                 <div className="button-end-container">
                     <button onClick={this.showModal} className="button-small photo-button">View Photo</button>
