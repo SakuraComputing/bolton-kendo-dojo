@@ -45,18 +45,18 @@ describe('Member Photos', () => {
                 expect(photo.state().title).toEqual(title);
             });
         });
-        // describe('When selecting a date from the date picker', () => {
+        describe('When selecting a date from the date picker', () => {
 
-        //     let now;
+            let now;
 
-        //     beforeEach(() => {
-        //         now = moment();
-        //         photo.find('SingleDatePicker').props('onDateChange')(now)
-        //     });
-        //     it('should set the new date on date change', () => {
-        //         expect(photo.state('eventDate')).toEqual(now);
-        //     });
-        // });
+            beforeEach(() => {
+                now = moment();
+                photo.find('withStyles(SingleDatePicker)').prop('onDateChange')(now)
+            });
+            it('should set the new date on date change', () => {
+                expect(photo.state('eventDate')).toEqual(now);
+            });
+        });
         describe('When typing in the description field', () => { 
             const description = 'New Photo';
     
