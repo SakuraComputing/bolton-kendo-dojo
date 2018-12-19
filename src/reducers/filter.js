@@ -1,7 +1,8 @@
-import { SET_PHOTO_FILTER_TEXT, SORT_PHOTO_BY_DATE } from '../actions/types';
+import { SET_PHOTO_FILTER_TEXT, SET_PHOTO_FILTER_TITLE, SORT_PHOTO_BY_DATE } from '../actions/types';
 
 const filterReducerDefaultState = {
     photoText: '',
+    photoTitle: '',
     photoSortBy: 'date'
 };
 export default (state = filterReducerDefaultState, action) => {
@@ -10,6 +11,11 @@ export default (state = filterReducerDefaultState, action) => {
             return {
                 ...state,
                 photoText: action.photoText
+            }
+        case SET_PHOTO_FILTER_TITLE:
+            return {
+                ...state,
+                photoTitle: action.photoTitle
             }
         case SORT_PHOTO_BY_DATE:
             return {
