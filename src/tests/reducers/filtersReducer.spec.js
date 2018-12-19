@@ -1,5 +1,11 @@
 import filtersReducer from '../../reducers/filter';
-import { SET_PHOTO_TEXT_FILTER, SET_PHOTO_FILTER_TITLE, SORT_PHOTO_BY_DATE } from '../../actions/types';
+import { 
+    SET_PHOTO_TEXT_FILTER, 
+    SET_PHOTO_FILTER_TITLE, 
+    SORT_PHOTO_BY_DATE,
+    SET_START_DATE,
+    SET_END_DATE 
+} from '../../actions/types';
 
 describe('filter reducer', () => {
     it('should set up the default filter values', () => {
@@ -33,5 +39,23 @@ describe('filter reducer', () => {
         const action = { type: SORT_PHOTO_BY_DATE }
         const state = filtersReducer(currentState, action);
         expect(state.photoSortBy).toBe('date')
+    });
+    // describe('Date Filter', () => {
+    //     it('should handle date change', () => {
+    //         const startDate = moment(0).add(4, 'years');
+    //         const endDate = moment(0).add(4, 'years');
+    //         expect(startDate).
+            
+    //     });
+    // });
+    describe('Date Filter', () => {
+        it('should set the start date', () => {
+            const state = filtersReducer( undefined, { type: SET_START_DATE, startDate: 1000});
+            expect(state.startDate).toBe(1000);
+        });
+        it('should set the end date', () => {
+            const state = filtersReducer( undefined, { type: SET_END_DATE, endtDate: 2000});
+            expect(state.endDate).toBe(2000);
+        });
     });
 });
