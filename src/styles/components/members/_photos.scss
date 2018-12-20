@@ -61,6 +61,14 @@
     // margin-left: 5%;
 }
 
+.uploads-notfound {
+    position: absolute;
+    left: 40%;
+    font-size: 150%;
+    background-color: $off-white;
+    color: $blue-black;
+}
+
 
 input[type="file"] {
     display: none;

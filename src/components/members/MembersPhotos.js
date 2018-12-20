@@ -130,7 +130,7 @@ export class MemberPhoto extends React.Component {
                 pageCount = Math.ceil(uploads.length / this.state.perPage);
                 album = this.setElementsForCurrentPage();
             } else {
-                album = <h4>No uploads found....</h4>
+                album = <h4 className="uploads-notfound">No uploads found....</h4>
             }
             if(pageCount > 0) {
                 paginationElement = (
