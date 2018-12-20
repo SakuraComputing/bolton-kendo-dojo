@@ -1,7 +1,6 @@
 import React from 'react'
 import { shallow } from 'enzyme';
 import { MembersPhotoFilter } from '../../../components/members/MembersPhotoFilter';
-// import filters from '../../fixtures/filters';
 import moment from 'moment';
 
 describe('Members photo filter component', () => {
@@ -52,13 +51,18 @@ describe('Members photo filter component', () => {
         });
     });
 
-    describe('Date Filter', () => {
+    describe('Date Range Filter', () => {
         it('should handle date change', () => {
             const startDate = moment(0).add(4, 'years');
             const endDate = moment(0).add(4, 'years');
-            memberFilter.find('DateRangePicker').prop('onDatesChange')({ startDate, endDate })
-            expect(startDate).toHaveBeenCalledWith(startDate);
-            expect(startDate).toHaveBeenCalledWith(endDate);
+            memberFilter.find('withStyles(DateRangePicker)').prop('onDatesChange')({ startDate, endDate })
+            expect(setStartDate).toHaveBeenCalledWith(startDate);
+            expect(setEndDate).toHaveBeenCalledWith(endDate);
+        });
+        it('should handle date focus changes', () => {
+            const calendarFocused = "endDate";
+            memberFilter.find('withStyles(DateRangePicker)').prop('onFocusChange')(calendarFocused)
+            expect(memberFilter.state('calendarFocused')).toBe(calendarFocused);
         });
     });
 

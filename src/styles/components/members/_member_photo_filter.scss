@@ -1,14 +1,12 @@
-.image-search-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
 .filter-text {
     outline: none;
 }
 
 .filter-title {
     outline: none;
+    margin-left: 10px;
+}
+
+.filter-dates {
     margin-left: 10px;
 }

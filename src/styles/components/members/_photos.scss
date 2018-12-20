@@ -3,17 +3,25 @@
     margin-bottom: 0;
 }
 
+.image-search {
+    border: solid 1px $blue-black;
+    border-radius: 5px;
+    padding: .5em 1em;
+    display: flex;
+    height: 430px;
+}
+
+// Applies to uploads section
 .image-header {
     border: solid 1px $blue-black;
     border-radius: 5px;
     padding: .5em 1em;
     display: flex;
-    justify-content: flex-start;
+    height: 430px;
 }
 
 .image-header-container {
     flex-grow: 1;
-    // align-items: flex-end;
 }
 
 // CSS Grid section for all the thumbnails

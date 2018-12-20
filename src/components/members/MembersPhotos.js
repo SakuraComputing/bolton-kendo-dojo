@@ -178,7 +178,7 @@ export class MemberPhoto extends React.Component {
                                         />
                                     </div>
                                     <SingleDatePicker 
-                                        date={this.state.eventData}
+                                        date={this.state.eventDate}
                                         onDateChange={this.onDateChange}
                                         focused={this.state.calendarFocused}
                                         onFocusChange={this.onFocusChange}

@@ -1,8 +1,29 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { setPhotoTextFilter, setPhotoFilterTitle, setPhotoDateSortOrder } from '../../actions/filterActions';
+import { DateRangePicker } from 'react-dates';
+import { setPhotoTextFilter, 
+        setPhotoFilterTitle, 
+        setPhotoDateSortOrder, 
+        setStartDate,
+        setEndDate
+} from '../../actions/filterActions';
 
 export class MembersPhotoFilter extends Component {
+
+    state = {
+        calendarFocused: null
+    }
+
+    onDatesChange = ({ startDate, endDate }) => {
+        this.props.setStartDate(startDate);
+        this.props.setEndDate(endDate);
+    }
+
+    onFocusChange = (calendarFocused) => {
+        this.setState(
+            () => ({ calendarFocused})
+        )
+    }
 
     onTextChange = (e) => {
         this.props.setPhotoTextFilter(e.target.value);
@@ -20,7 +41,7 @@ export class MembersPhotoFilter extends Component {
                         <label htmlFor="collapsible-search" className="lbl-toggle-search">Search</label>
                         <div className="collapsible-content-search">
                             <div className="content-inner">
-                                <form onSubmit={this.onFormSubmit} className="image-header">
+                                <form onSubmit={this.onFormSubmit} className="image-search">
                                     <div className="image-search-container">
                                         <input
                                             type="text"
@@ -29,7 +50,9 @@ export class MembersPhotoFilter extends Component {
                                             value={this.props.filters.photoText}
                                             onChange={this.onTextChange}
                                             name="filterText"
-                                        />                                        
+                                        />          
+                                    </div>
+                                    <div className="image-search-container">
                                         <input
                                             type="text"
                                             className="filter-title input-box"
@@ -37,8 +60,20 @@ export class MembersPhotoFilter extends Component {
                                             value={this.props.filters.photoTitle}
                                             onChange={this.onTitleChange}
                                             name="filterTitle"
-                                        />                                        
+                                        />                                       
                                     </div>
+                                    <DateRangePicker 
+                                        startDate={this.props.filters.startDate}
+                                        endDate={this.props.filters.endDate}
+                                        onDatesChange={this.onDatesChange}
+                                        focusedInput={this.state.calendarFocused}
+                                        onFocusChange={this.onFocusChange}
+                                        showClearDates={true}
+                                        numberOfMonths={1}
+                                        isOutsideRange={() => false}    
+                                        startDateId={'test'}
+                                        endDateId={'test'}                                    
+                                    />
                                 </form>
                             </div>
                         </div>
@@ -56,6 +91,8 @@ const mapStateToProps = state => ({
 const mapDispatchToProps = (dispatch) => ({
     setPhotoTextFilter: (photoText) => dispatch(setPhotoTextFilter(photoText)),
     setPhotoFilterTitle: (photoTitle) => dispatch(setPhotoFilterTitle(photoTitle)),
-    setPhotDateSortOrder: () => dispatch(setPhotoDateSortOrder())
+    setPhotDateSortOrder: () => dispatch(setPhotoDateSortOrder()),
+    setStartDate: (startDate) => dispatch(setStartDate(startDate)),
+    setEndDate: (endDate) => dispatch(setEndDate(endDate))
 })
 export default connect(mapStateToProps, mapDispatchToProps)(MembersPhotoFilter);

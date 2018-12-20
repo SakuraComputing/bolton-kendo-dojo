@@ -15,7 +15,7 @@ describe('filter reducer', () => {
             photoText: '',
             photoSortBy: 'date',
             photoTitle: '',
-            startDate: moment().endOf('month'),
+            startDate: moment().startOf('month'),
             endDate: moment().endOf('month')
         })
     });

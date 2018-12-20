@@ -11,7 +11,7 @@ const filterReducerDefaultState = {
     photoText: '',
     photoTitle: '',
     photoSortBy: 'date',
-    startDate: moment().endOf('month'),
+    startDate: moment().startOf('year'),
     endDate: moment().endOf('month')
 };
 export default (state = filterReducerDefaultState, action) => {

@@ -129,7 +129,7 @@ ShallowWrapper {
                   calendarInfoPosition="bottom"
                   customCloseIcon={null}
                   customInputIcon={null}
-                  date={null}
+                  date={"1970-01-01T00:00:00.000Z"}
                   daySize={39}
                   disableScroll={false}
                   disabled={false}
@@ -368,7 +368,7 @@ ShallowWrapper {
                     calendarInfoPosition="bottom"
                     customCloseIcon={null}
                     customInputIcon={null}
-                    date={null}
+                    date={"1970-01-01T00:00:00.000Z"}
                     daySize={39}
                     disableScroll={false}
                     disabled={false}
@@ -621,7 +621,7 @@ ShallowWrapper {
                       calendarInfoPosition="bottom"
                       customCloseIcon={null}
                       customInputIcon={null}
-                      date={null}
+                      date={"1970-01-01T00:00:00.000Z"}
                       daySize={39}
                       disableScroll={false}
                       disabled={false}
@@ -863,7 +863,7 @@ ShallowWrapper {
                       calendarInfoPosition="bottom"
                       customCloseIcon={null}
                       customInputIcon={null}
-                      date={null}
+                      date={"1970-01-01T00:00:00.000Z"}
                       daySize={39}
                       disableScroll={false}
                       disabled={false}
@@ -1023,7 +1023,7 @@ ShallowWrapper {
                       calendarInfoPosition="bottom"
                       customCloseIcon={null}
                       customInputIcon={null}
-                      date={null}
+                      date={"1970-01-01T00:00:00.000Z"}
                       daySize={39}
                       disableScroll={false}
                       disabled={false}
@@ -1179,7 +1179,7 @@ ShallowWrapper {
                         calendarInfoPosition="bottom"
                         customCloseIcon={null}
                         customInputIcon={null}
-                        date={null}
+                        date={"1970-01-01T00:00:00.000Z"}
                         daySize={39}
                         disableScroll={false}
                         disabled={false}
@@ -1395,7 +1395,7 @@ ShallowWrapper {
                         "calendarInfoPosition": "bottom",
                         "customCloseIcon": null,
                         "customInputIcon": null,
-                        "date": null,
+                        "date": "1970-01-01T00:00:00.000Z",
                         "dayAriaLabelFormat": undefined,
                         "daySize": 39,
                         "disableScroll": false,
@@ -1774,7 +1774,7 @@ ShallowWrapper {
                     calendarInfoPosition="bottom"
                     customCloseIcon={null}
                     customInputIcon={null}
-                    date={null}
+                    date={"1970-01-01T00:00:00.000Z"}
                     daySize={39}
                     disableScroll={false}
                     disabled={false}
@@ -2013,7 +2013,7 @@ ShallowWrapper {
                       calendarInfoPosition="bottom"
                       customCloseIcon={null}
                       customInputIcon={null}
-                      date={null}
+                      date={"1970-01-01T00:00:00.000Z"}
                       daySize={39}
                       disableScroll={false}
                       disabled={false}
@@ -2266,7 +2266,7 @@ ShallowWrapper {
                         calendarInfoPosition="bottom"
                         customCloseIcon={null}
                         customInputIcon={null}
-                        date={null}
+                        date={"1970-01-01T00:00:00.000Z"}
                         daySize={39}
                         disableScroll={false}
                         disabled={false}
@@ -2508,7 +2508,7 @@ ShallowWrapper {
                         calendarInfoPosition="bottom"
                         customCloseIcon={null}
                         customInputIcon={null}
-                        date={null}
+                        date={"1970-01-01T00:00:00.000Z"}
                         daySize={39}
                         disableScroll={false}
                         disabled={false}
@@ -2668,7 +2668,7 @@ ShallowWrapper {
                         calendarInfoPosition="bottom"
                         customCloseIcon={null}
                         customInputIcon={null}
-                        date={null}
+                        date={"1970-01-01T00:00:00.000Z"}
                         daySize={39}
                         disableScroll={false}
                         disabled={false}
@@ -2824,7 +2824,7 @@ ShallowWrapper {
                           calendarInfoPosition="bottom"
                           customCloseIcon={null}
                           customInputIcon={null}
-                          date={null}
+                          date={"1970-01-01T00:00:00.000Z"}
                           daySize={39}
                           disableScroll={false}
                           disabled={false}
@@ -3040,7 +3040,7 @@ ShallowWrapper {
                           "calendarInfoPosition": "bottom",
                           "customCloseIcon": null,
                           "customInputIcon": null,
-                          "date": null,
+                          "date": "1970-01-01T00:00:00.000Z",
                           "dayAriaLabelFormat": undefined,
                           "daySize": 39,
                           "disableScroll": false,
