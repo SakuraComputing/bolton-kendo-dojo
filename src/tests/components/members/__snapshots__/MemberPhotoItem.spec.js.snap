@@ -5,6 +5,11 @@ ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <MemberPhotoItem
     onUploadDelete={[MockFunction]}
+    showModal={
+      Object {
+        "show": [MockFunction],
+      }
+    }
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
