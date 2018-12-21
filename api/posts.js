@@ -17,6 +17,18 @@ router.get('/test', (req, res) => res.json({
     mmsg: 'Posts works'
 }));
 
+// @route GET api/posts
+// @desc Get posts
+// @access Public
+router.get('/', (req, res) => {
+    Post.find()
+    .sort({ date: -1 })
+    .then(posts => res.json(posts))
+    .catch(err => res.status(404));
+})
+
+
+
 //@route POST api/postst
 // @desc Create post route
 // @access Private
@@ -30,7 +42,7 @@ router.post('/', passport.authenticate('jwt', { session: false }), (req, res) =>
     }
 
     console.log(req.body.text);
-    
+
     const newPost = new Post({
         text: req.body.text,
         name: req.body.name,
