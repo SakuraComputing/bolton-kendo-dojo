@@ -2,13 +2,14 @@ import {
     GET_POSTS,
     ADD_POST,
     GET_ERRORS,
-    DELETE_POST
-
+    DELETE_POST,
+    GET_POST
 } from '../../actions/types';
 
 import { getPosts,
          addPost,
-         deletePost 
+         deletePost,
+         getPost 
 } from '../../actions/postActions';
 import axios from 'axios';
 import MockAdapter from 'axios-mock-adapter';
@@ -104,6 +105,20 @@ describe('Post reducer', () => {
                 { payload: id, type: DELETE_POST }
             ]);
     
+        });
+    });
+    describe('Get single post', () => {
+        it('should set up the get single post action', async () => {
+            const id = "87rg32rg87f827823"
+            mockAxios.onGet(`/api/posts/${id}`).reply(200, {
+                status: true
+            });
+            getPost(id)(store.dispatch);
+            await flushAllPromises();
+            expect(store.getActions()).toEqual([
+                { payload: data, type: GET_POST }
+            ]);
+            
         });
     });
 });
