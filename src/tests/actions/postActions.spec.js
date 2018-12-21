@@ -1,9 +1,11 @@
 import { 
-    GET_POSTS
+    GET_POSTS,
+    ADD_POST
 
 } from '../../actions/types';
 
-import { getPosts 
+import { getPosts,
+         addPost 
 
 } from '../../actions/postActions';
 import axios from 'axios';
@@ -43,4 +45,20 @@ describe('Post reducer', () => {
         ])    
         
     });    
+    it('should set up the action object for the add posts object', async () => {
+        // Given 
+        mockAxios.onPost('/api/posts').reply(200, {
+            text: 'New Post'
+        });
+    
+        // When
+        addPost()(store.dispatch);
+        await flushAllPromises();
+
+        // Then
+        expect(store.getActions()).toEqual([
+            { type: ADD_POST, payload: { text: 'New Post'}  } 
+        ])    
+        
+    });
 });
