@@ -12,4 +12,7 @@ export const SORT_PHOTO_BY_DATE = 'SORT_PHOTO_BY_DATE';
 export const SET_PHOTO_FILTER_TITLE = 'SET_PHOTO_FILTER_TITLE';
 export const SET_START_DATE = 'SET_START_DATE';
 export const SET_END_DATE = 'SET_END_DATE';
+export const GET_POSTS = 'GET_POSTS';
+export const ADD_POSTS = 'ADD_POSTS';
+
 
