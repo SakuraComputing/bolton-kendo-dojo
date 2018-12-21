@@ -3,6 +3,7 @@ import thunk from 'redux-thunk';
 import axios from 'axios';
 import MockAdapter from 'axios-mock-adapter';
 import configureMockStore from 'redux-mock-store';
+import { GET_CURRENT_USER, SET_CURRENT_USER } from '../../actions/types';
 
 
 describe('Register User', () => {
@@ -68,9 +69,15 @@ describe('Set Current User', () => {
         const decoded = "Bearer";
         const action = setCurrentUser(decoded);
         expect(action).toEqual({
-            type: 'SET_CURRENT_USER',
+            type: SET_CURRENT_USER,
             payload: decoded
         });
     });
 });
+
+// describe('Get current user', () => {
+//     it('should get the payload', () => {
+        
+//     });
+// });
 

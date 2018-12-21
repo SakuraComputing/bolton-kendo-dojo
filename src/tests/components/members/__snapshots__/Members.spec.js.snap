@@ -3,7 +3,13 @@
 exports[`Members Page should render correctly 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Members />,
+  Symbol(enzyme.__unrendered__): <Members
+    auth={
+      Object {
+        "user": [Function],
+      }
+    }
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -21,7 +27,9 @@ ShallowWrapper {
         <h1
           className="members-header"
         >
-          Welcome to the Members Area
+          Welcome 
+          bound fn
+           to the Members Area
         </h1>,
         <div
           className="members-area-container"
@@ -89,11 +97,19 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "Welcome to the Members Area",
+          "children": Array [
+            "Welcome ",
+            "bound fn",
+            " to the Members Area",
+          ],
           "className": "members-header",
         },
         "ref": null,
-        "rendered": "Welcome to the Members Area",
+        "rendered": Array [
+          "Welcome ",
+          "bound fn",
+          " to the Members Area",
+        ],
         "type": "h1",
       },
       Object {
@@ -363,7 +379,9 @@ ShallowWrapper {
           <h1
             className="members-header"
           >
-            Welcome to the Members Area
+            Welcome 
+            bound fn
+             to the Members Area
           </h1>,
           <div
             className="members-area-container"
@@ -431,11 +449,19 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "Welcome to the Members Area",
+            "children": Array [
+              "Welcome ",
+              "bound fn",
+              " to the Members Area",
+            ],
             "className": "members-header",
           },
           "ref": null,
-          "rendered": "Welcome to the Members Area",
+          "rendered": Array [
+            "Welcome ",
+            "bound fn",
+            " to the Members Area",
+          ],
           "type": "h1",
         },
         Object {
