@@ -42,4 +42,13 @@ describe('Login Form', () => {
         })
         expect(loginUser.mock.calls.length).toBe(1);
     });
+    describe('componentWillReceiveProps', () => {
+        it('should set the state if an error has occured', () => {
+            const props = { auth: 'auth' }
+            wrapper = shallow(<Login {...props} />)
+            wrapper.setProps({ errors: 'errors' });
+    
+            expect(wrapper.state().errors).toEqual('errors')
+        });        
+    });
 });

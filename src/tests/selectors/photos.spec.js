@@ -56,5 +56,14 @@ describe('photo selector', () => {
                 uploads: [uploads[0], uploads[1]]
             });
         });
+        it('should return uploads if uploads array is empty', () => {
+            const filters = {
+                photoText: 'Photo',
+                photoTitle: '',
+                photoSortyBy: 'date'
+            }
+            const result = selectorPhotos([], filters);
+            expect(result).toEqual([]);
+        });
     });
 });

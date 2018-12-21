@@ -43,5 +43,11 @@ describe('Register Form', () => {
         })
         expect(registerUser.mock.calls.length).toBe(1);
     });
+    it('should call componentWillReceiveProps', () => {
+        const props = { auth: 'auth' }
+        wrapper = shallow(<Register {...props} />)
+        wrapper.setProps({ errors: 'errors' });
 
+        expect(wrapper.state().errors).toEqual('errors')
+    });
 });
