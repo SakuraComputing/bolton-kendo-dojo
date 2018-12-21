@@ -7,7 +7,7 @@ export class Members extends Component {
 
   render() {
 
-    const { name } = this.props.auth.user
+    const { name } = this.props.auth.user;
 
     return (
 
