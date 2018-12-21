@@ -1,13 +1,14 @@
 import { 
     GET_POSTS,
     ADD_POST,
-    GET_ERRORS
+    GET_ERRORS,
+    DELETE_POST
 
 } from '../../actions/types';
 
 import { getPosts,
-         addPost 
-
+         addPost,
+         deletePost 
 } from '../../actions/postActions';
 import axios from 'axios';
 import MockAdapter from 'axios-mock-adapter';
@@ -49,7 +50,7 @@ describe('Post reducer', () => {
         });            
         it('should still retrieve all posts following an error', async () => {
             // Given
-            mockAxios.onGet('/api/uploads/all').timeout();
+            mockAxios.onGet('/api/posts').timeout();
             // When
             getPosts()(store.dispatch);
             await flushAllPromises();
@@ -90,5 +91,19 @@ describe('Post reducer', () => {
                 }
             ])        
         });  
+    });
+    describe('Delete Post', () => {
+        it('should set up the delete post action', async () => {
+            const id = "87rg32rg87f827823"
+            mockAxios.onDelete(`/api/posts/${id}`).reply(200, {
+                status: true
+            });
+            deletePost(id)(store.dispatch);
+            await flushAllPromises();
+            expect(store.getActions()).toEqual([
+                { payload: id, type: DELETE_POST }
+            ]);
+    
+        });
     });
 });
