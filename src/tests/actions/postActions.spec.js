@@ -111,8 +111,11 @@ describe('Post reducer', () => {
         it('should set up the get single post action', async () => {
             const id = "87rg32rg87f827823"
             mockAxios.onGet(`/api/posts/${id}`).reply(200, {
-                status: true
+                text: 'test'
             });
+            const data = {
+                text: 'test'
+            }
             getPost(id)(store.dispatch);
             await flushAllPromises();
             expect(store.getActions()).toEqual([
