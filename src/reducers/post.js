@@ -26,5 +26,7 @@ export default (state = initialState, action) => {
                 ...state,
                 action.post
             ]
+        case DELETE_POST:
+            return state.filter(posts => posts._id !== action.id);
     }
 }
