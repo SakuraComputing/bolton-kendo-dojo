@@ -7,10 +7,19 @@ import {
 
 } from '../actions/types';
 
-const postReducerDefaultState = [];
+const initialState = {
+    posts: [],
+    post: {},
+    loading: false
+};
 
-export default (state = postReducerDefaultState, action) => {
+export default (state = initialState, action) => {
     switch(action.type) {
-        
+        case GET_POSTS:
+            return {
+                ...state,
+                posts: action.posts,
+                loading: false
+            }
     }
 }
