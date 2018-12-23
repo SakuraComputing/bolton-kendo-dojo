@@ -21,5 +21,10 @@ export default (state = initialState, action) => {
                 posts: action.posts,
                 loading: false
             }
+        case ADD_POST:
+            return [
+                ...state,
+                action.post
+            ]
     }
 }
