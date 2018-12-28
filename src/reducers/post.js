@@ -28,5 +28,13 @@ export default (state = initialState, action) => {
             ]
         case DELETE_POST:
             return state.filter(posts => posts._id !== action.id);
+        case GET_POST:
+            return {
+                ...state,
+                post: action.post,
+                loading: false
+            }
+        default:
+            return state;
     }
 }

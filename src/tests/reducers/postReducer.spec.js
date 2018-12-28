@@ -15,7 +15,8 @@ describe('post reducer', () => {
     beforeEach(() => {
         initialState = {
             posts: [],
-            loading: false
+            post: {},
+            loading: false,
         }
     })
 
@@ -65,12 +66,17 @@ describe('post reducer', () => {
     it('should get a single post', () => {
         const action = {
             type: GET_POST,
-            id: posts[0]._id
+            post: posts[0]
         }
         const state = postReducer(undefined, action);
         expect(state).toEqual({
+            posts: [],
             post: posts[0],
             loading: false
         })
+    });
+    it('should return a default state', () => {
+        const action = postReducer( undefined, { type: '@@INIT' });
+        expect(action).toEqual(initialState);
     });
 });
