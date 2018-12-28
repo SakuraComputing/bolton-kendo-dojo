@@ -3,13 +3,15 @@ import {
     ADD_POST,
     GET_ERRORS,
     DELETE_POST,
-    GET_POST
+    GET_POST, 
+    ADD_COMMENT
 } from '../../actions/types';
 
 import { getPosts,
          addPost,
          deletePost,
-         getPost 
+         getPost,
+         addComment 
 } from '../../actions/postActions';
 import axios from 'axios';
 import MockAdapter from 'axios-mock-adapter';
@@ -122,6 +124,25 @@ describe('Post reducer', () => {
                 { payload: data, type: GET_POST }
             ]);
             
+        });
+    });
+
+    describe('Add Comment', () => {
+        it('should add a comment to a post', async () => {
+               // Given 
+               const postId = '47rt8r487r8ffwefew'
+               mockAxios.onPost(`/api/posts/comment/${postId}`).reply(200, {
+                text: 'New Commment'
+            });
+        
+            // When
+            addComment()(store.dispatch);
+            await flushAllPromises();
+    
+            // Then
+            expect(store.getActions()).toEqual([
+                { type: ADD_COMMENT, payload: { text: 'New Comment'}  } 
+            ])      
         });
     });
 });
