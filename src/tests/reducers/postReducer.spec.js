@@ -63,6 +63,14 @@ describe('post reducer', () => {
         expect(state).toEqual([posts[1]]);
     });
     it('should get a single post', () => {
-        
+        const action = {
+            type: GET_POST,
+            id: posts[0]._id
+        }
+        const state = postReducer(undefined, action);
+        expect(state).toEqual({
+            post: posts[0],
+            loading: false
+        })
     });
 });
