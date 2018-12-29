@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import PostItem from '../../../../components/members/posts/PostItem';
+import { PostItem } from '../../../../components/members/posts/PostItem';
 
 describe('Post Item Component', () => {
 
