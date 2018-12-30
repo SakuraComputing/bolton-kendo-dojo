@@ -46,7 +46,6 @@ describe('Post Form Component', () => {
             wrapper.find('form').simulate('submit', {
                 preventDefault: () => {}
              });
-            //  expect(addPostMock).toHaveBeenCalled();
         });
     });
     
