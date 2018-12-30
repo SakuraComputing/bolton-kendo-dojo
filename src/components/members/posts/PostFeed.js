@@ -1,14 +1,14 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import postItem, { PostItem } from './PostItem';
 
 class PostFeed extends Component {
   render() {
 
-    
-    return (
-      <div>
-        
-      </div>
-    )
+    const { posts } = this.props;
+
+    return posts.map(post => <PostItem key={post._id} post={post} />)
   }
 }
+
+
 export default PostFeed;

@@ -7,14 +7,14 @@ describe('PostFeed component', () => {
 
   beforeEach(() => {
     const props = {
-        posts: jest.fn()
+        posts: [
+            { post: 'test'},
+            { post: 'test2'}
+        ]
     }
-    postFeed = shallow(<PostFeed {...props}/>)
+    postFeed = shallow(<PostFeed {...props} />)
   });
   it('should render correctly', () => {
       expect(postFeed).toMatchSnapshot();
-  });
-  it('should include the PostItem component', () => {
-      expect(postFeed.find('Connect(PostItem)').exists()).toBe(true);
   });
 })

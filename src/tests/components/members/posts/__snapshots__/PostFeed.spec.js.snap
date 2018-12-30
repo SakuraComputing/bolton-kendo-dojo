@@ -4,7 +4,16 @@ exports[`PostFeed component should render correctly 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <PostFeed
-    posts={[MockFunction]}
+    posts={
+      Array [
+        Object {
+          "post": "test",
+        },
+        Object {
+          "post": "test2",
+        },
+      ]
+    }
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -17,21 +26,42 @@ ShallowWrapper {
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "host",
-    "props": Object {},
+    "nodeType": "class",
+    "props": Object {
+      "post": Object {
+        "post": "test",
+      },
+    },
     "ref": null,
     "rendered": null,
-    "type": "div",
+    "type": [Function],
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "host",
-      "props": Object {},
+      "nodeType": "class",
+      "props": Object {
+        "post": Object {
+          "post": "test",
+        },
+      },
       "ref": null,
       "rendered": null,
-      "type": "div",
+      "type": [Function],
+    },
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "post": Object {
+          "post": "test2",
+        },
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
     },
   ],
   Symbol(enzyme.__options__): Object {
