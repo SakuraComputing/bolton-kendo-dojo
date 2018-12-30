@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
-import { className } from '../../../../node_modules/postcss-selector-parser';
+import { deletePost } from "../../../actions/postActions";
 
 export class PostItem extends Component {
+
+    onDeleteClick(id) {
+        this.props.deletePost(id);
+    }
     render() {
 
         const { post, auth } = this.props;
@@ -21,6 +25,7 @@ export class PostItem extends Component {
                     <button 
                         type="button"
                         className="item-delete"
+                        onClick={this.onDeleteClick.bind(this, post._id)}
                     >
                     </button>
                 </div>
@@ -33,4 +38,4 @@ const mapStateToProps = (state) => ({
     auth: state.auth
 });
 
-export default connect(mapStateToProps)(PostItem);
+export default connect(mapStateToProps, { deletePost })(PostItem);

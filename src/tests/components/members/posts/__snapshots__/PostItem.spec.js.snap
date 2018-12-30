@@ -4,6 +4,8 @@ exports[`Post Item Component should render correctly 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <PostItem
+    deletePost={[MockFunction]}
+    name="test"
     post={[MockFunction]}
   />,
   Symbol(enzyme.__renderer__): Object {
@@ -36,6 +38,7 @@ ShallowWrapper {
           </Link>
           <button
             className="item-delete"
+            onClick={[Function]}
             type="button"
           />
         </div>,
@@ -82,6 +85,7 @@ ShallowWrapper {
             </Link>,
             <button
               className="item-delete"
+              onClick={[Function]}
               type="button"
             />,
           ],
@@ -119,6 +123,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "className": "item-delete",
+              "onClick": [Function],
               "type": "button",
             },
             "ref": null,
@@ -154,6 +159,7 @@ ShallowWrapper {
             </Link>
             <button
               className="item-delete"
+              onClick={[Function]}
               type="button"
             />
           </div>,
@@ -200,6 +206,7 @@ ShallowWrapper {
               </Link>,
               <button
                 className="item-delete"
+                onClick={[Function]}
                 type="button"
               />,
             ],
@@ -237,6 +244,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "className": "item-delete",
+                "onClick": [Function],
                 "type": "button",
               },
               "ref": null,
