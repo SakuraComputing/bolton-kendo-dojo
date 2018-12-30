@@ -12,6 +12,7 @@ import VideoPage from '../../components/VideoPage';
 import Members from '../../components/members/Members';
 import KendoMindMap from '../../components/members/KendoMindMap';
 import MembersPhoto from '../../components/members/MembersPhotos';
+import Posts from '../../components/members/posts/Posts';
 import NotFound from '../../components/static/NotFoundPage';
 
 describe('App Router', () => {
@@ -54,14 +55,17 @@ describe('App Router', () => {
     it('should route to the media page', () => {
         expect(wrapper.find('Route[path="/media"]').first().prop('component')).toEqual(VideoPage);
     });
-    it.skip('should route to the kendo members page', () => {
-        expect(wrapper.find('PrivateRoute[path="/members"]').first().prop('component')).toEqual(Members);
+    it('should route to the kendo members page', () => {
+        expect(wrapper.find('Connect(PrivateRoute)[path="/members"]').first().prop('component')).toEqual(Members);
     });
-    it.skip('should route to the members photo page', () => {
-        expect(wrapper.find('PrivateRoute[path="/memberphoto"]').first().prop('component')).toEqual(MembersPhoto);
+    it('should route to the members photo page', () => {
+        expect(wrapper.find('Connect(PrivateRoute)[path="/memberphoto"]').first().prop('component')).toEqual(MembersPhoto);
     });
-    it.skip('should route to the kendo mind map page', () => {
-        expect(wrapper.find('Route[path="/mindmap"]').first().prop('component')).toEqual(KendoMindMap);
+    it('should route to the kendo mind map page', () => {
+        expect(wrapper.find('Connect(PrivateRoute)[path="/mindmap"]').first().prop('component')).toEqual(KendoMindMap);
+    });
+    it('should route to the posts page', () => {
+        expect(wrapper.find('Connect(PrivateRoute)[path="/feed"]').first().prop('component')).toEqual(Posts);
     });
 
 })
