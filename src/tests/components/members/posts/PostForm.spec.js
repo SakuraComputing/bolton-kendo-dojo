@@ -28,4 +28,26 @@ describe('Post Form Component', () => {
         });
         expect(postForm.state().text).toEqual(postText);
     });
+
+    describe('Post Submit', () => {
+        
+        let wrapper, addPostMock, props;
+
+        beforeEach(() => {
+            const onSubmitSpy = jest.fn();
+            addPostMock = jest.fn();
+            props = {
+                auth: { user: jest.fn() },
+                addPost: jest.fn()
+            }
+            wrapper = shallow(<PostForm onSubmit={onSubmitSpy} {...props} />)
+        })
+        it('should call add post on form submit', () => {
+            wrapper.find('form').simulate('submit', {
+                preventDefault: () => {}
+             });
+            //  expect(addPostMock).toHaveBeenCalled();
+        });
+    });
+    
 });

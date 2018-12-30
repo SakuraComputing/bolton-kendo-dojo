@@ -16,7 +16,22 @@ export class PostForm extends Component {
     onChange = (e) => {
         this.setState({ text: e.target.value })
     }
-    
+
+    onSubmit = (e) => {
+        e.preventDefault();
+
+        const { user } = this.props.auth;
+
+        const newPost = {
+            text: this.state.text,
+            name: user.name,
+            avatar: user.avatar
+        };
+
+        this.props.addPost(newPost);
+        this.setState({ text: '' });
+    }
+
     render() {
 
         const { errors } = this.state;

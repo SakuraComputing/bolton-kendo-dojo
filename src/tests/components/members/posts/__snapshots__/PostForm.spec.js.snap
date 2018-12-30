@@ -17,7 +17,9 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": <form>
+      "children": <form
+        onSubmit={[Function]}
+      >
         <div
           className="form-group"
         >
@@ -62,7 +64,7 @@ ShallowWrapper {
             Submit
           </button>,
         ],
-        "onSubmit": undefined,
+        "onSubmit": [Function],
       },
       "ref": null,
       "rendered": Array [
@@ -123,7 +125,9 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": <form>
+        "children": <form
+          onSubmit={[Function]}
+        >
           <div
             className="form-group"
           >
@@ -168,7 +172,7 @@ ShallowWrapper {
               Submit
             </button>,
           ],
-          "onSubmit": undefined,
+          "onSubmit": [Function],
         },
         "ref": null,
         "rendered": Array [
