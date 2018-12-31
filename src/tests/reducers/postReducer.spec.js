@@ -22,7 +22,7 @@ describe('post reducer', () => {
     it('should return all posts', () => {
         const action = {
             type: GET_POSTS,
-            posts: posts
+            payload: posts
         }
         const state = postReducer(undefined, action);
         const response = {

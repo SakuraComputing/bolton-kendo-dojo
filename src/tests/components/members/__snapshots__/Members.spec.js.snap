@@ -78,7 +78,7 @@ ShallowWrapper {
           >
             <Link
               replace={false}
-              to="/members"
+              to="/feed"
             >
               Bulletin Board
             </Link>
@@ -162,7 +162,7 @@ ShallowWrapper {
             >
               <Link
                 replace={false}
-                to="/members"
+                to="/feed"
               >
                 Bulletin Board
               </Link>
@@ -324,7 +324,7 @@ ShallowWrapper {
               "children": Array [
                 <Link
                   replace={false}
-                  to="/members"
+                  to="/feed"
                 >
                   Bulletin Board
                 </Link>,
@@ -343,7 +343,7 @@ ShallowWrapper {
                 "props": Object {
                   "children": "Bulletin Board",
                   "replace": false,
-                  "to": "/members",
+                  "to": "/feed",
                 },
                 "ref": null,
                 "rendered": "Bulletin Board",
@@ -430,7 +430,7 @@ ShallowWrapper {
             >
               <Link
                 replace={false}
-                to="/members"
+                to="/feed"
               >
                 Bulletin Board
               </Link>
@@ -514,7 +514,7 @@ ShallowWrapper {
               >
                 <Link
                   replace={false}
-                  to="/members"
+                  to="/feed"
                 >
                   Bulletin Board
                 </Link>
@@ -676,7 +676,7 @@ ShallowWrapper {
                 "children": Array [
                   <Link
                     replace={false}
-                    to="/members"
+                    to="/feed"
                   >
                     Bulletin Board
                   </Link>,
@@ -695,7 +695,7 @@ ShallowWrapper {
                   "props": Object {
                     "children": "Bulletin Board",
                     "replace": false,
-                    "to": "/members",
+                    "to": "/feed",
                   },
                   "ref": null,
                   "rendered": "Bulletin Board",

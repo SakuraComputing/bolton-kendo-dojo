@@ -17,12 +17,11 @@ export class Posts extends Component {
 
     let postContent;
 
-    if(posts == null || loading) {
+    if(posts == null || posts === undefined || loading) {
         postContent = <Spinner />
     } else {
-        postContent = <PostFeed />
+        postContent = <PostFeed posts={posts} />
     }
-
 
     return (
       <div>

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import postItem, { PostItem } from './PostItem';
+import { PostItem } from './PostItem';
 
 class PostFeed extends Component {
   render() {

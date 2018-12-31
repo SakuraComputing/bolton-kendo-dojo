@@ -1,7 +1,6 @@
 import {
     GET_POSTS,
     ADD_POST,
-    GET_ERRORS,
     DELETE_POST,
     GET_POST
 
@@ -18,7 +17,7 @@ export default (state = initialState, action) => {
         case GET_POSTS:
             return {
                 ...state,
-                posts: action.posts,
+                posts: action.payload,
                 loading: false
             }
         case ADD_POST:

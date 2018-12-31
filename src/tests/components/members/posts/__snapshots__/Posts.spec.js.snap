@@ -39,7 +39,9 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <Connect(PostForm) />,
-        <PostFeed />,
+        <PostFeed
+          posts={Array []}
+        />,
       ],
     },
     "ref": null,
@@ -57,7 +59,9 @@ ShallowWrapper {
         "instance": null,
         "key": undefined,
         "nodeType": "class",
-        "props": Object {},
+        "props": Object {
+          "posts": Array [],
+        },
         "ref": null,
         "rendered": null,
         "type": [Function],
@@ -73,7 +77,9 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <Connect(PostForm) />,
-          <PostFeed />,
+          <PostFeed
+            posts={Array []}
+          />,
         ],
       },
       "ref": null,
@@ -91,7 +97,9 @@ ShallowWrapper {
           "instance": null,
           "key": undefined,
           "nodeType": "class",
-          "props": Object {},
+          "props": Object {
+            "posts": Array [],
+          },
           "ref": null,
           "rendered": null,
           "type": [Function],
@@ -169,7 +177,9 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <Connect(PostForm) />,
-        <PostFeed />,
+        <PostFeed
+          posts={Array []}
+        />,
       ],
     },
     "ref": null,
@@ -187,7 +197,9 @@ ShallowWrapper {
         "instance": null,
         "key": undefined,
         "nodeType": "class",
-        "props": Object {},
+        "props": Object {
+          "posts": Array [],
+        },
         "ref": null,
         "rendered": null,
         "type": [Function],
@@ -203,7 +215,9 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <Connect(PostForm) />,
-          <PostFeed />,
+          <PostFeed
+            posts={Array []}
+          />,
         ],
       },
       "ref": null,
@@ -221,7 +235,9 @@ ShallowWrapper {
           "instance": null,
           "key": undefined,
           "nodeType": "class",
-          "props": Object {},
+          "props": Object {
+            "posts": Array [],
+          },
           "ref": null,
           "rendered": null,
           "type": [Function],
@@ -289,7 +305,9 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <Connect(PostForm) />,
-        <PostFeed />,
+        <PostFeed
+          posts={Array []}
+        />,
       ],
     },
     "ref": null,
@@ -307,7 +325,9 @@ ShallowWrapper {
         "instance": null,
         "key": undefined,
         "nodeType": "class",
-        "props": Object {},
+        "props": Object {
+          "posts": Array [],
+        },
         "ref": null,
         "rendered": null,
         "type": [Function],
@@ -323,7 +343,9 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <Connect(PostForm) />,
-          <PostFeed />,
+          <PostFeed
+            posts={Array []}
+          />,
         ],
       },
       "ref": null,
@@ -341,7 +363,9 @@ ShallowWrapper {
           "instance": null,
           "key": undefined,
           "nodeType": "class",
-          "props": Object {},
+          "props": Object {
+            "posts": Array [],
+          },
           "ref": null,
           "rendered": null,
           "type": [Function],

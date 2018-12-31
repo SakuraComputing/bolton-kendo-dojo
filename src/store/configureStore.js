@@ -5,6 +5,7 @@ import errorReducer from '../reducers/error';
 import clubReducer from '../reducers/club';
 import uploadReducer from '../reducers/upload';
 import filtersReducer from '../reducers/filter';
+import postReducer from '../reducers/post';
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
@@ -15,7 +16,8 @@ export default () => {
             errors: errorReducer,
             club: clubReducer,
             uploads: uploadReducer,
-            filters: filtersReducer
+            filters: filtersReducer,
+            post: postReducer
         }),
         composeEnhancers(applyMiddleware(thunk))
     );

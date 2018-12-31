@@ -28,7 +28,7 @@ export class Members extends Component {
             <p>Go into the video section and view private members videos</p>
           </div>
           <div className="members-area-link">
-            <Link to="/members">Bulletin Board</Link>
+            <Link to="/feed">Bulletin Board</Link>
             <p>Add a post to the bulletin board. Respond to other posts</p>
           </div>
         </div>
