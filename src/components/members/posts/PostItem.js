@@ -10,7 +10,7 @@ export class PostItem extends Component {
     }
     render() {
 
-        const { post, auth } = this.props;
+        const { post } = this.props;
 
         return (
             <div className="feed-container">
