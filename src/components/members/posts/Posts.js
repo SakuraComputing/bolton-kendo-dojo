@@ -24,7 +24,7 @@ export class Posts extends Component {
     }
 
     return (
-      <div>
+      <div className="feed">
         <PostForm />
         {postContent}
       </div>

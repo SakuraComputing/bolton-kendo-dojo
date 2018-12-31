@@ -24,25 +24,29 @@ ShallowWrapper {
       "children": Array [
         <div>
           <p>
+            Posted By: 
             mockConstructor
           </p>
         </div>,
         <div>
           <p />
           <Link
-            className="item-comments"
+            className="item-comments button-small"
             replace={false}
             to="/post/undefined"
           >
             Comments
           </Link>
           <button
-            className="item-delete"
+            className="button-delete button-small item-delete"
             onClick={[Function]}
             type="button"
-          />
+          >
+            Delete Post
+          </button>
         </div>,
       ],
+      "className": "feed-container",
     },
     "ref": null,
     "rendered": Array [
@@ -52,6 +56,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": <p>
+            Posted By: 
             mockConstructor
           </p>,
         },
@@ -61,10 +66,16 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "mockConstructor",
+            "children": Array [
+              "Posted By: ",
+              "mockConstructor",
+            ],
           },
           "ref": null,
-          "rendered": "mockConstructor",
+          "rendered": Array [
+            "Posted By: ",
+            "mockConstructor",
+          ],
           "type": "p",
         },
         "type": "div",
@@ -77,17 +88,19 @@ ShallowWrapper {
           "children": Array [
             <p />,
             <Link
-              className="item-comments"
+              className="item-comments button-small"
               replace={false}
               to="/post/undefined"
             >
               Comments
             </Link>,
             <button
-              className="item-delete"
+              className="button-delete button-small item-delete"
               onClick={[Function]}
               type="button"
-            />,
+            >
+              Delete Post
+            </button>,
           ],
         },
         "ref": null,
@@ -109,7 +122,7 @@ ShallowWrapper {
             "nodeType": "class",
             "props": Object {
               "children": "Comments",
-              "className": "item-comments",
+              "className": "item-comments button-small",
               "replace": false,
               "to": "/post/undefined",
             },
@@ -122,12 +135,13 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "className": "item-delete",
+              "children": "Delete Post",
+              "className": "button-delete button-small item-delete",
               "onClick": [Function],
               "type": "button",
             },
             "ref": null,
-            "rendered": null,
+            "rendered": "Delete Post",
             "type": "button",
           },
         ],
@@ -145,25 +159,29 @@ ShallowWrapper {
         "children": Array [
           <div>
             <p>
+              Posted By: 
               mockConstructor
             </p>
           </div>,
           <div>
             <p />
             <Link
-              className="item-comments"
+              className="item-comments button-small"
               replace={false}
               to="/post/undefined"
             >
               Comments
             </Link>
             <button
-              className="item-delete"
+              className="button-delete button-small item-delete"
               onClick={[Function]}
               type="button"
-            />
+            >
+              Delete Post
+            </button>
           </div>,
         ],
+        "className": "feed-container",
       },
       "ref": null,
       "rendered": Array [
@@ -173,6 +191,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": <p>
+              Posted By: 
               mockConstructor
             </p>,
           },
@@ -182,10 +201,16 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": "mockConstructor",
+              "children": Array [
+                "Posted By: ",
+                "mockConstructor",
+              ],
             },
             "ref": null,
-            "rendered": "mockConstructor",
+            "rendered": Array [
+              "Posted By: ",
+              "mockConstructor",
+            ],
             "type": "p",
           },
           "type": "div",
@@ -198,17 +223,19 @@ ShallowWrapper {
             "children": Array [
               <p />,
               <Link
-                className="item-comments"
+                className="item-comments button-small"
                 replace={false}
                 to="/post/undefined"
               >
                 Comments
               </Link>,
               <button
-                className="item-delete"
+                className="button-delete button-small item-delete"
                 onClick={[Function]}
                 type="button"
-              />,
+              >
+                Delete Post
+              </button>,
             ],
           },
           "ref": null,
@@ -230,7 +257,7 @@ ShallowWrapper {
               "nodeType": "class",
               "props": Object {
                 "children": "Comments",
-                "className": "item-comments",
+                "className": "item-comments button-small",
                 "replace": false,
                 "to": "/post/undefined",
               },
@@ -243,12 +270,13 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "className": "item-delete",
+                "children": "Delete Post",
+                "className": "button-delete button-small item-delete",
                 "onClick": [Function],
                 "type": "button",
               },
               "ref": null,
-              "rendered": null,
+              "rendered": "Delete Post",
               "type": "button",
             },
           ],

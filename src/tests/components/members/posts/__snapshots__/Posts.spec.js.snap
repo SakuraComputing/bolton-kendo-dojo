@@ -43,6 +43,7 @@ ShallowWrapper {
           posts={Array []}
         />,
       ],
+      "className": "feed",
     },
     "ref": null,
     "rendered": Array [
@@ -81,6 +82,7 @@ ShallowWrapper {
             posts={Array []}
           />,
         ],
+        "className": "feed",
       },
       "ref": null,
       "rendered": Array [
@@ -181,6 +183,7 @@ ShallowWrapper {
           posts={Array []}
         />,
       ],
+      "className": "feed",
     },
     "ref": null,
     "rendered": Array [
@@ -219,6 +222,7 @@ ShallowWrapper {
             posts={Array []}
           />,
         ],
+        "className": "feed",
       },
       "ref": null,
       "rendered": Array [
@@ -309,6 +313,7 @@ ShallowWrapper {
           posts={Array []}
         />,
       ],
+      "className": "feed",
     },
     "ref": null,
     "rendered": Array [
@@ -347,6 +352,7 @@ ShallowWrapper {
             posts={Array []}
           />,
         ],
+        "className": "feed",
       },
       "ref": null,
       "rendered": Array [

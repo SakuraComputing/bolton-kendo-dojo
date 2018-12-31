@@ -24,19 +24,18 @@ ShallowWrapper {
           className="form-group"
         >
           <TextAreaFieldGroup
-            className="post-text"
             name="text"
             onChange={[Function]}
             placeholder="Create a post"
             value=""
           />
+          <button
+            className="post-submit button-small"
+            type="submit"
+          >
+            Submit
+          </button>
         </div>
-        <button
-          className="post-submit"
-          type="submit"
-        >
-          Submit
-        </button>
       </form>,
     },
     "ref": null,
@@ -45,50 +44,53 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": Array [
-          <div
-            className="form-group"
-          >
-            <TextAreaFieldGroup
-              className="post-text"
-              name="text"
-              onChange={[Function]}
-              placeholder="Create a post"
-              value=""
-            />
-          </div>,
+        "children": <div
+          className="form-group"
+        >
+          <TextAreaFieldGroup
+            name="text"
+            onChange={[Function]}
+            placeholder="Create a post"
+            value=""
+          />
           <button
-            className="post-submit"
+            className="post-submit button-small"
             type="submit"
           >
             Submit
-          </button>,
-        ],
+          </button>
+        </div>,
         "onSubmit": [Function],
       },
       "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": <TextAreaFieldGroup
-              className="post-text"
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <TextAreaFieldGroup
               name="text"
               onChange={[Function]}
               placeholder="Create a post"
               value=""
             />,
-            "className": "form-group",
-          },
-          "ref": null,
-          "rendered": Object {
+            <button
+              className="post-submit button-small"
+              type="submit"
+            >
+              Submit
+            </button>,
+          ],
+          "className": "form-group",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
             "instance": null,
             "key": undefined,
             "nodeType": "function",
             "props": Object {
-              "className": "post-text",
               "error": undefined,
               "name": "text",
               "onChange": [Function],
@@ -99,22 +101,22 @@ ShallowWrapper {
             "rendered": null,
             "type": [Function],
           },
-          "type": "div",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "Submit",
-            "className": "post-submit",
-            "type": "submit",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Submit",
+              "className": "post-submit button-small",
+              "type": "submit",
+            },
+            "ref": null,
+            "rendered": "Submit",
+            "type": "button",
           },
-          "ref": null,
-          "rendered": "Submit",
-          "type": "button",
-        },
-      ],
+        ],
+        "type": "div",
+      },
       "type": "form",
     },
     "type": "div",
@@ -132,19 +134,18 @@ ShallowWrapper {
             className="form-group"
           >
             <TextAreaFieldGroup
-              className="post-text"
               name="text"
               onChange={[Function]}
               placeholder="Create a post"
               value=""
             />
+            <button
+              className="post-submit button-small"
+              type="submit"
+            >
+              Submit
+            </button>
           </div>
-          <button
-            className="post-submit"
-            type="submit"
-          >
-            Submit
-          </button>
         </form>,
       },
       "ref": null,
@@ -153,50 +154,53 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": Array [
-            <div
-              className="form-group"
-            >
-              <TextAreaFieldGroup
-                className="post-text"
-                name="text"
-                onChange={[Function]}
-                placeholder="Create a post"
-                value=""
-              />
-            </div>,
+          "children": <div
+            className="form-group"
+          >
+            <TextAreaFieldGroup
+              name="text"
+              onChange={[Function]}
+              placeholder="Create a post"
+              value=""
+            />
             <button
-              className="post-submit"
+              className="post-submit button-small"
               type="submit"
             >
               Submit
-            </button>,
-          ],
+            </button>
+          </div>,
           "onSubmit": [Function],
         },
         "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": <TextAreaFieldGroup
-                className="post-text"
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <TextAreaFieldGroup
                 name="text"
                 onChange={[Function]}
                 placeholder="Create a post"
                 value=""
               />,
-              "className": "form-group",
-            },
-            "ref": null,
-            "rendered": Object {
+              <button
+                className="post-submit button-small"
+                type="submit"
+              >
+                Submit
+              </button>,
+            ],
+            "className": "form-group",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
               "instance": null,
               "key": undefined,
               "nodeType": "function",
               "props": Object {
-                "className": "post-text",
                 "error": undefined,
                 "name": "text",
                 "onChange": [Function],
@@ -207,22 +211,22 @@ ShallowWrapper {
               "rendered": null,
               "type": [Function],
             },
-            "type": "div",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Submit",
-              "className": "post-submit",
-              "type": "submit",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Submit",
+                "className": "post-submit button-small",
+                "type": "submit",
+              },
+              "ref": null,
+              "rendered": "Submit",
+              "type": "button",
             },
-            "ref": null,
-            "rendered": "Submit",
-            "type": "button",
-          },
-        ],
+          ],
+          "type": "div",
+        },
         "type": "form",
       },
       "type": "div",

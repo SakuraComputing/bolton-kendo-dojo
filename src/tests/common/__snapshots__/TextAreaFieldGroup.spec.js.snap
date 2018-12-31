@@ -24,8 +24,10 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <textarea
+          className="form-control-large"
           name="test"
           onChange={[MockFunction]}
+          rows="3"
           value="test"
         />,
         undefined,
@@ -40,9 +42,11 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
+          "className": "form-control-large",
           "name": "test",
           "onChange": [MockFunction],
           "placeholder": undefined,
+          "rows": "3",
           "value": "test",
         },
         "ref": null,
@@ -62,8 +66,10 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <textarea
+            className="form-control-large"
             name="test"
             onChange={[MockFunction]}
+            rows="3"
             value="test"
           />,
           undefined,
@@ -78,9 +84,11 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
+            "className": "form-control-large",
             "name": "test",
             "onChange": [MockFunction],
             "placeholder": undefined,
+            "rows": "3",
             "value": "test",
           },
           "ref": null,

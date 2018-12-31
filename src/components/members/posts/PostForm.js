@@ -40,18 +40,17 @@ export class PostForm extends Component {
             <div>
                 <form onSubmit={this.onSubmit}>
                     <div className="form-group">
-                                <TextAreaFieldGroup
-                                    className="post-text"
-                                    placeholder="Create a post"
-                                    name="text"
-                                    value={this.state.text}
-                                    onChange={this.onChange}
-                                    error={errors.text}
-                                />
-                            </div>
-                    <button type="submit" className="post-submit">
-                        Submit
-                    </button>                
+                        <TextAreaFieldGroup
+                            placeholder="Create a post"
+                            name="text"
+                            value={this.state.text}
+                            onChange={this.onChange}
+                            error={errors.text}
+                        />
+                        <button type="submit" className="post-submit button-small">
+                            Submit
+                        </button>                
+                    </div>
                 </form>
             </div>
         )

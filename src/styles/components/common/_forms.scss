@@ -12,6 +12,11 @@
     font-size: 1.8em;
 }
 
+.form-control-large {
+    width: 100%;
+    font-size: 110%;
+}
+
 .input-box {
     padding: 8px;
     border: solid 1px $dark-grey;
@@ -23,39 +28,6 @@
 
 .input-box:hover {
   background-color: $light-blue;
-}
-
-.button {
-    border: solid 1px $blue-black;
-    padding: .9em;
-    border-radius: 5px;
-    font-size: 100%;
-    font-weight: bold;
-    width: 130px;
-}
-
-.button-info,
-.button-small {
-    margin-top: 1em;
-    color: $blue-black;
-    background-color: $light-orange;
-    transition: 0.5s;
-    outline-color: $dark-orange;
-}
-
-.button-info:hover,
-.button-small:hover {
-    background-color: #ffc91a;
-}
-
-.button-small {
-    border: solid 1px $blue-black;
-    padding: .5em;
-    border-radius: 5px;
-    font-size: 80%;
-    font-weight: bold;
-    width: 100px;
-    cursor: pointer;
 }
 
 // error messsgae

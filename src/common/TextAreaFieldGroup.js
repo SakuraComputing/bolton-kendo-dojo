@@ -13,10 +13,12 @@ export const TextAreaFieldGroup = ({
     return (
         <div className="form-group">
             <textarea
+                className="form-control-large"
                 placeholder={placeholder}
                 name={name}
                 value={value}
                 onChange={onChange}
+                rows="3"
             />
             {info && <small className="form-text text-muted">{info}</small>}
             {error && (<div className="invalid-feedback">{error}</div>)}

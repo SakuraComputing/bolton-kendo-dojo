@@ -13,20 +13,21 @@ export class PostItem extends Component {
         const { post, auth } = this.props;
 
         return (
-            <div>
+            <div className="feed-container">
                 <div>
-                    <p>{post.name}</p>
+                    <p>Posted By: {post.name}</p>
                 </div>
                 <div>
                     <p>{post.text}</p>
-                    <Link to={`/post/${post._id}`} className="item-comments">
+                    <Link to={`/post/${post._id}`} className="item-comments button-small">
                         Comments
                     </Link>
                     <button 
                         type="button"
-                        className="item-delete"
+                        className="button-delete button-small item-delete"
                         onClick={this.onDeleteClick.bind(this, post._id)}
                     >
+                    Delete Post
                     </button>
                 </div>
             </div>
