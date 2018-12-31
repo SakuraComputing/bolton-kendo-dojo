@@ -31,11 +31,10 @@ describe('Post Form Component', () => {
 
     describe('Post Submit', () => {
         
-        let wrapper, addPostMock, props;
+        let wrapper, props;
 
         beforeEach(() => {
             const onSubmitSpy = jest.fn();
-            addPostMock = jest.fn();
             props = {
                 auth: { user: jest.fn() },
                 addPost: jest.fn()

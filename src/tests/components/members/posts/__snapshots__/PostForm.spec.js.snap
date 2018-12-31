@@ -24,6 +24,7 @@ ShallowWrapper {
           className="form-group"
         >
           <TextAreaFieldGroup
+            className="post-text"
             name="text"
             onChange={[Function]}
             placeholder="Create a post"
@@ -48,6 +49,7 @@ ShallowWrapper {
           className="form-group"
         >
           <TextAreaFieldGroup
+            className="post-text"
             name="text"
             onChange={[Function]}
             placeholder="Create a post"
@@ -70,6 +72,7 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <TextAreaFieldGroup
+              className="post-text"
               name="text"
               onChange={[Function]}
               placeholder="Create a post"
@@ -91,6 +94,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "function",
             "props": Object {
+              "className": "post-text",
               "error": undefined,
               "name": "text",
               "onChange": [Function],
@@ -134,6 +138,7 @@ ShallowWrapper {
             className="form-group"
           >
             <TextAreaFieldGroup
+              className="post-text"
               name="text"
               onChange={[Function]}
               placeholder="Create a post"
@@ -158,6 +163,7 @@ ShallowWrapper {
             className="form-group"
           >
             <TextAreaFieldGroup
+              className="post-text"
               name="text"
               onChange={[Function]}
               placeholder="Create a post"
@@ -180,6 +186,7 @@ ShallowWrapper {
           "props": Object {
             "children": Array [
               <TextAreaFieldGroup
+                className="post-text"
                 name="text"
                 onChange={[Function]}
                 placeholder="Create a post"
@@ -201,6 +208,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "function",
               "props": Object {
+                "className": "post-text",
                 "error": undefined,
                 "name": "text",
                 "onChange": [Function],
