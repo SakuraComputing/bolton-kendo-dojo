@@ -32,6 +32,11 @@
 }
 
 .button-delete {
-    background-color: red;
+    background-color: $warning-red;
     color: $off-white;
+    transition: 0.5%;
+}
+
+.button-delete:hover {
+    background-color: darken($warning-red, 10%);
 }
