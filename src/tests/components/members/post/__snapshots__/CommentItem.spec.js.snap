@@ -52,7 +52,7 @@ ShallowWrapper {
             className="lead"
           />
           <button
-            className="btn btn-danger mr-1"
+            className="button-small button-warning"
             onClick={[Function]}
             type="button"
           >
@@ -96,7 +96,7 @@ ShallowWrapper {
               className="lead"
             />
             <button
-              className="btn btn-danger mr-1"
+              className="button-small button-warning"
               onClick={[Function]}
               type="button"
             >
@@ -196,7 +196,7 @@ ShallowWrapper {
                 className="lead"
               />,
               <button
-                className="btn btn-danger mr-1"
+                className="button-small button-warning"
                 onClick={[Function]}
                 type="button"
               >
@@ -229,7 +229,7 @@ ShallowWrapper {
                 "children": <i
                   className="fas fa-times"
                 />,
-                "className": "btn btn-danger mr-1",
+                "className": "button-small button-warning",
                 "onClick": [Function],
                 "type": "button",
               },
@@ -289,7 +289,7 @@ ShallowWrapper {
               className="lead"
             />
             <button
-              className="btn btn-danger mr-1"
+              className="button-small button-warning"
               onClick={[Function]}
               type="button"
             >
@@ -333,7 +333,7 @@ ShallowWrapper {
                 className="lead"
               />
               <button
-                className="btn btn-danger mr-1"
+                className="button-small button-warning"
                 onClick={[Function]}
                 type="button"
               >
@@ -433,7 +433,7 @@ ShallowWrapper {
                   className="lead"
                 />,
                 <button
-                  className="btn btn-danger mr-1"
+                  className="button-small button-warning"
                   onClick={[Function]}
                   type="button"
                 >
@@ -466,7 +466,7 @@ ShallowWrapper {
                   "children": <i
                     className="fas fa-times"
                   />,
-                  "className": "btn btn-danger mr-1",
+                  "className": "button-small button-warning",
                   "onClick": [Function],
                   "type": "button",
                 },

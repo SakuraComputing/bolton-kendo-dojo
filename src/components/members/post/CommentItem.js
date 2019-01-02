@@ -27,7 +27,7 @@ export class CommentItem extends Component {
                         {comment.user === auth.user.id ? (
                             <button onClick={this.onDeleteClick.bind(this, postId, comment._id)}
                                     type="button"
-                                    className="btn btn-danger mr-1"
+                                    className="button-small button-warning"
                             >
                             <i className="fas fa-times"></i>
                             </button>
