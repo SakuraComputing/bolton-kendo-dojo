@@ -5,7 +5,7 @@ import { deletePost } from "../../../actions/postActions";
 
 export class PostItem extends Component {
 
-    onDeleteClick(id) {
+    onDeleteClick = (id) => {
         this.props.deletePost(id);
     }
     render() {

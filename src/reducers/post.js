@@ -30,7 +30,7 @@ export default (state = initialState, action) => {
         case GET_POST:
             return {
                 ...state,
-                post: action.post,
+                post: action.payload,
                 loading: false
             }
         default:

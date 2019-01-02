@@ -62,7 +62,7 @@ describe('post reducer', () => {
     it('should get a single post', () => {
         const action = {
             type: GET_POST,
-            post: posts[0]
+            payload: posts[0]
         }
         const state = postReducer(undefined, action);
         expect(state).toEqual({
