@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import CommentForm from '../../../../components/members/post/CommentForm';
+import { CommentForm } from '../../../../components/members/post/CommentForm';
 
 describe('Comment Form Component', () => {
   let commentForm;
