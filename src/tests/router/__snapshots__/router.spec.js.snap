@@ -98,6 +98,13 @@ ShallowWrapper {
               path="/feed"
             />
           </Switch>
+          <Switch>
+            <Connect(PrivateRoute)
+              component={[Function]}
+              exact={true}
+              path="/post/:id"
+            />
+          </Switch>
         </div>
         <Footer />
       </div>,
@@ -187,6 +194,13 @@ ShallowWrapper {
                 path="/feed"
               />
             </Switch>
+            <Switch>
+              <Connect(PrivateRoute)
+                component={[Function]}
+                exact={true}
+                path="/post/:id"
+              />
+            </Switch>
           </div>,
           <Footer />,
         ],
@@ -273,6 +287,13 @@ ShallowWrapper {
                   component={[Function]}
                   exact={true}
                   path="/feed"
+                />
+              </Switch>,
+              <Switch>
+                <Connect(PrivateRoute)
+                  component={[Function]}
+                  exact={true}
+                  path="/post/:id"
                 />
               </Switch>,
             ],
@@ -570,6 +591,33 @@ ShallowWrapper {
               },
               "type": [Function],
             },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <Connect(PrivateRoute)
+                  component={[Function]}
+                  exact={true}
+                  path="/post/:id"
+                />,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "component": [Function],
+                  "exact": true,
+                  "path": "/post/:id",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
           ],
           "type": "div",
         },
@@ -674,6 +722,13 @@ ShallowWrapper {
                 path="/feed"
               />
             </Switch>
+            <Switch>
+              <Connect(PrivateRoute)
+                component={[Function]}
+                exact={true}
+                path="/post/:id"
+              />
+            </Switch>
           </div>
           <Footer />
         </div>,
@@ -763,6 +818,13 @@ ShallowWrapper {
                   path="/feed"
                 />
               </Switch>
+              <Switch>
+                <Connect(PrivateRoute)
+                  component={[Function]}
+                  exact={true}
+                  path="/post/:id"
+                />
+              </Switch>
             </div>,
             <Footer />,
           ],
@@ -849,6 +911,13 @@ ShallowWrapper {
                     component={[Function]}
                     exact={true}
                     path="/feed"
+                  />
+                </Switch>,
+                <Switch>
+                  <Connect(PrivateRoute)
+                    component={[Function]}
+                    exact={true}
+                    path="/post/:id"
                   />
                 </Switch>,
               ],
@@ -1139,6 +1208,33 @@ ShallowWrapper {
                     "component": [Function],
                     "exact": true,
                     "path": "/feed",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <Connect(PrivateRoute)
+                    component={[Function]}
+                    exact={true}
+                    path="/post/:id"
+                  />,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "component": [Function],
+                    "exact": true,
+                    "path": "/post/:id",
                   },
                   "ref": null,
                   "rendered": null,

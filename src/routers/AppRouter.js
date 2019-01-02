@@ -16,6 +16,7 @@ import KendoMindMap from '../components/members/KendoMindMap';
 import MemberPhotos from '../components/members/MembersPhotos';
 import VideoPage from '../components/VideoPage';
 import Posts from '../components/members/posts/Posts';
+import Post from '../components/members/post/Post';
 
 import '../styles/styles.scss';
 import PrivateRoute from '../common/PrivateRoute';
@@ -61,6 +62,12 @@ class AppRouter extends Component {
                             <PrivateRoute
                                 exact path="/feed"
                                 component={Posts}
+                            />
+                        </Switch>
+                        <Switch>
+                            <PrivateRoute
+                                exact path="/post/:id"
+                                component={Post}
                             />
                         </Switch>
                     </div>

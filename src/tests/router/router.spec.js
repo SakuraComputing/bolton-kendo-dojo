@@ -13,6 +13,7 @@ import Members from '../../components/members/Members';
 import KendoMindMap from '../../components/members/KendoMindMap';
 import MembersPhoto from '../../components/members/MembersPhotos';
 import Posts from '../../components/members/posts/Posts';
+import Post from '../../components/members/post/Post';
 import NotFound from '../../components/static/NotFoundPage';
 
 describe('App Router', () => {
@@ -66,6 +67,9 @@ describe('App Router', () => {
     });
     it('should route to the posts page', () => {
         expect(wrapper.find('Connect(PrivateRoute)[path="/feed"]').first().prop('component')).toEqual(Posts);
+    });
+    it('should route to the post page', () => {
+        expect(wrapper.find('Connect(PrivateRoute)[path="/post/:id"]').first().prop('component')).toEqual(Post);
     });
 
 })
