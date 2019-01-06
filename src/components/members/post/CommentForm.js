@@ -45,7 +45,7 @@ export class CommentForm extends Component {
         const { errors } = this.state;
 
         return (
-            <div className="post-form mb-3">
+            <div className="post-container">
                 <div className="card card-info">
                     <div className="card-header bg-info text-white">
                         Make a comment...
@@ -61,7 +61,7 @@ export class CommentForm extends Component {
                                     error={errors.text}
                                 />
                             </div>
-                            <button type="submit" className="btn btn-dark">
+                            <button type="submit" className="button-small button-warning">
                                 Submit
                             </button>
                         </form>

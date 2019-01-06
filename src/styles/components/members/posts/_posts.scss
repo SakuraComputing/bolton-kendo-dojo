@@ -5,7 +5,7 @@
 .post-submit {
     margin-left: 10px;
 }
-.feed-container {
+.post-container {
     margin: 0px 20px 10px 20px;
     border: solid 1px $blue-black;
     border-radius: 5px;
@@ -13,11 +13,58 @@
     font-size: 110%;
 }
 
-.feed-container:hover {
+.back-to-feed {
+    margin: 20px 20px 10px 20px;
+}
+
+.comment-outer {
+    display: flex;
+}
+
+.comment-inner-1 {
+    flex-grow: 1;
+}
+.comment-inner-2 {
+    flex-grow: 8;
+}
+.comment-inner-3 {
+    flex-grow: 1;
+    align-self: flex-end;
+}
+
+.comment-text {
+    width: 100%;
+    font-size: 120%;
+    font-style: italic;
+}
+
+.post-container:hover {
     background-color: $light-blue;
 }
 
 .item-delete {
     float: right;
     margin-top: 0;
+}
+
+.item-comments {
+    margin-top: 5em;
+}
+
+.rounded-circle {
+    height: 4em;
+    width: 4em;
+    border-radius: 50%;
+}
+
+.avatar-name {
+    margin: 0.5em 0;
+    font-size: 80%;
+}
+
+.card-header {
+    background-color: $color__primary;
+    color: $off-white;
+    padding: 1em;
+    border-radius: 5px;
 }

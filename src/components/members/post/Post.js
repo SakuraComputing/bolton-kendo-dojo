@@ -31,17 +31,13 @@ export class Post extends Component {
         }
         
         return (
-            <div className="post">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-md-12">
-                            <Link to="/feed" className="btn btn-light mb-3">
-                                Back To Feed
-                            </Link>
-                            {postContent}
-                        </div>
-                    </div>
+            <div>
+                <div className="back-to-feed">
+                    <Link to="/feed" className="button-small button-warning">
+                        Back To Feed
+                    </Link>
                 </div>
+                {postContent}
             </div>
         )
     }

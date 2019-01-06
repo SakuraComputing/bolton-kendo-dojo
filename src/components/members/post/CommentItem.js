@@ -12,24 +12,29 @@ export class CommentItem extends Component {
         const { comment, postId, auth } = this.props;
 
         return(
-            <div className="">
-                <div className="">
-                    <div className="">
+            <div className="post-container">
+                <div className="comment-outer">
+                    <div className="comment-inner-1">
                         <a href="profile.html">
                             <img className="rounded-circle d-none d-md-block"
-                                 src={comment.avatar} alt=""/>
+                                    src={comment.avatar} alt=""/>
                         </a>
                         <br/>
-                        <p className="text-center">{comment.name}</p>
+                        <p className="avatar-name">{comment.name}</p>
+                        <div className="comment-container">
+                        </div>
                     </div>
-                    <div className="col-md-10">
-                        <p className="lead">{comment.text}</p>
+                    <div className="comment-inner-2">
+                        <p className="comment-text">{comment.text}</p>
+                    </div>
+                    <div className="comment-inner-3">
                         {comment.user === auth.user.id ? (
                             <button onClick={this.onDeleteClick.bind(this, postId, comment._id)}
                                     type="button"
-                                    className="button-small button-warning"
+                                    className="button-small button-delete item-delete"
                             >
                             <i className="fas fa-times"></i>
+                            Delete Comment
                             </button>
                         ) : null}
                     </div>

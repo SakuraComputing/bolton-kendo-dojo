@@ -42,7 +42,7 @@ ShallowWrapper {
               />
             </div>
             <button
-              className="btn btn-dark"
+              className="button-small button-warning"
               type="submit"
             >
               Submit
@@ -50,7 +50,7 @@ ShallowWrapper {
           </form>
         </div>
       </div>,
-      "className": "post-form mb-3",
+      "className": "post-container",
     },
     "ref": null,
     "rendered": Object {
@@ -81,7 +81,7 @@ ShallowWrapper {
                 />
               </div>
               <button
-                className="btn btn-dark"
+                className="button-small button-warning"
                 type="submit"
               >
                 Submit
@@ -124,7 +124,7 @@ ShallowWrapper {
                 />
               </div>
               <button
-                className="btn btn-dark"
+                className="button-small button-warning"
                 type="submit"
               >
                 Submit
@@ -150,7 +150,7 @@ ShallowWrapper {
                   />
                 </div>,
                 <button
-                  className="btn btn-dark"
+                  className="button-small button-warning"
                   type="submit"
                 >
                   Submit
@@ -197,7 +197,7 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "children": "Submit",
-                  "className": "btn btn-dark",
+                  "className": "button-small button-warning",
                   "type": "submit",
                 },
                 "ref": null,
@@ -245,7 +245,7 @@ ShallowWrapper {
                 />
               </div>
               <button
-                className="btn btn-dark"
+                className="button-small button-warning"
                 type="submit"
               >
                 Submit
@@ -253,7 +253,7 @@ ShallowWrapper {
             </form>
           </div>
         </div>,
-        "className": "post-form mb-3",
+        "className": "post-container",
       },
       "ref": null,
       "rendered": Object {
@@ -284,7 +284,7 @@ ShallowWrapper {
                   />
                 </div>
                 <button
-                  className="btn btn-dark"
+                  className="button-small button-warning"
                   type="submit"
                 >
                   Submit
@@ -327,7 +327,7 @@ ShallowWrapper {
                   />
                 </div>
                 <button
-                  className="btn btn-dark"
+                  className="button-small button-warning"
                   type="submit"
                 >
                   Submit
@@ -353,7 +353,7 @@ ShallowWrapper {
                     />
                   </div>,
                   <button
-                    className="btn btn-dark"
+                    className="button-small button-warning"
                     type="submit"
                   >
                     Submit
@@ -400,7 +400,7 @@ ShallowWrapper {
                   "nodeType": "host",
                   "props": Object {
                     "children": "Submit",
-                    "className": "btn btn-dark",
+                    "className": "button-small button-warning",
                     "type": "submit",
                   },
                   "ref": null,

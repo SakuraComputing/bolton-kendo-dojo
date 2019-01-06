@@ -21,15 +21,27 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": Array [
-        <div>
-          <p>
-            Posted By: 
+      "children": <div
+        className="comment-outer"
+      >
+        <div
+          className="comment-inner-1"
+        >
+          <a
+            href="profile.html"
+          >
+            <img
+              alt=""
+              className="rounded-circle d-none d-md-block"
+            />
+          </a>
+          <br />
+          <p
+            className="avatar-name"
+          >
             mockConstructor
           </p>
-        </div>,
-        <div>
-          <p />
+          <br />
           <Link
             className="item-comments button-small"
             replace={false}
@@ -37,6 +49,17 @@ ShallowWrapper {
           >
             Comments
           </Link>
+        </div>
+        <div
+          className="comment-inner-2"
+        >
+          <p
+            className="comment-text"
+          />
+        </div>
+        <div
+          className="comment-inner-3"
+        >
           <button
             className="button-delete button-small item-delete"
             onClick={[Function]}
@@ -44,127 +67,35 @@ ShallowWrapper {
           >
             Delete Post
           </button>
-        </div>,
-      ],
-      "className": "feed-container",
+        </div>
+      </div>,
+      "className": "post-container",
     },
     "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": <p>
-            Posted By: 
-            mockConstructor
-          </p>,
-        },
-        "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              "Posted By: ",
-              "mockConstructor",
-            ],
-          },
-          "ref": null,
-          "rendered": Array [
-            "Posted By: ",
-            "mockConstructor",
-          ],
-          "type": "p",
-        },
-        "type": "div",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": Array [
-            <p />,
-            <Link
-              className="item-comments button-small"
-              replace={false}
-              to="/post/undefined"
-            >
-              Comments
-            </Link>,
-            <button
-              className="button-delete button-small item-delete"
-              onClick={[Function]}
-              type="button"
-            >
-              Delete Post
-            </button>,
-          ],
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": undefined,
-            },
-            "ref": null,
-            "rendered": null,
-            "type": "p",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "children": "Comments",
-              "className": "item-comments button-small",
-              "replace": false,
-              "to": "/post/undefined",
-            },
-            "ref": null,
-            "rendered": "Comments",
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Delete Post",
-              "className": "button-delete button-small item-delete",
-              "onClick": [Function],
-              "type": "button",
-            },
-            "ref": null,
-            "rendered": "Delete Post",
-            "type": "button",
-          },
-        ],
-        "type": "div",
-      },
-    ],
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
+    "rendered": Object {
       "instance": null,
       "key": undefined,
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <div>
-            <p>
-              Posted By: 
+          <div
+            className="comment-inner-1"
+          >
+            <a
+              href="profile.html"
+            >
+              <img
+                alt=""
+                className="rounded-circle d-none d-md-block"
+              />
+            </a>
+            <br />
+            <p
+              className="avatar-name"
+            >
               mockConstructor
             </p>
-          </div>,
-          <div>
-            <p />
+            <br />
             <Link
               className="item-comments button-small"
               replace={false}
@@ -172,6 +103,17 @@ ShallowWrapper {
             >
               Comments
             </Link>
+          </div>,
+          <div
+            className="comment-inner-2"
+          >
+            <p
+              className="comment-text"
+            />
+          </div>,
+          <div
+            className="comment-inner-3"
+          >
             <button
               className="button-delete button-small item-delete"
               onClick={[Function]}
@@ -181,7 +123,7 @@ ShallowWrapper {
             </button>
           </div>,
         ],
-        "className": "feed-container",
+        "className": "comment-outer",
       },
       "ref": null,
       "rendered": Array [
@@ -190,38 +132,22 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": <p>
-              Posted By: 
-              mockConstructor
-            </p>,
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": Array [
-                "Posted By: ",
-                "mockConstructor",
-              ],
-            },
-            "ref": null,
-            "rendered": Array [
-              "Posted By: ",
-              "mockConstructor",
-            ],
-            "type": "p",
-          },
-          "type": "div",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
             "children": Array [
-              <p />,
+              <a
+                href="profile.html"
+              >
+                <img
+                  alt=""
+                  className="rounded-circle d-none d-md-block"
+                />
+              </a>,
+              <br />,
+              <p
+                className="avatar-name"
+              >
+                mockConstructor
+              </p>,
+              <br />,
               <Link
                 className="item-comments button-small"
                 replace={false}
@@ -229,14 +155,8 @@ ShallowWrapper {
               >
                 Comments
               </Link>,
-              <button
-                className="button-delete button-small item-delete"
-                onClick={[Function]}
-                type="button"
-              >
-                Delete Post
-              </button>,
             ],
+            "className": "comment-inner-1",
           },
           "ref": null,
           "rendered": Array [
@@ -245,11 +165,57 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": undefined,
+                "children": <img
+                  alt=""
+                  className="rounded-circle d-none d-md-block"
+                />,
+                "href": "profile.html",
               },
               "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "",
+                  "className": "rounded-circle d-none d-md-block",
+                  "src": undefined,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              "type": "a",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
               "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "mockConstructor",
+                "className": "avatar-name",
+              },
+              "ref": null,
+              "rendered": "mockConstructor",
               "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
             },
             Object {
               "instance": null,
@@ -265,7 +231,330 @@ ShallowWrapper {
               "rendered": "Comments",
               "type": [Function],
             },
-            Object {
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <p
+              className="comment-text"
+            />,
+            "className": "comment-inner-2",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": undefined,
+              "className": "comment-text",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "p",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <button
+              className="button-delete button-small item-delete"
+              onClick={[Function]}
+              type="button"
+            >
+              Delete Post
+            </button>,
+            "className": "comment-inner-3",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Delete Post",
+              "className": "button-delete button-small item-delete",
+              "onClick": [Function],
+              "type": "button",
+            },
+            "ref": null,
+            "rendered": "Delete Post",
+            "type": "button",
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="comment-outer"
+        >
+          <div
+            className="comment-inner-1"
+          >
+            <a
+              href="profile.html"
+            >
+              <img
+                alt=""
+                className="rounded-circle d-none d-md-block"
+              />
+            </a>
+            <br />
+            <p
+              className="avatar-name"
+            >
+              mockConstructor
+            </p>
+            <br />
+            <Link
+              className="item-comments button-small"
+              replace={false}
+              to="/post/undefined"
+            >
+              Comments
+            </Link>
+          </div>
+          <div
+            className="comment-inner-2"
+          >
+            <p
+              className="comment-text"
+            />
+          </div>
+          <div
+            className="comment-inner-3"
+          >
+            <button
+              className="button-delete button-small item-delete"
+              onClick={[Function]}
+              type="button"
+            >
+              Delete Post
+            </button>
+          </div>
+        </div>,
+        "className": "post-container",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="comment-inner-1"
+            >
+              <a
+                href="profile.html"
+              >
+                <img
+                  alt=""
+                  className="rounded-circle d-none d-md-block"
+                />
+              </a>
+              <br />
+              <p
+                className="avatar-name"
+              >
+                mockConstructor
+              </p>
+              <br />
+              <Link
+                className="item-comments button-small"
+                replace={false}
+                to="/post/undefined"
+              >
+                Comments
+              </Link>
+            </div>,
+            <div
+              className="comment-inner-2"
+            >
+              <p
+                className="comment-text"
+              />
+            </div>,
+            <div
+              className="comment-inner-3"
+            >
+              <button
+                className="button-delete button-small item-delete"
+                onClick={[Function]}
+                type="button"
+              >
+                Delete Post
+              </button>
+            </div>,
+          ],
+          "className": "comment-outer",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <a
+                  href="profile.html"
+                >
+                  <img
+                    alt=""
+                    className="rounded-circle d-none d-md-block"
+                  />
+                </a>,
+                <br />,
+                <p
+                  className="avatar-name"
+                >
+                  mockConstructor
+                </p>,
+                <br />,
+                <Link
+                  className="item-comments button-small"
+                  replace={false}
+                  to="/post/undefined"
+                >
+                  Comments
+                </Link>,
+              ],
+              "className": "comment-inner-1",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <img
+                    alt=""
+                    className="rounded-circle d-none d-md-block"
+                  />,
+                  "href": "profile.html",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "",
+                    "className": "rounded-circle d-none d-md-block",
+                    "src": undefined,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                "type": "a",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": "br",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "mockConstructor",
+                  "className": "avatar-name",
+                },
+                "ref": null,
+                "rendered": "mockConstructor",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": "br",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "Comments",
+                  "className": "item-comments button-small",
+                  "replace": false,
+                  "to": "/post/undefined",
+                },
+                "ref": null,
+                "rendered": "Comments",
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <p
+                className="comment-text"
+              />,
+              "className": "comment-inner-2",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": undefined,
+                "className": "comment-text",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "p",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <button
+                className="button-delete button-small item-delete"
+                onClick={[Function]}
+                type="button"
+              >
+                Delete Post
+              </button>,
+              "className": "comment-inner-3",
+            },
+            "ref": null,
+            "rendered": Object {
               "instance": null,
               "key": undefined,
               "nodeType": "host",
@@ -279,10 +568,11 @@ ShallowWrapper {
               "rendered": "Delete Post",
               "type": "button",
             },
-          ],
-          "type": "div",
-        },
-      ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
       "type": "div",
     },
   ],

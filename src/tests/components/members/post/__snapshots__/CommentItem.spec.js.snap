@@ -25,10 +25,10 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": <div
-        className=""
+        className="comment-outer"
       >
         <div
-          className=""
+          className="comment-inner-1"
         >
           <a
             href="profile.html"
@@ -40,29 +40,37 @@ ShallowWrapper {
           </a>
           <br />
           <p
-            className="text-center"
+            className="avatar-name"
           >
             mockConstructor
           </p>
+          <div
+            className="comment-container"
+          />
         </div>
         <div
-          className="col-md-10"
+          className="comment-inner-2"
         >
           <p
-            className="lead"
+            className="comment-text"
           />
+        </div>
+        <div
+          className="comment-inner-3"
+        >
           <button
-            className="button-small button-warning"
+            className="button-small button-delete item-delete"
             onClick={[Function]}
             type="button"
           >
             <i
               className="fas fa-times"
             />
+            Delete Comment
           </button>
         </div>
       </div>,
-      "className": "",
+      "className": "post-container",
     },
     "ref": null,
     "rendered": Object {
@@ -72,7 +80,7 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <div
-            className=""
+            className="comment-inner-1"
           >
             <a
               href="profile.html"
@@ -84,29 +92,37 @@ ShallowWrapper {
             </a>
             <br />
             <p
-              className="text-center"
+              className="avatar-name"
             >
               mockConstructor
             </p>
+            <div
+              className="comment-container"
+            />
           </div>,
           <div
-            className="col-md-10"
+            className="comment-inner-2"
           >
             <p
-              className="lead"
+              className="comment-text"
             />
+          </div>,
+          <div
+            className="comment-inner-3"
+          >
             <button
-              className="button-small button-warning"
+              className="button-small button-delete item-delete"
               onClick={[Function]}
               type="button"
             >
               <i
                 className="fas fa-times"
               />
+              Delete Comment
             </button>
           </div>,
         ],
-        "className": "",
+        "className": "comment-outer",
       },
       "ref": null,
       "rendered": Array [
@@ -126,12 +142,15 @@ ShallowWrapper {
               </a>,
               <br />,
               <p
-                className="text-center"
+                className="avatar-name"
               >
                 mockConstructor
               </p>,
+              <div
+                className="comment-container"
+              />,
             ],
-            "className": "",
+            "className": "comment-inner-1",
           },
           "ref": null,
           "rendered": Array [
@@ -177,11 +196,22 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": "mockConstructor",
-                "className": "text-center",
+                "className": "avatar-name",
               },
               "ref": null,
               "rendered": "mockConstructor",
               "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "comment-container",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
             },
           ],
           "type": "div",
@@ -191,50 +221,62 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": Array [
-              <p
-                className="lead"
-              />,
-              <button
-                className="button-small button-warning"
-                onClick={[Function]}
-                type="button"
-              >
-                <i
-                  className="fas fa-times"
-                />
-              </button>,
-            ],
-            "className": "col-md-10",
+            "children": <p
+              className="comment-text"
+            />,
+            "className": "comment-inner-2",
           },
           "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": undefined,
-                "className": "lead",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": "p",
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": undefined,
+              "className": "comment-text",
             },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": <i
+            "ref": null,
+            "rendered": null,
+            "type": "p",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <button
+              className="button-small button-delete item-delete"
+              onClick={[Function]}
+              type="button"
+            >
+              <i
+                className="fas fa-times"
+              />
+              Delete Comment
+            </button>,
+            "className": "comment-inner-3",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <i
                   className="fas fa-times"
                 />,
-                "className": "button-small button-warning",
-                "onClick": [Function],
-                "type": "button",
-              },
-              "ref": null,
-              "rendered": Object {
+                "Delete Comment",
+              ],
+              "className": "button-small button-delete item-delete",
+              "onClick": [Function],
+              "type": "button",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
                 "instance": null,
                 "key": undefined,
                 "nodeType": "host",
@@ -245,9 +287,10 @@ ShallowWrapper {
                 "rendered": null,
                 "type": "i",
               },
-              "type": "button",
-            },
-          ],
+              "Delete Comment",
+            ],
+            "type": "button",
+          },
           "type": "div",
         },
       ],
@@ -262,10 +305,10 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": <div
-          className=""
+          className="comment-outer"
         >
           <div
-            className=""
+            className="comment-inner-1"
           >
             <a
               href="profile.html"
@@ -277,29 +320,37 @@ ShallowWrapper {
             </a>
             <br />
             <p
-              className="text-center"
+              className="avatar-name"
             >
               mockConstructor
             </p>
+            <div
+              className="comment-container"
+            />
           </div>
           <div
-            className="col-md-10"
+            className="comment-inner-2"
           >
             <p
-              className="lead"
+              className="comment-text"
             />
+          </div>
+          <div
+            className="comment-inner-3"
+          >
             <button
-              className="button-small button-warning"
+              className="button-small button-delete item-delete"
               onClick={[Function]}
               type="button"
             >
               <i
                 className="fas fa-times"
               />
+              Delete Comment
             </button>
           </div>
         </div>,
-        "className": "",
+        "className": "post-container",
       },
       "ref": null,
       "rendered": Object {
@@ -309,7 +360,7 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <div
-              className=""
+              className="comment-inner-1"
             >
               <a
                 href="profile.html"
@@ -321,29 +372,37 @@ ShallowWrapper {
               </a>
               <br />
               <p
-                className="text-center"
+                className="avatar-name"
               >
                 mockConstructor
               </p>
+              <div
+                className="comment-container"
+              />
             </div>,
             <div
-              className="col-md-10"
+              className="comment-inner-2"
             >
               <p
-                className="lead"
+                className="comment-text"
               />
+            </div>,
+            <div
+              className="comment-inner-3"
+            >
               <button
-                className="button-small button-warning"
+                className="button-small button-delete item-delete"
                 onClick={[Function]}
                 type="button"
               >
                 <i
                   className="fas fa-times"
                 />
+                Delete Comment
               </button>
             </div>,
           ],
-          "className": "",
+          "className": "comment-outer",
         },
         "ref": null,
         "rendered": Array [
@@ -363,12 +422,15 @@ ShallowWrapper {
                 </a>,
                 <br />,
                 <p
-                  className="text-center"
+                  className="avatar-name"
                 >
                   mockConstructor
                 </p>,
+                <div
+                  className="comment-container"
+                />,
               ],
-              "className": "",
+              "className": "comment-inner-1",
             },
             "ref": null,
             "rendered": Array [
@@ -414,11 +476,22 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "children": "mockConstructor",
-                  "className": "text-center",
+                  "className": "avatar-name",
                 },
                 "ref": null,
                 "rendered": "mockConstructor",
                 "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "comment-container",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "div",
               },
             ],
             "type": "div",
@@ -428,50 +501,62 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": Array [
-                <p
-                  className="lead"
-                />,
-                <button
-                  className="button-small button-warning"
-                  onClick={[Function]}
-                  type="button"
-                >
-                  <i
-                    className="fas fa-times"
-                  />
-                </button>,
-              ],
-              "className": "col-md-10",
+              "children": <p
+                className="comment-text"
+              />,
+              "className": "comment-inner-2",
             },
             "ref": null,
-            "rendered": Array [
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": undefined,
-                  "className": "lead",
-                },
-                "ref": null,
-                "rendered": null,
-                "type": "p",
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": undefined,
+                "className": "comment-text",
               },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": <i
+              "ref": null,
+              "rendered": null,
+              "type": "p",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <button
+                className="button-small button-delete item-delete"
+                onClick={[Function]}
+                type="button"
+              >
+                <i
+                  className="fas fa-times"
+                />
+                Delete Comment
+              </button>,
+              "className": "comment-inner-3",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <i
                     className="fas fa-times"
                   />,
-                  "className": "button-small button-warning",
-                  "onClick": [Function],
-                  "type": "button",
-                },
-                "ref": null,
-                "rendered": Object {
+                  "Delete Comment",
+                ],
+                "className": "button-small button-delete item-delete",
+                "onClick": [Function],
+                "type": "button",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
                   "instance": null,
                   "key": undefined,
                   "nodeType": "host",
@@ -482,9 +567,10 @@ ShallowWrapper {
                   "rendered": null,
                   "type": "i",
                 },
-                "type": "button",
-              },
-            ],
+                "Delete Comment",
+              ],
+              "type": "button",
+            },
             "type": "div",
           },
         ],
