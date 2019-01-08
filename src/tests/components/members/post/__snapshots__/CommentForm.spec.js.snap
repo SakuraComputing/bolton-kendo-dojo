@@ -21,7 +21,7 @@ ShallowWrapper {
         className="card card-info"
       >
         <div
-          className="card-header bg-info text-white"
+          className="card-header"
         >
           Make a comment...
         </div>
@@ -60,7 +60,7 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <div
-            className="card-header bg-info text-white"
+            className="card-header"
           >
             Make a comment...
           </div>,
@@ -99,7 +99,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "Make a comment...",
-            "className": "card-header bg-info text-white",
+            "className": "card-header",
           },
           "ref": null,
           "rendered": "Make a comment...",
@@ -224,7 +224,7 @@ ShallowWrapper {
           className="card card-info"
         >
           <div
-            className="card-header bg-info text-white"
+            className="card-header"
           >
             Make a comment...
           </div>
@@ -263,7 +263,7 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <div
-              className="card-header bg-info text-white"
+              className="card-header"
             >
               Make a comment...
             </div>,
@@ -302,7 +302,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": "Make a comment...",
-              "className": "card-header bg-info text-white",
+              "className": "card-header",
             },
             "ref": null,
             "rendered": "Make a comment...",

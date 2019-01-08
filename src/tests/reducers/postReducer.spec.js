@@ -48,8 +48,11 @@ describe('post reducer', () => {
             type: ADD_POST,
             post            
         }
-        const state = postReducer(posts, action)
-        expect(state).toEqual([...posts, post])
+        const newState = {
+            posts: posts
+        }
+        const state = postReducer(newState, action)
+        expect(state).toEqual({posts: [undefined, ...posts] })
     });
     it('should delete a post', () => {
         const action = {

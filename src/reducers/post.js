@@ -15,16 +15,16 @@ const initialState = {
 export default (state = initialState, action) => {
     switch(action.type) {
         case GET_POSTS:
+        return {
+            ...state,
+            posts: action.payload,
+            loading: false
+        }
+        case ADD_POST:
             return {
                 ...state,
-                posts: action.payload,
-                loading: false
+                posts: [action.payload, ...state.posts]
             }
-        case ADD_POST:
-            return [
-                ...state,
-                action.post
-            ]
         case DELETE_POST:
             return state.filter(posts => posts._id !== action.id);
         case GET_POST:
