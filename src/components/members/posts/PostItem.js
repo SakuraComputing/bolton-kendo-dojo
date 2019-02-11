@@ -1,16 +1,17 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
-import { deletePost } from "../../../actions/postActions";
+import { deletePost } from '../../../actions/postActions';
 
-export class PostItem extends Component {
+class PostItem extends Component {
 
     onDeleteClick = (id) => {
         this.props.deletePost(id);
     }
+
     render() {
 
-        const { post } = this.props;
+        const { post, auth } = this.props;
 
         return (
             <div className="post-container">
@@ -31,14 +32,18 @@ export class PostItem extends Component {
                     <div className="comment-inner-2">
                         <p className="comment-text">{post.text}</p>
                     </div>
+                    {/* {post.user === auth.user.id ? ( */}
                     <div className="comment-inner-3">
-                        <button 
-                            type="button"
-                            className="button-delete button-small item-delete"
-                            onClick={this.onDeleteClick.bind(this, post._id)}
-                        >
-                        Delete Post
-                        </button>
+                        {post.user === auth.user.id ? (
+                            <button 
+                                onClick={this.onDeleteClick.bind(this, post._id)}
+                                type="button"
+                                className="button-delete button-small item-delete"
+                            >
+                            Delete Post
+                            </button>
+
+                        ) : null}   
                     </div>
                 </div>
             </div>
@@ -46,8 +51,8 @@ export class PostItem extends Component {
     }
 }
 
-const mapStateToProps = (state) => ({
-    auth: state.auth
-});
+const mapStateToProps = (state) => {
+    return { auth: state.auth }
+};
 
-export default connect(mapStateToProps, { deletePost })(PostItem);
+export default connect(mapStateToProps, { deletePost } )(PostItem);

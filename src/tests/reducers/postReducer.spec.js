@@ -57,10 +57,13 @@ describe('post reducer', () => {
     it('should delete a post', () => {
         const action = {
             type: DELETE_POST,
-            id: posts[0]._id
+            payload: posts[0]._id
         }
-        const state = postReducer(posts, action)
-        expect(state).toEqual([posts[1]]);
+        const currentPosts = {
+            posts: posts
+        }
+        const state = postReducer(currentPosts, action)
+        expect(state).toEqual({ posts: [posts[1]] });
     });
     it('should get a single post', () => {
         const action = {

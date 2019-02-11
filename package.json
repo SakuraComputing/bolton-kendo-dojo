@@ -2,6 +2,8 @@
   "name": "bolton-kendo-club",
   "version": "0.1.0",
   "private": true,
+  "author": "Ewan Bauld",
+  "license": "Bolton Kendo Club",
   "dependencies": {
     "axios": "^0.18.0",
     "bcryptjs": "^2.4.3",

@@ -19,7 +19,7 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         "Copyright © ",
-        2018,
+        2019,
         " Bolton Kendo Club",
       ],
       "className": "footer",
@@ -27,7 +27,7 @@ ShallowWrapper {
     "ref": null,
     "rendered": Array [
       "Copyright © ",
-      2018,
+      2019,
       " Bolton Kendo Club",
     ],
     "type": "div",
@@ -40,7 +40,7 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           "Copyright © ",
-          2018,
+          2019,
           " Bolton Kendo Club",
         ],
         "className": "footer",
@@ -48,7 +48,7 @@ ShallowWrapper {
       "ref": null,
       "rendered": Array [
         "Copyright © ",
-        2018,
+        2019,
         " Bolton Kendo Club",
       ],
       "type": "div",
