@@ -4,6 +4,7 @@
   "private": true,
   "author": "Ewan Bauld",
   "license": "Bolton Kendo Club",
+  "homepage": "https://sakuracomputing.github.io/bolton-kendo-dojo/",
   "dependencies": {
     "axios": "^0.18.0",
     "bcryptjs": "^2.4.3",
