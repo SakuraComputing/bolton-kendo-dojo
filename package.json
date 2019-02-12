@@ -44,7 +44,7 @@
     "server": "node server/server.js",
     "api-server": "nodemon server/server.js",
     "dev": "concurrently \"yarn run api-server\" \"yarn run start\"",
-    "heroku-postbuild": "cd dist && yarn && yarn run build"
+    "heroku-postbuild": "yarn && yarn run build"
   },
   "jest": {
     "collectCoverageFrom": [
