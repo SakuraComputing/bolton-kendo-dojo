@@ -42,13 +42,15 @@ app.use('/api/club', club);
 app.use('/api/uploads', uploads);
 app.use('/api/posts', posts);
 
-const port = process.env.PORT || 5000;
+let port;
 
 if(process.env.NODE_ENV === 'production') {
+    port = process.env.PORT || 80;
     app.use(express.static(path.join(__dirname + '/dist')));
     app.get('/*', (req,res) => {
         res.sendFile(path.join(__dirname, '/dist/index.html'));
     });
-
+} else {
+    port = process.env.PORT || 5000;
 }
 app.listen(port, () => console.log(`Server running on port ${port}`));
