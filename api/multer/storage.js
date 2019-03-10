@@ -4,6 +4,7 @@ const multer = require("multer");
 const storage = multer.diskStorage({
   destination: './public/uploads/',
   filename: function (req, file, cb) {
+    console.log('File created from the folowing directory', __dirname);
     cb(null, file.fieldname + '-' + Date.now()  + path.extname(file.originalname))
   }
 });
