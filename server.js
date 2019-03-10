@@ -4,10 +4,10 @@ const bodyParser = require('body-parser');
 const passport = require('passport');
 const path = require('path');
 
-const users = require('../api/users');
-const club = require('../api/club');
-const uploads = require('../api/uploads');
-const posts = require('../api/posts')
+const users = require('./api/users');
+const club = require('./api/club');
+const uploads = require('./api/uploads');
+const posts = require('./api/posts')
 
 const app = express();
 
@@ -16,7 +16,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 // DB Config
-const db = require('../src/config/keys').mongoURI;
+const db = require('./src/config/keys').mongoURI;
 
 // Connect to Mongo DB
 mongoose
@@ -27,7 +27,7 @@ mongoose
 app.use(passport.initialize());
 
 // Passport Config
-require('../src/config/passport')(passport);
+require('./src/config/passport')(passport);
 
 // Allow CORS
 app.use(function(req, res, next) {
