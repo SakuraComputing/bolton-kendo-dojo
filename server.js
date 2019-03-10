@@ -45,6 +45,7 @@ app.use('/api/posts', posts);
 let port;
 
 if(process.env.NODE_ENV === 'production') {
+    console.log('Directory Name: ', __dirname);
     port = process.env.PORT || 80;
     app.use(express.static(path.join(__dirname + '/dist')));
     app.get('/*', (req,res) => {
