@@ -8,6 +8,8 @@ const key = require('../../config/keys').apiMapKey;
 
 const API_KEY = key;
 
+console.log('Map key', key);
+
 const LATITUDE = 53.562614;
 const LONGITUDE = -2.384833;
 
