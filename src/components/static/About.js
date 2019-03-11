@@ -5,10 +5,11 @@ import Pin from '../../common/Pin';
 import Spinner from '../../common/Spinner';
 
 const key = require('../../config/keys').apiMapKey;
+const test = require('../../config/keys').mongoURI;
 
 const API_KEY = key;
 
-console.log('Map key', key);
+console.log('Map key', key, test);
 
 const LATITUDE = 53.562614;
 const LONGITUDE = -2.384833;
