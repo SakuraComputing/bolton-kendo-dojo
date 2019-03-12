@@ -3,11 +3,16 @@ import { connect } from 'react-redux';
 import Map, { Marker } from 'react-map-gl';
 import Pin from '../../common/Pin';
 import Spinner from '../../common/Spinner';
+import runtimeEnv from '@mars/heroku-js-runtime-env';
 
 const key = require('../../config/keys').apiMapKey;
 const test = require('../../config/keys').mongoURI;
 
-const API_KEY = key;
+const env = runtimeEnv();
+
+console.log(key, env.REACT_APP_MAP);
+
+const API_KEY = env.REACT_APP_MAP;
 
 console.log('Map key', key, test);
 
