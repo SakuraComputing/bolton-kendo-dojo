@@ -6,20 +6,11 @@ import Spinner from '../../common/Spinner';
 
 require('dotenv').config();
 
-// const key = require('../../config/keys').apiMapKey;
-const key = process.env.mapboxApiAccessToken;
-
-const key1 = process.env.MAPBOX_API_KEY;
-
-const key2 = process.env.REACT_APP_MAPBOX;
-
-const test = require('../../config/keys').mongoURI;
-
-console.log(key, key1, key2);
+const key = require('../../config/keys').apiMapKey;
 
 const API_KEY = key;
 
-console.log('Map key', key, test);
+console.log('Map key not found', key);
 
 const LATITUDE = 53.562614;
 const LONGITUDE = -2.384833;
