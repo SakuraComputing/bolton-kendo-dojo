@@ -21,8 +21,8 @@ export const getMemberUploads = () => dispatch => {
 
 export const postMemberUploads = (data) => dispatch => {
     axios.post('/api/uploads', data, {
-        // onUploadProgress: progressEvent => console.log('Upload Progress: ' + Math.round(progressEvent.loaded / progressEvent.total * 100) + '%')
-        onUploadProgress: progressEvent => console.log('Data being passed in', data)
+        onUploadProgress: progressEvent => console.log('Upload Progress: ' + Math.round(progressEvent.loaded / progressEvent.total * 100) + '%')
+        // onUploadProgress: progressEvent => console.log('Data being passed in', data)
     })
     .then(res => 
         dispatch({

@@ -60,6 +60,7 @@ route.post("/", passport.authenticate('jwt', { session: false }), (req, res, nex
                 } else {
                     //store the file name to mongodb    
                     //we use the model to store the file.
+                    console.log('Creating the image in Mongo: ', __dirname);
                     let image = new Image();
                     image.filename = req.file.filename;
                     image.description = req.body.description
