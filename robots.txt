@@ -1,3 +1,0 @@
-Sitemap: http://www.herokuapp.com/sitemap.xml
-User-agent:*
-Disallow: 
