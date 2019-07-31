@@ -2,7 +2,8 @@
   "name": "bolton-kendo-club",
   "version": "0.1.0",
   "engines": {
-    "node": "10.15.0"
+    "node": "10.16.0",
+    "yarn": "1.12.3"
   },
   "private": true,
   "author": "Ewan Bauld",
