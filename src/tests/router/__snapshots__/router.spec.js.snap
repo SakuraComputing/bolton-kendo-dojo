@@ -69,6 +69,10 @@ ShallowWrapper {
               component={[Function]}
               path="/not-found"
             />
+            <Route
+              component={[Function]}
+              patth="/calendar"
+            />
           </Switch>
           <Switch>
             <Connect(PrivateRoute)
@@ -165,6 +169,10 @@ ShallowWrapper {
                 component={[Function]}
                 path="/not-found"
               />
+              <Route
+                component={[Function]}
+                patth="/calendar"
+              />
             </Switch>
             <Switch>
               <Connect(PrivateRoute)
@@ -259,6 +267,10 @@ ShallowWrapper {
                 <Route
                   component={[Function]}
                   path="/not-found"
+                />
+                <Route
+                  component={[Function]}
+                  patth="/calendar"
                 />
               </Switch>,
               <Switch>
@@ -359,6 +371,10 @@ ShallowWrapper {
                   <Route
                     component={[Function]}
                     path="/not-found"
+                  />,
+                  <Route
+                    component={[Function]}
+                    patth="/calendar"
                   />,
                 ],
               },
@@ -475,6 +491,18 @@ ShallowWrapper {
                   "props": Object {
                     "component": [Function],
                     "path": "/not-found",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "component": [Function],
+                    "patth": "/calendar",
                   },
                   "ref": null,
                   "rendered": null,
@@ -693,6 +721,10 @@ ShallowWrapper {
                 component={[Function]}
                 path="/not-found"
               />
+              <Route
+                component={[Function]}
+                patth="/calendar"
+              />
             </Switch>
             <Switch>
               <Connect(PrivateRoute)
@@ -789,6 +821,10 @@ ShallowWrapper {
                   component={[Function]}
                   path="/not-found"
                 />
+                <Route
+                  component={[Function]}
+                  patth="/calendar"
+                />
               </Switch>
               <Switch>
                 <Connect(PrivateRoute)
@@ -883,6 +919,10 @@ ShallowWrapper {
                   <Route
                     component={[Function]}
                     path="/not-found"
+                  />
+                  <Route
+                    component={[Function]}
+                    patth="/calendar"
                   />
                 </Switch>,
                 <Switch>
@@ -983,6 +1023,10 @@ ShallowWrapper {
                     <Route
                       component={[Function]}
                       path="/not-found"
+                    />,
+                    <Route
+                      component={[Function]}
+                      patth="/calendar"
                     />,
                   ],
                 },
@@ -1099,6 +1143,18 @@ ShallowWrapper {
                     "props": Object {
                       "component": [Function],
                       "path": "/not-found",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "component": [Function],
+                      "patth": "/calendar",
                     },
                     "ref": null,
                     "rendered": null,
