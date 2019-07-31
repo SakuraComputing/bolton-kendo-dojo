@@ -17,6 +17,7 @@ import MemberPhotos from '../components/members/MembersPhotos';
 import VideoPage from '../components/VideoPage';
 import Posts from '../components/members/posts/Posts';
 import Post from '../components/members/post/Post';
+import DojoCalendar from '../components/calendar/DojoCalendar';
 
 import '../styles/styles.scss';
 import PrivateRoute from '../common/PrivateRoute';
@@ -39,6 +40,7 @@ class AppRouter extends Component {
                             <Route exact path="/history" component={ClubHistory}></Route>
                             <Route exact path="/media" component={VideoPage}></Route>
                             <Route path="/not-found" component={NotFound}/>
+                            <Route patth="/calendar" component={DojoCalendar} /> 
                         </Switch>
                         <Switch>
                             <PrivateRoute

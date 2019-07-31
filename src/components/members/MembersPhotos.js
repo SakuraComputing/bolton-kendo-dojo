@@ -121,8 +121,6 @@ export class MemberPhoto extends React.Component {
 
         const { uploads, loading } = this.props.uploads;
 
-        // console.log('State render', this.state.eventData);
-
         if(uploads === null || uploads === undefined || loading) {
             album = <Spinner />
         } else {

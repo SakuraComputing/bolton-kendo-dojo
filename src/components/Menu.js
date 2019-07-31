@@ -54,6 +54,9 @@ export class Menu extends React.Component {
                         <Link to="/about">Where and When</Link>
                     </li>
                     <li>
+                        <Link to="/calendar">Calendar</Link>
+                    </li>
+                    <li>
                         <Link to="/history">Club History</Link>
                     </li>
                     <li>
