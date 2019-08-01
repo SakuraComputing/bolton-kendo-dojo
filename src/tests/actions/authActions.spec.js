@@ -29,7 +29,6 @@ describe('Register User', () => {
                     
                     
                     // // await registerUser(mockData, history);
-                    // // console.log(newUser);
                     // expect(moxios.post).toHaveBeenCalled();
                     // // expect(history.push).toHaveBeenLastCalledWith('/');
     });
