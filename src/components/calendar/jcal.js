@@ -5,6 +5,8 @@ import request from 'superagent'
 
 require('dotenv').config()
 
+console.log('What is in the process env object?', process.env);
+
 const CALENDAR_ID = process.env.REACT_APP_CALENDAR_ID;
 const API_KEY = process.env.REACT_APP_API_CALENDAR_ID;
 
