@@ -24,7 +24,7 @@ if (process.env.NODE_ENV === 'production') {
 } else {
     db = require('../src/config/keys').mongoURI;
 }
-console.log('database: ', db);
+console.log('database: ', db, __dirname);
 
 // Connect to Mongo DB
 mongoose
@@ -55,7 +55,8 @@ let port;
 if(process.env.NODE_ENV === 'production') {
     port = process.env.PORT || 80;
     app.use(express.static(path.join(__dirname + '../build')));
-    app.get('/*', (req,res) => {
+
+    app.get('/', (req,res) => {
         res.sendFile(path.join(__dirname, '../build/index.html'));
     });
 } else {
