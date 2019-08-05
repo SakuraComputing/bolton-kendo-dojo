@@ -4,11 +4,16 @@ import Map, { Marker } from 'react-map-gl';
 import Pin from '../../common/Pin';
 import Spinner from '../../common/Spinner';
 
-require('dotenv').config();
+let API_KEY;
 
-const key = require('../../config/keys').apiMapKey;
+if (process.env.NODE_ENV === 'production') {
+    API_KEY = process.env.REACT_APP_MAPBOX_API_KEY;
+} else {
+    API_KEY = require('../../config/keys').apiMapKey;
+}
 
-const API_KEY = key;
+
+console.log('About form', process.env);
 
 const LATITUDE = 53.562614;
 const LONGITUDE = -2.384833;
@@ -40,20 +45,20 @@ export class About extends React.Component {
 
     if(club !== null && !loading) {
         practises = club[0].practices.map(practise => (
-            <div key={key}>
+            <div key={practise.time}>
                 <div>{practise.venue}</div>
                 <div>{practise.time}</div>
             </div>
         ));
         contacts = club[0].contacts.map(contact => (
-            <div key={key}>
+            <div key={contact.name}>
                 <div>{contact.name}</div>
                 <div>{contact.telephoneNumber}</div>
                 <div>{contact.email}</div>
             </div>
         ));
         address = club[0].addresses.map(address => (
-            <div key={key}>
+            <div key={address.address1}>
                 <div>{address.address1}</div>
                 <div>{address.address2}</div>
                 <div>{address.address3}</div>

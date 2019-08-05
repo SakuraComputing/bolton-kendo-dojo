@@ -16,7 +16,15 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 // DB Config
-const db = require('../src/config/keys').mongoURI;
+let db;
+
+if (process.env.NODE_ENV === 'production') {
+    db = process.env.MONGO_URI;
+    console.log('server /server: ', db);
+} else {
+    db = require('../src/config/keys').mongoURI;
+}
+
 
 console.log('database: ', db);
 
