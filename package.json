@@ -1,6 +1,6 @@
 {
   "name": "bolton-kendo-club",
-  "version": "0.1.0",
+  "version": "1.1.69",
   "engines": {
     "node": "10.16.1",
     "yarn": "1.17.3"
@@ -17,6 +17,7 @@
     "enzyme-adapter-react-16": "^1.6.0",
     "express": "^4.16.4",
     "gravatar": "^1.6.0",
+    "html-webpack-plugin": "^3.2.0",
     "jsonwebtoken": "^8.3.0",
     "jwt-decode": "^2.2.0",
     "moment": "^2.24.0",

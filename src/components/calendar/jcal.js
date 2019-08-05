@@ -1,14 +1,14 @@
 import request from 'superagent'
 
-// const CALENDAR_ID = require('../../config/keys').calendarId;
-// const API_KEY = require('../../config/keys').apiCalendarKey;
+const CALENDAR_ID = require('../../config/keys').calendarId;
+const API_KEY = require('../../config/keys').apiCalendarKey;
 
 require('dotenv').config()
 
 console.log('What is in the process env object?', process.env);
 
-const CALENDAR_ID = process.env.REACT_APP_CALENDAR_ID;
-const API_KEY = process.env.REACT_APP_API_CALENDAR_ID;
+// const CALENDAR_ID = process.env.REACT_APP_CALENDAR_ID;
+// const API_KEY = process.env.REACT_APP_API_CALENDAR_KEY;
 
 let url = `https://www.googleapis.com/calendar/v3/calendars/${CALENDAR_ID}/events?key=${API_KEY}`
 
