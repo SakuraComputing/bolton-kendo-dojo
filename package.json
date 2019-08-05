@@ -1,6 +1,6 @@
 {
   "name": "bolton-kendo-club",
-  "version": "1.1.87",
+  "version": "1.1.89",
   "engines": {
     "node": "10.16.1",
     "yarn": "1.17.3"
@@ -70,6 +70,7 @@
     "not ie <= 11",
     "not op_mini all"
   ],
+  "proxy": "http://localhost:5000",
   "devDependencies": {
     "axios-mock-adapter": "^1.15.0",
     "nodemon": "^1.18.6",
