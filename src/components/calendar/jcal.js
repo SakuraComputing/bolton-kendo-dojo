@@ -6,7 +6,7 @@ let API_KEY;
 
 if (process.env.NODE_ENV === 'production') {
   CALENDAR_ID = process.env.REACT_APP_CALENDAR_ID;
-  API_KEY = process.env.REACT_APP_CALENDAR_ID;
+  API_KEY = process.env.REACT_APP_API_CALENDAR_KEY;
 } else {
   CALENDAR_ID = require('../../config/keys').calendarId;
   API_KEY = require('../../config/keys').apiCalendarKey;

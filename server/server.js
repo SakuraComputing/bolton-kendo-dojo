@@ -19,13 +19,11 @@ app.use(bodyParser.json());
 let db;
 
 if (process.env.NODE_ENV === 'production') {
-    db = process.env.MONGO_URI;
+    db = process.env.REACT_APP_MONGO_URI;
     console.log('server /server: ', db);
 } else {
     db = require('../src/config/keys').mongoURI;
 }
-
-
 console.log('database: ', db);
 
 // Connect to Mongo DB
