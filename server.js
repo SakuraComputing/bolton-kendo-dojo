@@ -4,10 +4,10 @@ const bodyParser = require('body-parser');
 const passport = require('passport');
 const path = require('path');
 
-const users = require('../api/users');
-const club = require('../api/club');
-const uploads = require('../api/uploads');
-const posts = require('../api/posts')
+const users = require('./api/users');
+const club = require('./api/club');
+const uploads = require('./api/uploads');
+const posts = require('./api/posts')
 
 const app = express();
 
@@ -22,7 +22,7 @@ if (process.env.NODE_ENV === 'production') {
     db = process.env.REACT_APP_MONGO_URI;
     console.log('server /server: ', db);
 } else {
-    db = require('../src/config/keys').mongoURI;
+    db = require('./src/config/keys').mongoURI;
 }
 console.log('database: ', db, __dirname);
 
@@ -35,7 +35,7 @@ mongoose
 app.use(passport.initialize());
 
 // Passport Config
-require('../src/config/passport')(passport);
+require('./src/config/passport')(passport);
 
 // Allow CORS
 app.use(function(req, res, next) {
@@ -56,7 +56,7 @@ if(process.env.NODE_ENV === 'production') {
     port = process.env.PORT || 80;
     app.use(express.static(path.join(__dirname + 'build')));
 
-    app.get('/', (req,res) => {
+    app.get('*', (req,res) => {
         res.sendFile(path.join(__dirname, 'build','index.html'));
     });
 } else {
