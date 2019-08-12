@@ -12,8 +12,6 @@ if (process.env.NODE_ENV === 'production') {
     API_KEY = require('../../config/keys').apiMapKey;
 }
 
-console.log('About form', process.env, API_KEY);
-
 const LATITUDE = 53.562614;
 const LONGITUDE = -2.384833;
 

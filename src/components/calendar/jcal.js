@@ -12,8 +12,6 @@ if (process.env.NODE_ENV === 'production') {
   API_KEY = require('../../config/keys').apiCalendarKey;
 }
 
-console.log('What is in the process env object?', process.env);
-
 let url = `https://www.googleapis.com/calendar/v3/calendars/${CALENDAR_ID}/events?key=${API_KEY}`
 
 function getEvents (callback) {
