@@ -53,6 +53,7 @@
     "dev": "concurrently \"yarn run api-server\" \"yarn run start\"",
     "heroku-postbuild": "yarn && yarn run build"
   },
+  "heroku-run-build-script": true,
   "jest": {
     "collectCoverageFrom": [
       "src/**/*.js",
