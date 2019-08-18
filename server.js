@@ -56,11 +56,11 @@ console.log('Directory:........', path.join(__dirname + 'build','index.html'));
 
 if(process.env.NODE_ENV === 'production') {
     port = process.env.PORT || 80;
-    app.use(express.static(path.join(__dirname + 'build')));
-
+    
     app.get('*', (req,res) => {
         res.sendFile(path.join(__dirname, 'build','index.html'));
     });
+    app.use(express.static(path.join(__dirname + 'build')));
 } else {
     port = process.env.PORT || 5000;
 }
