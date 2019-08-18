@@ -52,16 +52,17 @@ app.use('/api/posts', posts);
 
 let port;
 
-console.log('Directory:........', path.join(__dirname + '/build','/index.html'));
+console.log('Directory:........', path.join(__dirname + 'build','index.html'));
 
 if(process.env.NODE_ENV === 'production') {
     port = process.env.PORT || 80;
-    app.use(express.static(path.join(__dirname + '/build')));
+    app.use(express.static(path.join(__dirname + 'build')));
 
     app.get('*', (req,res) => {
-        res.sendFile(path.join(__dirname, '/build','/index.html'));
+        res.sendFile(path.join(__dirname, 'build','index.html'));
     });
-} else {
-    port = process.env.PORT || 5000;
-}
+} 
+
+port = process.env.PORT || 5001;
+
 app.listen(port, () => console.log(`Server running on port ${port}`));
