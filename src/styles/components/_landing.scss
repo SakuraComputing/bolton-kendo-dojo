@@ -32,3 +32,22 @@
     font-style: italic;
     color: #fff;
   }
+
+  .facebook {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+  }
+
+  .facebook-text {
+    font-size: 200%;
+    font-style: italic;
+    color: #fff;
+    padding-left: 20px;
+    padding-top: 5px;
+  }
+
+  .facebook-link {
+    text-decoration: none;
+    display: flex;
+  }
