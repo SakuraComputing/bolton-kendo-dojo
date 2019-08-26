@@ -50,8 +50,7 @@
     "eject": "react-scripts eject",
     "server": "node server.js",
     "api-server": "nodemon server.js",
-    "dev": "concurrently \"yarn run api-server\" \"yarn run start\"",
-    "heroku-postbuild": "yarn && yarn run build"
+    "dev": "concurrently \"yarn run api-server\" \"yarn run start\""
   },
   "heroku-run-build-script": true,
   "jest": {
