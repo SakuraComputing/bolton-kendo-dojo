@@ -51,7 +51,8 @@
     "eject": "react-scripts eject",
     "server": "node server.js",
     "api-server": "nodemon server.js",
-    "dev": "concurrently \"yarn run api-server\" \"yarn run start\""
+    "dev": "concurrently \"yarn run api-server\" \"yarn run start\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm instal && npm run build"
   },
   "heroku-run-build-script": true,
   "jest": {
