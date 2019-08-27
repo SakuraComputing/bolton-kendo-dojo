@@ -52,7 +52,7 @@
     "server": "node server.js",
     "api-server": "nodemon server.js",
     "dev": "concurrently \"yarn run api-server\" \"yarn run start\"",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm instal && npm run build"
+    "heroku-postbuild": "YARN_PRODUCTION=false yarn && yarn run build"
   },
   "heroku-run-build-script": true,
   "jest": {
