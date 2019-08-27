@@ -20,11 +20,11 @@ let db;
 
 if (process.env.NODE_ENV === 'production') {
     db = process.env.REACT_APP_MONGO_URI;
-    console.log('server /server: ', db);
+    console.log('server ', db);
 } else {
     db = require('./src/config/keys').mongoURI;
 }
-console.log('database: ', db, __dirname);
+console.log('NNNNNNNN: ', db, __dirname);
 
 // Connect to Mongo DB
 mongoose
@@ -55,7 +55,7 @@ let port;
 if(process.env.NODE_ENV === 'production') {
     port = process.env.PORT || 80;
 
-    app.use(express.static(path.join('build')));
+    app.use(express.static(path.join(__join, 'build')));
     
     app.get('*', (req,res) => {
         res.sendFile(path.join(__dirname, 'build','index.html'));
