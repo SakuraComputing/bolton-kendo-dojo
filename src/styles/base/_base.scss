@@ -50,6 +50,34 @@ button:disabled {
   padding: 10px 0;
   background-color: $color__primary;
   color: $off-white;
-  text-align: center;
+  display: -webkit-flex; /* Safari */     
+  display: flex; /* Standard syntax */
+  justify-content: space-between;
   height: 45px;
+}
+
+.footer-text {
+  width: 100%;
+  color: #fff;
+  font-size: 110%;
+  text-decoration: none;
+}
+
+.bka-details {
+  // white-space: nowrap;
+  padding-left: 10px;
+  display: flex;
+  top: -10px;
+}
+
+.bka-link {
+  position: relative;
+  top: 0%;
+  font-size: 150%;
+}
+
+.bka-logo {
+  height: 20px;
+  width: auto;
+  padding-left: 10px;
 }
