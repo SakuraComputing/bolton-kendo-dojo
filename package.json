@@ -52,9 +52,9 @@
     "server": "node server.js",
     "api-server": "nodemon server.js",
     "dev": "concurrently \"yarn run api-server\" \"yarn run start\"",
-    "heroku-postbuild": "YARN_PRODUCTION=false yarn && yarn run build"
+    "postinstall": "react-scripts build"
   },
-  "heroku-run-build-script": true,
+  "heroku-run-build-script": false,
   "jest": {
     "collectCoverageFrom": [
       "src/**/*.js",
