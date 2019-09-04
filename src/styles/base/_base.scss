@@ -56,28 +56,22 @@ button:disabled {
   height: 45px;
 }
 
-.footer-text {
-  width: 100%;
-  color: #fff;
-  font-size: 110%;
-  text-decoration: none;
-}
-
 .bka-details {
-  // white-space: nowrap;
   padding-left: 10px;
   display: flex;
   top: -10px;
 }
 
 .bka-link {
-  position: relative;
-  top: 0%;
-  font-size: 150%;
+  width: 100%;
+  color: #fff;
+  font-size: 110%;
+  display: flex;
+  text-decoration: none;
 }
 
 .bka-logo {
-  height: 20px;
+  height: 25px;
   width: auto;
-  padding-left: 10px;
+  padding-left: 15px;
 }
