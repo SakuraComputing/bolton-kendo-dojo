@@ -1,7 +1,7 @@
 # Bolton Kendo Dojo
 
 Official club website. Written using React JS / Redux. Node API layer. mLab cloud mongo database.
-
+Copyright all code owned by Bolton Kendo Club
 
 ## Quickstart
 
@@ -23,6 +23,11 @@ yarn run test
 ```
 Create prod_keys.js file in config directory.
 Add mongoURI and secretOrKey
+```
+
+## Deployment
+```
+git push heroku master
 ```
 
 
