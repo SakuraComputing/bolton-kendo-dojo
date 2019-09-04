@@ -44,6 +44,12 @@ app.use(function(req, res, next) {
     next();
 });
 
+// Use Routes 
+app.use('/api/users', users);
+app.use('/api/club', club);
+app.use('/api/uploads', uploads);
+app.use('/api/posts', posts);
+
 let port;
 
 if(process.env.NODE_ENV === 'production') {
@@ -58,11 +64,5 @@ if(process.env.NODE_ENV === 'production') {
 } else {
     port = process.env.PORT || 5000;
 }
-
-// Use Routes 
-app.use('/api/users', users);
-app.use('/api/club', club);
-app.use('/api/uploads', uploads);
-app.use('/api/posts', posts);
 
 app.listen(port, () => console.log(`Server running on port ${port}`));
