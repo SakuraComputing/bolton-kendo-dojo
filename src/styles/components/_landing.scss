@@ -20,31 +20,44 @@
   
   .box-layout__title {
     color: #fff;
-    font-size: 550%;
-    font-weight: 1%;
+    font-size: 300%;
+    font-weight: 10%;
     letter-spacing: 2px;
     margin: 0 0 0 0;
     line-height: 1;
+    @media screen and (min-width: $tablet-breakpoint) {
+      font-size: 550%;
+    }
   }
   
   .box-layout__synopsis {
-    font-size: 200%;
+    font-size: 140%;
     font-style: italic;
     color: #fff;
+    @media screen and (min-width: $tablet-breakpoint) {
+      font-size: 200%;
+    }
   }
 
   .facebook-logo {
-    width: 40px;
-    height: 40px;
-    border-radius: px;
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    @media screen and (min-width: $tablet-breakpoint) {
+      width: 40px;
+      height: 40px;
+    }  
   }
 
   .facebook-text {
-    font-size: 175%;
+    font-size: 130%;
     font-style: italic;
     color: #fff;
     padding-left: 20px;
     padding-top: 5px;
+    @media screen and (min-width: $tablet-breakpoint) {
+      font-size: 175%;
+    }
   }
 
   .facebook-link {

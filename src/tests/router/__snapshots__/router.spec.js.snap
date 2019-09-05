@@ -72,7 +72,8 @@ ShallowWrapper {
             />
             <Route
               component={[Function]}
-              patth="/calendar"
+              exact={true}
+              path="/calendar"
             />
           </Switch>
           <Switch>
@@ -172,7 +173,8 @@ ShallowWrapper {
               />
               <Route
                 component={[Function]}
-                patth="/calendar"
+                exact={true}
+                path="/calendar"
               />
             </Switch>
             <Switch>
@@ -271,7 +273,8 @@ ShallowWrapper {
                 />
                 <Route
                   component={[Function]}
-                  patth="/calendar"
+                  exact={true}
+                  path="/calendar"
                 />
               </Switch>,
               <Switch>
@@ -375,7 +378,8 @@ ShallowWrapper {
                   />,
                   <Route
                     component={[Function]}
-                    patth="/calendar"
+                    exact={true}
+                    path="/calendar"
                   />,
                 ],
               },
@@ -503,7 +507,8 @@ ShallowWrapper {
                   "nodeType": "class",
                   "props": Object {
                     "component": [Function],
-                    "patth": "/calendar",
+                    "exact": true,
+                    "path": "/calendar",
                   },
                   "ref": null,
                   "rendered": null,
@@ -724,7 +729,8 @@ ShallowWrapper {
               />
               <Route
                 component={[Function]}
-                patth="/calendar"
+                exact={true}
+                path="/calendar"
               />
             </Switch>
             <Switch>
@@ -824,7 +830,8 @@ ShallowWrapper {
                 />
                 <Route
                   component={[Function]}
-                  patth="/calendar"
+                  exact={true}
+                  path="/calendar"
                 />
               </Switch>
               <Switch>
@@ -923,7 +930,8 @@ ShallowWrapper {
                   />
                   <Route
                     component={[Function]}
-                    patth="/calendar"
+                    exact={true}
+                    path="/calendar"
                   />
                 </Switch>,
                 <Switch>
@@ -1027,7 +1035,8 @@ ShallowWrapper {
                     />,
                     <Route
                       component={[Function]}
-                      patth="/calendar"
+                      exact={true}
+                      path="/calendar"
                     />,
                   ],
                 },
@@ -1155,7 +1164,8 @@ ShallowWrapper {
                     "nodeType": "class",
                     "props": Object {
                       "component": [Function],
-                      "patth": "/calendar",
+                      "exact": true,
+                      "path": "/calendar",
                     },
                     "ref": null,
                     "rendered": null,

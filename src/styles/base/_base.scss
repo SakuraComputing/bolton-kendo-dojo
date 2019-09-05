@@ -54,6 +54,10 @@ button:disabled {
   display: flex; /* Standard syntax */
   justify-content: space-between;
   height: 45px;
+  font-size: 60%;
+  @media screen and (min-width: $tablet-breakpoint) {
+    font-size: 110%;
+  }
 }
 
 .bka-details {
@@ -65,15 +69,20 @@ button:disabled {
 .bka-link {
   width: 100%;
   color: #fff;
-  font-size: 110%;
+  // font-size: 110%;
   display: flex;
   text-decoration: none;
 }
 
 .bka-logo {
-  height: 25px;
+  height: 20px;
   width: auto;
   padding-left: 15px;
+  padding-right: 10px;
+  @media screen and (min-width: $tablet-breakpoint) {
+    height: 25px;
+    padding-right: 0px;
+  }
 }
 
 .copyright {

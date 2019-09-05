@@ -35,7 +35,9 @@ ShallowWrapper {
             />
           </a>
         </div>,
-        <div>
+        <div
+          className="copyright"
+        >
           Copyright © 
           2019
            Bolton Kendo Club
@@ -113,6 +115,7 @@ ShallowWrapper {
             2019,
             " Bolton Kendo Club",
           ],
+          "className": "copyright",
         },
         "ref": null,
         "rendered": Array [
@@ -148,7 +151,9 @@ ShallowWrapper {
               />
             </a>
           </div>,
-          <div>
+          <div
+            className="copyright"
+          >
             Copyright © 
             2019
              Bolton Kendo Club
@@ -226,6 +231,7 @@ ShallowWrapper {
               2019,
               " Bolton Kendo Club",
             ],
+            "className": "copyright",
           },
           "ref": null,
           "rendered": Array [

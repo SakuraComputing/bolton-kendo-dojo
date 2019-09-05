@@ -2,6 +2,10 @@
     display: flex;
     justify-content: space-between;
     margin-left: 2%;
+    flex-direction: column;
+    @media screen and (min-width: $tablet-breakpoint) {
+        flex-direction: row;
+    }    
 }
 
 .about-section {
@@ -14,7 +18,7 @@
 
 .about-map-section {
     border: solid 1px $blue-black;
-    border-radius: 5px;-bottom: 1em;
+    border-radius: 5px;
     margin-bottom: 20px;
 }
 
@@ -24,7 +28,7 @@
  
 
 .about-container {
-    margin: 2% 5%;
+    margin: 1% 1%;
     background-color: rgb(244, 246, 250);
 }
 
