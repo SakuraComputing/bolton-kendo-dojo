@@ -40,7 +40,7 @@ class AppRouter extends Component {
                             <Route exact path="/history" component={ClubHistory}></Route>
                             <Route exact path="/media" component={VideoPage}></Route>
                             <Route path="/not-found" component={NotFound}/>
-                            <Route patth="/calendar" component={DojoCalendar} /> 
+                            <Route exact path="/calendar" component={DojoCalendar} /> 
                         </Switch>
                         <Switch>
                             <PrivateRoute

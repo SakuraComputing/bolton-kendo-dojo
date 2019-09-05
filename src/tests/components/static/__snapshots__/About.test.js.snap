@@ -57,6 +57,7 @@ ShallowWrapper {
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
     "simulateError": [Function],
@@ -137,6 +138,7 @@ ShallowWrapper {
             className="about-map"
           >
             <InteractiveMap
+              asyncRender={false}
               attributionControl={true}
               bearing={0}
               className=""
@@ -154,6 +156,7 @@ ShallowWrapper {
               mapOptions={Object {}}
               mapStyle="mapbox://styles/mapbox/streets-v10"
               mapboxApiAccessToken="pk.eyJ1IjoiZXdhbmJkIiwiYSI6ImNqb2ozcnEycDAxMjkza3BhbjVpMWd0azUifQ.gRjILY0KoVrvFBY_Hvkv2w"
+              mapboxApiUrl="https://api.mapbox.com"
               maxPitch={60}
               maxZoom={24}
               minPitch={0}
@@ -163,6 +166,7 @@ ShallowWrapper {
               onError={[Function]}
               onHover={null}
               onLoad={[Function]}
+              onNativeClick={null}
               onResize={[Function]}
               onStateChange={[Function]}
               onTransitionEnd={[Function]}
@@ -302,6 +306,7 @@ ShallowWrapper {
               className="about-map"
             >
               <InteractiveMap
+                asyncRender={false}
                 attributionControl={true}
                 bearing={0}
                 className=""
@@ -319,6 +324,7 @@ ShallowWrapper {
                 mapOptions={Object {}}
                 mapStyle="mapbox://styles/mapbox/streets-v10"
                 mapboxApiAccessToken="pk.eyJ1IjoiZXdhbmJkIiwiYSI6ImNqb2ozcnEycDAxMjkza3BhbjVpMWd0azUifQ.gRjILY0KoVrvFBY_Hvkv2w"
+                mapboxApiUrl="https://api.mapbox.com"
                 maxPitch={60}
                 maxZoom={24}
                 minPitch={0}
@@ -328,6 +334,7 @@ ShallowWrapper {
                 onError={[Function]}
                 onHover={null}
                 onLoad={[Function]}
+                onNativeClick={null}
                 onResize={[Function]}
                 onStateChange={[Function]}
                 onTransitionEnd={[Function]}
@@ -464,6 +471,7 @@ ShallowWrapper {
                 className="about-map"
               >
                 <InteractiveMap
+                  asyncRender={false}
                   attributionControl={true}
                   bearing={0}
                   className=""
@@ -481,6 +489,7 @@ ShallowWrapper {
                   mapOptions={Object {}}
                   mapStyle="mapbox://styles/mapbox/streets-v10"
                   mapboxApiAccessToken="pk.eyJ1IjoiZXdhbmJkIiwiYSI6ImNqb2ozcnEycDAxMjkza3BhbjVpMWd0azUifQ.gRjILY0KoVrvFBY_Hvkv2w"
+                  mapboxApiUrl="https://api.mapbox.com"
                   maxPitch={60}
                   maxZoom={24}
                   minPitch={0}
@@ -490,6 +499,7 @@ ShallowWrapper {
                   onError={[Function]}
                   onHover={null}
                   onLoad={[Function]}
+                  onNativeClick={null}
                   onResize={[Function]}
                   onStateChange={[Function]}
                   onTransitionEnd={[Function]}
@@ -668,7 +678,7 @@ ShallowWrapper {
                     },
                     Object {
                       "instance": null,
-                      "key": "pk.eyJ1IjoiZXdhbmJkIiwiYSI6ImNqb2ozcnEycDAxMjkza3BhbjVpMWd0azUifQ.gRjILY0KoVrvFBY_Hvkv2w",
+                      "key": "School",
                       "nodeType": "host",
                       "props": Object {
                         "children": Array [
@@ -789,7 +799,7 @@ ShallowWrapper {
                     },
                     Object {
                       "instance": null,
-                      "key": "pk.eyJ1IjoiZXdhbmJkIiwiYSI6ImNqb2ozcnEycDAxMjkza3BhbjVpMWd0azUifQ.gRjILY0KoVrvFBY_Hvkv2w",
+                      "key": "Sunday 10:00am - 12:00pm (2 Hours)",
                       "nodeType": "host",
                       "props": Object {
                         "children": Array [
@@ -871,7 +881,7 @@ ShallowWrapper {
                     },
                     Object {
                       "instance": null,
-                      "key": "pk.eyJ1IjoiZXdhbmJkIiwiYSI6ImNqb2ozcnEycDAxMjkza3BhbjVpMWd0azUifQ.gRjILY0KoVrvFBY_Hvkv2w",
+                      "key": "T Bone Walker",
                       "nodeType": "host",
                       "props": Object {
                         "children": Array [
@@ -936,6 +946,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": <InteractiveMap
+                  asyncRender={false}
                   attributionControl={true}
                   bearing={0}
                   className=""
@@ -953,6 +964,7 @@ ShallowWrapper {
                   mapOptions={Object {}}
                   mapStyle="mapbox://styles/mapbox/streets-v10"
                   mapboxApiAccessToken="pk.eyJ1IjoiZXdhbmJkIiwiYSI6ImNqb2ozcnEycDAxMjkza3BhbjVpMWd0azUifQ.gRjILY0KoVrvFBY_Hvkv2w"
+                  mapboxApiUrl="https://api.mapbox.com"
                   maxPitch={60}
                   maxZoom={24}
                   minPitch={0}
@@ -962,6 +974,7 @@ ShallowWrapper {
                   onError={[Function]}
                   onHover={null}
                   onLoad={[Function]}
+                  onNativeClick={null}
                   onResize={[Function]}
                   onStateChange={[Function]}
                   onTransitionEnd={[Function]}
@@ -1028,6 +1041,7 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "class",
                 "props": Object {
+                  "asyncRender": false,
                   "attributionControl": true,
                   "bearing": 0,
                   "children": <Marker
@@ -1059,6 +1073,7 @@ ShallowWrapper {
                   "mapOptions": Object {},
                   "mapStyle": "mapbox://styles/mapbox/streets-v10",
                   "mapboxApiAccessToken": "pk.eyJ1IjoiZXdhbmJkIiwiYSI6ImNqb2ozcnEycDAxMjkza3BhbjVpMWd0azUifQ.gRjILY0KoVrvFBY_Hvkv2w",
+                  "mapboxApiUrl": "https://api.mapbox.com",
                   "maxPitch": 60,
                   "maxZoom": 24,
                   "minPitch": 0,
@@ -1068,6 +1083,7 @@ ShallowWrapper {
                   "onError": [Function],
                   "onHover": null,
                   "onLoad": [Function],
+                  "onNativeClick": null,
                   "onResize": [Function],
                   "onStateChange": [Function],
                   "onTransitionEnd": [Function],
@@ -1233,6 +1249,7 @@ ShallowWrapper {
               className="about-map"
             >
               <InteractiveMap
+                asyncRender={false}
                 attributionControl={true}
                 bearing={0}
                 className=""
@@ -1250,6 +1267,7 @@ ShallowWrapper {
                 mapOptions={Object {}}
                 mapStyle="mapbox://styles/mapbox/streets-v10"
                 mapboxApiAccessToken="pk.eyJ1IjoiZXdhbmJkIiwiYSI6ImNqb2ozcnEycDAxMjkza3BhbjVpMWd0azUifQ.gRjILY0KoVrvFBY_Hvkv2w"
+                mapboxApiUrl="https://api.mapbox.com"
                 maxPitch={60}
                 maxZoom={24}
                 minPitch={0}
@@ -1259,6 +1277,7 @@ ShallowWrapper {
                 onError={[Function]}
                 onHover={null}
                 onLoad={[Function]}
+                onNativeClick={null}
                 onResize={[Function]}
                 onStateChange={[Function]}
                 onTransitionEnd={[Function]}
@@ -1398,6 +1417,7 @@ ShallowWrapper {
                 className="about-map"
               >
                 <InteractiveMap
+                  asyncRender={false}
                   attributionControl={true}
                   bearing={0}
                   className=""
@@ -1415,6 +1435,7 @@ ShallowWrapper {
                   mapOptions={Object {}}
                   mapStyle="mapbox://styles/mapbox/streets-v10"
                   mapboxApiAccessToken="pk.eyJ1IjoiZXdhbmJkIiwiYSI6ImNqb2ozcnEycDAxMjkza3BhbjVpMWd0azUifQ.gRjILY0KoVrvFBY_Hvkv2w"
+                  mapboxApiUrl="https://api.mapbox.com"
                   maxPitch={60}
                   maxZoom={24}
                   minPitch={0}
@@ -1424,6 +1445,7 @@ ShallowWrapper {
                   onError={[Function]}
                   onHover={null}
                   onLoad={[Function]}
+                  onNativeClick={null}
                   onResize={[Function]}
                   onStateChange={[Function]}
                   onTransitionEnd={[Function]}
@@ -1560,6 +1582,7 @@ ShallowWrapper {
                   className="about-map"
                 >
                   <InteractiveMap
+                    asyncRender={false}
                     attributionControl={true}
                     bearing={0}
                     className=""
@@ -1577,6 +1600,7 @@ ShallowWrapper {
                     mapOptions={Object {}}
                     mapStyle="mapbox://styles/mapbox/streets-v10"
                     mapboxApiAccessToken="pk.eyJ1IjoiZXdhbmJkIiwiYSI6ImNqb2ozcnEycDAxMjkza3BhbjVpMWd0azUifQ.gRjILY0KoVrvFBY_Hvkv2w"
+                    mapboxApiUrl="https://api.mapbox.com"
                     maxPitch={60}
                     maxZoom={24}
                     minPitch={0}
@@ -1586,6 +1610,7 @@ ShallowWrapper {
                     onError={[Function]}
                     onHover={null}
                     onLoad={[Function]}
+                    onNativeClick={null}
                     onResize={[Function]}
                     onStateChange={[Function]}
                     onTransitionEnd={[Function]}
@@ -1764,7 +1789,7 @@ ShallowWrapper {
                       },
                       Object {
                         "instance": null,
-                        "key": "pk.eyJ1IjoiZXdhbmJkIiwiYSI6ImNqb2ozcnEycDAxMjkza3BhbjVpMWd0azUifQ.gRjILY0KoVrvFBY_Hvkv2w",
+                        "key": "School",
                         "nodeType": "host",
                         "props": Object {
                           "children": Array [
@@ -1885,7 +1910,7 @@ ShallowWrapper {
                       },
                       Object {
                         "instance": null,
-                        "key": "pk.eyJ1IjoiZXdhbmJkIiwiYSI6ImNqb2ozcnEycDAxMjkza3BhbjVpMWd0azUifQ.gRjILY0KoVrvFBY_Hvkv2w",
+                        "key": "Sunday 10:00am - 12:00pm (2 Hours)",
                         "nodeType": "host",
                         "props": Object {
                           "children": Array [
@@ -1967,7 +1992,7 @@ ShallowWrapper {
                       },
                       Object {
                         "instance": null,
-                        "key": "pk.eyJ1IjoiZXdhbmJkIiwiYSI6ImNqb2ozcnEycDAxMjkza3BhbjVpMWd0azUifQ.gRjILY0KoVrvFBY_Hvkv2w",
+                        "key": "T Bone Walker",
                         "nodeType": "host",
                         "props": Object {
                           "children": Array [
@@ -2032,6 +2057,7 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "children": <InteractiveMap
+                    asyncRender={false}
                     attributionControl={true}
                     bearing={0}
                     className=""
@@ -2049,6 +2075,7 @@ ShallowWrapper {
                     mapOptions={Object {}}
                     mapStyle="mapbox://styles/mapbox/streets-v10"
                     mapboxApiAccessToken="pk.eyJ1IjoiZXdhbmJkIiwiYSI6ImNqb2ozcnEycDAxMjkza3BhbjVpMWd0azUifQ.gRjILY0KoVrvFBY_Hvkv2w"
+                    mapboxApiUrl="https://api.mapbox.com"
                     maxPitch={60}
                     maxZoom={24}
                     minPitch={0}
@@ -2058,6 +2085,7 @@ ShallowWrapper {
                     onError={[Function]}
                     onHover={null}
                     onLoad={[Function]}
+                    onNativeClick={null}
                     onResize={[Function]}
                     onStateChange={[Function]}
                     onTransitionEnd={[Function]}
@@ -2124,6 +2152,7 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "class",
                   "props": Object {
+                    "asyncRender": false,
                     "attributionControl": true,
                     "bearing": 0,
                     "children": <Marker
@@ -2155,6 +2184,7 @@ ShallowWrapper {
                     "mapOptions": Object {},
                     "mapStyle": "mapbox://styles/mapbox/streets-v10",
                     "mapboxApiAccessToken": "pk.eyJ1IjoiZXdhbmJkIiwiYSI6ImNqb2ozcnEycDAxMjkza3BhbjVpMWd0azUifQ.gRjILY0KoVrvFBY_Hvkv2w",
+                    "mapboxApiUrl": "https://api.mapbox.com",
                     "maxPitch": 60,
                     "maxZoom": 24,
                     "minPitch": 0,
@@ -2164,6 +2194,7 @@ ShallowWrapper {
                     "onError": [Function],
                     "onHover": null,
                     "onLoad": [Function],
+                    "onNativeClick": null,
                     "onResize": [Function],
                     "onStateChange": [Function],
                     "onTransitionEnd": [Function],
@@ -2259,11 +2290,18 @@ ShallowWrapper {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
-          "getDerivedStateFromProps": true,
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
           "getSnapshotBeforeUpdate": true,
           "setState": Object {
             "skipsComponentDidUpdateOnNullish": true,
@@ -2271,6 +2309,9 @@ ShallowWrapper {
         },
       },
     },
+    Symbol(enzyme.__providerValues__): undefined,
   },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
 }
 `;

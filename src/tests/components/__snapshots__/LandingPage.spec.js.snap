@@ -6,6 +6,7 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <LandingPage />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
     "simulateError": [Function],
@@ -30,6 +31,21 @@ ShallowWrapper {
         >
           Welcome to KNMS / Doshinkenyukai
         </p>
+        <a
+          className="facebook-link"
+          href="https://www.facebook.com/groups/896572830375789/"
+        >
+          <img
+            alt="facebook"
+            className="facebook-logo"
+            src="/img/facebook.png"
+          />
+          <div
+            className="facebook-text"
+          >
+            Find us on Facebook here
+          </div>
+        </a>
       </div>,
       "className": "box-layout",
     },
@@ -50,6 +66,21 @@ ShallowWrapper {
           >
             Welcome to KNMS / Doshinkenyukai
           </p>,
+          <a
+            className="facebook-link"
+            href="https://www.facebook.com/groups/896572830375789/"
+          >
+            <img
+              alt="facebook"
+              className="facebook-logo"
+              src="/img/facebook.png"
+            />
+            <div
+              className="facebook-text"
+            >
+              Find us on Facebook here
+            </div>
+          </a>,
         ],
         "className": "box-layout__box",
       },
@@ -79,6 +110,56 @@ ShallowWrapper {
           "rendered": "Welcome to KNMS / Doshinkenyukai",
           "type": "p",
         },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <img
+                alt="facebook"
+                className="facebook-logo"
+                src="/img/facebook.png"
+              />,
+              <div
+                className="facebook-text"
+              >
+                Find us on Facebook here
+              </div>,
+            ],
+            "className": "facebook-link",
+            "href": "https://www.facebook.com/groups/896572830375789/",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "facebook",
+                "className": "facebook-logo",
+                "src": "/img/facebook.png",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Find us on Facebook here",
+                "className": "facebook-text",
+              },
+              "ref": null,
+              "rendered": "Find us on Facebook here",
+              "type": "div",
+            },
+          ],
+          "type": "a",
+        },
       ],
       "type": "div",
     },
@@ -103,6 +184,21 @@ ShallowWrapper {
           >
             Welcome to KNMS / Doshinkenyukai
           </p>
+          <a
+            className="facebook-link"
+            href="https://www.facebook.com/groups/896572830375789/"
+          >
+            <img
+              alt="facebook"
+              className="facebook-logo"
+              src="/img/facebook.png"
+            />
+            <div
+              className="facebook-text"
+            >
+              Find us on Facebook here
+            </div>
+          </a>
         </div>,
         "className": "box-layout",
       },
@@ -123,6 +219,21 @@ ShallowWrapper {
             >
               Welcome to KNMS / Doshinkenyukai
             </p>,
+            <a
+              className="facebook-link"
+              href="https://www.facebook.com/groups/896572830375789/"
+            >
+              <img
+                alt="facebook"
+                className="facebook-logo"
+                src="/img/facebook.png"
+              />
+              <div
+                className="facebook-text"
+              >
+                Find us on Facebook here
+              </div>
+            </a>,
           ],
           "className": "box-layout__box",
         },
@@ -152,6 +263,56 @@ ShallowWrapper {
             "rendered": "Welcome to KNMS / Doshinkenyukai",
             "type": "p",
           },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <img
+                  alt="facebook"
+                  className="facebook-logo"
+                  src="/img/facebook.png"
+                />,
+                <div
+                  className="facebook-text"
+                >
+                  Find us on Facebook here
+                </div>,
+              ],
+              "className": "facebook-link",
+              "href": "https://www.facebook.com/groups/896572830375789/",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "facebook",
+                  "className": "facebook-logo",
+                  "src": "/img/facebook.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Find us on Facebook here",
+                  "className": "facebook-text",
+                },
+                "ref": null,
+                "rendered": "Find us on Facebook here",
+                "type": "div",
+              },
+            ],
+            "type": "a",
+          },
         ],
         "type": "div",
       },
@@ -162,11 +323,18 @@ ShallowWrapper {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
           },
-          "getDerivedStateFromProps": true,
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
           "getSnapshotBeforeUpdate": true,
           "setState": Object {
             "skipsComponentDidUpdateOnNullish": true,
@@ -174,6 +342,8 @@ ShallowWrapper {
         },
       },
     },
+    Symbol(enzyme.__providerValues__): undefined,
   },
+  Symbol(enzyme.__providerValues__): Map {},
 }
 `;
