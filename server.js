@@ -20,11 +20,9 @@ let db;
 
 if (process.env.NODE_ENV === 'production') {
     db = process.env.REACT_APP_MONGO_URI;
-    console.log('server ', db);
 } else {
     db = require('./src/config/keys').mongoURI;
 }
-console.log('NNNNNNNN: ', db, __dirname);
 
 // Connect to Mongo DB
 mongoose

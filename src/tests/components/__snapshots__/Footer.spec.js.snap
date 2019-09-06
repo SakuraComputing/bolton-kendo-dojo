@@ -25,7 +25,8 @@ ShallowWrapper {
           <a
             className="bka-link"
             href="http://www.britishkendoassociation.com"
-            target="_Blank"
+            rel="noopener noreferrer"
+            target="_blank"
           >
             Member of the British Kendo Association
             <img
@@ -55,7 +56,8 @@ ShallowWrapper {
           "children": <a
             className="bka-link"
             href="http://www.britishkendoassociation.com"
-            target="_Blank"
+            rel="noopener noreferrer"
+            target="_blank"
           >
             Member of the British Kendo Association
             <img
@@ -82,7 +84,8 @@ ShallowWrapper {
             ],
             "className": "bka-link",
             "href": "http://www.britishkendoassociation.com",
-            "target": "_Blank",
+            "rel": "noopener noreferrer",
+            "target": "_blank",
           },
           "ref": null,
           "rendered": Array [
@@ -141,7 +144,8 @@ ShallowWrapper {
             <a
               className="bka-link"
               href="http://www.britishkendoassociation.com"
-              target="_Blank"
+              rel="noopener noreferrer"
+              target="_blank"
             >
               Member of the British Kendo Association
               <img
@@ -171,7 +175,8 @@ ShallowWrapper {
             "children": <a
               className="bka-link"
               href="http://www.britishkendoassociation.com"
-              target="_Blank"
+              rel="noopener noreferrer"
+              target="_blank"
             >
               Member of the British Kendo Association
               <img
@@ -198,7 +203,8 @@ ShallowWrapper {
               ],
               "className": "bka-link",
               "href": "http://www.britishkendoassociation.com",
-              "target": "_Blank",
+              "rel": "noopener noreferrer",
+              "target": "_blank",
             },
             "ref": null,
             "rendered": Array [

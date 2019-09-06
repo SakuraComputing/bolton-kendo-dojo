@@ -12,6 +12,8 @@ if (process.env.NODE_ENV === 'production') {
     API_KEY = require('../../config/keys').apiMapKey;
 }
 
+console.log('What is the apiKey Response', require('../../config/keys').apiMapKey, process.env.REACT_APP_MAPBOX_API_KEY);
+
 const LATITUDE = 53.562614;
 const LONGITUDE = -2.384833;
 
@@ -85,7 +87,8 @@ export class About extends React.Component {
                             {...viewport}
                             mapStyle="mapbox://styles/mapbox/streets-v10"
                             mapboxApiAccessToken={API_KEY}
-                            onViewportChange={viewport => this.setState({viewport})}>
+                            onViewportChange={viewport => this.setState({viewport})}
+                        >
                             <div style={{position: 'absolute', right: 0}}>
                               <NavigationControl />
                             </div>
