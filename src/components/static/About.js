@@ -4,15 +4,7 @@ import Map, { Marker, NavigationControl } from 'react-map-gl';
 import Pin from '../../common/Pin';
 import Spinner from '../../common/Spinner';
 
-let API_KEY;
-
-if (process.env.NODE_ENV === 'production') {
-    API_KEY = process.env.REACT_APP_MAPBOX_API_KEY;
-} else {
-    API_KEY = require('../../config/keys').apiMapKey;
-}
-
-console.log('What is the apiKey Response', require('../../config/keys').apiMapKey, process.env.REACT_APP_MAPBOX_API_KEY);
+const API_KEY = require('../../config/keys').apiMapKey;
 
 const LATITUDE = 53.562614;
 const LONGITUDE = -2.384833;

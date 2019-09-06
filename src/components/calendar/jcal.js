@@ -1,16 +1,8 @@
 import request from 'superagent'
 require('dotenv').config()
 
-let CALENDAR_ID;
-let API_KEY;
-
-if (process.env.NODE_ENV === 'production') {
-  CALENDAR_ID = process.env.REACT_APP_CALENDAR_ID;
-  API_KEY = process.env.REACT_APP_API_CALENDAR_KEY;
-} else {
-  CALENDAR_ID = require('../../config/keys').calendarId;
-  API_KEY = require('../../config/keys').apiCalendarKey;
-}
+const CALENDAR_ID = require('../../config/keys').calendarId;
+const API_KEY = require('../../config/keys').apiCalendarKey;
 
 let url = `https://www.googleapis.com/calendar/v3/calendars/${CALENDAR_ID}/events?key=${API_KEY}`
 
@@ -21,6 +13,7 @@ function getEvents (callback) {
       if (!err) {
         const events = []
         JSON.parse(resp.text).items.map((event) => {
+          console.log('Event ', event);
           events.push({
             start: event.start.date || event.start.dateTime,
             end: event.end.date || event.end.dateTime,

@@ -16,13 +16,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 // DB Config
-let db;
-
-if (process.env.NODE_ENV === 'production') {
-    db = process.env.REACT_APP_MONGO_URI;
-} else {
-    db = require('./src/config/keys').mongoURI;
-}
+const db = require('./src/config/keys').mongoURI;
 
 // Connect to Mongo DB
 mongoose
