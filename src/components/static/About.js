@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import Map, { Marker } from 'react-map-gl';
+import Map, { Marker, NavigationControl } from 'react-map-gl';
 import Pin from '../../common/Pin';
 import Spinner from '../../common/Spinner';
 
@@ -84,7 +84,12 @@ export class About extends React.Component {
                         <Map
                             {...viewport}
                             mapStyle="mapbox://styles/mapbox/streets-v10"
-                            mapboxApiAccessToken={API_KEY}>
+                            mapboxApiAccessToken={API_KEY}
+                            onViewportChange={viewport => this.setState({viewport})}>
+                            <div style={{position: 'absolute', right: 0}}>
+                              <NavigationControl />
+                            </div>
+                        >
                             <Marker 
                                 latitude={LATITUDE} 
                                 longitude={LONGITUDE}

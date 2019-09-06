@@ -173,7 +173,7 @@ ShallowWrapper {
               onTransitionInterrupt={[Function]}
               onTransitionStart={[Function]}
               onViewStateChange={null}
-              onViewportChange={null}
+              onViewportChange={[Function]}
               pitch={0}
               preserveDrawingBuffer={false}
               preventStyleDiffing={false}
@@ -210,6 +210,25 @@ ShallowWrapper {
               width="100%"
               zoom={14}
             >
+              <div
+                style={
+                  Object {
+                    "position": "absolute",
+                    "right": 0,
+                  }
+                }
+              >
+                <NavigationControl
+                  captureClick={true}
+                  captureDoubleClick={true}
+                  captureDrag={true}
+                  captureScroll={false}
+                  className=""
+                  showCompass={true}
+                  showZoom={true}
+                />
+              </div>
+              &gt;
               <Marker
                 captureClick={true}
                 captureDoubleClick={true}
@@ -341,7 +360,7 @@ ShallowWrapper {
                 onTransitionInterrupt={[Function]}
                 onTransitionStart={[Function]}
                 onViewStateChange={null}
-                onViewportChange={null}
+                onViewportChange={[Function]}
                 pitch={0}
                 preserveDrawingBuffer={false}
                 preventStyleDiffing={false}
@@ -378,6 +397,25 @@ ShallowWrapper {
                 width="100%"
                 zoom={14}
               >
+                <div
+                  style={
+                    Object {
+                      "position": "absolute",
+                      "right": 0,
+                    }
+                  }
+                >
+                  <NavigationControl
+                    captureClick={true}
+                    captureDoubleClick={true}
+                    captureDrag={true}
+                    captureScroll={false}
+                    className=""
+                    showCompass={true}
+                    showZoom={true}
+                  />
+                </div>
+                &gt;
                 <Marker
                   captureClick={true}
                   captureDoubleClick={true}
@@ -506,7 +544,7 @@ ShallowWrapper {
                   onTransitionInterrupt={[Function]}
                   onTransitionStart={[Function]}
                   onViewStateChange={null}
-                  onViewportChange={null}
+                  onViewportChange={[Function]}
                   pitch={0}
                   preserveDrawingBuffer={false}
                   preventStyleDiffing={false}
@@ -543,6 +581,25 @@ ShallowWrapper {
                   width="100%"
                   zoom={14}
                 >
+                  <div
+                    style={
+                      Object {
+                        "position": "absolute",
+                        "right": 0,
+                      }
+                    }
+                  >
+                    <NavigationControl
+                      captureClick={true}
+                      captureDoubleClick={true}
+                      captureDrag={true}
+                      captureScroll={false}
+                      className=""
+                      showCompass={true}
+                      showZoom={true}
+                    />
+                  </div>
+                  &gt;
                   <Marker
                     captureClick={true}
                     captureDoubleClick={true}
@@ -981,7 +1038,7 @@ ShallowWrapper {
                   onTransitionInterrupt={[Function]}
                   onTransitionStart={[Function]}
                   onViewStateChange={null}
-                  onViewportChange={null}
+                  onViewportChange={[Function]}
                   pitch={0}
                   preserveDrawingBuffer={false}
                   preventStyleDiffing={false}
@@ -1018,6 +1075,25 @@ ShallowWrapper {
                   width="100%"
                   zoom={14}
                 >
+                  <div
+                    style={
+                      Object {
+                        "position": "absolute",
+                        "right": 0,
+                      }
+                    }
+                  >
+                    <NavigationControl
+                      captureClick={true}
+                      captureDoubleClick={true}
+                      captureDrag={true}
+                      captureScroll={false}
+                      className=""
+                      showCompass={true}
+                      showZoom={true}
+                    />
+                  </div>
+                  &gt;
                   <Marker
                     captureClick={true}
                     captureDoubleClick={true}
@@ -1044,20 +1120,41 @@ ShallowWrapper {
                   "asyncRender": false,
                   "attributionControl": true,
                   "bearing": 0,
-                  "children": <Marker
-                    captureClick={true}
-                    captureDoubleClick={true}
-                    captureDrag={true}
-                    captureScroll={false}
-                    className=""
-                    draggable={false}
-                    latitude={53.562614}
-                    longitude={-2.384833}
-                    offsetLeft={0}
-                    offsetTop={0}
-                  >
-                    <Pin />
-                  </Marker>,
+                  "children": Array [
+                    <div
+                      style={
+                        Object {
+                          "position": "absolute",
+                          "right": 0,
+                        }
+                      }
+                    >
+                      <NavigationControl
+                        captureClick={true}
+                        captureDoubleClick={true}
+                        captureDrag={true}
+                        captureScroll={false}
+                        className=""
+                        showCompass={true}
+                        showZoom={true}
+                      />
+                    </div>,
+                    ">",
+                    <Marker
+                      captureClick={true}
+                      captureDoubleClick={true}
+                      captureDrag={true}
+                      captureScroll={false}
+                      className=""
+                      draggable={false}
+                      latitude={53.562614}
+                      longitude={-2.384833}
+                      offsetLeft={0}
+                      offsetTop={0}
+                    >
+                      <Pin />
+                    </Marker>,
+                  ],
                   "className": "",
                   "clickRadius": 0,
                   "container": <body />,
@@ -1090,7 +1187,7 @@ ShallowWrapper {
                   "onTransitionInterrupt": [Function],
                   "onTransitionStart": [Function],
                   "onViewStateChange": null,
-                  "onViewportChange": null,
+                  "onViewportChange": [Function],
                   "pitch": 0,
                   "preserveDrawingBuffer": false,
                   "preventStyleDiffing": false,
@@ -1124,35 +1221,77 @@ ShallowWrapper {
                   "zoom": 14,
                 },
                 "ref": null,
-                "rendered": Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "class",
-                  "props": Object {
-                    "captureClick": true,
-                    "captureDoubleClick": true,
-                    "captureDrag": true,
-                    "captureScroll": false,
-                    "children": <Pin />,
-                    "className": "",
-                    "draggable": false,
-                    "latitude": 53.562614,
-                    "longitude": -2.384833,
-                    "offsetLeft": 0,
-                    "offsetTop": 0,
-                  },
-                  "ref": null,
-                  "rendered": Object {
+                "rendered": Array [
+                  Object {
                     "instance": null,
                     "key": undefined,
-                    "nodeType": "function",
-                    "props": Object {},
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <NavigationControl
+                        captureClick={true}
+                        captureDoubleClick={true}
+                        captureDrag={true}
+                        captureScroll={false}
+                        className=""
+                        showCompass={true}
+                        showZoom={true}
+                      />,
+                      "style": Object {
+                        "position": "absolute",
+                        "right": 0,
+                      },
+                    },
                     "ref": null,
-                    "rendered": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "captureClick": true,
+                        "captureDoubleClick": true,
+                        "captureDrag": true,
+                        "captureScroll": false,
+                        "className": "",
+                        "showCompass": true,
+                        "showZoom": true,
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": "div",
+                  },
+                  ">",
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "captureClick": true,
+                      "captureDoubleClick": true,
+                      "captureDrag": true,
+                      "captureScroll": false,
+                      "children": <Pin />,
+                      "className": "",
+                      "draggable": false,
+                      "latitude": 53.562614,
+                      "longitude": -2.384833,
+                      "offsetLeft": 0,
+                      "offsetTop": 0,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {},
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
                     "type": [Function],
                   },
-                  "type": [Function],
-                },
+                ],
                 "type": [Function],
               },
               "type": "div",
@@ -1284,7 +1423,7 @@ ShallowWrapper {
                 onTransitionInterrupt={[Function]}
                 onTransitionStart={[Function]}
                 onViewStateChange={null}
-                onViewportChange={null}
+                onViewportChange={[Function]}
                 pitch={0}
                 preserveDrawingBuffer={false}
                 preventStyleDiffing={false}
@@ -1321,6 +1460,25 @@ ShallowWrapper {
                 width="100%"
                 zoom={14}
               >
+                <div
+                  style={
+                    Object {
+                      "position": "absolute",
+                      "right": 0,
+                    }
+                  }
+                >
+                  <NavigationControl
+                    captureClick={true}
+                    captureDoubleClick={true}
+                    captureDrag={true}
+                    captureScroll={false}
+                    className=""
+                    showCompass={true}
+                    showZoom={true}
+                  />
+                </div>
+                &gt;
                 <Marker
                   captureClick={true}
                   captureDoubleClick={true}
@@ -1452,7 +1610,7 @@ ShallowWrapper {
                   onTransitionInterrupt={[Function]}
                   onTransitionStart={[Function]}
                   onViewStateChange={null}
-                  onViewportChange={null}
+                  onViewportChange={[Function]}
                   pitch={0}
                   preserveDrawingBuffer={false}
                   preventStyleDiffing={false}
@@ -1489,6 +1647,25 @@ ShallowWrapper {
                   width="100%"
                   zoom={14}
                 >
+                  <div
+                    style={
+                      Object {
+                        "position": "absolute",
+                        "right": 0,
+                      }
+                    }
+                  >
+                    <NavigationControl
+                      captureClick={true}
+                      captureDoubleClick={true}
+                      captureDrag={true}
+                      captureScroll={false}
+                      className=""
+                      showCompass={true}
+                      showZoom={true}
+                    />
+                  </div>
+                  &gt;
                   <Marker
                     captureClick={true}
                     captureDoubleClick={true}
@@ -1617,7 +1794,7 @@ ShallowWrapper {
                     onTransitionInterrupt={[Function]}
                     onTransitionStart={[Function]}
                     onViewStateChange={null}
-                    onViewportChange={null}
+                    onViewportChange={[Function]}
                     pitch={0}
                     preserveDrawingBuffer={false}
                     preventStyleDiffing={false}
@@ -1654,6 +1831,25 @@ ShallowWrapper {
                     width="100%"
                     zoom={14}
                   >
+                    <div
+                      style={
+                        Object {
+                          "position": "absolute",
+                          "right": 0,
+                        }
+                      }
+                    >
+                      <NavigationControl
+                        captureClick={true}
+                        captureDoubleClick={true}
+                        captureDrag={true}
+                        captureScroll={false}
+                        className=""
+                        showCompass={true}
+                        showZoom={true}
+                      />
+                    </div>
+                    &gt;
                     <Marker
                       captureClick={true}
                       captureDoubleClick={true}
@@ -2092,7 +2288,7 @@ ShallowWrapper {
                     onTransitionInterrupt={[Function]}
                     onTransitionStart={[Function]}
                     onViewStateChange={null}
-                    onViewportChange={null}
+                    onViewportChange={[Function]}
                     pitch={0}
                     preserveDrawingBuffer={false}
                     preventStyleDiffing={false}
@@ -2129,6 +2325,25 @@ ShallowWrapper {
                     width="100%"
                     zoom={14}
                   >
+                    <div
+                      style={
+                        Object {
+                          "position": "absolute",
+                          "right": 0,
+                        }
+                      }
+                    >
+                      <NavigationControl
+                        captureClick={true}
+                        captureDoubleClick={true}
+                        captureDrag={true}
+                        captureScroll={false}
+                        className=""
+                        showCompass={true}
+                        showZoom={true}
+                      />
+                    </div>
+                    &gt;
                     <Marker
                       captureClick={true}
                       captureDoubleClick={true}
@@ -2155,20 +2370,41 @@ ShallowWrapper {
                     "asyncRender": false,
                     "attributionControl": true,
                     "bearing": 0,
-                    "children": <Marker
-                      captureClick={true}
-                      captureDoubleClick={true}
-                      captureDrag={true}
-                      captureScroll={false}
-                      className=""
-                      draggable={false}
-                      latitude={53.562614}
-                      longitude={-2.384833}
-                      offsetLeft={0}
-                      offsetTop={0}
-                    >
-                      <Pin />
-                    </Marker>,
+                    "children": Array [
+                      <div
+                        style={
+                          Object {
+                            "position": "absolute",
+                            "right": 0,
+                          }
+                        }
+                      >
+                        <NavigationControl
+                          captureClick={true}
+                          captureDoubleClick={true}
+                          captureDrag={true}
+                          captureScroll={false}
+                          className=""
+                          showCompass={true}
+                          showZoom={true}
+                        />
+                      </div>,
+                      ">",
+                      <Marker
+                        captureClick={true}
+                        captureDoubleClick={true}
+                        captureDrag={true}
+                        captureScroll={false}
+                        className=""
+                        draggable={false}
+                        latitude={53.562614}
+                        longitude={-2.384833}
+                        offsetLeft={0}
+                        offsetTop={0}
+                      >
+                        <Pin />
+                      </Marker>,
+                    ],
                     "className": "",
                     "clickRadius": 0,
                     "container": <body />,
@@ -2201,7 +2437,7 @@ ShallowWrapper {
                     "onTransitionInterrupt": [Function],
                     "onTransitionStart": [Function],
                     "onViewStateChange": null,
-                    "onViewportChange": null,
+                    "onViewportChange": [Function],
                     "pitch": 0,
                     "preserveDrawingBuffer": false,
                     "preventStyleDiffing": false,
@@ -2235,35 +2471,77 @@ ShallowWrapper {
                     "zoom": 14,
                   },
                   "ref": null,
-                  "rendered": Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "class",
-                    "props": Object {
-                      "captureClick": true,
-                      "captureDoubleClick": true,
-                      "captureDrag": true,
-                      "captureScroll": false,
-                      "children": <Pin />,
-                      "className": "",
-                      "draggable": false,
-                      "latitude": 53.562614,
-                      "longitude": -2.384833,
-                      "offsetLeft": 0,
-                      "offsetTop": 0,
-                    },
-                    "ref": null,
-                    "rendered": Object {
+                  "rendered": Array [
+                    Object {
                       "instance": null,
                       "key": undefined,
-                      "nodeType": "function",
-                      "props": Object {},
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <NavigationControl
+                          captureClick={true}
+                          captureDoubleClick={true}
+                          captureDrag={true}
+                          captureScroll={false}
+                          className=""
+                          showCompass={true}
+                          showZoom={true}
+                        />,
+                        "style": Object {
+                          "position": "absolute",
+                          "right": 0,
+                        },
+                      },
                       "ref": null,
-                      "rendered": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "captureClick": true,
+                          "captureDoubleClick": true,
+                          "captureDrag": true,
+                          "captureScroll": false,
+                          "className": "",
+                          "showCompass": true,
+                          "showZoom": true,
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      "type": "div",
+                    },
+                    ">",
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "captureClick": true,
+                        "captureDoubleClick": true,
+                        "captureDrag": true,
+                        "captureScroll": false,
+                        "children": <Pin />,
+                        "className": "",
+                        "draggable": false,
+                        "latitude": 53.562614,
+                        "longitude": -2.384833,
+                        "offsetLeft": 0,
+                        "offsetTop": 0,
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "function",
+                        "props": Object {},
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
                       "type": [Function],
                     },
-                    "type": [Function],
-                  },
+                  ],
                   "type": [Function],
                 },
                 "type": "div",
