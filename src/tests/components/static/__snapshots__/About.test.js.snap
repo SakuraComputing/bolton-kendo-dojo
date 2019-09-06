@@ -154,7 +154,7 @@ ShallowWrapper {
               latitude={53.562614}
               longitude={-2.384833}
               mapOptions={Object {}}
-              mapStyle="mapbox://styles/mapbox/streets-v10"
+              mapStyle="mapbox://styles/mapbox/streets-v11"
               mapboxApiAccessToken="pk.eyJ1IjoiZXdhbmJkIiwiYSI6ImNqb2ozcnEycDAxMjkza3BhbjVpMWd0azUifQ.gRjILY0KoVrvFBY_Hvkv2w"
               mapboxApiUrl="https://api.mapbox.com"
               maxPitch={60}
@@ -341,7 +341,7 @@ ShallowWrapper {
                 latitude={53.562614}
                 longitude={-2.384833}
                 mapOptions={Object {}}
-                mapStyle="mapbox://styles/mapbox/streets-v10"
+                mapStyle="mapbox://styles/mapbox/streets-v11"
                 mapboxApiAccessToken="pk.eyJ1IjoiZXdhbmJkIiwiYSI6ImNqb2ozcnEycDAxMjkza3BhbjVpMWd0azUifQ.gRjILY0KoVrvFBY_Hvkv2w"
                 mapboxApiUrl="https://api.mapbox.com"
                 maxPitch={60}
@@ -525,7 +525,7 @@ ShallowWrapper {
                   latitude={53.562614}
                   longitude={-2.384833}
                   mapOptions={Object {}}
-                  mapStyle="mapbox://styles/mapbox/streets-v10"
+                  mapStyle="mapbox://styles/mapbox/streets-v11"
                   mapboxApiAccessToken="pk.eyJ1IjoiZXdhbmJkIiwiYSI6ImNqb2ozcnEycDAxMjkza3BhbjVpMWd0azUifQ.gRjILY0KoVrvFBY_Hvkv2w"
                   mapboxApiUrl="https://api.mapbox.com"
                   maxPitch={60}
@@ -1019,7 +1019,7 @@ ShallowWrapper {
                   latitude={53.562614}
                   longitude={-2.384833}
                   mapOptions={Object {}}
-                  mapStyle="mapbox://styles/mapbox/streets-v10"
+                  mapStyle="mapbox://styles/mapbox/streets-v11"
                   mapboxApiAccessToken="pk.eyJ1IjoiZXdhbmJkIiwiYSI6ImNqb2ozcnEycDAxMjkza3BhbjVpMWd0azUifQ.gRjILY0KoVrvFBY_Hvkv2w"
                   mapboxApiUrl="https://api.mapbox.com"
                   maxPitch={60}
@@ -1168,7 +1168,7 @@ ShallowWrapper {
                   "latitude": 53.562614,
                   "longitude": -2.384833,
                   "mapOptions": Object {},
-                  "mapStyle": "mapbox://styles/mapbox/streets-v10",
+                  "mapStyle": "mapbox://styles/mapbox/streets-v11",
                   "mapboxApiAccessToken": "pk.eyJ1IjoiZXdhbmJkIiwiYSI6ImNqb2ozcnEycDAxMjkza3BhbjVpMWd0azUifQ.gRjILY0KoVrvFBY_Hvkv2w",
                   "mapboxApiUrl": "https://api.mapbox.com",
                   "maxPitch": 60,
@@ -1404,7 +1404,7 @@ ShallowWrapper {
                 latitude={53.562614}
                 longitude={-2.384833}
                 mapOptions={Object {}}
-                mapStyle="mapbox://styles/mapbox/streets-v10"
+                mapStyle="mapbox://styles/mapbox/streets-v11"
                 mapboxApiAccessToken="pk.eyJ1IjoiZXdhbmJkIiwiYSI6ImNqb2ozcnEycDAxMjkza3BhbjVpMWd0azUifQ.gRjILY0KoVrvFBY_Hvkv2w"
                 mapboxApiUrl="https://api.mapbox.com"
                 maxPitch={60}
@@ -1591,7 +1591,7 @@ ShallowWrapper {
                   latitude={53.562614}
                   longitude={-2.384833}
                   mapOptions={Object {}}
-                  mapStyle="mapbox://styles/mapbox/streets-v10"
+                  mapStyle="mapbox://styles/mapbox/streets-v11"
                   mapboxApiAccessToken="pk.eyJ1IjoiZXdhbmJkIiwiYSI6ImNqb2ozcnEycDAxMjkza3BhbjVpMWd0azUifQ.gRjILY0KoVrvFBY_Hvkv2w"
                   mapboxApiUrl="https://api.mapbox.com"
                   maxPitch={60}
@@ -1775,7 +1775,7 @@ ShallowWrapper {
                     latitude={53.562614}
                     longitude={-2.384833}
                     mapOptions={Object {}}
-                    mapStyle="mapbox://styles/mapbox/streets-v10"
+                    mapStyle="mapbox://styles/mapbox/streets-v11"
                     mapboxApiAccessToken="pk.eyJ1IjoiZXdhbmJkIiwiYSI6ImNqb2ozcnEycDAxMjkza3BhbjVpMWd0azUifQ.gRjILY0KoVrvFBY_Hvkv2w"
                     mapboxApiUrl="https://api.mapbox.com"
                     maxPitch={60}
@@ -2269,7 +2269,7 @@ ShallowWrapper {
                     latitude={53.562614}
                     longitude={-2.384833}
                     mapOptions={Object {}}
-                    mapStyle="mapbox://styles/mapbox/streets-v10"
+                    mapStyle="mapbox://styles/mapbox/streets-v11"
                     mapboxApiAccessToken="pk.eyJ1IjoiZXdhbmJkIiwiYSI6ImNqb2ozcnEycDAxMjkza3BhbjVpMWd0azUifQ.gRjILY0KoVrvFBY_Hvkv2w"
                     mapboxApiUrl="https://api.mapbox.com"
                     maxPitch={60}
@@ -2418,7 +2418,7 @@ ShallowWrapper {
                     "latitude": 53.562614,
                     "longitude": -2.384833,
                     "mapOptions": Object {},
-                    "mapStyle": "mapbox://styles/mapbox/streets-v10",
+                    "mapStyle": "mapbox://styles/mapbox/streets-v11",
                     "mapboxApiAccessToken": "pk.eyJ1IjoiZXdhbmJkIiwiYSI6ImNqb2ozcnEycDAxMjkza3BhbjVpMWd0azUifQ.gRjILY0KoVrvFBY_Hvkv2w",
                     "mapboxApiUrl": "https://api.mapbox.com",
                     "maxPitch": 60,

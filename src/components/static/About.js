@@ -77,7 +77,7 @@ export class About extends React.Component {
                     <div className="about-map">
                         <Map
                             {...viewport}
-                            mapStyle="mapbox://styles/mapbox/streets-v10"
+                            mapStyle="mapbox://styles/mapbox/streets-v11"
                             mapboxApiAccessToken={API_KEY}
                             onViewportChange={viewport => this.setState({viewport})}
                         >

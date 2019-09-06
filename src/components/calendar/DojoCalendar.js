@@ -1,6 +1,6 @@
-import React from 'react'
-import moment from 'moment'
-import getEvents from './jcal';
+import React from 'react';
+import moment from 'moment';
+import request from 'superagent';
 
 import { Calendar, momentLocalizer } from 'react-big-calendar'
 // a localizer for BigCalendar
@@ -9,7 +9,12 @@ const localizer = momentLocalizer(moment)
 // this weird syntax is just a shorthand way of specifying loaders
 require('react-big-calendar/lib/css/react-big-calendar.css')
 
-class DojoCalendar extends React.Component {
+const CALENDAR_ID = require('../../config/keys').calendarId;
+const API_KEY = require('../../config/keys').apiCalendarKey;
+
+let url = `https://www.googleapis.com/calendar/v3/calendars/${CALENDAR_ID}/events?key=${API_KEY}`
+
+export class DojoCalendar extends React.Component {
   constructor () {
     super()
       this.state = {
@@ -18,18 +23,34 @@ class DojoCalendar extends React.Component {
   }
 
   componentDidMount () {
-    getEvents((events) => {
+    this.getEvents((events) => {
       this.setState({events})
     })
   }
 
+  getEvents = (callback) => {
+    request
+      .get(url)
+      .end((err, resp) => {
+        if (!err) {
+          const events = []
+          JSON.parse(resp.text).items.forEach((event) => {
+            events.push({
+              start: event.start.date || event.start.dateTime,
+              end: event.end.date || event.end.dateTime,
+              title: event.summary,
+            })
+          })
+          callback(events)
+        } 
+      })
+  }
+  
   render () {
     return (
-      // React Components in JSX look like HTML tags
       <Calendar
         localizer={localizer}
         events={this.state.events}
-        // style={{height: '420px'}}
       />
     )
   }
