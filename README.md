@@ -30,6 +30,14 @@ Add mongoURI and secretOrKey
 git push heroku master
 ```
 
+## React Map GL
+
+For the map the wrapper below is being used for Uber MapBox API
+
+[React Map GL](https://uber.github.io/react-map-gl/#/Documentation/api-reference/geolocate-control) 
+
+```Obtain an API Key and add this to apiMapKey in prod_keys.js```
+
 
 
 
