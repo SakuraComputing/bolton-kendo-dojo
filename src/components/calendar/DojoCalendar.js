@@ -12,7 +12,7 @@ require('react-big-calendar/lib/css/react-big-calendar.css')
 const CALENDAR_ID = require('../../config/keys').calendarId;
 const API_KEY = require('../../config/keys').apiCalendarKey;
 
-let url = `https://www.googleapis.com/calendar/v3/calendars/${CALENDAR_ID}/events?key=${API_KEY}`
+let url = `https://www.googleapis.com/calendar/v3/calendars/${CALENDAR_ID}/events?key=${API_KEY}&singleEvents=true`
 
 export class DojoCalendar extends React.Component {
   constructor () {
