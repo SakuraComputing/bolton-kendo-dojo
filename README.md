@@ -22,7 +22,7 @@ yarn run test
 
 ```
 Create prod_keys.js file in config directory.
-Add mongoURI and secretOrKey
+Add mongoURI
 ```
 
 ## Deployment
@@ -32,10 +32,8 @@ master is linked to netlify https://app.netlify.com/
 
 ```
 
-## React Map GL
+## Running with node
 
-For the map the wrapper below is being used for Uber MapBox API
-
-[React Map GL](https://uber.github.io/react-map-gl/#/Documentation/api-reference/geolocate-control)
-
-`Obtain an API Key and add this to apiMapKey in prod_keys.js`
+```
+yarn dev
+```
